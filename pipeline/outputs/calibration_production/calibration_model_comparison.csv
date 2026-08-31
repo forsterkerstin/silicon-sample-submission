@@ -1,0 +1,4 @@
+model_name,loso_rmse,selected
+M0,24.142451261171658,False
+M1,10.541072468512214,False
+M2,10.532334004327103,True

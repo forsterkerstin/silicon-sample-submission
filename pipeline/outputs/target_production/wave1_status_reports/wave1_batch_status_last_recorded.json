@@ -1,0 +1,204 @@
+{
+  "note": "STATUS/COMPLETED_AT below are the LAST RECORDED VALUES AT SUBMISSION TIME ONLY -- this environment has no TOGETHER_API_KEY, so no live status query was made. Run the printed commands with working credentials to refresh.",
+  "rows": [
+    {
+      "role": "F",
+      "stage": "consensus_stage_a",
+      "request_count": 500,
+      "batch_id": "29745152-8271-44ec-8f27-81fc9a2773b9",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:54:48.734969Z",
+      "completed_at": null,
+      "input_file_id": "file-234b8d2b-f29f-40d1-8e84-3ed6dde563a1",
+      "part_label": "part1"
+    },
+    {
+      "role": "F",
+      "stage": "standard",
+      "request_count": 13000,
+      "batch_id": "30aefa9d-2903-46ca-8dec-cab7b3d0d31c",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:53:32.124969Z",
+      "completed_at": null,
+      "input_file_id": "file-bb625dad-e449-45c8-8ba9-de8be115ebcb",
+      "part_label": "ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "F",
+      "stage": "standard",
+      "request_count": 13000,
+      "batch_id": "23d9884e-f164-43d1-b93b-176f0a81f2d4",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:53:41.385137Z",
+      "completed_at": null,
+      "input_file_id": "file-4138feab-c5e9-458c-92bd-aad737040e50",
+      "part_label": "ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "F",
+      "stage": "standard",
+      "request_count": 13000,
+      "batch_id": "20767052-deca-46b3-ab69-b71a8c2d065d",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:53:53.334874Z",
+      "completed_at": null,
+      "input_file_id": "file-54eb041b-8033-411d-b359-3558979d2b26",
+      "part_label": "ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "F",
+      "stage": "standard",
+      "request_count": 13000,
+      "batch_id": "eabff07e-fab3-49c7-982a-d0ebacb92bf5",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:54:05.552025Z",
+      "completed_at": null,
+      "input_file_id": "file-939ba41d-fd70-4b5a-8de9-1f413672df09",
+      "part_label": "ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "F",
+      "stage": "standard",
+      "request_count": 13000,
+      "batch_id": "d7858495-9dc6-442d-8371-4e7ccc8431e5",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:54:14.465989Z",
+      "completed_at": null,
+      "input_file_id": "file-dde75808-381c-4dbc-a55b-cba7eaebdfc1",
+      "part_label": "ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "F",
+      "stage": "standard",
+      "request_count": 13000,
+      "batch_id": "a2649e6e-9d99-4f6a-99a6-d0e83ac41856",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:54:23.889819Z",
+      "completed_at": null,
+      "input_file_id": "file-f4fffc9f-3775-4527-9912-60e8a35b74e7",
+      "part_label": "ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "F",
+      "stage": "standard",
+      "request_count": 13000,
+      "batch_id": "4800a952-044b-4ccc-806a-25928a58b8c3",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:54:33.113707Z",
+      "completed_at": null,
+      "input_file_id": "file-103e36f0-d272-4371-92d0-66ab8d822282",
+      "part_label": "ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "F",
+      "stage": "standard",
+      "request_count": 13000,
+      "batch_id": "748a252c-70a9-4066-87a1-c798f9880d9c",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:54:44.330712Z",
+      "completed_at": null,
+      "input_file_id": "file-4b5f4b6b-8ef3-44df-9ac5-dad31e3a1d43",
+      "part_label": "ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "G",
+      "stage": "consensus_stage_a",
+      "request_count": 1000,
+      "batch_id": "a9fb0918-3d45-4891-91f8-48f8fb7148bf",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:53:23.907652Z",
+      "completed_at": null,
+      "input_file_id": "file-2dbc84ce-c3c4-4ef9-a0b8-04a803f0b1bd",
+      "part_label": "part1"
+    },
+    {
+      "role": "G",
+      "stage": "standard",
+      "request_count": 4000,
+      "batch_id": "95f5f512-f338-4c10-9337-fba3fb2140ce",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:52:55.758728Z",
+      "completed_at": null,
+      "input_file_id": "file-5b9ed280-6b5d-431f-ad03-a08b194c08f3",
+      "part_label": "ambiguous (1 of 4 same-sized G standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "G",
+      "stage": "standard",
+      "request_count": 4000,
+      "batch_id": "ba0731c0-4c41-4e37-b62e-b97d499a5a2d",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:53:04.475537Z",
+      "completed_at": null,
+      "input_file_id": "file-ba6b99cf-680e-4b41-93ec-1594bac4a95d",
+      "part_label": "ambiguous (1 of 4 same-sized G standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "G",
+      "stage": "standard",
+      "request_count": 4000,
+      "batch_id": "60eaedf5-f78f-412f-941d-4368b4ea3c15",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:53:11.870671Z",
+      "completed_at": null,
+      "input_file_id": "file-aa671780-3c31-4416-b549-7396bd2a3e51",
+      "part_label": "ambiguous (1 of 4 same-sized G standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    },
+    {
+      "role": "G",
+      "stage": "standard",
+      "request_count": 4000,
+      "batch_id": "9859219f-5679-4c95-ab44-d038d26a4a45",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:53:19.691693Z",
+      "completed_at": null,
+      "input_file_id": "file-cec6ea4f-87f2-45cc-b6ce-aabe2f146857",
+      "part_label": "ambiguous (1 of 4 same-sized G standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from)"
+    }
+  ],
+  "totals_by_status_last_recorded": {
+    "VALIDATING": 14
+  },
+  "total_partitions": 14,
+  "total_requests": 121500,
+  "consensus_stage_a": {
+    "G": {
+      "role": "G",
+      "stage": "consensus_stage_a",
+      "request_count": 1000,
+      "batch_id": "a9fb0918-3d45-4891-91f8-48f8fb7148bf",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:53:23.907652Z",
+      "completed_at": null,
+      "input_file_id": "file-2dbc84ce-c3c4-4ef9-a0b8-04a803f0b1bd",
+      "part_label": "part1"
+    },
+    "F": {
+      "role": "F",
+      "stage": "consensus_stage_a",
+      "request_count": 500,
+      "batch_id": "29745152-8271-44ec-8f27-81fc9a2773b9",
+      "status_last_recorded": "VALIDATING",
+      "created_at": "2026-08-26T17:54:48.734969Z",
+      "completed_at": null,
+      "input_file_id": "file-234b8d2b-f29f-40d1-8e84-3ed6dde563a1",
+      "part_label": "part1"
+    }
+  },
+  "status_query_commands": [
+    "python scripts/together_batch.py status --batch-id 29745152-8271-44ec-8f27-81fc9a2773b9  # F consensus_stage_a part1, 500 requests",
+    "python scripts/together_batch.py status --batch-id 30aefa9d-2903-46ca-8dec-cab7b3d0d31c  # F standard ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 13000 requests",
+    "python scripts/together_batch.py status --batch-id 23d9884e-f164-43d1-b93b-176f0a81f2d4  # F standard ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 13000 requests",
+    "python scripts/together_batch.py status --batch-id 20767052-deca-46b3-ab69-b71a8c2d065d  # F standard ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 13000 requests",
+    "python scripts/together_batch.py status --batch-id eabff07e-fab3-49c7-982a-d0ebacb92bf5  # F standard ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 13000 requests",
+    "python scripts/together_batch.py status --batch-id d7858495-9dc6-442d-8371-4e7ccc8431e5  # F standard ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 13000 requests",
+    "python scripts/together_batch.py status --batch-id a2649e6e-9d99-4f6a-99a6-d0e83ac41856  # F standard ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 13000 requests",
+    "python scripts/together_batch.py status --batch-id 4800a952-044b-4ccc-806a-25928a58b8c3  # F standard ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 13000 requests",
+    "python scripts/together_batch.py status --batch-id 748a252c-70a9-4066-87a1-c798f9880d9c  # F standard ambiguous (1 of 8 same-sized F standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 13000 requests",
+    "python scripts/together_batch.py status --batch-id a9fb0918-3d45-4891-91f8-48f8fb7148bf  # G consensus_stage_a part1, 1000 requests",
+    "python scripts/together_batch.py status --batch-id 95f5f512-f338-4c10-9337-fba3fb2140ce  # G standard ambiguous (1 of 4 same-sized G standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 4000 requests",
+    "python scripts/together_batch.py status --batch-id ba0731c0-4c41-4e37-b62e-b97d499a5a2d  # G standard ambiguous (1 of 4 same-sized G standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 4000 requests",
+    "python scripts/together_batch.py status --batch-id 60eaedf5-f78f-412f-941d-4368b4ea3c15  # G standard ambiguous (1 of 4 same-sized G standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 4000 requests",
+    "python scripts/together_batch.py status --batch-id 9859219f-5679-4c95-ab44-d038d26a4a45  # G standard ambiguous (1 of 4 same-sized G standard partitions -- ledger does not record which by_stage/partN jsonl this batch_id came from), 4000 requests"
+  ]
+}

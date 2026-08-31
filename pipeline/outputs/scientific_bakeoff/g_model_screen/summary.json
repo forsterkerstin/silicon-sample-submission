@@ -1,0 +1,27 @@
+{
+  "atp1_usable_n": 650,
+  "atp2_usable_n": 576,
+  "expected_requests_per_model": 1226,
+  "expected_requests_total": 2452,
+  "models": {
+    "deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "estimated_prompt_characters": 1293789,
+      "estimated_prompt_tokens_rough": 323447,
+      "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/scientific_bakeoff/g_model_screen/deepseek-ai_DeepSeek-V4-Pro-0813/batch_input.jsonl",
+      "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/scientific_bakeoff/g_model_screen/deepseek-ai_DeepSeek-V4-Pro-0813/request_manifest.csv",
+      "maximum_output_tokens": 1255424,
+      "requests": 1226,
+      "worst_case_cost_usd": 5.3984
+    },
+    "google/gemma-4-31B-it": {
+      "estimated_prompt_characters": 1293789,
+      "estimated_prompt_tokens_rough": 323447,
+      "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/scientific_bakeoff/g_model_screen/google_gemma-4-31B-it/batch_input.jsonl",
+      "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/scientific_bakeoff/g_model_screen/google_gemma-4-31B-it/request_manifest.csv",
+      "maximum_output_tokens": 1255424,
+      "requests": 1226,
+      "worst_case_cost_usd": 0.6924
+    }
+  },
+  "purpose": "ATP1/ATP2 G-model screen manifest only; not submitted"
+}

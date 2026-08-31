@@ -1,0 +1,150 @@
+variable,raw_source_value,benchmark_value,n,mapping_status,source
+gender,Female,Female,506,exact,profiles_core_1000.csv recoded category
+gender,Male,Male,486,exact,profiles_core_1000.csv recoded category
+gender,Other,Other,8,exact,profiles_core_1000.csv recoded category
+age_band,18-29,18-29,204,exact,profiles_core_1000.csv recoded category
+age_band,30-44,30-44,261,exact,profiles_core_1000.csv recoded category
+age_band,45-59,45-59,228,exact,profiles_core_1000.csv recoded category
+age_band,60+,60+,307,exact,profiles_core_1000.csv recoded category
+race,Asian / Asian American,Asian / Asian American,67,exact,profiles_core_1000.csv recoded category
+race,Black / African American,Black / African American,124,exact,profiles_core_1000.csv recoded category
+race,Hispanic / Latino,Hispanic / Latino,181,exact,profiles_core_1000.csv recoded category
+race,Other,Other,27,exact,profiles_core_1000.csv recoded category
+race,White / Caucasian,White / Caucasian,601,exact,profiles_core_1000.csv recoded category
+education,Bachelor's degree,Bachelor's degree,212,exact,profiles_core_1000.csv recoded category
+education,High school diploma / GED,High school diploma / GED,288,exact,profiles_core_1000.csv recoded category
+education,Less than high school,Less than high school,68,exact,profiles_core_1000.csv recoded category
+education,Master's degree / Professional degree,Master's degree / Professional degree,126,exact,profiles_core_1000.csv recoded category
+education,Some college or Associate's degree,Some college or Associate's degree,306,exact,profiles_core_1000.csv recoded category
+income,"$100,000 to $167,999","$100,000 to $167,999",153,exact,profiles_core_1000.csv recoded category
+income,"$168,000 or more","$168,000 or more",106,exact,profiles_core_1000.csv recoded category
+income,"$30,000 to $55,999","$30,000 to $55,999",248,exact,profiles_core_1000.csv recoded category
+income,"$56,000 to $99,999","$56,000 to $99,999",233,exact,profiles_core_1000.csv recoded category
+income,"Less than $30,000","Less than $30,000",260,exact,profiles_core_1000.csv recoded category
+party,Democrat,Democrat,339,exact,profiles_core_1000.csv recoded category
+party,Independent,Independent,270,exact,profiles_core_1000.csv recoded category
+party,Other,Other,107,exact,profiles_core_1000.csv recoded category
+party,Republican,Republican,284,exact,profiles_core_1000.csv recoded category
+age_to_age_band,18,18-29,17,exact,age recode in profiles_core_1000.csv
+age_to_age_band,19,18-29,16,exact,age recode in profiles_core_1000.csv
+age_to_age_band,20,18-29,9,exact,age recode in profiles_core_1000.csv
+age_to_age_band,21,18-29,10,exact,age recode in profiles_core_1000.csv
+age_to_age_band,22,18-29,16,exact,age recode in profiles_core_1000.csv
+age_to_age_band,23,18-29,19,exact,age recode in profiles_core_1000.csv
+age_to_age_band,24,18-29,15,exact,age recode in profiles_core_1000.csv
+age_to_age_band,25,18-29,21,exact,age recode in profiles_core_1000.csv
+age_to_age_band,26,18-29,19,exact,age recode in profiles_core_1000.csv
+age_to_age_band,27,18-29,17,exact,age recode in profiles_core_1000.csv
+age_to_age_band,28,18-29,23,exact,age recode in profiles_core_1000.csv
+age_to_age_band,29,18-29,22,exact,age recode in profiles_core_1000.csv
+age_to_age_band,30,30-44,12,exact,age recode in profiles_core_1000.csv
+age_to_age_band,31,30-44,18,exact,age recode in profiles_core_1000.csv
+age_to_age_band,32,30-44,20,exact,age recode in profiles_core_1000.csv
+age_to_age_band,33,30-44,12,exact,age recode in profiles_core_1000.csv
+age_to_age_band,34,30-44,18,exact,age recode in profiles_core_1000.csv
+age_to_age_band,35,30-44,9,exact,age recode in profiles_core_1000.csv
+age_to_age_band,36,30-44,16,exact,age recode in profiles_core_1000.csv
+age_to_age_band,37,30-44,17,exact,age recode in profiles_core_1000.csv
+age_to_age_band,38,30-44,13,exact,age recode in profiles_core_1000.csv
+age_to_age_band,39,30-44,17,exact,age recode in profiles_core_1000.csv
+age_to_age_band,40,30-44,25,exact,age recode in profiles_core_1000.csv
+age_to_age_band,41,30-44,11,exact,age recode in profiles_core_1000.csv
+age_to_age_band,42,30-44,18,exact,age recode in profiles_core_1000.csv
+age_to_age_band,43,30-44,26,exact,age recode in profiles_core_1000.csv
+age_to_age_band,44,30-44,29,exact,age recode in profiles_core_1000.csv
+age_to_age_band,45,45-59,13,exact,age recode in profiles_core_1000.csv
+age_to_age_band,46,45-59,15,exact,age recode in profiles_core_1000.csv
+age_to_age_band,47,45-59,10,exact,age recode in profiles_core_1000.csv
+age_to_age_band,48,45-59,8,exact,age recode in profiles_core_1000.csv
+age_to_age_band,49,45-59,12,exact,age recode in profiles_core_1000.csv
+age_to_age_band,50,45-59,13,exact,age recode in profiles_core_1000.csv
+age_to_age_band,51,45-59,15,exact,age recode in profiles_core_1000.csv
+age_to_age_band,52,45-59,7,exact,age recode in profiles_core_1000.csv
+age_to_age_band,53,45-59,13,exact,age recode in profiles_core_1000.csv
+age_to_age_band,54,45-59,16,exact,age recode in profiles_core_1000.csv
+age_to_age_band,55,45-59,19,exact,age recode in profiles_core_1000.csv
+age_to_age_band,56,45-59,21,exact,age recode in profiles_core_1000.csv
+age_to_age_band,57,45-59,23,exact,age recode in profiles_core_1000.csv
+age_to_age_band,58,45-59,26,exact,age recode in profiles_core_1000.csv
+age_to_age_band,59,45-59,17,exact,age recode in profiles_core_1000.csv
+age_to_age_band,60,60+,13,exact,age recode in profiles_core_1000.csv
+age_to_age_band,61,60+,16,exact,age recode in profiles_core_1000.csv
+age_to_age_band,62,60+,20,exact,age recode in profiles_core_1000.csv
+age_to_age_band,63,60+,25,exact,age recode in profiles_core_1000.csv
+age_to_age_band,64,60+,19,exact,age recode in profiles_core_1000.csv
+age_to_age_band,65,60+,21,exact,age recode in profiles_core_1000.csv
+age_to_age_band,66,60+,23,exact,age recode in profiles_core_1000.csv
+age_to_age_band,67,60+,13,exact,age recode in profiles_core_1000.csv
+age_to_age_band,68,60+,20,exact,age recode in profiles_core_1000.csv
+age_to_age_band,69,60+,11,exact,age recode in profiles_core_1000.csv
+age_to_age_band,70,60+,12,exact,age recode in profiles_core_1000.csv
+age_to_age_band,71,60+,16,exact,age recode in profiles_core_1000.csv
+age_to_age_band,72,60+,14,exact,age recode in profiles_core_1000.csv
+age_to_age_band,73,60+,8,exact,age recode in profiles_core_1000.csv
+age_to_age_band,74,60+,4,exact,age recode in profiles_core_1000.csv
+age_to_age_band,75,60+,11,exact,age recode in profiles_core_1000.csv
+age_to_age_band,76,60+,6,exact,age recode in profiles_core_1000.csv
+age_to_age_band,77,60+,13,exact,age recode in profiles_core_1000.csv
+age_to_age_band,78,60+,9,exact,age recode in profiles_core_1000.csv
+age_to_age_band,79,60+,9,exact,age recode in profiles_core_1000.csv
+age_to_age_band,80,60+,2,exact,age recode in profiles_core_1000.csv
+age_to_age_band,81,60+,5,exact,age recode in profiles_core_1000.csv
+age_to_age_band,82,60+,4,exact,age recode in profiles_core_1000.csv
+age_to_age_band,83,60+,3,exact,age recode in profiles_core_1000.csv
+age_to_age_band,84,60+,1,exact,age recode in profiles_core_1000.csv
+age_to_age_band,85,60+,4,exact,age recode in profiles_core_1000.csv
+age_to_age_band,86,60+,1,exact,age recode in profiles_core_1000.csv
+age_to_age_band,87,60+,1,exact,age recode in profiles_core_1000.csv
+age_to_age_band,88,60+,2,exact,age recode in profiles_core_1000.csv
+age_to_age_band,90,60+,1,exact,age recode in profiles_core_1000.csv
+state_abbr,AK,AK,4,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,AL,AL,21,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,AR,AR,13,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,AZ,AZ,21,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,CA,CA,95,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,CO,CO,20,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,CT,CT,7,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,DC,DC,2,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,DE,DE,8,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,FL,FL,81,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,GA,GA,32,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,HI,HI,7,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,IA,IA,9,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,ID,ID,8,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,IL,IL,26,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,IN,IN,18,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,KS,KS,7,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,KY,KY,13,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,LA,LA,18,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,MA,MA,22,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,MD,MD,17,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,ME,ME,5,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,MI,MI,22,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,MN,MN,15,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,MO,MO,16,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,MS,MS,9,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,MT,MT,5,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,NC,NC,32,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,ND,ND,1,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,NE,NE,7,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,NH,NH,1,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,NJ,NJ,17,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,NM,NM,8,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,NV,NV,14,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,NY,NY,56,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,OH,OH,34,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,OK,OK,19,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,OR,OR,14,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,PA,PA,45,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,RI,RI,6,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,SC,SC,13,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,SD,SD,3,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,TN,TN,23,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,TX,TX,85,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,UT,UT,8,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,VA,VA,33,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,VT,VT,1,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,WA,WA,29,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,WI,WI,24,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,WV,WV,4,exact,ACS PUMS state FIPS to USPS abbreviation
+state_abbr,WY,WY,2,exact,ACS PUMS state FIPS to USPS abbreviation

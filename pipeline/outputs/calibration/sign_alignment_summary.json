@@ -1,0 +1,11 @@
+{
+  "n_effects": 136,
+  "pearson": -0.4780226906771351,
+  "spearman": 0.03691140689852583,
+  "sign_agreement": 0.5294117647058824,
+  "slope_through_origin": -0.30792369978713113,
+  "intercept_plus_slope_intercept": 0.8307197588610361,
+  "intercept_plus_slope_slope": -0.29908979034163163,
+  "n_review_rows": 0,
+  "n_sign_disagreement_rows": 64
+}

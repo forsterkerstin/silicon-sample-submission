@@ -1,0 +1,58 @@
+{
+  "amendment_type": "POST_FREEZE_IMPLEMENTATION_COMPATIBILITY_CORRECTION",
+  "bootstrap": {
+    "note": "A descriptive respondent-cluster bootstrap (seed 20260826, 10,000 replicates) was conceptually specified in the frozen protocol but its implementation was never completed in scripts/score_orchinik_final_validation.py before real validation data existed. It was not a decision criterion. Not implemented post-hoc, per standing governance against editing the scorer after seeing results.",
+    "status": "PRESPECIFIED_BUT_NOT_IMPLEMENTED"
+  },
+  "fix_scope": "Added a label-translation step (ARM_LABEL dict, item-key regex) immediately before the existing, unmodified score()/apply_frozen_estimator()/compute_gemma_grid() functions. No RMSE formula, comparator, diagnostic, sign convention, outcome range, or cell count was changed.",
+  "freeze_commit": "d19089108e23ed9f277b7130c72d96a75dd061cd",
+  "mapping_uniquely_predetermined_before_any_result": {
+    "arm_label_mapping": {
+      "History": "skill",
+      "Institutions": "trust"
+    },
+    "frozen_protocol_commit": "7dbfafa6307045a48b111461ce107563b4b94f31",
+    "frozen_protocol_commit_date": "2026-08-26 21:51:44 +0000",
+    "item_key_translation": "regex P_(.+)_given_cons(\\d+) -> \\1_cons\\2, verified as a clean one-to-one mapping across all 25 Orchinik focal items",
+    "note": "the mapping and the human-surface's own column-naming convention were both committed 2026-08-26, four days before the Gemma batch was even created (2026-08-30) -- the correction could not have been influenced by, or chosen in light of, any Orchinik or Gemma numeric value",
+    "orchinik_gemma_batch_created_at": "2026-08-30T15:31:23.322404Z",
+    "source": "outputs/domain_validation/frozen_domain_validation_protocol.json's own condition_label_mapping, established by reading the actual Qualtrics instrument text (Bovitz_qualtrics.docx) -- 'skill' discusses the history of climate science, 'trust' discusses institutional bias-safeguards -- never inferred from variable names or any numeric value"
+  },
+  "method_unchanged": {
+    "final_tier1_sha256": "a7c8e82e9a8f76a97e7e9e9845103dedb6c5e9c3b71f1f49ddff1db1a5579b54",
+    "human_calibration_table_sha256": "9badd9c6084498b65985446ccdb15c2b68984a191bce6749da58f6b95c1f24a9",
+    "mu_external": 1.9558595458395387
+  },
+  "motivation": "The first real run of the already-frozen scripts/score_orchinik_final_validation.py against the retrieved Gemma batch raised a KeyError before computing any metric: the human ATE surface (outputs/domain_validation/orchinik_human_ate_surface.json) labels arms as the paper's published names ('History'/'Institutions') and items as 'P_<belief>_given_cons<level>', while the Gemma-side manifest (built independently) uses the raw Bovitz condition values ('skill'/'trust') and bare item keys ('<belief>_cons<level>'). The scorer's human-surface loader needed a label translation layer to join the two, which it lacked.",
+  "no_metric_computed_before_this_fix": true,
+  "not_a_scientific_method_amendment": true,
+  "orchinik_batch_id": "6bebde60-e368-46a7-a1cf-f5392c343d6a",
+  "orchinik_raw_output_sha256": "382cfa3ab5bb07848bd69de59e900cf3cfd33a71337985208730e3eccde70164",
+  "results": {
+    "final_method_mae": 2.0821268482489987,
+    "final_method_rmse": 2.3318921604220466,
+    "flat_external_mean_rmse": 2.3693642144691527,
+    "g_bar_orchinik": 0.07591350853778386,
+    "mu_external": 1.9558595458395387,
+    "n_cells": 50,
+    "pearson_r": 0.70846823966405,
+    "raw_gemma_rmse": 1.5541528549743202,
+    "sign_agreement": 0.76,
+    "skill_arm_rmse": 2.5170572648863705,
+    "spearman_rho": 0.7808403361344537,
+    "trust_arm_rmse": 2.1306958536962384
+  },
+  "retries": 0,
+  "scorer_sha256_after_fix": "64303bffaa84fc7343f230f5500bff8d98e00dd02ac2f3f4eeb01eaa373c9416",
+  "scorer_sha256_before_fix": "baf76d958960952bd73e7460bcb6717bc29bd7e25b8620762eea45618ec66b23",
+  "valid_responses": "2545/2545",
+  "verification": {
+    "independent_recomputation_matches_scorer_exactly": true,
+    "no_outcome_range_changed": true,
+    "no_rmse_formula_changed": true,
+    "no_sign_convention_changed": true,
+    "no_treatment_or_outcome_cell_added_or_dropped": true,
+    "no_value_dependent_mapping_introduced": true,
+    "one_to_one_for_all_50_cells": true
+  }
+}

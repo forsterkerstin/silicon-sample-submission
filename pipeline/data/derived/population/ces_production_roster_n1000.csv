@@ -1,0 +1,1001 @@
+latent_profile_id,donor_id,gender,age,age_band,race,education,education_approximated,income,income_approximated,party,state_abbr,religion,political_ideology,ces_commonweight,population_seed
+LP0001,1866892874,Male,24,18-29,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,TN,Protestant,Moderate,11.5908128566172,20260831
+LP0002,1868845320,Male,29,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,IL,Nothing in particular,Very liberal,5.41045721236013,20260831
+LP0003,1872505540,Male,24,18-29,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,NJ,Roman Catholic,Very conservative,10.6282778342585,20260831
+LP0004,1882434100,Male,25,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,OH,Roman Catholic,Very conservative,10.8032619672302,20260831
+LP0005,1882436838,Male,24,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,NY,Protestant,Moderate,13.3894605428213,20260831
+LP0006,1882440362,Male,26,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,MO,Nothing in particular,Conservative,13.7804942888017,20260831
+LP0007,1882441218,Male,19,18-29,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Other,PA,Roman Catholic,Conservative,9.76778651206675,20260831
+LP0008,1884590180,Male,18,18-29,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,FL,Atheist,Liberal,9.84024966370217,20260831
+LP0009,1885056380,Male,23,18-29,White / Caucasian,High school diploma / GED,False,"$168,000 or more",True,Republican,FL,Mormon,Conservative,4.71750191072596,20260831
+LP0010,1886162646,Male,26,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,LA,Nothing in particular,Very conservative,0.318228268134463,20260831
+LP0011,1886359394,Male,28,18-29,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,MA,Nothing in particular,Very liberal,2.67104047728028,20260831
+LP0012,1886680966,Male,23,18-29,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,AR,Agnostic,Very liberal,13.0166060060432,20260831
+LP0013,1886681886,Male,29,18-29,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,RI,Roman Catholic,Moderate,5.36019005739021,20260831
+LP0014,1886682386,Male,29,18-29,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Democrat,MT,Agnostic,Liberal,2.56949408007889,20260831
+LP0015,1886684022,Male,26,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,OK,Nothing in particular,Very liberal,4.01099425688946,20260831
+LP0016,1886980568,Male,24,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,GA,Something else,Moderate,9.74406903000917,20260831
+LP0017,1888319216,Male,28,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,MO,,Moderate,7.11150931924737,20260831
+LP0018,1888329812,Male,24,18-29,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,DC,Protestant,Very liberal,0.442092429930465,20260831
+LP0019,1888330162,Male,28,18-29,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Democrat,ME,Eastern or Greek Orthodox,Very liberal,0.414187586090046,20260831
+LP0020,1888338456,Male,28,18-29,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,UT,Mormon,Moderate,1.22525852445387,20260831
+LP0021,1888368132,Male,23,18-29,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,NC,Nothing in particular,Liberal,9.51192236475833,20260831
+LP0022,1888480604,Male,27,18-29,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,PA,Agnostic,Very liberal,0.866709618739437,20260831
+LP0023,1888546840,Male,28,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,TN,Nothing in particular,Very liberal,11.8242513410514,20260831
+LP0024,1890197464,Male,29,18-29,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,CO,Atheist,Liberal,4.23474882998127,20260831
+LP0025,1890210130,Male,25,18-29,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",True,Republican,RI,Jewish,Conservative,0.481284249621482,20260831
+LP0026,1891565814,Male,20,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,NY,Atheist,Very liberal,1.44812380533784,20260831
+LP0027,1892054478,Male,26,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,GA,Nothing in particular,Conservative,0.108297443691102,20260831
+LP0028,1892580124,Male,18,18-29,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Republican,IL,Nothing in particular,,6.3331323758318,20260831
+LP0029,1894096588,Male,25,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,CA,Jewish,Moderate,13.1841712680944,20260831
+LP0030,1894252024,Male,18,18-29,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Democrat,MI,Agnostic,Liberal,1.33972166521193,20260831
+LP0031,1896009880,Male,20,18-29,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Independent,TX,Atheist,Very liberal,0.467068444499701,20260831
+LP0032,1900273130,Male,19,18-29,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Democrat,NC,Nothing in particular,Very liberal,0.400714376324575,20260831
+LP0033,1900326014,Male,28,18-29,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,MA,Agnostic,Conservative,4.3898455669782,20260831
+LP0034,1900876522,Male,29,18-29,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,CA,Protestant,Conservative,11.1112385012789,20260831
+LP0035,1903058644,Male,22,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,OK,Agnostic,Conservative,5.44453891251433,20260831
+LP0036,1906097996,Male,24,18-29,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,MN,Atheist,Very liberal,2.88181875454899,20260831
+LP0037,1906168626,Male,18,18-29,White / Caucasian,Less than high school,False,"$30,000 to $55,999",True,Republican,FL,Agnostic,Conservative,6.79669557567509,20260831
+LP0038,1906182642,Male,29,18-29,White / Caucasian,Less than high school,False,"Less than $30,000",False,Republican,LA,Nothing in particular,,4.594719119353,20260831
+LP0039,1906182936,Male,23,18-29,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",False,Independent,KY,Roman Catholic,Liberal,3.2991826728621,20260831
+LP0040,1906528928,Male,22,18-29,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Independent,NC,Protestant,Conservative,14.8970415077754,20260831
+LP0041,1906795352,Male,26,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,IA,Roman Catholic,Moderate,12.7342935168218,20260831
+LP0042,1907049918,Male,19,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Independent,NE,Roman Catholic,Moderate,5.61124149896001,20260831
+LP0043,1907431184,Male,21,18-29,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,WI,Protestant,Liberal,1.09524947654064,20260831
+LP0044,1907489316,Male,19,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,NE,Nothing in particular,,10.4461435786899,20260831
+LP0045,1907749354,Male,25,18-29,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Democrat,OH,Agnostic,Very liberal,1.16753107271569,20260831
+LP0046,1908964890,Male,25,18-29,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,OH,Protestant,Conservative,2.68714188308863,20260831
+LP0047,1909136290,Male,21,18-29,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,MA,Jewish,Conservative,2.84047199168374,20260831
+LP0048,1909245892,Male,26,18-29,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,IL,Nothing in particular,Moderate,5.60350755094148,20260831
+LP0049,1910575828,Male,28,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,PA,Nothing in particular,,13.7804942888017,20260831
+LP0050,1912653572,Male,18,18-29,White / Caucasian,Less than high school,False,"$168,000 or more",False,Republican,NC,Protestant,Conservative,13.7804942888017,20260831
+LP0051,1882433772,Male,28,18-29,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,GA,Roman Catholic,Moderate,8.97710688824381,20260831
+LP0052,1885001882,Male,23,18-29,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,DE,Roman Catholic,Moderate,1.04719787720774,20260831
+LP0053,1885006018,Male,29,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,NJ,Nothing in particular,Moderate,13.6128513346066,20260831
+LP0054,1885177240,Male,25,18-29,Black / African American,Bachelor's degree,False,"$30,000 to $55,999",False,Democrat,FL,Nothing in particular,Very liberal,1.83658232293919,20260831
+LP0055,1886929106,Male,27,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Other,NC,Nothing in particular,Very conservative,13.7804942888017,20260831
+LP0056,1887912942,Male,19,18-29,Black / African American,High school diploma / GED,False,"$100,000 to $167,999",False,Other,TX,Protestant,,4.40929613869879,20260831
+LP0057,1892297536,Male,22,18-29,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,TX,Agnostic,Moderate,2.32105838681637,20260831
+LP0058,1895554990,Male,20,18-29,Black / African American,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,NC,Nothing in particular,Very liberal,13.7804942888017,20260831
+LP0059,1898080292,Male,22,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Independent,PA,Protestant,,0.183489060199074,20260831
+LP0060,1899173994,Male,29,18-29,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,OH,Something else,Liberal,5.56434676069875,20260831
+LP0061,1904910184,Male,29,18-29,Black / African American,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,FL,Roman Catholic,Liberal,3.1784200218762,20260831
+LP0062,1908437534,Male,24,18-29,Black / African American,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,VA,Roman Catholic,Liberal,9.59316225505299,20260831
+LP0063,1909318624,Male,27,18-29,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,OH,Protestant,Moderate,2.93103289189915,20260831
+LP0064,1909597414,Male,20,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Other,WI,Nothing in particular,Very liberal,3.75371689947915,20260831
+LP0065,1910711320,Male,19,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,TX,Something else,Moderate,4.40929613869879,20260831
+LP0066,1879432206,Male,22,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,CA,Roman Catholic,Very liberal,1.41842847445777,20260831
+LP0067,1880822948,Male,22,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Other,NC,Something else,,11.4245124107975,20260831
+LP0068,1882414670,Male,25,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Republican,FL,Eastern or Greek Orthodox,Very conservative,5.99694265618198,20260831
+LP0069,1882415262,Male,18,18-29,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Other,NJ,Roman Catholic,Moderate,4.63708202399192,20260831
+LP0070,1882426960,Male,27,18-29,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,OR,Protestant,Very liberal,10.0780290457047,20260831
+LP0071,1882435836,Male,25,18-29,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Other,TN,Roman Catholic,Conservative,13.1841712680944,20260831
+LP0072,1882439054,Male,28,18-29,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,NY,Agnostic,Liberal,1.11701891250184,20260831
+LP0073,1885099064,Male,18,18-29,Hispanic / Latino,High school diploma / GED,False,"$168,000 or more",True,Other,NJ,Roman Catholic,Moderate,6.69146695988698,20260831
+LP0074,1885708768,Male,26,18-29,Hispanic / Latino,High school diploma / GED,False,"$168,000 or more",False,Independent,NJ,Something else,,4.63708202399192,20260831
+LP0075,1886164010,Male,25,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,TX,Roman Catholic,Very conservative,4.80996418047911,20260831
+LP0076,1886317374,Male,23,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Independent,TX,Atheist,,2.84936701557704,20260831
+LP0077,1886432286,Male,25,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Republican,WA,Roman Catholic,Conservative,1.2899843549395,20260831
+LP0078,1886682122,Male,26,18-29,Hispanic / Latino,Master's degree / Professional degree,True,"$168,000 or more",True,Independent,FL,Nothing in particular,Moderate,1.32338439432281,20260831
+LP0079,1888481066,Male,28,18-29,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Republican,NJ,Roman Catholic,Liberal,5.96331425342448,20260831
+LP0080,1888825080,Male,27,18-29,Hispanic / Latino,Less than high school,False,"$30,000 to $55,999",False,Other,NV,Roman Catholic,,8.35769752951411,20260831
+LP0081,1888941432,Male,25,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,WA,Protestant,Conservative,4.43960762723765,20260831
+LP0082,1888953090,Male,24,18-29,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",False,Other,TX,Nothing in particular,Conservative,5.9210688959279,20260831
+LP0083,1889128352,Male,24,18-29,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Other,CT,Something else,Very conservative,3.09683685345704,20260831
+LP0084,1891425616,Male,18,18-29,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Other,FL,Roman Catholic,,13.7804942888017,20260831
+LP0085,1893074050,Male,27,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Republican,CA,Nothing in particular,Moderate,1.24693985514251,20260831
+LP0086,1894289428,Male,27,18-29,Hispanic / Latino,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Democrat,IL,Roman Catholic,Moderate,2.76692607637951,20260831
+LP0087,1894334562,Male,20,18-29,Hispanic / Latino,Less than high school,False,"$100,000 to $167,999",False,Other,NM,Atheist,,13.7804942888017,20260831
+LP0088,1900110528,Male,29,18-29,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,CA,Roman Catholic,Liberal,13.1841712680944,20260831
+LP0089,1903016080,Male,23,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Independent,WI,Nothing in particular,Moderate,6.78762777664584,20260831
+LP0090,1877322688,Male,25,18-29,Asian / Asian American,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,MA,Agnostic,Moderate,12.143764600998,20260831
+LP0091,1882725290,Male,19,18-29,Asian / Asian American,High school diploma / GED,False,"Less than $30,000",False,Independent,TX,Something else,,5.0791044785888,20260831
+LP0092,1886682642,Male,29,18-29,Asian / Asian American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,MA,Atheist,Conservative,1.30805459816306,20260831
+LP0093,1886940902,Male,20,18-29,Asian / Asian American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,CA,Roman Catholic,Liberal,13.6128513346066,20260831
+LP0094,1889413622,Male,28,18-29,Asian / Asian American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,HI,Nothing in particular,Moderate,6.00599637118826,20260831
+LP0095,1890162432,Male,27,18-29,Asian / Asian American,High school diploma / GED,False,"$30,000 to $55,999",True,Democrat,WA,Nothing in particular,Liberal,3.66162397647073,20260831
+LP0096,1891401032,Male,22,18-29,Asian / Asian American,High school diploma / GED,False,"Less than $30,000",False,Independent,NV,Something else,Moderate,10.7415211450145,20260831
+LP0097,1906182608,Male,25,18-29,Asian / Asian American,Bachelor's degree,False,"Less than $30,000",False,Independent,MA,Buddhist,Moderate,1.30906307747017,20260831
+LP0098,1906239580,Male,21,18-29,Asian / Asian American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,PA,Roman Catholic,Liberal,13.6128513346066,20260831
+LP0099,1867583970,Male,28,18-29,Other,High school diploma / GED,False,"$56,000 to $99,999",False,Other,MD,Muslim,,6.02277541772917,20260831
+LP0100,1886447590,Male,21,18-29,Other,Less than high school,False,"$30,000 to $55,999",False,Other,UT,Mormon,Moderate,1.2736753371259,20260831
+LP0101,1907777306,Male,27,18-29,Other,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,NV,Protestant,Moderate,6.38918399929958,20260831
+LP0102,1908017810,Male,22,18-29,Other,Some college or Associate's degree,False,"Less than $30,000",False,Other,TX,Muslim,,2.61903713839416,20260831
+LP0103,1853846670,Male,42,30-44,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,PA,Agnostic,Moderate,2.54819194660525,20260831
+LP0104,1861289472,Male,34,30-44,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,NY,Agnostic,Moderate,1.22306139197815,20260831
+LP0105,1866167066,Male,44,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,NY,Agnostic,Liberal,3.05404811275197,20260831
+LP0106,1868548586,Male,43,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,VA,Agnostic,Moderate,1.29507817326806,20260831
+LP0107,1870012336,Male,37,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,CO,Protestant,Moderate,4.5322344689487,20260831
+LP0108,1870928936,Male,43,30-44,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Democrat,WA,Agnostic,Liberal,1.89693188705755,20260831
+LP0109,1870930828,Male,42,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Democrat,MN,Nothing in particular,Liberal,1.79906274882441,20260831
+LP0110,1870931264,Male,40,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,OK,Nothing in particular,Moderate,6.91647322320046,20260831
+LP0111,1870931310,Male,30,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Independent,MN,Roman Catholic,Moderate,1.79906274882441,20260831
+LP0112,1870931354,Male,44,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,WI,Nothing in particular,Liberal,1.49136419028312,20260831
+LP0113,1870931848,Male,37,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,WA,Something else,Very conservative,2.69346523764373,20260831
+LP0114,1872864470,Male,30,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Other,CA,Agnostic,Very liberal,1.49841927225175,20260831
+LP0115,1874385718,Male,36,30-44,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,MA,Nothing in particular,Liberal,1.182066615113,20260831
+LP0116,1878459804,Male,40,30-44,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,CO,Atheist,Very liberal,1.5201278607076,20260831
+LP0117,1878645794,Male,35,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,NY,Agnostic,Very liberal,1.56926528593297,20260831
+LP0118,1878878464,Male,43,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,CA,Agnostic,Very liberal,0.8444532640518,20260831
+LP0119,1880400324,Male,43,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Democrat,WA,Atheist,Liberal,1.35760979805272,20260831
+LP0120,1880410050,Male,39,30-44,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,GA,Atheist,Very liberal,0.685296155707435,20260831
+LP0121,1880413632,Male,37,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,NY,Atheist,Very liberal,1.46968463117284,20260831
+LP0122,1880489042,Male,43,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,WV,Nothing in particular,,7.99335309612193,20260831
+LP0123,1880495496,Male,38,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,PA,Protestant,Conservative,2.60896326293401,20260831
+LP0124,1882448142,Male,30,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,UT,Mormon,Moderate,1.31352183522113,20260831
+LP0125,1883077956,Male,30,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,FL,Protestant,Conservative,3.49773173942178,20260831
+LP0126,1886317348,Male,44,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,NM,Protestant,Moderate,1.5095750902042,20260831
+LP0127,1886364352,Male,38,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Democrat,TX,Protestant,Moderate,1.40785792280213,20260831
+LP0128,1886447544,Male,38,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,TN,Nothing in particular,,2.60894770166457,20260831
+LP0129,1886569448,Male,40,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,NV,Protestant,Liberal,1.28525781679811,20260831
+LP0130,1887957742,Male,43,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Republican,WY,Protestant,Conservative,1.81265326622254,20260831
+LP0131,1888365408,Male,34,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,ME,Atheist,Moderate,1.80868525703272,20260831
+LP0132,1888365476,Male,42,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,AZ,Atheist,Very liberal,1.80559422977505,20260831
+LP0133,1889055548,Male,44,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,OH,Protestant,Moderate,4.65697977871055,20260831
+LP0134,1889541824,Male,40,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,MI,Protestant,Moderate,2.11174588950761,20260831
+LP0135,1889750768,Male,32,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,FL,Protestant,Conservative,1.52058354322934,20260831
+LP0136,1890599398,Male,44,30-44,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Independent,OR,Agnostic,Liberal,0.705419794425452,20260831
+LP0137,1891087658,Male,40,30-44,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Other,OH,Something else,,1.52219085311834,20260831
+LP0138,1891137494,Male,42,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Independent,NC,Protestant,Moderate,2.23673917190852,20260831
+LP0139,1892153390,Male,34,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,MN,Protestant,Liberal,6.85688578878647,20260831
+LP0140,1893082542,Male,42,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,NY,Protestant,Moderate,3.50540591895063,20260831
+LP0141,1893136162,Male,37,30-44,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,CA,Roman Catholic,Liberal,1.06320436353101,20260831
+LP0142,1893630068,Male,33,30-44,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Independent,MA,Roman Catholic,Very liberal,1.182066615113,20260831
+LP0143,1893964062,Male,40,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Democrat,MD,Nothing in particular,Very liberal,0.723107753940503,20260831
+LP0144,1894193728,Male,33,30-44,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Other,PA,Buddhist,Very liberal,0.588901994512576,20260831
+LP0145,1894272046,Male,44,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Other,KS,Atheist,Very liberal,2.1501674986137,20260831
+LP0146,1894272718,Male,43,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,TX,Protestant,Liberal,1.6031850349506,20260831
+LP0147,1894275722,Male,44,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,WA,Something else,Very liberal,0.961047184092407,20260831
+LP0148,1894279434,Male,44,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,TN,Nothing in particular,Moderate,3.3815031595238,20260831
+LP0149,1894286322,Male,31,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Other,PA,Nothing in particular,,5.38197097389109,20260831
+LP0150,1894443344,Male,31,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,IL,Roman Catholic,Moderate,0.773041848765133,20260831
+LP0151,1894746766,Male,42,30-44,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,CA,Atheist,Moderate,0.511640634066306,20260831
+LP0152,1894822476,Male,39,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Republican,PA,Protestant,Conservative,1.25294085909514,20260831
+LP0153,1895402128,Male,41,30-44,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,NY,Roman Catholic,Conservative,0.783422669029257,20260831
+LP0154,1895418914,Male,37,30-44,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Independent,VA,Roman Catholic,Moderate,0.988421300935694,20260831
+LP0155,1895697752,Male,31,30-44,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,AZ,Protestant,Liberal,0.62759150456969,20260831
+LP0156,1897110538,Male,44,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Republican,NC,Something else,Conservative,1.96849883279161,20260831
+LP0157,1897886280,Male,40,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Democrat,OR,Atheist,Very liberal,2.17029769573788,20260831
+LP0158,1898264244,Male,42,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Democrat,IL,Something else,Very liberal,1.36039184217588,20260831
+LP0159,1898320040,Male,33,30-44,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",True,Independent,MO,Roman Catholic,Conservative,1.1134648227953,20260831
+LP0160,1898327592,Male,43,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Democrat,OK,Protestant,Liberal,1.23812806618248,20260831
+LP0161,1898511306,Male,36,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,TX,Nothing in particular,Very conservative,13.6128513346066,20260831
+LP0162,1898517296,Male,34,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,NC,Roman Catholic,Moderate,2.42449720648366,20260831
+LP0163,1899631584,Male,33,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,TN,Protestant,Moderate,7.8233661231254,20260831
+LP0164,1899816800,Male,43,30-44,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,AZ,Protestant,Liberal,4.67755376125343,20260831
+LP0165,1899862284,Male,34,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Other,TX,Agnostic,Very liberal,1.27184544536573,20260831
+LP0166,1899867384,Male,40,30-44,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,CO,Atheist,Liberal,0.731523693085008,20260831
+LP0167,1899870818,Male,37,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,CO,Nothing in particular,Liberal,2.45237489879782,20260831
+LP0168,1899887030,Male,39,30-44,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Republican,VA,Roman Catholic,Moderate,1.22355113900465,20260831
+LP0169,1899903340,Male,40,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Democrat,WA,Atheist,Liberal,2.41371565232166,20260831
+LP0170,1900220926,Male,32,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Independent,VA,Protestant,Moderate,1.86884181950134,20260831
+LP0171,1900224274,Male,38,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Democrat,PA,Agnostic,Very liberal,1.22375575466264,20260831
+LP0172,1900233366,Male,34,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,FL,Protestant,Moderate,2.52335623338937,20260831
+LP0173,1902191192,Male,40,30-44,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,TX,Atheist,Very liberal,0.989218094935625,20260831
+LP0174,1903867528,Male,38,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Independent,WA,Atheist,Liberal,1.35760979805272,20260831
+LP0175,1906136202,Male,40,30-44,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,GA,Protestant,Moderate,1.55958466966468,20260831
+LP0176,1906534366,Male,44,30-44,White / Caucasian,Less than high school,False,"$30,000 to $55,999",False,Independent,TN,Protestant,Liberal,9.04760486656255,20260831
+LP0177,1870932012,Male,36,30-44,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",False,Other,NJ,Nothing in particular,,2.77579451100412,20260831
+LP0178,1886413746,Male,32,30-44,Black / African American,High school diploma / GED,False,"$168,000 or more",True,Other,OH,Nothing in particular,Moderate,4.0349798334199,20260831
+LP0179,1886680208,Male,43,30-44,Black / African American,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,TX,Protestant,Conservative,7.3271969382452,20260831
+LP0180,1886683062,Male,34,30-44,Black / African American,Bachelor's degree,False,"$30,000 to $55,999",False,Independent,VA,Protestant,Moderate,2.10676685840485,20260831
+LP0181,1887295224,Male,32,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,FL,Hindu,Very liberal,7.34816787703356,20260831
+LP0182,1888332322,Male,35,30-44,Black / African American,Bachelor's degree,False,"Less than $30,000",False,Democrat,AK,Muslim,Very liberal,1.21415318295307,20260831
+LP0183,1890166598,Male,39,30-44,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,TX,Protestant,Moderate,5.9921750741369,20260831
+LP0184,1894335652,Male,31,30-44,Black / African American,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,CA,Eastern or Greek Orthodox,Conservative,2.54318492199118,20260831
+LP0185,1894339046,Male,31,30-44,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Republican,MS,Nothing in particular,Moderate,5.23374793897481,20260831
+LP0186,1895827882,Male,30,30-44,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Other,OH,Nothing in particular,,4.0349798334199,20260831
+LP0187,1898078374,Male,35,30-44,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,TN,Muslim,Moderate,3.14672941479608,20260831
+LP0188,1899800486,Male,31,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,LA,Something else,Moderate,1.80911026149472,20260831
+LP0189,1902923082,Male,44,30-44,Black / African American,Some college or Associate's degree,False,"$100,000 to $167,999",False,Other,VA,Protestant,Liberal,2.42170545123163,20260831
+LP0190,1902941916,Male,35,30-44,Black / African American,Less than high school,False,"Less than $30,000",False,Independent,GA,Nothing in particular,Moderate,8.64031544951336,20260831
+LP0191,1903910400,Male,39,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Republican,NC,Muslim,Conservative,1.36823213486161,20260831
+LP0192,1909438166,Male,43,30-44,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,CO,Protestant,Moderate,3.54764645881362,20260831
+LP0193,1863206610,Male,43,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,NV,Something else,Very conservative,6.35569216589425,20260831
+LP0194,1872863082,Male,44,30-44,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,VA,Roman Catholic,Moderate,0.659150067143227,20260831
+LP0195,1877987058,Male,32,30-44,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,FL,Protestant,Very conservative,3.04208813094688,20260831
+LP0196,1882426634,Male,42,30-44,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Other,TX,Atheist,Liberal,0.605684970738782,20260831
+LP0197,1882440230,Male,31,30-44,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,NE,Roman Catholic,Liberal,6.86894004667752,20260831
+LP0198,1882484654,Male,37,30-44,Hispanic / Latino,Master's degree / Professional degree,True,"$30,000 to $55,999",True,Republican,CT,Something else,Very conservative,0.685346470667091,20260831
+LP0199,1884682518,Male,33,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,TX,Agnostic,Very conservative,2.62820739586825,20260831
+LP0200,1885485544,Male,44,30-44,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,CA,Nothing in particular,Very liberal,2.27405106100319,20260831
+LP0201,1886455528,Male,33,30-44,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,CA,Nothing in particular,Very conservative,0.942589131824462,20260831
+LP0202,1886679460,Male,43,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,TX,Roman Catholic,Liberal,3.74783292319903,20260831
+LP0203,1886695546,Male,40,30-44,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Democrat,NM,Roman Catholic,Liberal,13.7804942888017,20260831
+LP0204,1888329584,Male,31,30-44,Hispanic / Latino,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,MA,Roman Catholic,Moderate,2.07880898780129,20260831
+LP0205,1888337400,Male,34,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,VA,Something else,Moderate,3.38862795066085,20260831
+LP0206,1888366956,Male,41,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,TX,Nothing in particular,Very liberal,3.63959561397509,20260831
+LP0207,1888367844,Male,33,30-44,Hispanic / Latino,Bachelor's degree,False,"$30,000 to $55,999",False,Democrat,WI,Agnostic,Moderate,0.876596221858303,20260831
+LP0208,1888374412,Male,39,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,FL,Something else,Moderate,12.5758313997459,20260831
+LP0209,1888398584,Male,33,30-44,Hispanic / Latino,Master's degree / Professional degree,True,"$168,000 or more",False,Independent,CA,Something else,Moderate,9.78706342466503,20260831
+LP0210,1888743872,Male,30,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",True,Democrat,CA,Agnostic,Liberal,13.6128513346066,20260831
+LP0211,1888809312,Male,43,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,TX,Nothing in particular,Moderate,3.10816090528173,20260831
+LP0212,1889068168,Male,37,30-44,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,TX,Roman Catholic,Moderate,2.49800591262425,20260831
+LP0213,1891885034,Male,31,30-44,Hispanic / Latino,Bachelor's degree,False,"$168,000 or more",False,Democrat,FL,Roman Catholic,Moderate,2.1161066040436,20260831
+LP0214,1893668256,Male,41,30-44,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,TX,Nothing in particular,Moderate,2.49800591262425,20260831
+LP0215,1895517490,Male,32,30-44,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Independent,CA,Roman Catholic,Moderate,2.27405106100319,20260831
+LP0216,1896260666,Male,40,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",True,Independent,CA,Nothing in particular,Very liberal,4.33275830219458,20260831
+LP0217,1896306422,Male,41,30-44,Hispanic / Latino,Bachelor's degree,False,"$168,000 or more",True,Independent,FL,Protestant,Very conservative,3.04208813094688,20260831
+LP0218,1896633354,Male,34,30-44,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,FL,Protestant,Moderate,5.27103601489507,20260831
+LP0219,1904031664,Male,42,30-44,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Independent,NY,Roman Catholic,Liberal,0.976813237286542,20260831
+LP0220,1906099928,Male,34,30-44,Hispanic / Latino,Bachelor's degree,False,"$30,000 to $55,999",True,Democrat,TX,Roman Catholic,Moderate,1.61237895933272,20260831
+LP0221,1906607528,Male,30,30-44,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Democrat,TX,Roman Catholic,Liberal,10.0329443065378,20260831
+LP0222,1865071700,Male,31,30-44,Asian / Asian American,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,HI,Atheist,Very liberal,0.585060205484056,20260831
+LP0223,1878646678,Male,39,30-44,Asian / Asian American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,PA,Muslim,Liberal,1.65200241932778,20260831
+LP0224,1880410578,Male,40,30-44,Asian / Asian American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,TX,Protestant,Conservative,4.12578364753405,20260831
+LP0225,1880411432,Male,36,30-44,Asian / Asian American,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,NJ,Protestant,Liberal,0.941363229766468,20260831
+LP0226,1888374120,Male,42,30-44,Asian / Asian American,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,VA,Roman Catholic,Moderate,6.10874442996687,20260831
+LP0227,1894099108,Male,32,30-44,Asian / Asian American,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,TX,Hindu,Moderate,3.7055356254373,20260831
+LP0228,1899604938,Male,43,30-44,Asian / Asian American,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,CA,Buddhist,Moderate,3.37761391338968,20260831
+LP0229,1902168108,Male,39,30-44,Asian / Asian American,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,CA,Agnostic,Moderate,3.37761391338968,20260831
+LP0230,1864424002,Male,43,30-44,Other,Some college or Associate's degree,False,"$168,000 or more",True,Democrat,GA,Protestant,Moderate,0.631460319313019,20260831
+LP0231,1893795470,Male,43,30-44,Other,Less than high school,False,"Less than $30,000",False,Republican,WI,Roman Catholic,Conservative,3.95878482402086,20260831
+LP0232,1898440894,Male,31,30-44,Other,Less than high school,False,"Less than $30,000",False,Other,OK,Nothing in particular,,6.52267075392054,20260831
+LP0233,1859988650,Male,54,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Other,MI,Protestant,,10.5995019642031,20260831
+LP0234,1862444722,Male,57,45-59,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Republican,GA,Something else,Very conservative,3.16273539755969,20260831
+LP0235,1864898094,Male,51,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,MN,Protestant,Liberal,0.706087342484092,20260831
+LP0236,1870678250,Male,55,45-59,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Democrat,MI,Jewish,Moderate,13.6128513346066,20260831
+LP0237,1870931222,Male,57,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Republican,PA,Agnostic,Conservative,0.736652871087499,20260831
+LP0238,1872080544,Male,46,45-59,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,RI,Nothing in particular,,1.59356956288081,20260831
+LP0239,1872862788,Male,49,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,PA,Atheist,Moderate,13.1841712680944,20260831
+LP0240,1873026212,Male,57,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,MI,Atheist,Liberal,2.4817588149292,20260831
+LP0241,1873027948,Male,53,45-59,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Democrat,MD,Nothing in particular,Moderate,0.244963284060272,20260831
+LP0242,1873030138,Male,57,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,KY,Nothing in particular,Liberal,0.439990563226341,20260831
+LP0243,1873030350,Male,45,45-59,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Republican,DE,Roman Catholic,Conservative,0.560362004350278,20260831
+LP0244,1873030434,Male,58,45-59,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,AR,Protestant,Conservative,1.31087917302883,20260831
+LP0245,1873030648,Male,54,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Independent,GA,Protestant,Conservative,2.92384384064185,20260831
+LP0246,1873031072,Male,58,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,AL,Protestant,Conservative,1.30711349355286,20260831
+LP0247,1873558900,Male,58,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,WI,Roman Catholic,Moderate,8.93300003374889,20260831
+LP0248,1879043850,Male,56,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Other,TN,Protestant,Conservative,13.6128513346066,20260831
+LP0249,1880400248,Male,55,45-59,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,CA,Protestant,Liberal,0.886023073226648,20260831
+LP0250,1880401232,Male,51,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Other,FL,Protestant,,13.1841712680944,20260831
+LP0251,1880402544,Male,58,45-59,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Democrat,WI,Atheist,Liberal,2.19590935324141,20260831
+LP0252,1880403534,Male,47,45-59,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,CT,Atheist,Very liberal,2.51840392130498,20260831
+LP0253,1880403990,Male,58,45-59,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,MO,Protestant,Very conservative,2.38344623481177,20260831
+LP0254,1880405658,Male,53,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,MI,Nothing in particular,Conservative,5.62558227564202,20260831
+LP0255,1880406332,Male,51,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,NJ,Agnostic,Very conservative,0.69821190795677,20260831
+LP0256,1880406624,Male,57,45-59,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Independent,TX,Protestant,Very conservative,0.53367367222837,20260831
+LP0257,1880408284,Male,49,45-59,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",True,Independent,MD,Atheist,Moderate,1.17173414842291,20260831
+LP0258,1880409568,Male,59,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,MD,Agnostic,Moderate,0.805385091103152,20260831
+LP0259,1880413540,Male,55,45-59,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Independent,VA,Protestant,Conservative,1.31348977722574,20260831
+LP0260,1880413744,Male,56,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,NH,Roman Catholic,Moderate,1.05245961010768,20260831
+LP0261,1880429144,Male,47,45-59,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Republican,ND,Protestant,Conservative,2.46466231084282,20260831
+LP0262,1880435198,Male,58,45-59,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Republican,WA,Roman Catholic,Conservative,0.631139318931724,20260831
+LP0263,1880443506,Male,58,45-59,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,NC,Protestant,Liberal,3.27621728296639,20260831
+LP0264,1880443704,Male,54,45-59,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Independent,MO,Protestant,Very conservative,3.85561123423328,20260831
+LP0265,1883948014,Male,56,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,OH,Nothing in particular,Very liberal,0.384451038104827,20260831
+LP0266,1884845296,Male,57,45-59,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Republican,OR,Something else,Conservative,3.00202548841745,20260831
+LP0267,1885423546,Male,49,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,GA,Nothing in particular,Liberal,8.395268082248,20260831
+LP0268,1885911990,Male,55,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,KY,Protestant,Liberal,0.88026297195494,20260831
+LP0269,1886268232,Male,59,45-59,White / Caucasian,High school diploma / GED,False,"$168,000 or more",False,Republican,MA,Atheist,Conservative,1.39402333107382,20260831
+LP0270,1886681582,Male,50,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,NY,Protestant,Moderate,3.41472668438948,20260831
+LP0271,1886682250,Male,47,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,LA,Roman Catholic,Very conservative,1.4225838547988,20260831
+LP0272,1886683456,Male,58,45-59,White / Caucasian,High school diploma / GED,False,"$168,000 or more",False,Republican,MD,Roman Catholic,Moderate,1.76780873895939,20260831
+LP0273,1888329898,Male,58,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,SC,Nothing in particular,,13.6128513346066,20260831
+LP0274,1888329994,Male,51,45-59,White / Caucasian,Less than high school,False,"Less than $30,000",False,Democrat,KY,Nothing in particular,Conservative,1.98516315365551,20260831
+LP0275,1888331722,Male,56,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,PA,Protestant,Moderate,0.839618444198665,20260831
+LP0276,1888807424,Male,58,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,MO,Nothing in particular,Moderate,1.65169099045862,20260831
+LP0277,1889153316,Male,58,45-59,White / Caucasian,Less than high school,False,"$30,000 to $55,999",False,Independent,DE,Protestant,Moderate,7.19210385335295,20260831
+LP0278,1892014706,Male,45,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,KS,Protestant,Conservative,1.26441473392871,20260831
+LP0279,1894234714,Male,51,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,UT,Mormon,Very conservative,2.04571668706652,20260831
+LP0280,1894270274,Male,46,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,IN,Atheist,Conservative,0.748067243212914,20260831
+LP0281,1894271910,Male,57,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,AZ,Atheist,Liberal,0.693937513600076,20260831
+LP0282,1894272514,Male,46,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,PA,Jewish,Moderate,0.719493808217829,20260831
+LP0283,1894277254,Male,48,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Other,KY,Atheist,Very liberal,0.297209103774413,20260831
+LP0284,1894278380,Male,56,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,WA,Mormon,Very conservative,0.453525568416767,20260831
+LP0285,1894286084,Male,49,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Independent,KY,Nothing in particular,Moderate,1.29122310983528,20260831
+LP0286,1894289058,Male,56,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,CA,Nothing in particular,Moderate,1.12046001842611,20260831
+LP0287,1894289162,Male,59,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Other,MI,Nothing in particular,,2.4817588149292,20260831
+LP0288,1897528136,Male,45,45-59,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Independent,MA,Roman Catholic,Conservative,0.823091327733703,20260831
+LP0289,1897881210,Male,50,45-59,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Republican,AL,Atheist,Conservative,1.2447268449888,20260831
+LP0290,1897884648,Male,56,45-59,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Other,MO,Protestant,Conservative,10.3325232436756,20260831
+LP0291,1898319956,Male,47,45-59,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Independent,TX,Protestant,Moderate,1.66033736388656,20260831
+LP0292,1898324544,Male,51,45-59,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,OR,Protestant,Conservative,0.288675306957173,20260831
+LP0293,1898330674,Male,49,45-59,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,WA,Atheist,Very liberal,0.823092856682626,20260831
+LP0294,1899013464,Male,58,45-59,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Republican,VA,Roman Catholic,Conservative,0.715529300972564,20260831
+LP0295,1899158358,Male,58,45-59,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,TX,Protestant,Very conservative,1.1089896682078,20260831
+LP0296,1899860176,Male,59,45-59,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Independent,VA,Atheist,Liberal,0.801520951641885,20260831
+LP0297,1899864102,Male,56,45-59,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Independent,TX,Agnostic,Liberal,1.06929549278551,20260831
+LP0298,1902217782,Male,56,45-59,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Republican,NJ,Roman Catholic,Very conservative,0.733183399063708,20260831
+LP0299,1904224748,Male,48,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,KS,Nothing in particular,Liberal,0.493484271319368,20260831
+LP0300,1906098642,Male,49,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,GA,Nothing in particular,,1.37321111358275,20260831
+LP0301,1907183184,Male,50,45-59,White / Caucasian,Less than high school,False,"Less than $30,000",False,Independent,TN,Protestant,,11.242294571391,20260831
+LP0302,1861886738,Male,55,45-59,Black / African American,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,NY,Protestant,Moderate,1.67780835013486,20260831
+LP0303,1869600462,Male,57,45-59,Black / African American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Other,SC,Protestant,Moderate,1.11871541702273,20260831
+LP0304,1870338724,Male,59,45-59,Black / African American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,NC,Atheist,Moderate,1.21147899070163,20260831
+LP0305,1882443212,Male,50,45-59,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,AL,Agnostic,Conservative,0.106367388137835,20260831
+LP0306,1886682400,Male,59,45-59,Black / African American,Bachelor's degree,False,"$168,000 or more",False,Independent,VA,Protestant,Moderate,2.32000300349292,20260831
+LP0307,1886683858,Male,51,45-59,Black / African American,Master's degree / Professional degree,True,"$168,000 or more",False,Independent,CA,Protestant,Conservative,13.6128513346066,20260831
+LP0308,1890512464,Male,56,45-59,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,TX,Protestant,Liberal,0.686221711768913,20260831
+LP0309,1896136622,Male,46,45-59,Black / African American,Less than high school,False,"Less than $30,000",False,Independent,FL,Nothing in particular,Moderate,13.7804942888017,20260831
+LP0310,1902753962,Male,49,45-59,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,LA,Something else,Moderate,0.183504288209726,20260831
+LP0311,1903996964,Male,57,45-59,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,MA,Protestant,Conservative,1.63749693729401,20260831
+LP0312,1906013304,Male,46,45-59,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,GA,Protestant,Liberal,3.68603659376081,20260831
+LP0313,1907089410,Male,51,45-59,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Independent,FL,Nothing in particular,Moderate,3.34534902296985,20260831
+LP0314,1910030248,Male,48,45-59,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,OH,Nothing in particular,Conservative,5.3786322878494,20260831
+LP0315,1855654054,Male,54,45-59,Hispanic / Latino,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,NV,Atheist,Very conservative,1.55271030295934,20260831
+LP0316,1861227100,Male,57,45-59,Hispanic / Latino,Bachelor's degree,False,"$30,000 to $55,999",True,Republican,ID,Protestant,Very conservative,3.02778288159182,20260831
+LP0317,1867413730,Male,50,45-59,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Other,CA,Something else,Moderate,13.7804942888017,20260831
+LP0318,1871040452,Male,47,45-59,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Independent,FL,Roman Catholic,Conservative,0.320975678749373,20260831
+LP0319,1873031058,Male,48,45-59,Hispanic / Latino,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,TX,Roman Catholic,Liberal,0.50748508163208,20260831
+LP0320,1873405970,Male,50,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",True,Democrat,FL,Protestant,Conservative,0.726959749667114,20260831
+LP0321,1874976468,Male,49,45-59,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,CA,Protestant,Moderate,2.57987906801121,20260831
+LP0322,1880428732,Male,47,45-59,Hispanic / Latino,Master's degree / Professional degree,True,"Less than $30,000",False,Republican,UT,Protestant,Very conservative,0.554095872342969,20260831
+LP0323,1882426204,Male,55,45-59,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Other,FL,Something else,Moderate,6.25133439013704,20260831
+LP0324,1882436606,Male,57,45-59,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Independent,PA,Protestant,Conservative,11.1110684169176,20260831
+LP0325,1882442476,Male,52,45-59,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,FL,Something else,Very conservative,2.08115073022245,20260831
+LP0326,1883163956,Male,58,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,IL,Roman Catholic,Liberal,1.01912763536523,20260831
+LP0327,1887156358,Male,57,45-59,Hispanic / Latino,Less than high school,False,"$56,000 to $99,999",False,Democrat,CA,Nothing in particular,,10.2816506795815,20260831
+LP0328,1888365612,Male,45,45-59,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,NY,Roman Catholic,Liberal,1.27484836038807,20260831
+LP0329,1888380464,Male,57,45-59,Hispanic / Latino,Bachelor's degree,False,"Less than $30,000",False,Other,AZ,Agnostic,Very liberal,2.53622902671479,20260831
+LP0330,1895696464,Male,49,45-59,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Independent,TX,Protestant,Moderate,13.7804942888017,20260831
+LP0331,1899859682,Male,56,45-59,Hispanic / Latino,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,CA,Protestant,Moderate,2.37915845959215,20260831
+LP0332,1901737534,Male,46,45-59,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Democrat,FL,Roman Catholic,Moderate,13.6128513346066,20260831
+LP0333,1906516196,Male,57,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,OK,Buddhist,Very conservative,0.576856371722455,20260831
+LP0334,1910001768,Male,59,45-59,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,NY,Roman Catholic,Very conservative,3.64768842486691,20260831
+LP0335,1873026176,Male,53,45-59,Asian / Asian American,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,HI,Nothing in particular,Moderate,1.01933524118673,20260831
+LP0336,1880454346,Male,53,45-59,Asian / Asian American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,TX,Atheist,Moderate,6.14806169972608,20260831
+LP0337,1888185436,Male,45,45-59,Asian / Asian American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Other,HI,Roman Catholic,,0.940630541796467,20260831
+LP0338,1895972798,Male,54,45-59,Asian / Asian American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Independent,FL,Hindu,Moderate,0.197008046256553,20260831
+LP0339,1897882944,Male,51,45-59,Asian / Asian American,Bachelor's degree,False,"$168,000 or more",True,Independent,CA,Agnostic,Moderate,1.81330098108309,20260831
+LP0340,1902132464,Male,59,45-59,Asian / Asian American,Master's degree / Professional degree,True,"Less than $30,000",False,Democrat,CA,Nothing in particular,Liberal,0.833954988154833,20260831
+LP0341,1903331066,Male,55,45-59,Asian / Asian American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,TX,Roman Catholic,Conservative,8.53597928098445,20260831
+LP0342,1906255558,Male,55,45-59,Asian / Asian American,Some college or Associate's degree,False,"$30,000 to $55,999",True,Democrat,NV,Atheist,Liberal,1.69889309861139,20260831
+LP0343,1867337172,Male,58,45-59,Other,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Independent,CO,Something else,Moderate,1.11236043545227,20260831
+LP0344,1886681856,Male,57,45-59,Other,Less than high school,False,"$30,000 to $55,999",True,Independent,FL,Atheist,Moderate,6.62023829936943,20260831
+LP0345,1900235874,Male,54,45-59,Other,Bachelor's degree,False,"$168,000 or more",False,Independent,LA,Roman Catholic,Conservative,0.724874562072769,20260831
+LP0346,1854647090,Male,82,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,NC,Roman Catholic,Conservative,0.914014617755256,20260831
+LP0347,1859638504,Male,72,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,AL,Something else,Moderate,3.09843909248285,20260831
+LP0348,1862060860,Male,77,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Independent,TX,Roman Catholic,Moderate,7.31098729879513,20260831
+LP0349,1864446308,Male,75,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,CA,Protestant,Conservative,0.912220503870536,20260831
+LP0350,1864532536,Male,61,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,TX,Protestant,Liberal,0.467232075192984,20260831
+LP0351,1867114372,Male,65,60+,White / Caucasian,Less than high school,False,"Less than $30,000",False,Republican,GA,Nothing in particular,Very liberal,7.88395537268099,20260831
+LP0352,1867995048,Male,69,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,WI,Protestant,Conservative,0.843112748354574,20260831
+LP0353,1869410544,Male,63,60+,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Independent,OH,Nothing in particular,Moderate,0.692536306795672,20260831
+LP0354,1869433902,Male,71,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,NY,Protestant,Conservative,1.11790224886922,20260831
+LP0355,1872860522,Male,81,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Independent,WI,Protestant,Moderate,0.843112748354574,20260831
+LP0356,1872861444,Male,63,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,MN,Protestant,Very conservative,2.63375621509592,20260831
+LP0357,1873025178,Male,70,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,AR,Protestant,Moderate,0.498854079891943,20260831
+LP0358,1873029876,Male,86,60+,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,FL,Eastern or Greek Orthodox,Conservative,0.745150550359842,20260831
+LP0359,1873030450,Male,62,60+,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",False,Independent,VT,Roman Catholic,Conservative,1.15523699877305,20260831
+LP0360,1873313240,Male,80,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,TN,Protestant,Very conservative,1.65344674662542,20260831
+LP0361,1874322280,Male,62,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Republican,PA,Roman Catholic,Very conservative,0.727594434784791,20260831
+LP0362,1877950226,Male,77,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,FL,Roman Catholic,Conservative,0.847830304993643,20260831
+LP0363,1878055650,Male,68,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Democrat,WA,Atheist,Liberal,0.335862755098009,20260831
+LP0364,1878456552,Male,71,60+,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,OR,Atheist,Very liberal,5.37797666434713,20260831
+LP0365,1878844136,Male,63,60+,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Independent,NC,Something else,Very conservative,1.53780744121894,20260831
+LP0366,1878878164,Male,68,60+,White / Caucasian,High school diploma / GED,False,"$168,000 or more",False,Republican,TX,Protestant,Conservative,1.17010595959492,20260831
+LP0367,1879101694,Male,63,60+,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,IA,Roman Catholic,Liberal,0.530710783998284,20260831
+LP0368,1879854668,Male,79,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Republican,AL,Protestant,Very conservative,1.26591409342351,20260831
+LP0369,1879908904,Male,73,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,IA,Roman Catholic,Moderate,0.944117504227261,20260831
+LP0370,1880089620,Male,73,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,NY,Jewish,Moderate,1.79829387508093,20260831
+LP0371,1880402348,Male,75,60+,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,CA,Nothing in particular,Liberal,1.17249197584367,20260831
+LP0372,1880402768,Male,72,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,KS,Protestant,Very conservative,1.50973280609739,20260831
+LP0373,1880404612,Male,65,60+,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Republican,LA,Roman Catholic,Very conservative,1.4413835201075,20260831
+LP0374,1880404954,Male,82,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,CA,Protestant,Moderate,0.826298512779859,20260831
+LP0375,1880408314,Male,68,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Independent,LA,Protestant,Moderate,0.328483411767579,20260831
+LP0376,1880411778,Male,79,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",True,Republican,FL,Protestant,Conservative,1.2647944442307,20260831
+LP0377,1880412706,Male,75,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,KY,Protestant,Moderate,1.9417074628924,20260831
+LP0378,1880413240,Male,68,60+,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,MO,Protestant,Conservative,2.58335441450735,20260831
+LP0379,1880413292,Male,75,60+,White / Caucasian,Less than high school,False,"Less than $30,000",False,Republican,NV,Nothing in particular,Moderate,1.25152068364197,20260831
+LP0380,1880425986,Male,63,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,TN,Protestant,Very conservative,0.891002683329756,20260831
+LP0381,1880426404,Male,73,60+,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",True,Democrat,RI,Atheist,Liberal,0.80043093231499,20260831
+LP0382,1880426890,Male,83,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Democrat,MN,Buddhist,Very liberal,1.61149693024419,20260831
+LP0383,1880427644,Male,73,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,AZ,Protestant,Conservative,0.783105324827284,20260831
+LP0384,1880428948,Male,78,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Independent,FL,Agnostic,Moderate,0.912456180911512,20260831
+LP0385,1880443142,Male,68,60+,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,NM,Atheist,Liberal,2.23420306624076,20260831
+LP0386,1880517092,Male,64,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,IA,Protestant,Conservative,1.02187010336029,20260831
+LP0387,1880741686,Male,61,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Independent,AL,Something else,Moderate,1.2447268449888,20260831
+LP0388,1885512798,Male,78,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,CO,Roman Catholic,Conservative,0.779573300151666,20260831
+LP0389,1886326872,Male,64,60+,White / Caucasian,High school diploma / GED,False,"$168,000 or more",True,Republican,AL,Protestant,Conservative,2.16298065722676,20260831
+LP0390,1886446212,Male,78,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,AZ,Nothing in particular,Conservative,0.203443195241796,20260831
+LP0391,1886679250,Male,65,60+,White / Caucasian,Less than high school,False,"$30,000 to $55,999",True,Republican,NY,Nothing in particular,Conservative,3.94418038182117,20260831
+LP0392,1886681666,Male,72,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,MI,Nothing in particular,,8.54277942044984,20260831
+LP0393,1886683446,Male,66,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,SC,Protestant,Moderate,0.830216281238136,20260831
+LP0394,1887051940,Male,77,60+,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Independent,MA,Roman Catholic,Moderate,1.00536480869787,20260831
+LP0395,1888322522,Male,68,60+,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Independent,MA,Protestant,Moderate,0.908236997614348,20260831
+LP0396,1888329540,Male,67,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,MI,Roman Catholic,Moderate,1.15909751939844,20260831
+LP0397,1888329862,Male,68,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,IL,Protestant,,1.64692981742885,20260831
+LP0398,1888330496,Male,69,60+,White / Caucasian,Less than high school,False,"Less than $30,000",False,Independent,PA,Protestant,Moderate,5.22029958286003,20260831
+LP0399,1888331732,Male,77,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Other,TX,Protestant,,1.54039405604269,20260831
+LP0400,1888336576,Male,70,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,PA,Protestant,Very conservative,1.4935584405956,20260831
+LP0401,1888336976,Male,63,60+,White / Caucasian,Less than high school,False,"$56,000 to $99,999",False,Independent,OH,Protestant,Very conservative,1.44110537358284,20260831
+LP0402,1888364588,Male,62,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,VA,Nothing in particular,Conservative,3.88323055206436,20260831
+LP0403,1888866012,Male,60,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,AZ,Nothing in particular,Moderate,3.39673291825955,20260831
+LP0404,1890484838,Male,90,60+,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Democrat,NJ,Roman Catholic,Moderate,0.442638952904898,20260831
+LP0405,1892526248,Male,63,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,TN,Protestant,Very conservative,0.499647374280828,20260831
+LP0406,1893467236,Male,72,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,AL,Protestant,Conservative,0.955383836646073,20260831
+LP0407,1894214608,Male,64,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,WI,Protestant,Conservative,1.16144343464537,20260831
+LP0408,1894269970,Male,66,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,OH,Something else,Conservative,1.18472043909882,20260831
+LP0409,1894270332,Male,83,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,MA,Nothing in particular,Moderate,0.846062259771064,20260831
+LP0410,1894270388,Male,78,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,CA,Nothing in particular,Conservative,0.632093544732814,20260831
+LP0411,1894274348,Male,72,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,OH,Roman Catholic,Moderate,0.49277747991204,20260831
+LP0412,1894274668,Male,76,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,MT,Protestant,Very conservative,1.10400239406237,20260831
+LP0413,1894281558,Male,66,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Republican,NV,Roman Catholic,Very conservative,1.3227938663763,20260831
+LP0414,1894286596,Male,81,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,TX,Protestant,Moderate,0.435806178973986,20260831
+LP0415,1894986856,Male,62,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,MA,Roman Catholic,Very conservative,0.552957361743566,20260831
+LP0416,1895512438,Male,67,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,FL,Nothing in particular,Conservative,1.68359097723699,20260831
+LP0417,1895697832,Male,60,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,OH,Nothing in particular,Moderate,0.326421502782088,20260831
+LP0418,1895699228,Male,67,60+,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,GA,Protestant,Conservative,2.33416421365607,20260831
+LP0419,1897316234,Male,61,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,AR,Protestant,Conservative,0.97523380864143,20260831
+LP0420,1897880170,Male,87,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Other,TX,Protestant,Very conservative,1.12900380013926,20260831
+LP0421,1897882234,Male,63,60+,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,MT,Nothing in particular,Moderate,1.21181584527243,20260831
+LP0422,1897885420,Male,77,60+,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,MD,Protestant,Very conservative,1.3068538549078,20260831
+LP0423,1897885816,Male,63,60+,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,WA,Protestant,Moderate,0.823092856682626,20260831
+LP0424,1897886294,Male,62,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,MI,Jewish,Liberal,0.833311059459992,20260831
+LP0425,1897886418,Male,78,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Democrat,MI,Protestant,Liberal,0.839952028880739,20260831
+LP0426,1898313420,Male,85,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,VA,Nothing in particular,Moderate,0.587885740833181,20260831
+LP0427,1898313444,Male,60,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Independent,NC,Nothing in particular,Conservative,1.0656765227692,20260831
+LP0428,1898313724,Male,65,60+,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Republican,MD,Nothing in particular,Conservative,0.905629296969559,20260831
+LP0429,1898315792,Male,75,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Democrat,AR,Nothing in particular,Liberal,0.357198391515142,20260831
+LP0430,1898316112,Male,70,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Republican,TX,Protestant,Very conservative,0.820618670554595,20260831
+LP0431,1898319662,Male,65,60+,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Republican,TX,Protestant,Conservative,0.654606371427811,20260831
+LP0432,1898320182,Male,76,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Independent,OK,Protestant,Moderate,1.04168654315206,20260831
+LP0433,1898320196,Male,85,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Independent,WA,Protestant,Moderate,1.35181812603367,20260831
+LP0434,1898322872,Male,65,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,OK,Protestant,Liberal,0.771657992523786,20260831
+LP0435,1898327590,Male,76,60+,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Independent,CA,Buddhist,Conservative,0.829429787370875,20260831
+LP0436,1899858280,Male,68,60+,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Democrat,NC,Atheist,Liberal,0.774706082490702,20260831
+LP0437,1899859362,Male,75,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,NC,Protestant,Very conservative,1.65822013390377,20260831
+LP0438,1899865120,Male,63,60+,White / Caucasian,Master's degree / Professional degree,True,"Less than $30,000",False,Democrat,CA,Atheist,Liberal,0.426376548603996,20260831
+LP0439,1899868304,Male,73,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Democrat,WA,Buddhist,Liberal,0.369387374738515,20260831
+LP0440,1902219608,Male,62,60+,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Independent,SC,Nothing in particular,Liberal,2.12634593294971,20260831
+LP0441,1903811192,Male,77,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,FL,Protestant,Conservative,0.847830304993643,20260831
+LP0442,1903828888,Male,75,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,NC,Protestant,Moderate,1.28429245901988,20260831
+LP0443,1904589790,Male,64,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Independent,CO,Protestant,Moderate,1.01878293704513,20260831
+LP0444,1910865956,Male,61,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,FL,Nothing in particular,,13.6128513346066,20260831
+LP0445,1911158338,Male,74,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,IA,Roman Catholic,Moderate,1.00343069923178,20260831
+LP0446,1911252544,Male,62,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,CO,Atheist,Very liberal,1.38882450041224,20260831
+LP0447,1866724164,Male,65,60+,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Independent,LA,Something else,Moderate,3.77418360781236,20260831
+LP0448,1869409122,Male,65,60+,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Republican,FL,Protestant,Very conservative,2.55066441306175,20260831
+LP0449,1870930350,Male,69,60+,Black / African American,Less than high school,False,"Less than $30,000",False,Other,FL,Nothing in particular,Conservative,3.22486065713032,20260831
+LP0450,1872887580,Male,61,60+,Black / African American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,GA,Protestant,Moderate,1.85409885817459,20260831
+LP0451,1873026678,Male,60,60+,Black / African American,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,NC,Protestant,Very conservative,5.10542646144509,20260831
+LP0452,1873877240,Male,66,60+,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,AR,Protestant,Conservative,0.0663058624884653,20260831
+LP0453,1882421178,Male,70,60+,Black / African American,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,VA,Protestant,Liberal,13.6128513346066,20260831
+LP0454,1884711936,Male,77,60+,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,AL,Protestant,Moderate,2.78074230539927,20260831
+LP0455,1885566060,Male,72,60+,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,WI,Protestant,Liberal,0.772872152878144,20260831
+LP0456,1888332070,Male,66,60+,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Other,AR,Nothing in particular,,0.803092770457625,20260831
+LP0457,1888337434,Male,66,60+,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,CA,Protestant,Moderate,0.328457346345176,20260831
+LP0458,1891972376,Male,66,60+,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,FL,Mormon,Moderate,7.65781567645721,20260831
+LP0459,1908631976,Male,70,60+,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,MO,Roman Catholic,Very liberal,1.53430041768555,20260831
+LP0460,1855536362,Male,72,60+,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Democrat,ID,Nothing in particular,Liberal,3.03308053623438,20260831
+LP0461,1862123870,Male,60,60+,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,CA,Roman Catholic,Very liberal,0.695650134716774,20260831
+LP0462,1876392740,Male,71,60+,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,CA,Roman Catholic,Moderate,7.25969546569241,20260831
+LP0463,1878773854,Male,63,60+,Hispanic / Latino,Less than high school,False,"$100,000 to $167,999",False,Independent,FL,Something else,Moderate,13.1841712680944,20260831
+LP0464,1880402440,Male,80,60+,Hispanic / Latino,Less than high school,False,"$100,000 to $167,999",False,Republican,CA,Roman Catholic,Moderate,13.1841712680944,20260831
+LP0465,1880435294,Male,67,60+,Hispanic / Latino,High school diploma / GED,False,"$100,000 to $167,999",False,Republican,MN,Protestant,Conservative,2.48621333484748,20260831
+LP0466,1882429430,Male,62,60+,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,CA,Nothing in particular,Very liberal,2.05944358510823,20260831
+LP0467,1882431092,Male,64,60+,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Republican,TX,Protestant,Liberal,2.36670872823588,20260831
+LP0468,1882438700,Male,73,60+,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,TX,Protestant,Conservative,4.8972534561987,20260831
+LP0469,1884580712,Male,71,60+,Hispanic / Latino,Less than high school,False,"$30,000 to $55,999",True,Independent,AZ,Protestant,Liberal,13.6128513346066,20260831
+LP0470,1886601998,Male,60,60+,Hispanic / Latino,High school diploma / GED,False,"$168,000 or more",True,Democrat,CA,Something else,Moderate,13.1841712680944,20260831
+LP0471,1886680248,Male,63,60+,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",True,Other,TX,Roman Catholic,Conservative,1.54086084059058,20260831
+LP0472,1886684156,Male,65,60+,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Independent,CA,Roman Catholic,Moderate,0.132166386540108,20260831
+LP0473,1888332002,Male,61,60+,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,FL,Atheist,Very liberal,1.25614144434804,20260831
+LP0474,1894287400,Male,63,60+,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,NV,Agnostic,Moderate,6.89280196850777,20260831
+LP0475,1898318286,Male,60,60+,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,FL,Jewish,Liberal,1.25614144434804,20260831
+LP0476,1902149836,Male,72,60+,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,CA,Nothing in particular,Moderate,2.72569815678052,20260831
+LP0477,1855515026,Male,79,60+,Asian / Asian American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,NV,Nothing in particular,Very liberal,0.934013445361422,20260831
+LP0478,1855878412,Male,71,60+,Asian / Asian American,High school diploma / GED,False,"$56,000 to $99,999",False,Other,HI,Nothing in particular,,3.79910168251772,20260831
+LP0479,1864288834,Male,82,60+,Asian / Asian American,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,NJ,Roman Catholic,Very conservative,3.02524342703962,20260831
+LP0480,1880400600,Male,68,60+,Asian / Asian American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,CA,Hindu,Liberal,0.837710766885778,20260831
+LP0481,1882900960,Male,61,60+,Asian / Asian American,Master's degree / Professional degree,True,"$30,000 to $55,999",True,Republican,NY,Nothing in particular,Very conservative,1.63099239447012,20260831
+LP0482,1888674682,Male,64,60+,Asian / Asian American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Independent,AZ,Agnostic,Moderate,1.43411888945137,20260831
+LP0483,1891973878,Male,76,60+,Asian / Asian American,Bachelor's degree,False,"$168,000 or more",False,Independent,CA,Agnostic,Moderate,0.535547898998412,20260831
+LP0484,1867243106,Male,71,60+,Other,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,HI,Jewish,Conservative,1.55053991938887,20260831
+LP0485,1886679682,Male,69,60+,Other,High school diploma / GED,False,"Less than $30,000",False,Democrat,IA,Protestant,,1.04288499531193,20260831
+LP0486,1888383274,Male,66,60+,Other,Less than high school,False,"$30,000 to $55,999",False,Other,WA,Protestant,Conservative,5.00222629673724,20260831
+LP0487,1862644406,Female,24,18-29,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,FL,Protestant,Very conservative,10.5104068919112,20260831
+LP0488,1864615220,Female,26,18-29,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Independent,WA,Nothing in particular,Moderate,1.5193160442464,20260831
+LP0489,1864712400,Female,27,18-29,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,UT,Mormon,Moderate,2.46862190544324,20260831
+LP0490,1866407296,Female,23,18-29,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,MO,Agnostic,Moderate,0.996595363173115,20260831
+LP0491,1871756474,Female,21,18-29,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,PA,Protestant,Very liberal,0.144379680307205,20260831
+LP0492,1878457322,Female,29,18-29,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,IL,Roman Catholic,Liberal,1.45725398005318,20260831
+LP0493,1878460422,Female,29,18-29,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Republican,WI,Roman Catholic,Conservative,2.1685764567908,20260831
+LP0494,1882426008,Female,25,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,OK,Roman Catholic,Very liberal,2.92702768181973,20260831
+LP0495,1884566392,Female,26,18-29,White / Caucasian,High school diploma / GED,False,"$168,000 or more",True,Democrat,GA,Roman Catholic,Very liberal,13.6128513346066,20260831
+LP0496,1884571868,Female,18,18-29,White / Caucasian,Less than high school,False,"$100,000 to $167,999",False,Democrat,TN,Nothing in particular,Liberal,11.3260855236055,20260831
+LP0497,1884775982,Female,25,18-29,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,AL,Protestant,Conservative,2.33453246876022,20260831
+LP0498,1885031198,Female,23,18-29,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Republican,NC,Roman Catholic,Conservative,5.21367067447005,20260831
+LP0499,1885061206,Female,24,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,MT,Something else,Liberal,1.08450096655443,20260831
+LP0500,1885311748,Female,25,18-29,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Democrat,NY,Roman Catholic,Liberal,0.0600895240863123,20260831
+LP0501,1885315958,Female,26,18-29,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Republican,FL,Nothing in particular,Very conservative,7.28354771165831,20260831
+LP0502,1885370388,Female,19,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,TX,Nothing in particular,Moderate,4.10478211751828,20260831
+LP0503,1886357184,Female,22,18-29,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Republican,OK,Protestant,Moderate,1.66303017187502,20260831
+LP0504,1886941064,Female,25,18-29,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Republican,NV,Protestant,Conservative,3.36546660977388,20260831
+LP0505,1888232358,Female,19,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,ME,Nothing in particular,,1.15319563555004,20260831
+LP0506,1888377778,Female,19,18-29,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",False,Republican,IN,Roman Catholic,Conservative,0.0902288431787191,20260831
+LP0507,1888617120,Female,28,18-29,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,TX,Agnostic,Liberal,1.09947455516482,20260831
+LP0508,1888640752,Female,22,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,PA,Nothing in particular,Very conservative,6.45864717635092,20260831
+LP0509,1888708902,Female,29,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,CO,Protestant,Conservative,10.8412327266684,20260831
+LP0510,1888929874,Female,23,18-29,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Other,MA,Roman Catholic,Liberal,5.26751927351503,20260831
+LP0511,1890460282,Female,28,18-29,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,VA,Nothing in particular,Liberal,4.81493924352161,20260831
+LP0512,1892209144,Female,27,18-29,White / Caucasian,Less than high school,False,"Less than $30,000",False,Independent,TX,Nothing in particular,,2.56950812040812,20260831
+LP0513,1893126430,Female,23,18-29,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,PA,Agnostic,Very liberal,1.8891395510123,20260831
+LP0514,1894334220,Female,26,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Independent,DE,Something else,Moderate,1.59944392036286,20260831
+LP0515,1894415336,Female,24,18-29,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,CA,Mormon,Moderate,1.61824027458589,20260831
+LP0516,1894436398,Female,27,18-29,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Republican,ID,Nothing in particular,Conservative,3.13775399516736,20260831
+LP0517,1895516814,Female,29,18-29,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,MS,Protestant,Conservative,2.64350858821135,20260831
+LP0518,1895879322,Female,28,18-29,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,FL,Protestant,Very conservative,0.52579663481498,20260831
+LP0519,1900237716,Female,23,18-29,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Democrat,NJ,Jewish,Liberal,2.99317722041983,20260831
+LP0520,1900937370,Female,24,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,CA,Nothing in particular,,1.46892828267202,20260831
+LP0521,1902852532,Female,28,18-29,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,GA,Nothing in particular,Moderate,0.802376607131215,20260831
+LP0522,1904297402,Female,26,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,OK,Nothing in particular,Moderate,1.05641476639913,20260831
+LP0523,1904329570,Female,19,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,KS,Something else,Moderate,2.18124671823904,20260831
+LP0524,1905990492,Female,23,18-29,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,WI,Protestant,Conservative,1.04357343840167,20260831
+LP0525,1906095720,Female,19,18-29,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,WV,Nothing in particular,Conservative,13.1841712680944,20260831
+LP0526,1906136276,Female,21,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,WA,Nothing in particular,Moderate,13.7804942888017,20260831
+LP0527,1906152774,Female,28,18-29,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Other,OH,Nothing in particular,,1.07738637208281,20260831
+LP0528,1907202052,Female,22,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,IN,Protestant,Very conservative,5.44890957768138,20260831
+LP0529,1907446068,Female,26,18-29,White / Caucasian,Less than high school,False,"Less than $30,000",False,Other,PA,Nothing in particular,Moderate,1.62293591859438,20260831
+LP0530,1907810424,Female,22,18-29,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Republican,WI,Protestant,Very conservative,1.12121123911622,20260831
+LP0531,1907870812,Female,23,18-29,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Republican,MS,Protestant,Very conservative,1.34060372823501,20260831
+LP0532,1907880064,Female,19,18-29,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,NC,Protestant,Conservative,0.187725625880729,20260831
+LP0533,1909333702,Female,21,18-29,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,NE,Agnostic,Liberal,1.05956266564389,20260831
+LP0534,1909851188,Female,27,18-29,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Other,NY,Protestant,,4.45615613726701,20260831
+LP0535,1909854802,Female,18,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,SD,Protestant,Very conservative,2.60118066421991,20260831
+LP0536,1911182528,Female,26,18-29,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,MS,Protestant,Moderate,1.60747899042478,20260831
+LP0537,1873110306,Female,23,18-29,Black / African American,Less than high school,False,"Less than $30,000",False,Other,IL,Nothing in particular,Moderate,2.21852273886925,20260831
+LP0538,1882689580,Female,23,18-29,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,TX,Protestant,Moderate,13.6128513346066,20260831
+LP0539,1884566984,Female,24,18-29,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,DE,Agnostic,Liberal,0.447217288822268,20260831
+LP0540,1884611756,Female,24,18-29,Black / African American,Some college or Associate's degree,False,"$168,000 or more",False,Democrat,TX,Agnostic,Very liberal,2.04177670821162,20260831
+LP0541,1885021144,Female,28,18-29,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",True,Independent,NC,Nothing in particular,Liberal,13.6128513346066,20260831
+LP0542,1885709400,Female,29,18-29,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Other,MO,Something else,Liberal,7.65779263618716,20260831
+LP0543,1892702494,Female,27,18-29,Black / African American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,MS,Protestant,Liberal,0.810591012189733,20260831
+LP0544,1892825068,Female,18,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Republican,OH,Roman Catholic,Moderate,4.39360499230008,20260831
+LP0545,1894342856,Female,26,18-29,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,AL,Protestant,Liberal,1.0616775136421,20260831
+LP0546,1898231252,Female,29,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Other,TN,Nothing in particular,,5.45406047082239,20260831
+LP0547,1902305064,Female,18,18-29,Black / African American,Less than high school,False,"$56,000 to $99,999",False,Independent,FL,Protestant,,9.62712811352634,20260831
+LP0548,1903330976,Female,25,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,NV,Protestant,Moderate,7.4053107615319,20260831
+LP0549,1904194340,Female,23,18-29,Black / African American,High school diploma / GED,False,"$56,000 to $99,999",False,Other,CA,Nothing in particular,,0.0578580016017891,20260831
+LP0550,1863753606,Female,22,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",True,Republican,TX,Something else,,1.17714383320588,20260831
+LP0551,1864595046,Female,20,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$168,000 or more",False,Independent,CA,Agnostic,Moderate,0.0407342743169122,20260831
+LP0552,1882413836,Female,28,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Other,OK,Roman Catholic,,2.39256682706276,20260831
+LP0553,1882415004,Female,28,18-29,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Other,CA,Nothing in particular,Moderate,8.68966267623254,20260831
+LP0554,1882418730,Female,19,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Democrat,MA,Roman Catholic,,3.82650909777595,20260831
+LP0555,1882426280,Female,29,18-29,Hispanic / Latino,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,PA,Muslim,Conservative,1.21459801999172,20260831
+LP0556,1882428782,Female,22,18-29,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Other,AK,Agnostic,Moderate,3.23954539843103,20260831
+LP0557,1882435896,Female,27,18-29,Hispanic / Latino,Master's degree / Professional degree,True,"Less than $30,000",False,Democrat,FL,Roman Catholic,Liberal,0.518463142440912,20260831
+LP0558,1882439386,Female,21,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,FL,Nothing in particular,Liberal,13.3824296501195,20260831
+LP0559,1885551842,Female,25,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,CA,Atheist,Liberal,0.278859587554099,20260831
+LP0560,1886019452,Female,28,18-29,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,GA,Protestant,Moderate,3.97434188651637,20260831
+LP0561,1888721546,Female,23,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,IL,Muslim,Conservative,1.35836933452792,20260831
+LP0562,1890791808,Female,20,18-29,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Democrat,NY,Roman Catholic,Liberal,1.95967159507678,20260831
+LP0563,1891832756,Female,25,18-29,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,NY,Roman Catholic,Moderate,0.661382784382735,20260831
+LP0564,1891955878,Female,27,18-29,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,TX,Something else,,0.0531533507830978,20260831
+LP0565,1893548530,Female,29,18-29,Hispanic / Latino,Bachelor's degree,False,"Less than $30,000",False,Democrat,FL,Agnostic,Very liberal,3.17515427133862,20260831
+LP0566,1894254690,Female,22,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Other,OR,Roman Catholic,,13.1900332830714,20260831
+LP0567,1896207624,Female,21,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",True,Democrat,TX,Roman Catholic,Moderate,0.0798044791030878,20260831
+LP0568,1900077254,Female,18,18-29,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Republican,DE,Nothing in particular,Moderate,1.38986732413019,20260831
+LP0569,1901300626,Female,18,18-29,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,CA,Roman Catholic,,3.18610566222087,20260831
+LP0570,1902340674,Female,18,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Independent,NM,Something else,,1.29299894433516,20260831
+LP0571,1904312836,Female,26,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,CA,Roman Catholic,Moderate,7.93452550777048,20260831
+LP0572,1904356526,Female,22,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Independent,NY,Nothing in particular,Very liberal,3.46552090760134,20260831
+LP0573,1906550998,Female,25,18-29,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Democrat,VA,Nothing in particular,Moderate,2.17344371144523,20260831
+LP0574,1907319468,Female,20,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,NY,Protestant,Moderate,4.65454954482197,20260831
+LP0575,1862039840,Female,27,18-29,Asian / Asian American,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Other,NY,Atheist,Very liberal,0.684313650005588,20260831
+LP0576,1884572032,Female,18,18-29,Asian / Asian American,Less than high school,False,"$30,000 to $55,999",True,Democrat,TX,Buddhist,Liberal,6.70534805289352,20260831
+LP0577,1885178188,Female,28,18-29,Asian / Asian American,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,CA,Muslim,Liberal,1.00234576570179,20260831
+LP0578,1906113724,Female,19,18-29,Asian / Asian American,Some college or Associate's degree,False,"$168,000 or more",False,Democrat,TX,Eastern or Greek Orthodox,Moderate,0.822396981957358,20260831
+LP0579,1906482050,Female,21,18-29,Asian / Asian American,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,CA,Nothing in particular,Moderate,1.63457310415612,20260831
+LP0580,1907453466,Female,29,18-29,Asian / Asian American,Master's degree / Professional degree,True,"Less than $30,000",False,Other,NE,Muslim,,2.64554243938761,20260831
+LP0581,1908078994,Female,29,18-29,Asian / Asian American,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,CA,Nothing in particular,Moderate,2.08290413408186,20260831
+LP0582,1878608158,Female,23,18-29,Other,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,PA,Nothing in particular,Moderate,2.24386420234973,20260831
+LP0583,1886075986,Female,29,18-29,Other,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,PA,Nothing in particular,Very liberal,1.57495915152654,20260831
+LP0584,1902064594,Female,18,18-29,Other,Less than high school,False,"$56,000 to $99,999",False,Republican,MO,Protestant,Conservative,2.85660835314621,20260831
+LP0585,1856090416,Female,32,30-44,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Independent,TX,Nothing in particular,Moderate,0.78021913306159,20260831
+LP0586,1863461084,Female,39,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,SC,Eastern or Greek Orthodox,Very conservative,1.53580774981964,20260831
+LP0587,1866691390,Female,38,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,SC,Something else,,5.70663449168084,20260831
+LP0588,1870033226,Female,40,30-44,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Democrat,VA,Atheist,Liberal,5.93959075081651,20260831
+LP0589,1870066408,Female,30,30-44,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,OH,Atheist,Very liberal,0.265318857659561,20260831
+LP0590,1870930230,Female,38,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,VA,Mormon,Conservative,1.35017788416111,20260831
+LP0591,1870930682,Female,35,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Other,OH,Nothing in particular,,7.82468818135977,20260831
+LP0592,1870931476,Female,43,30-44,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,OH,Nothing in particular,Liberal,0.551340429998275,20260831
+LP0593,1870931516,Female,39,30-44,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",False,Republican,OK,Mormon,Conservative,1.76250991291587,20260831
+LP0594,1870932974,Female,43,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Republican,TN,Protestant,Very conservative,2.22703315695511,20260831
+LP0595,1871117822,Female,41,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Other,WI,Something else,,2.45148466879678,20260831
+LP0596,1872224500,Female,41,30-44,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Independent,PA,Roman Catholic,Moderate,1.72999039448126,20260831
+LP0597,1872830442,Female,41,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,FL,Jewish,Moderate,3.43072750831139,20260831
+LP0598,1872862470,Female,42,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,IL,Nothing in particular,Moderate,6.55561422466456,20260831
+LP0599,1872863616,Female,34,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,AR,Agnostic,Very liberal,1.49467889445766,20260831
+LP0600,1872866594,Female,43,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,NJ,Nothing in particular,Liberal,11.4100311483459,20260831
+LP0601,1873027718,Female,39,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Independent,IN,Protestant,Conservative,4.16307039172076,20260831
+LP0602,1873667794,Female,35,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,PA,Protestant,Moderate,9.59452033175453,20260831
+LP0603,1874374650,Female,33,30-44,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,CA,Jewish,Moderate,1.77868688134211,20260831
+LP0604,1874975998,Female,38,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,MS,Protestant,Very conservative,1.50892697529607,20260831
+LP0605,1877174428,Female,34,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,NY,Roman Catholic,Moderate,1.86708403655613,20260831
+LP0606,1877398472,Female,32,30-44,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Independent,TX,Roman Catholic,Liberal,0.78021913306159,20260831
+LP0607,1878648456,Female,37,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Other,IN,Nothing in particular,,3.99839324957465,20260831
+LP0608,1880406588,Female,36,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,NY,Roman Catholic,Conservative,2.05344969101562,20260831
+LP0609,1880407904,Female,34,30-44,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,NE,Protestant,Very conservative,1.888915378832,20260831
+LP0610,1880413356,Female,36,30-44,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,PA,Agnostic,Liberal,0.721712317075634,20260831
+LP0611,1880927824,Female,43,30-44,White / Caucasian,Master's degree / Professional degree,True,"Less than $30,000",False,Democrat,OK,Protestant,Very liberal,1.21781816259832,20260831
+LP0612,1882149366,Female,44,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,AK,Nothing in particular,Moderate,2.35823302954585,20260831
+LP0613,1882850166,Female,31,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Other,CO,Nothing in particular,Moderate,1.55096337937111,20260831
+LP0614,1885454098,Female,37,30-44,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Republican,NM,Protestant,Very conservative,2.96367422129047,20260831
+LP0615,1886636992,Female,44,30-44,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,MS,Protestant,Very conservative,1.7883624973243,20260831
+LP0616,1888420504,Female,36,30-44,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,NY,Roman Catholic,Moderate,12.4440026991133,20260831
+LP0617,1889023726,Female,39,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,PA,Nothing in particular,Moderate,1.09560491514545,20260831
+LP0618,1889755766,Female,34,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,MD,Nothing in particular,Moderate,0.184378880668,20260831
+LP0619,1892388040,Female,44,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,NY,Something else,Conservative,0.569203968721092,20260831
+LP0620,1892682316,Female,31,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,FL,Protestant,Conservative,4.87910503753629,20260831
+LP0621,1892746764,Female,36,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,MD,Nothing in particular,,5.51301894280154,20260831
+LP0622,1892787586,Female,36,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Other,OH,Agnostic,Moderate,0.836761153200786,20260831
+LP0623,1893197540,Female,40,30-44,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Independent,MN,Roman Catholic,Moderate,1.72617603613565,20260831
+LP0624,1893883376,Female,41,30-44,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Independent,VA,Protestant,Moderate,5.93959075081651,20260831
+LP0625,1893960882,Female,44,30-44,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,TN,Protestant,Conservative,3.19350637712164,20260831
+LP0626,1894097590,Female,42,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Democrat,MD,Jewish,Liberal,9.58643922550526,20260831
+LP0627,1894189660,Female,32,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Independent,SD,Agnostic,Liberal,0.935606012736656,20260831
+LP0628,1894260194,Female,42,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,SC,Roman Catholic,Conservative,1.53580774981964,20260831
+LP0629,1894641164,Female,34,30-44,White / Caucasian,Less than high school,False,"$30,000 to $55,999",True,Other,MO,Something else,,1.44337839956714,20260831
+LP0630,1895058836,Female,32,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Republican,SC,Nothing in particular,Conservative,1.53580774981964,20260831
+LP0631,1895527356,Female,30,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,UT,Nothing in particular,Moderate,1.49376877985576,20260831
+LP0632,1896198514,Female,32,30-44,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",False,Democrat,AZ,Protestant,Liberal,0.523918864723468,20260831
+LP0633,1896206738,Female,44,30-44,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Other,TX,Something else,Moderate,8.16388464533334,20260831
+LP0634,1896298822,Female,38,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,CO,Agnostic,Liberal,2.21253462686468,20260831
+LP0635,1896344804,Female,38,30-44,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,OK,Roman Catholic,Moderate,3.03623620418514,20260831
+LP0636,1896527508,Female,39,30-44,White / Caucasian,Less than high school,False,"Less than $30,000",False,Republican,SD,Protestant,Conservative,1.67329126556533,20260831
+LP0637,1896869542,Female,44,30-44,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Republican,LA,Protestant,Conservative,1.05532564810054,20260831
+LP0638,1896869976,Female,42,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,TN,Protestant,Conservative,2.21305000885851,20260831
+LP0639,1896906314,Female,37,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,NY,Protestant,Very conservative,2.96319769418102,20260831
+LP0640,1897589132,Female,36,30-44,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,CA,Roman Catholic,Very liberal,1.7719719584858,20260831
+LP0641,1897771646,Female,40,30-44,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Republican,TX,Mormon,Conservative,2.18595525616936,20260831
+LP0642,1897882002,Female,42,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Democrat,NY,Roman Catholic,Moderate,1.42675811886972,20260831
+LP0643,1897991196,Female,43,30-44,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,DE,Agnostic,Liberal,1.38161848822611,20260831
+LP0644,1898110448,Female,43,30-44,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Independent,ID,Something else,Moderate,8.07542710899444,20260831
+LP0645,1898316114,Female,44,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Republican,GA,Protestant,Conservative,1.42034806933437,20260831
+LP0646,1899072562,Female,31,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,OK,Nothing in particular,Moderate,1.28356868124707,20260831
+LP0647,1899864994,Female,34,30-44,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,MS,Something else,,0.97344339499378,20260831
+LP0648,1899869314,Female,44,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,IN,Atheist,Very liberal,1.23350511014269,20260831
+LP0649,1899885362,Female,33,30-44,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,ID,Nothing in particular,Liberal,8.25646376095714,20260831
+LP0650,1902125740,Female,39,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,KY,Protestant,Moderate,1.13980508868278,20260831
+LP0651,1902241354,Female,44,30-44,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,TX,Protestant,Conservative,1.12346141404845,20260831
+LP0652,1906251436,Female,42,30-44,White / Caucasian,Less than high school,False,"$30,000 to $55,999",False,Republican,LA,Roman Catholic,Moderate,1.63630480576905,20260831
+LP0653,1909583516,Female,44,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,AZ,Protestant,Very liberal,0.356591050690626,20260831
+LP0654,1911084422,Female,32,30-44,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,TX,Nothing in particular,Moderate,13.1841712680944,20260831
+LP0655,1912373686,Female,37,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,AL,Protestant,Liberal,11.72559017511,20260831
+LP0656,1865325716,Female,44,30-44,Black / African American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,FL,Protestant,Moderate,2.84946440141274,20260831
+LP0657,1882421146,Female,43,30-44,Black / African American,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,TX,Protestant,Moderate,3.14770079126032,20260831
+LP0658,1884562886,Female,34,30-44,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Other,AL,Something else,,2.33490103863514,20260831
+LP0659,1888527590,Female,30,30-44,Black / African American,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,FL,Nothing in particular,Very liberal,1.97463429663547,20260831
+LP0660,1890106262,Female,44,30-44,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,PA,Nothing in particular,Moderate,1.23909142661581,20260831
+LP0661,1893282252,Female,43,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Other,SC,Protestant,Conservative,12.9985105226455,20260831
+LP0662,1894288598,Female,37,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,AR,Protestant,Moderate,2.71105173196342,20260831
+LP0663,1895378992,Female,32,30-44,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Other,PA,Nothing in particular,,1.25939174585385,20260831
+LP0664,1895512952,Female,40,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,TX,Nothing in particular,Liberal,0.202234082970435,20260831
+LP0665,1898234544,Female,42,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,TX,Something else,Moderate,1.52336094035039,20260831
+LP0666,1900241052,Female,42,30-44,Black / African American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,GA,Nothing in particular,Liberal,4.38152711499259,20260831
+LP0667,1902168310,Female,34,30-44,Black / African American,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Democrat,VA,Protestant,Moderate,5.53837865726524,20260831
+LP0668,1903436754,Female,41,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,MI,Protestant,Moderate,2.03730848685331,20260831
+LP0669,1904019978,Female,39,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,IL,Protestant,Very liberal,1.23659960744252,20260831
+LP0670,1904652496,Female,44,30-44,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,GA,Something else,Moderate,5.4555139213366,20260831
+LP0671,1906590400,Female,33,30-44,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,MI,Muslim,Liberal,0.0621105851623629,20260831
+LP0672,1907225754,Female,37,30-44,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,CA,Nothing in particular,Liberal,0.0470214886056851,20260831
+LP0673,1859560826,Female,40,30-44,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,CA,Roman Catholic,Moderate,0.781174466149809,20260831
+LP0674,1860770028,Female,31,30-44,Hispanic / Latino,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Other,FL,Roman Catholic,Conservative,7.97143291957194,20260831
+LP0675,1864790760,Female,37,30-44,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Other,GA,Roman Catholic,Liberal,4.39969214339074,20260831
+LP0676,1865256246,Female,40,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,FL,Agnostic,Moderate,1.98526761764216,20260831
+LP0677,1873027642,Female,35,30-44,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Other,TX,Nothing in particular,Very liberal,1.33860430866341,20260831
+LP0678,1878418972,Female,40,30-44,Hispanic / Latino,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,CA,Roman Catholic,Liberal,4.53749135331135,20260831
+LP0679,1880413044,Female,35,30-44,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Other,VA,Atheist,Very liberal,1.9586104523808,20260831
+LP0680,1880435788,Female,40,30-44,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,GA,Nothing in particular,,1.14861377293027,20260831
+LP0681,1880444280,Female,40,30-44,Hispanic / Latino,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,DC,Atheist,Liberal,1.14017461395017,20260831
+LP0682,1882438600,Female,30,30-44,Hispanic / Latino,Less than high school,False,"$56,000 to $99,999",False,Independent,TX,Roman Catholic,,4.82056529490317,20260831
+LP0683,1884563076,Female,40,30-44,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Republican,WA,Roman Catholic,Moderate,0.509042743283741,20260831
+LP0684,1885351986,Female,37,30-44,Hispanic / Latino,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,CA,Roman Catholic,Liberal,2.18355476398578,20260831
+LP0685,1886475138,Female,36,30-44,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,CA,Nothing in particular,Moderate,1.62024543622193,20260831
+LP0686,1887473802,Female,43,30-44,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Democrat,NY,Roman Catholic,Moderate,2.0326651348798,20260831
+LP0687,1887944130,Female,38,30-44,Hispanic / Latino,Bachelor's degree,False,"$30,000 to $55,999",True,Other,MA,Jewish,Very liberal,0.722455575006723,20260831
+LP0688,1892810842,Female,35,30-44,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Independent,TX,Nothing in particular,Very liberal,0.165436312178128,20260831
+LP0689,1893821488,Female,41,30-44,Hispanic / Latino,High school diploma / GED,False,"$100,000 to $167,999",False,Independent,CO,Roman Catholic,Moderate,6.28130187216026,20260831
+LP0690,1894167830,Female,32,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,CA,Roman Catholic,Moderate,1.07208387302458,20260831
+LP0691,1895515446,Female,38,30-44,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,FL,Roman Catholic,Moderate,1.6533630390647,20260831
+LP0692,1895531962,Female,32,30-44,Hispanic / Latino,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,CA,Protestant,Very liberal,2.61759987275426,20260831
+LP0693,1895679594,Female,32,30-44,Hispanic / Latino,Bachelor's degree,False,"Less than $30,000",False,Other,OR,Nothing in particular,,2.12800313092745,20260831
+LP0694,1896295410,Female,32,30-44,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Other,MA,Protestant,,3.22183941628016,20260831
+LP0695,1898185212,Female,44,30-44,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,AZ,Nothing in particular,Very liberal,0.860529073817236,20260831
+LP0696,1898198162,Female,36,30-44,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Other,WA,Protestant,,12.3914792094921,20260831
+LP0697,1902288308,Female,31,30-44,Hispanic / Latino,Master's degree / Professional degree,True,"$168,000 or more",True,Independent,NC,Protestant,Very conservative,4.61456539087668,20260831
+LP0698,1904627412,Female,31,30-44,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,IL,Atheist,,1.41296474225533,20260831
+LP0699,1905972480,Female,31,30-44,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",True,Democrat,TX,Roman Catholic,Moderate,2.52103831887606,20260831
+LP0700,1861530504,Female,44,30-44,Asian / Asian American,Bachelor's degree,False,"$168,000 or more",False,Democrat,CA,Nothing in particular,Liberal,0.94501377124574,20260831
+LP0701,1864922684,Female,36,30-44,Asian / Asian American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,IL,Buddhist,Liberal,2.23127618862917,20260831
+LP0702,1869811128,Female,36,30-44,Asian / Asian American,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,TX,Protestant,Moderate,13.5825125578046,20260831
+LP0703,1870930864,Female,39,30-44,Asian / Asian American,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,IL,Atheist,Liberal,1.17350654884924,20260831
+LP0704,1870931752,Female,36,30-44,Asian / Asian American,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,CT,Nothing in particular,Liberal,1.47939924497127,20260831
+LP0705,1873816316,Female,44,30-44,Asian / Asian American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,OH,Nothing in particular,Liberal,3.14746853593229,20260831
+LP0706,1880444416,Female,41,30-44,Asian / Asian American,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,CA,Hindu,Moderate,13.6128513346066,20260831
+LP0707,1898504548,Female,37,30-44,Asian / Asian American,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,CO,Protestant,Moderate,3.19846901990243,20260831
+LP0708,1899869684,Female,33,30-44,Asian / Asian American,Master's degree / Professional degree,True,"$168,000 or more",False,Independent,NY,Nothing in particular,Moderate,1.03115292827003,20260831
+LP0709,1870719068,Female,32,30-44,Other,Bachelor's degree,False,"Less than $30,000",False,Democrat,TX,Nothing in particular,Very conservative,1.32306449430273,20260831
+LP0710,1872747772,Female,39,30-44,Other,Bachelor's degree,False,"Less than $30,000",False,Democrat,IL,Protestant,Liberal,0.61885052888252,20260831
+LP0711,1885371012,Female,40,30-44,Other,Bachelor's degree,False,"$56,000 to $99,999",False,Other,MI,Agnostic,Very liberal,0.369147772779137,20260831
+LP0712,1899862402,Female,38,30-44,Other,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,AK,Protestant,Conservative,2.07193914779885,20260831
+LP0713,1861640882,Female,48,45-59,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Democrat,MA,Nothing in particular,Very liberal,13.6128513346066,20260831
+LP0714,1862935452,Female,46,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,TX,Nothing in particular,Moderate,1.38607360657542,20260831
+LP0715,1864109196,Female,54,45-59,White / Caucasian,Master's degree / Professional degree,True,"Less than $30,000",False,Independent,CT,Roman Catholic,Moderate,1.48088345603426,20260831
+LP0716,1865903146,Female,52,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,OH,Nothing in particular,,0.917131347363716,20260831
+LP0717,1869584102,Female,55,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,WI,Protestant,Conservative,13.1841712680944,20260831
+LP0718,1870929438,Female,59,45-59,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,OK,Something else,Moderate,1.01095646513723,20260831
+LP0719,1870931382,Female,59,45-59,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Democrat,NM,Agnostic,Liberal,1.23445598053674,20260831
+LP0720,1870932284,Female,45,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,CO,Nothing in particular,Moderate,0.346640345257586,20260831
+LP0721,1870934504,Female,47,45-59,White / Caucasian,Less than high school,False,"Less than $30,000",False,Independent,KY,Nothing in particular,,3.59965471644875,20260831
+LP0722,1872861332,Female,58,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,IL,Roman Catholic,Moderate,0.917788275657702,20260831
+LP0723,1872861988,Female,46,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,VA,Buddhist,Very liberal,1.05380594203973,20260831
+LP0724,1872863322,Female,48,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,ME,Something else,Very liberal,0.847405809216151,20260831
+LP0725,1872864568,Female,58,45-59,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,FL,Jewish,Liberal,0.83310335604129,20260831
+LP0726,1873027968,Female,46,45-59,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,TN,Protestant,Very liberal,0.788103040039562,20260831
+LP0727,1875483476,Female,57,45-59,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,FL,Jewish,Very conservative,1.15480010792229,20260831
+LP0728,1877099646,Female,53,45-59,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,UT,Mormon,Moderate,2.21970173657601,20260831
+LP0729,1878647110,Female,55,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,NJ,Atheist,Very liberal,13.6128513346066,20260831
+LP0730,1879123678,Female,59,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Other,MN,Roman Catholic,Moderate,0.806089106243773,20260831
+LP0731,1880123728,Female,57,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,AR,Protestant,Very conservative,1.12982372739414,20260831
+LP0732,1880403322,Female,53,45-59,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,IN,Protestant,Moderate,1.16080874973307,20260831
+LP0733,1880404276,Female,53,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,MN,Atheist,Very liberal,0.65222655252094,20260831
+LP0734,1880406960,Female,49,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,KS,Protestant,Moderate,0.712753851852052,20260831
+LP0735,1880409120,Female,53,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,MD,Nothing in particular,Moderate,1.45598742453281,20260831
+LP0736,1880409512,Female,52,45-59,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,MD,Protestant,Moderate,1.6562211581227,20260831
+LP0737,1880412824,Female,54,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,NY,Roman Catholic,Conservative,0.633778915880415,20260831
+LP0738,1880412992,Female,55,45-59,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,WI,Atheist,Liberal,1.35108349959068,20260831
+LP0739,1880413668,Female,58,45-59,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,PA,Roman Catholic,Conservative,0.975468974563372,20260831
+LP0740,1881517540,Female,45,45-59,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Other,CA,Eastern or Greek Orthodox,Moderate,0.724156295437205,20260831
+LP0741,1882346316,Female,56,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Other,IN,Protestant,,3.55567795923512,20260831
+LP0742,1885819720,Female,59,45-59,White / Caucasian,High school diploma / GED,False,"$168,000 or more",True,Independent,NY,Roman Catholic,Conservative,0.661887502564812,20260831
+LP0743,1886372576,Female,55,45-59,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,GA,Roman Catholic,Conservative,0.694028817400384,20260831
+LP0744,1886844962,Female,51,45-59,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,LA,Roman Catholic,Very conservative,0.603011506027355,20260831
+LP0745,1888214360,Female,46,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,PA,Protestant,Very conservative,0.276265729724656,20260831
+LP0746,1888820274,Female,59,45-59,White / Caucasian,Less than high school,False,"Less than $30,000",False,Independent,CA,Agnostic,Moderate,1.75256280606876,20260831
+LP0747,1889130098,Female,56,45-59,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Independent,OK,Protestant,Conservative,2.41349617646037,20260831
+LP0748,1891711132,Female,53,45-59,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,FL,Protestant,Conservative,1.6664158036143,20260831
+LP0749,1892043810,Female,50,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Republican,MI,Something else,Conservative,1.79738107934114,20260831
+LP0750,1892175172,Female,55,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,WI,Nothing in particular,Very conservative,0.747579655766615,20260831
+LP0751,1892239332,Female,52,45-59,White / Caucasian,Less than high school,False,"$30,000 to $55,999",True,Democrat,FL,Nothing in particular,Very liberal,5.56506834796216,20260831
+LP0752,1893659820,Female,59,45-59,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Independent,TX,Roman Catholic,Moderate,0.354809391492136,20260831
+LP0753,1893806606,Female,48,45-59,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",False,Republican,TN,Protestant,Conservative,1.6437580845224,20260831
+LP0754,1893981256,Female,56,45-59,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,CA,Roman Catholic,Moderate,1.07543158940539,20260831
+LP0755,1894191770,Female,47,45-59,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Republican,IL,Protestant,Conservative,8.12024705735234,20260831
+LP0756,1894505654,Female,51,45-59,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,MO,Protestant,Very conservative,1.70898607548772,20260831
+LP0757,1895187194,Female,56,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Other,AL,Nothing in particular,,4.54799416841201,20260831
+LP0758,1895348496,Female,45,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,MI,Protestant,Moderate,0.761085535567856,20260831
+LP0759,1895944232,Female,48,45-59,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,MI,Protestant,Conservative,1.79738107934114,20260831
+LP0760,1896604434,Female,54,45-59,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Independent,VA,Protestant,Conservative,1.6866063694599,20260831
+LP0761,1896752624,Female,55,45-59,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Republican,NY,Protestant,Very conservative,3.11228874984052,20260831
+LP0762,1897528628,Female,52,45-59,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Republican,AL,Protestant,Moderate,1.27173982052463,20260831
+LP0763,1897881358,Female,57,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,SC,Roman Catholic,Liberal,0.59609122449704,20260831
+LP0764,1897885446,Female,54,45-59,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,SC,Nothing in particular,Moderate,0.59609122449704,20260831
+LP0765,1898064894,Female,55,45-59,White / Caucasian,Bachelor's degree,False,"Less than $30,000",False,Independent,AZ,Protestant,Conservative,1.88331565105742,20260831
+LP0766,1898314686,Female,56,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,MT,Nothing in particular,Very conservative,0.768968766793618,20260831
+LP0767,1898317612,Female,59,45-59,White / Caucasian,Some college or Associate's degree,False,"$168,000 or more",True,Independent,OK,Protestant,Moderate,0.675903072175711,20260831
+LP0768,1898324532,Female,47,45-59,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,AL,Nothing in particular,,1.14475785825029,20260831
+LP0769,1899095290,Female,55,45-59,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,IN,Protestant,Conservative,1.58307311515085,20260831
+LP0770,1899858468,Female,58,45-59,White / Caucasian,Less than high school,False,"$30,000 to $55,999",False,Other,AL,Nothing in particular,,1.96746870817794,20260831
+LP0771,1899868140,Female,53,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,IN,Roman Catholic,Very liberal,2.05549591068839,20260831
+LP0772,1899888706,Female,55,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,NJ,Agnostic,Very liberal,0.389445211975207,20260831
+LP0773,1900224036,Female,50,45-59,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Independent,ME,Nothing in particular,Moderate,0.854457773652705,20260831
+LP0774,1902218006,Female,57,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,FL,Something else,Liberal,1.16710915167786,20260831
+LP0775,1909850458,Female,46,45-59,White / Caucasian,Less than high school,False,"Less than $30,000",False,Other,OH,Nothing in particular,Conservative,1.57625231766058,20260831
+LP0776,1911050036,Female,50,45-59,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,VA,Protestant,Moderate,0.495494933406109,20260831
+LP0777,1855899618,Female,53,45-59,Black / African American,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Republican,AL,Protestant,Very conservative,1.25555921205766,20260831
+LP0778,1861584930,Female,45,45-59,Black / African American,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,NY,Protestant,Moderate,0.615654309440071,20260831
+LP0779,1869647552,Female,50,45-59,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Independent,TX,Nothing in particular,Moderate,1.12808009980879,20260831
+LP0780,1870931020,Female,46,45-59,Black / African American,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,SC,Something else,Very liberal,1.59996783136349,20260831
+LP0781,1870931924,Female,58,45-59,Black / African American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,FL,Nothing in particular,Liberal,0.886686382286479,20260831
+LP0782,1872940600,Female,58,45-59,Black / African American,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,IN,Protestant,Very liberal,0.199449071011502,20260831
+LP0783,1873028682,Female,51,45-59,Black / African American,Bachelor's degree,False,"$30,000 to $55,999",True,Independent,DE,Something else,Moderate,1.45957882309853,20260831
+LP0784,1877047246,Female,55,45-59,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,IL,Roman Catholic,Very conservative,0.749358297458576,20260831
+LP0785,1884561250,Female,50,45-59,Black / African American,Less than high school,False,"Less than $30,000",False,Democrat,AL,Something else,Very conservative,10.5370409896372,20260831
+LP0786,1887084284,Female,56,45-59,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,NY,Roman Catholic,Very liberal,0.509222513193199,20260831
+LP0787,1894285764,Female,56,45-59,Black / African American,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,GA,Protestant,,1.05298687943131,20260831
+LP0788,1899860426,Female,50,45-59,Black / African American,Master's degree / Professional degree,True,"$168,000 or more",True,Democrat,LA,Something else,Very liberal,1.81786827406138,20260831
+LP0789,1900222360,Female,45,45-59,Black / African American,Bachelor's degree,False,"$30,000 to $55,999",True,Democrat,MS,Agnostic,Liberal,0.711892459849429,20260831
+LP0790,1902288424,Female,57,45-59,Black / African American,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,GA,Protestant,Very conservative,1.37500261267017,20260831
+LP0791,1902363462,Female,45,45-59,Black / African American,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,NC,Protestant,Liberal,1.57453169995135,20260831
+LP0792,1902924256,Female,58,45-59,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",True,Other,GA,Protestant,Very conservative,7.06344928139285,20260831
+LP0793,1861361550,Female,59,45-59,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Republican,IN,Nothing in particular,,0.102233486785278,20260831
+LP0794,1861664794,Female,54,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,TX,Roman Catholic,Moderate,0.684738385592325,20260831
+LP0795,1870931876,Female,54,45-59,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Independent,OH,Nothing in particular,Conservative,3.61419464272108,20260831
+LP0796,1872863206,Female,57,45-59,Hispanic / Latino,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,FL,Roman Catholic,Liberal,1.94269221586771,20260831
+LP0797,1873028450,Female,58,45-59,Hispanic / Latino,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,VA,Nothing in particular,Very liberal,1.3038761515974,20260831
+LP0798,1877206256,Female,59,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",True,Democrat,PA,Something else,Moderate,0.874414540129383,20260831
+LP0799,1882442834,Female,54,45-59,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Democrat,VA,Protestant,Very conservative,1.23191545145636,20260831
+LP0800,1882443128,Female,52,45-59,Hispanic / Latino,Less than high school,False,"$168,000 or more",False,Other,CA,Nothing in particular,,13.7804942888017,20260831
+LP0801,1884444360,Female,51,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,NC,Protestant,Moderate,3.99523774514222,20260831
+LP0802,1887191134,Female,45,45-59,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Democrat,NY,Roman Catholic,Very liberal,0.530254487734216,20260831
+LP0803,1888534334,Female,50,45-59,Hispanic / Latino,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,NC,Roman Catholic,Moderate,2.90024116692503,20260831
+LP0804,1888759786,Female,46,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,IN,Roman Catholic,Conservative,0.929376936452844,20260831
+LP0805,1894116070,Female,51,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,TX,Nothing in particular,Liberal,0.472438436793328,20260831
+LP0806,1894187830,Female,49,45-59,Hispanic / Latino,Bachelor's degree,False,"$30,000 to $55,999",True,Republican,TX,Roman Catholic,Moderate,1.06351408266442,20260831
+LP0807,1894282504,Female,52,45-59,Hispanic / Latino,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,CA,Roman Catholic,Very liberal,1.0411010147775,20260831
+LP0808,1895518142,Female,47,45-59,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,GA,Nothing in particular,Moderate,1.95797894322674,20260831
+LP0809,1898112126,Female,54,45-59,Hispanic / Latino,Bachelor's degree,False,"$168,000 or more",False,Independent,TX,Protestant,Moderate,1.53468696665347,20260831
+LP0810,1898483602,Female,51,45-59,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Democrat,NC,Nothing in particular,,6.27990337831329,20260831
+LP0811,1903579802,Female,56,45-59,Hispanic / Latino,Less than high school,False,"$56,000 to $99,999",False,Independent,FL,Nothing in particular,Moderate,1.23563098328557,20260831
+LP0812,1907150532,Female,54,45-59,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Democrat,TX,Nothing in particular,Liberal,2.17540652605989,20260831
+LP0813,1855247904,Female,56,45-59,Asian / Asian American,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,CA,Hindu,Very liberal,2.49266510754912,20260831
+LP0814,1856044644,Female,45,45-59,Asian / Asian American,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,NY,Roman Catholic,Liberal,1.82780225982442,20260831
+LP0815,1860326798,Female,49,45-59,Asian / Asian American,Bachelor's degree,False,"$168,000 or more",False,Other,MI,Nothing in particular,Very liberal,0.189321038446803,20260831
+LP0816,1869562418,Female,58,45-59,Asian / Asian American,Some college or Associate's degree,False,"Less than $30,000",False,Other,CA,Protestant,Conservative,1.52060078894482,20260831
+LP0817,1870933630,Female,46,45-59,Asian / Asian American,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Democrat,CA,Protestant,Moderate,2.49266510754912,20260831
+LP0818,1873030484,Female,53,45-59,Asian / Asian American,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,CA,Roman Catholic,Very conservative,1.87599872623669,20260831
+LP0819,1878440202,Female,57,45-59,Asian / Asian American,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,WA,Nothing in particular,,4.50191198249925,20260831
+LP0820,1879853694,Female,58,45-59,Asian / Asian American,Bachelor's degree,False,"$30,000 to $55,999",True,Republican,FL,Mormon,Conservative,4.1516944555543,20260831
+LP0821,1890937850,Female,55,45-59,Asian / Asian American,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,FL,Atheist,Very liberal,2.07558676332672,20260831
+LP0822,1900241568,Female,54,45-59,Asian / Asian American,Bachelor's degree,False,"Less than $30,000",False,Republican,FL,Nothing in particular,Moderate,2.88795974251906,20260831
+LP0823,1906204020,Female,46,45-59,Asian / Asian American,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,WA,Nothing in particular,,2.19101462613657,20260831
+LP0824,1861249068,Female,53,45-59,Other,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,HI,Mormon,Liberal,0.808979716793819,20260831
+LP0825,1870580280,Female,58,45-59,Other,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Democrat,IN,Nothing in particular,Very liberal,0.853006942054902,20260831
+LP0826,1889659898,Female,57,45-59,Other,Bachelor's degree,False,"Less than $30,000",False,Democrat,WI,Something else,Liberal,0.882242012464779,20260831
+LP0827,1836952792,Female,64,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,PA,Protestant,Conservative,0.574088353778535,20260831
+LP0828,1854697284,Female,64,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,CT,Roman Catholic,Liberal,1.6420396890029,20260831
+LP0829,1860708516,Female,64,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Democrat,IL,Nothing in particular,Moderate,1.08076609488822,20260831
+LP0830,1861295954,Female,73,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,MN,Protestant,Conservative,1.5413952549695,20260831
+LP0831,1861317136,Female,74,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,MI,Protestant,Liberal,0.548907835484297,20260831
+LP0832,1861813004,Female,73,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,MI,Roman Catholic,Moderate,2.7811716955911,20260831
+LP0833,1861882832,Female,65,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,WA,Atheist,Liberal,0.551484246944825,20260831
+LP0834,1864365086,Female,60,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,IA,Protestant,Very conservative,0.408900299012321,20260831
+LP0835,1864406660,Female,74,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Other,FL,Roman Catholic,Very conservative,1.12027916712868,20260831
+LP0836,1864659286,Female,66,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,NY,Roman Catholic,Moderate,0.624433858824861,20260831
+LP0837,1865490614,Female,79,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,OR,Agnostic,Liberal,0.654940947948392,20260831
+LP0838,1866043902,Female,71,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,FL,Protestant,Conservative,1.00469882804004,20260831
+LP0839,1866261030,Female,69,60+,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",True,Independent,IN,Roman Catholic,Moderate,0.495233186225317,20260831
+LP0840,1867000780,Female,75,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",True,Independent,IL,Protestant,Moderate,1.23567339002064,20260831
+LP0841,1867026518,Female,71,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Republican,OH,Protestant,Conservative,1.40614989683544,20260831
+LP0842,1867108788,Female,71,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,MO,Protestant,Very conservative,1.162162771543,20260831
+LP0843,1867435690,Female,71,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,WV,Protestant,Very conservative,1.70183485704804,20260831
+LP0844,1869600636,Female,61,60+,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Republican,CA,Protestant,Conservative,2.97750168441518,20260831
+LP0845,1870562926,Female,81,60+,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,OR,Roman Catholic,Conservative,0.639911404961997,20260831
+LP0846,1870928660,Female,62,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,NY,Nothing in particular,Very liberal,0.503773915859699,20260831
+LP0847,1870929654,Female,61,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,NJ,Protestant,Moderate,1.03083643692755,20260831
+LP0848,1870932874,Female,78,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,FL,Roman Catholic,Moderate,0.502286382327561,20260831
+LP0849,1870934536,Female,78,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Other,AL,Jewish,Very liberal,0.64082946830848,20260831
+LP0850,1872830450,Female,69,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,LA,Roman Catholic,Moderate,7.66878289364853,20260831
+LP0851,1872860542,Female,79,60+,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,TN,Protestant,Very liberal,0.199118680979683,20260831
+LP0852,1872860752,Female,64,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,WY,Protestant,Moderate,4.69682295071702,20260831
+LP0853,1872861472,Female,85,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,WI,Roman Catholic,Moderate,0.531960902138501,20260831
+LP0854,1872863480,Female,63,60+,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,TX,Protestant,Moderate,0.801309781500946,20260831
+LP0855,1873025222,Female,76,60+,White / Caucasian,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Independent,CO,Agnostic,Liberal,1.23694845102027,20260831
+LP0856,1873025260,Female,83,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,WI,Protestant,Conservative,0.70412507284279,20260831
+LP0857,1873025860,Female,68,60+,White / Caucasian,Master's degree / Professional degree,True,"$168,000 or more",True,Democrat,WA,Nothing in particular,Very liberal,2.19381808491827,20260831
+LP0858,1873026484,Female,62,60+,White / Caucasian,Bachelor's degree,False,"$168,000 or more",True,Independent,AZ,Atheist,Moderate,1.05803678707213,20260831
+LP0859,1873027794,Female,62,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,IA,Agnostic,Moderate,0.595437425437352,20260831
+LP0860,1873028390,Female,62,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,VA,Something else,Moderate,0.851226267653146,20260831
+LP0861,1873028490,Female,66,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,NC,Protestant,,2.3092128872689,20260831
+LP0862,1873030342,Female,65,60+,White / Caucasian,Bachelor's degree,False,"$30,000 to $55,999",False,Republican,AR,Protestant,Very conservative,2.1957580769652,20260831
+LP0863,1873030356,Female,84,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Republican,FL,Eastern or Greek Orthodox,Very conservative,1.72796546099918,20260831
+LP0864,1873030384,Female,67,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Independent,FL,Roman Catholic,Moderate,0.776335954266264,20260831
+LP0865,1873030716,Female,63,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,IN,Something else,Moderate,1.17044385514834,20260831
+LP0866,1873030750,Female,65,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,NY,Roman Catholic,Conservative,1.39397363649955,20260831
+LP0867,1873562104,Female,64,60+,White / Caucasian,Less than high school,False,"Less than $30,000",False,Independent,AZ,Something else,Moderate,13.6128513346066,20260831
+LP0868,1874516114,Female,66,60+,White / Caucasian,High school diploma / GED,False,"$100,000 to $167,999",False,Republican,KY,Protestant,Very conservative,1.33569976143406,20260831
+LP0869,1875626670,Female,67,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,WV,Protestant,Moderate,11.7670187451584,20260831
+LP0870,1877891770,Female,62,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,WI,Protestant,Conservative,1.08349748261539,20260831
+LP0871,1877954438,Female,75,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,AR,Protestant,Very liberal,3.50135093376606,20260831
+LP0872,1878460114,Female,67,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,OH,Protestant,Moderate,1.50496065974484,20260831
+LP0873,1878588148,Female,74,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Republican,NY,Jewish,Conservative,1.46248556098672,20260831
+LP0874,1878881182,Female,68,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,FL,Protestant,Conservative,1.00469882804004,20260831
+LP0875,1879174290,Female,66,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,MI,Protestant,Very conservative,1.11378413999029,20260831
+LP0876,1879786874,Female,66,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,OR,Something else,Liberal,0.443880305710538,20260831
+LP0877,1880399762,Female,69,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,OR,Agnostic,Liberal,0.654940947948392,20260831
+LP0878,1880402374,Female,79,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,CA,Protestant,Conservative,0.972861759350401,20260831
+LP0879,1880403934,Female,72,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,NC,Protestant,Very conservative,1.83964493610292,20260831
+LP0880,1880404246,Female,64,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,VA,Protestant,Very conservative,1.13613811464993,20260831
+LP0881,1880405276,Female,69,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,MN,Nothing in particular,Liberal,0.646918682025711,20260831
+LP0882,1880407118,Female,77,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,MO,Protestant,Moderate,1.88630475817545,20260831
+LP0883,1880407506,Female,78,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,CA,Jewish,Liberal,0.881227972272943,20260831
+LP0884,1880409084,Female,70,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Democrat,TN,Nothing in particular,Moderate,0.413774505741663,20260831
+LP0885,1880410710,Female,75,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Republican,AL,Agnostic,Conservative,1.04413386867205,20260831
+LP0886,1880410942,Female,60,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Other,CT,Roman Catholic,,8.77825923594145,20260831
+LP0887,1880411274,Female,64,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,PA,Roman Catholic,Conservative,1.04387264825304,20260831
+LP0888,1880411742,Female,65,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Other,AZ,Something else,Conservative,0.880019319632563,20260831
+LP0889,1880411884,Female,63,60+,White / Caucasian,Master's degree / Professional degree,True,"$30,000 to $55,999",True,Democrat,WA,Roman Catholic,Moderate,2.62285727226733,20260831
+LP0890,1880412106,Female,68,60+,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,NE,Roman Catholic,Very conservative,1.30104718576729,20260831
+LP0891,1880412462,Female,77,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,NC,Protestant,Very conservative,1.27484518938351,20260831
+LP0892,1880428850,Female,68,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,AZ,Roman Catholic,Very conservative,1.18010654600044,20260831
+LP0893,1880429056,Female,81,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,IL,Nothing in particular,Very liberal,2.50233416797625,20260831
+LP0894,1880429182,Female,63,60+,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Republican,SC,Roman Catholic,Moderate,1.04204355170695,20260831
+LP0895,1880429322,Female,64,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Democrat,MN,Nothing in particular,,0.936691821142406,20260831
+LP0896,1880435128,Female,72,60+,White / Caucasian,Bachelor's degree,False,"$56,000 to $99,999",False,Republican,AZ,Roman Catholic,Conservative,1.31568903609707,20260831
+LP0897,1880443004,Female,71,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,OH,Protestant,Very liberal,0.610896511180027,20260831
+LP0898,1880444576,Female,72,60+,White / Caucasian,Less than high school,False,"Less than $30,000",False,Republican,MA,Roman Catholic,Very conservative,2.95888586950707,20260831
+LP0899,1880554078,Female,72,60+,White / Caucasian,Less than high school,False,"$30,000 to $55,999",False,Republican,CO,Nothing in particular,Conservative,3.52976331387987,20260831
+LP0900,1881044368,Female,81,60+,White / Caucasian,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,NY,Jewish,Moderate,0.712818331976843,20260831
+LP0901,1882065756,Female,61,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,PA,Roman Catholic,Moderate,0.39783425688984,20260831
+LP0902,1883421378,Female,61,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,NY,Protestant,Conservative,1.7234769332387,20260831
+LP0903,1883488380,Female,77,60+,White / Caucasian,Bachelor's degree,False,"$100,000 to $167,999",False,Republican,RI,Protestant,Conservative,1.48031707087164,20260831
+LP0904,1885854778,Female,72,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,LA,Roman Catholic,Very conservative,0.354636405397683,20260831
+LP0905,1885957898,Female,67,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,PA,Roman Catholic,Moderate,0.977339041808402,20260831
+LP0906,1885964006,Female,71,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Democrat,PA,Roman Catholic,Moderate,0.977339041808402,20260831
+LP0907,1886185488,Female,85,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,OH,Roman Catholic,Very conservative,1.28119978644134,20260831
+LP0908,1886444730,Female,68,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,CA,Protestant,Very conservative,1.06951235518051,20260831
+LP0909,1886623692,Female,64,60+,White / Caucasian,Bachelor's degree,False,"$168,000 or more",False,Republican,GA,Protestant,Very conservative,1.86378828176726,20260831
+LP0910,1886721628,Female,65,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,TX,Protestant,Very conservative,1.28301516452226,20260831
+LP0911,1888640618,Female,60,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,VA,Protestant,Conservative,0.851226267653146,20260831
+LP0912,1890512006,Female,64,60+,White / Caucasian,Master's degree / Professional degree,True,"$56,000 to $99,999",False,Republican,WA,Protestant,Conservative,5.10465223872617,20260831
+LP0913,1890565488,Female,79,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Independent,ID,Agnostic,Moderate,0.192823616647045,20260831
+LP0914,1891166114,Female,71,60+,White / Caucasian,High school diploma / GED,False,"$168,000 or more",True,Democrat,FL,Protestant,Liberal,0.502286382327561,20260831
+LP0915,1893511674,Female,77,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Republican,OH,Protestant,Conservative,1.51390460761271,20260831
+LP0916,1893650836,Female,77,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,FL,Protestant,Moderate,1.09556972456807,20260831
+LP0917,1895665812,Female,67,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,KY,Something else,Very conservative,1.33569976143406,20260831
+LP0918,1896463008,Female,62,60+,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Republican,KY,Something else,Conservative,1.61373621294862,20260831
+LP0919,1897882190,Female,75,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,AZ,Atheist,Liberal,0.880019319632563,20260831
+LP0920,1897885044,Female,79,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,WA,Nothing in particular,Conservative,1.09444802942466,20260831
+LP0921,1897886510,Female,72,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,OH,Protestant,Conservative,1.1649214876653,20260831
+LP0922,1898314352,Female,66,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,FL,Protestant,Conservative,0.560069300719415,20260831
+LP0923,1898318160,Female,66,60+,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,MN,Protestant,Conservative,0.646918682025711,20260831
+LP0924,1898325074,Female,62,60+,White / Caucasian,Less than high school,False,"Less than $30,000",False,Republican,MD,Roman Catholic,Moderate,1.47658698395261,20260831
+LP0925,1898326964,Female,67,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,NY,Roman Catholic,Moderate,0.926283567566125,20260831
+LP0926,1898327898,Female,82,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Republican,GA,Protestant,Conservative,1.43203716274367,20260831
+LP0927,1898330008,Female,88,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,OR,Nothing in particular,Moderate,0.654940947948392,20260831
+LP0928,1899298016,Female,61,60+,White / Caucasian,Master's degree / Professional degree,True,"Less than $30,000",False,Republican,IL,Protestant,Conservative,0.788702589903363,20260831
+LP0929,1899859422,Female,60,60+,White / Caucasian,Some college or Associate's degree,False,"$100,000 to $167,999",False,Republican,FL,Roman Catholic,Very conservative,1.16710915167786,20260831
+LP0930,1899859642,Female,66,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,KY,Nothing in particular,Conservative,1.1380976998652,20260831
+LP0931,1899859830,Female,66,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,MI,Roman Catholic,Liberal,0.544534178779865,20260831
+LP0932,1899862146,Female,65,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Democrat,IN,Something else,Conservative,0.98618637596647,20260831
+LP0933,1899863928,Female,68,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,NC,Protestant,Very conservative,1.52142499940828,20260831
+LP0934,1899867194,Female,78,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,RI,Roman Catholic,Conservative,0.13499194082982,20260831
+LP0935,1899884762,Female,70,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,CA,Protestant,Conservative,0.717741100238591,20260831
+LP0936,1899885060,Female,70,60+,White / Caucasian,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,FL,Roman Catholic,Moderate,0.560069300719415,20260831
+LP0937,1902146898,Female,65,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Democrat,TN,Protestant,Very liberal,0.626347082075966,20260831
+LP0938,1902166574,Female,63,60+,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,IN,Nothing in particular,Moderate,0.852719111629868,20260831
+LP0939,1902167904,Female,70,60+,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,CA,Agnostic,Liberal,0.424069025632386,20260831
+LP0940,1902203358,Female,71,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",True,Republican,IA,Protestant,Conservative,0.972880875378653,20260831
+LP0941,1903887844,Female,63,60+,White / Caucasian,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,FL,Roman Catholic,Conservative,0.808788401665104,20260831
+LP0942,1907167632,Female,63,60+,White / Caucasian,Less than high school,False,"Less than $30,000",False,Other,IL,Nothing in particular,Very conservative,5.56998715789778,20260831
+LP0943,1909962460,Female,68,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",False,Republican,PA,Protestant,Very conservative,1.44396821228015,20260831
+LP0944,1912360818,Female,63,60+,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Republican,TX,Roman Catholic,,0.919645224828759,20260831
+LP0945,1912571520,Female,69,60+,White / Caucasian,High school diploma / GED,False,"$30,000 to $55,999",True,Independent,OH,Protestant,Liberal,2.9599894857479,20260831
+LP0946,1868645760,Female,65,60+,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,MD,Protestant,Very conservative,0.230069316258244,20260831
+LP0947,1869849738,Female,60,60+,Black / African American,Bachelor's degree,False,"Less than $30,000",False,Democrat,NY,Something else,Moderate,0.888410092600392,20260831
+LP0948,1870931584,Female,88,60+,Black / African American,High school diploma / GED,False,"$100,000 to $167,999",False,Democrat,MD,Protestant,Moderate,1.26385897178802,20260831
+LP0949,1872862574,Female,62,60+,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,PA,Something else,Liberal,1.11955335026493,20260831
+LP0950,1873030096,Female,69,60+,Black / African American,Less than high school,False,"$56,000 to $99,999",False,Democrat,AR,Muslim,Very liberal,4.16168908326504,20260831
+LP0951,1880900416,Female,70,60+,Black / African American,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,IL,Protestant,Moderate,0.0755921354148788,20260831
+LP0952,1881079656,Female,62,60+,Black / African American,Master's degree / Professional degree,True,"$168,000 or more",False,Democrat,NY,Jewish,Very liberal,0.845286376903398,20260831
+LP0953,1882423958,Female,66,60+,Black / African American,Less than high school,False,"Less than $30,000",False,Democrat,FL,Something else,Conservative,8.53970092768756,20260831
+LP0954,1882436702,Female,68,60+,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,CA,Protestant,Liberal,1.25349626848471,20260831
+LP0955,1882443126,Female,65,60+,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Democrat,NY,Nothing in particular,Moderate,0.18077514230718,20260831
+LP0956,1887170128,Female,64,60+,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Independent,CA,Protestant,Moderate,0.0395275157584045,20260831
+LP0957,1892485748,Female,67,60+,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",False,Democrat,GA,Protestant,Liberal,1.45843085484993,20260831
+LP0958,1894276286,Female,60,60+,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,LA,Nothing in particular,Conservative,2.56800915434068,20260831
+LP0959,1898065386,Female,64,60+,Black / African American,Master's degree / Professional degree,True,"$30,000 to $55,999",False,Democrat,KS,Something else,Moderate,0.282135840277121,20260831
+LP0960,1898316446,Female,66,60+,Black / African American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Independent,MD,Nothing in particular,Moderate,0.821094224204179,20260831
+LP0961,1898321812,Female,71,60+,Black / African American,Bachelor's degree,False,"$30,000 to $55,999",False,Democrat,LA,Protestant,Liberal,0.50702280416102,20260831
+LP0962,1902196936,Female,66,60+,Black / African American,Master's degree / Professional degree,True,"$100,000 to $167,999",False,Independent,FL,Agnostic,Moderate,0.526983131564955,20260831
+LP0963,1902512016,Female,63,60+,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,GA,Something else,Moderate,1.05298687943131,20260831
+LP0964,1872860676,Female,79,60+,Hispanic / Latino,Less than high school,False,"Less than $30,000",False,Independent,CA,Nothing in particular,Very conservative,5.63869667492888,20260831
+LP0965,1873030406,Female,62,60+,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,ID,Something else,Very conservative,1.06986288041872,20260831
+LP0966,1880408922,Female,63,60+,Hispanic / Latino,Bachelor's degree,False,"Less than $30,000",False,Republican,CA,Protestant,Very conservative,1.04888834755967,20260831
+LP0967,1880427814,Female,66,60+,Hispanic / Latino,Some college or Associate's degree,False,"$168,000 or more",True,Independent,ID,Roman Catholic,Moderate,0.521668233937605,20260831
+LP0968,1882426020,Female,65,60+,Hispanic / Latino,High school diploma / GED,False,"$56,000 to $99,999",False,Democrat,CA,Agnostic,Moderate,1.38255745065572,20260831
+LP0969,1883470472,Female,63,60+,Hispanic / Latino,Less than high school,False,"$30,000 to $55,999",True,Republican,TX,Protestant,Very conservative,6.75445671466261,20260831
+LP0970,1884712014,Female,61,60+,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,TX,Protestant,Conservative,1.33221458690514,20260831
+LP0971,1886600792,Female,68,60+,Hispanic / Latino,High school diploma / GED,False,"$100,000 to $167,999",False,Independent,CO,Roman Catholic,Conservative,2.18305456637457,20260831
+LP0972,1888569470,Female,62,60+,Hispanic / Latino,High school diploma / GED,False,"Less than $30,000",False,Democrat,CO,Something else,Moderate,2.98539653407725,20260831
+LP0973,1889334470,Female,63,60+,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Other,NY,Protestant,Very conservative,0.456501925571088,20260831
+LP0974,1891928572,Female,76,60+,Hispanic / Latino,High school diploma / GED,False,"$168,000 or more",False,Democrat,CA,Nothing in particular,Liberal,2.8729952558439,20260831
+LP0975,1894271108,Female,66,60+,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Democrat,CA,Roman Catholic,Moderate,7.29824574150537,20260831
+LP0976,1894280388,Female,68,60+,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Independent,NV,Roman Catholic,Conservative,10.6890281849279,20260831
+LP0977,1895696852,Female,65,60+,Hispanic / Latino,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,FL,Roman Catholic,Moderate,1.66466537417022,20260831
+LP0978,1902446592,Female,66,60+,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,CA,Roman Catholic,Moderate,0.396144466692903,20260831
+LP0979,1907962486,Female,67,60+,Hispanic / Latino,Some college or Associate's degree,False,"$30,000 to $55,999",False,Republican,NY,Roman Catholic,Moderate,0.358223894647086,20260831
+LP0980,1911173022,Female,61,60+,Hispanic / Latino,Less than high school,False,"$56,000 to $99,999",False,Democrat,CA,Roman Catholic,Liberal,2.50636259802084,20260831
+LP0981,1861813002,Female,62,60+,Asian / Asian American,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,CA,Protestant,Moderate,1.18003399438431,20260831
+LP0982,1872861230,Female,77,60+,Asian / Asian American,High school diploma / GED,False,"Less than $30,000",False,Democrat,PA,Nothing in particular,Liberal,13.6128513346066,20260831
+LP0983,1872862038,Female,71,60+,Asian / Asian American,Bachelor's degree,False,"$100,000 to $167,999",False,Independent,CA,Agnostic,Moderate,2.76406167643264,20260831
+LP0984,1880743510,Female,65,60+,Asian / Asian American,High school diploma / GED,False,"Less than $30,000",False,Independent,CA,Nothing in particular,Very liberal,13.7804942888017,20260831
+LP0985,1891520300,Female,70,60+,Asian / Asian American,High school diploma / GED,False,"$56,000 to $99,999",False,Independent,NY,Roman Catholic,Conservative,11.8705859548568,20260831
+LP0986,1894273186,Female,70,60+,Asian / Asian American,Some college or Associate's degree,False,"$100,000 to $167,999",False,Democrat,CA,Buddhist,Very liberal,1.71184431595698,20260831
+LP0987,1895527364,Female,61,60+,Asian / Asian American,High school diploma / GED,False,"$30,000 to $55,999",True,Democrat,OH,Nothing in particular,Moderate,1.40447940752961,20260831
+LP0988,1898316242,Female,67,60+,Asian / Asian American,Bachelor's degree,False,"$30,000 to $55,999",True,Independent,CA,Roman Catholic,Conservative,3.05148042288245,20260831
+LP0989,1870933900,Female,61,60+,Other,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,FL,Protestant,Moderate,1.00660009517868,20260831
+LP0990,1873026622,Female,68,60+,Other,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,NM,Nothing in particular,Moderate,1.9937483669632,20260831
+LP0991,1895667698,Female,69,60+,Other,Less than high school,False,"Less than $30,000",False,Republican,OR,Protestant,Conservative,6.05796626147972,20260831
+LP0992,1906110572,Female,64,60+,Other,High school diploma / GED,False,"$56,000 to $99,999",False,Republican,AZ,Protestant,Very conservative,6.38250202370219,20260831
+LP0993,1906210386,Other,26,18-29,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Other,NY,Nothing in particular,,3.08804655901209,20260831
+LP0994,1898073514,Other,19,18-29,Black / African American,High school diploma / GED,False,"Less than $30,000",False,Other,LA,Nothing in particular,,7.5503319246951,20260831
+LP0995,1911208572,Other,28,18-29,Black / African American,Some college or Associate's degree,False,"$30,000 to $55,999",False,Democrat,NY,Something else,Liberal,1.86715923665636,20260831
+LP0996,1894253894,Other,26,18-29,Hispanic / Latino,Some college or Associate's degree,False,"$56,000 to $99,999",False,Independent,VA,Protestant,Liberal,10.6608491480573,20260831
+LP0997,1886682532,Other,36,30-44,White / Caucasian,High school diploma / GED,False,"Less than $30,000",False,Democrat,WI,Nothing in particular,Very liberal,5.99670444508197,20260831
+LP0998,1895897832,Other,30,30-44,Black / African American,High school diploma / GED,False,"$30,000 to $55,999",False,Independent,PA,Nothing in particular,Very liberal,0.95893455717307,20260831
+LP0999,1899891898,Other,32,30-44,Hispanic / Latino,Bachelor's degree,False,"$100,000 to $167,999",False,Democrat,NY,Roman Catholic,Very liberal,2.50605790942798,20260831
+LP1000,1881716786,Other,56,45-59,White / Caucasian,Some college or Associate's degree,False,"Less than $30,000",False,Democrat,WA,Atheist,Very liberal,1.01164255056011,20260831

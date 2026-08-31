@@ -1,0 +1,66 @@
+{
+  "note": "OFFLINE GOVERNANCE RECORD ONLY -- does not modify the real target-production ledger, does not retry/resubmit anything, does not retrieve target F output",
+  "final_method": "S2_MCONST_GSHAPE",
+  "target_f_dependence_of_final_method": false,
+  "target_f_wave1_batches": [
+    {
+      "phase": "consensus_stage_a",
+      "batch_id": "29745152-8271-44ec-8f27-81fc9a2773b9",
+      "request_count": 500
+    },
+    {
+      "phase": "standard",
+      "batch_id": "30aefa9d-2903-46ca-8dec-cab7b3d0d31c",
+      "request_count": 13000
+    },
+    {
+      "phase": "standard",
+      "batch_id": "23d9884e-f164-43d1-b93b-176f0a81f2d4",
+      "request_count": 13000
+    },
+    {
+      "phase": "standard",
+      "batch_id": "20767052-deca-46b3-ab69-b71a8c2d065d",
+      "request_count": 13000
+    },
+    {
+      "phase": "standard",
+      "batch_id": "eabff07e-fab3-49c7-982a-d0ebacb92bf5",
+      "request_count": 13000
+    },
+    {
+      "phase": "standard",
+      "batch_id": "d7858495-9dc6-442d-8371-4e7ccc8431e5",
+      "request_count": 13000
+    },
+    {
+      "phase": "standard",
+      "batch_id": "a2649e6e-9d99-4f6a-99a6-d0e83ac41856",
+      "request_count": 13000
+    },
+    {
+      "phase": "standard",
+      "batch_id": "4800a952-044b-4ccc-806a-25928a58b8c3",
+      "request_count": 13000
+    },
+    {
+      "phase": "standard",
+      "batch_id": "748a252c-70a9-4066-87a1-c798f9880d9c",
+      "request_count": 13000
+    }
+  ],
+  "target_f_wave1_batch_count": 9,
+  "status_per_batch": "GENERATED_UNDER_SUPERSEDED_CANDIDATE_METHOD",
+  "usage_for_final_s2_predictions": "UNUSED_FOR_FINAL_S2_PREDICTIONS",
+  "prohibited_actions": [
+    "retry target-F Wave-1 requests",
+    "submit F Consensus Stage B",
+    "use target-F predictions in S2",
+    "use target-F results to modify S2",
+    "make S2 contingent on target-F completion"
+  ],
+  "future_archival_retrieval_note": "if these raw F outputs are later retrieved for archival purposes only, that retrieval must not feed any scientific method-selection or final-prediction path",
+  "ledger_path": "outputs/target_production/target_production_submission_state.json",
+  "ledger_sha256_at_time_of_this_note": "64a21d1c1dbf0efa535e18bd9973c2474401e9d9f54be3147e24c48a786948e1",
+  "ledger_untouched_by_this_script": true
+}

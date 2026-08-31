@@ -1,0 +1,11 @@
+{
+  "role": "F",
+  "requested_model": "google/gemma-4-31B-it",
+  "manifest_requests": 104500,
+  "already_successful_requests": 0,
+  "submitted_requests": 104500,
+  "estimated_prompt_characters": 536301697,
+  "estimated_prompt_tokens_rough": 134075424,
+  "completion_tokens_budget": 107008000,
+  "consensus_stage_a_success_path": ""
+}

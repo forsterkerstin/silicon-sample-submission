@@ -1,0 +1,27 @@
+{
+  "eligible_respondents": 2545,
+  "items_per_respondent": 25,
+  "models": {
+    "google/gemma-4-31B-it": {
+      "requests": 2545,
+      "manifest_sha256": "97f8f351f1229883e57871845cefb7ebc5a9a44a1071e026c4e8a55637a5c60a",
+      "jsonl_sha256": "612b2ec9ea4854cf9f455a3e81cc6360293b7d36df419e17aec20f1b7e546f95",
+      "estimated_prompt_characters": 47926857,
+      "estimated_prompt_tokens_rough": 11981714,
+      "maximum_output_tokens": 2606080,
+      "worst_case_cost_usd": 3.699383
+    },
+    "deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "requests": 2545,
+      "manifest_sha256": "4cd0bb37e6de4feeb05b04f8851ecb773b7ca9570c4e194305a3aafeec6a8ba6",
+      "jsonl_sha256": "8965f570870f4548bf870ac952b3ace24fef478dec7e6d11e7d96bbbd6358fe0",
+      "estimated_prompt_characters": 47926857,
+      "estimated_prompt_tokens_rough": 11981714,
+      "maximum_output_tokens": 2606080,
+      "worst_case_cost_usd": 26.135939
+    }
+  },
+  "scientific_equivalence_verified": true,
+  "total_requests": 5090,
+  "total_worst_case_cost_usd": 29.835322
+}

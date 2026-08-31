@@ -1,0 +1,9 @@
+gender,age_band,target_n,achieved_n,exact_match
+Male,18-29,103,103,True
+Female,18-29,99,99,True
+Male,30-44,131,131,True
+Female,30-44,129,129,True
+Male,45-59,114,114,True
+Female,45-59,115,115,True
+Male,60+,142,142,True
+Female,60+,167,167,True

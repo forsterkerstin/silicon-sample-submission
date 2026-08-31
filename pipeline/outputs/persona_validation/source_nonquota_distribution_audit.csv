@@ -1,0 +1,15 @@
+variable,level,selected_count,selected_proportion,weighted_selected_proportion,source_weight_available,source_proportion,difference_pp,comparison_status
+education,Bachelor's degree,212,0.212,0.15254585363237494,True,,,full source universe not materialized in lightweight validation
+education,High school diploma / GED,288,0.288,0.34509447156382644,True,,,full source universe not materialized in lightweight validation
+education,Less than high school,68,0.068,0.1448500069839003,True,,,full source universe not materialized in lightweight validation
+education,Master's degree / Professional degree,126,0.126,0.08268483521271408,True,,,full source universe not materialized in lightweight validation
+education,Some college or Associate's degree,306,0.306,0.27482483260718427,True,,,full source universe not materialized in lightweight validation
+income,"$100,000 to $167,999",153,0.153,0.1338111062351923,True,,,full source universe not materialized in lightweight validation
+income,"$168,000 or more",106,0.106,0.08926497185863527,True,,,full source universe not materialized in lightweight validation
+income,"$30,000 to $55,999",248,0.248,0.23628951388112332,True,,,full source universe not materialized in lightweight validation
+income,"$56,000 to $99,999",233,0.233,0.19975997175147533,True,,,full source universe not materialized in lightweight validation
+income,"Less than $30,000",260,0.26,0.3408744362735739,True,,,full source universe not materialized in lightweight validation
+party,Democrat,339,0.339,0.31121140923197455,True,,,full source universe not materialized in lightweight validation
+party,Independent,270,0.27,0.29120778777614786,True,,,full source universe not materialized in lightweight validation
+party,Other,107,0.107,0.1613997558232228,True,,,full source universe not materialized in lightweight validation
+party,Republican,284,0.284,0.2361810471686548,True,,,full source universe not materialized in lightweight validation

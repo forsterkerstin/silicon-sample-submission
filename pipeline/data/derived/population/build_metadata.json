@@ -1,0 +1,70 @@
+{
+  "build_timestamp_utc": "2026-08-24T13:42:10.034323+00:00",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]",
+  "package_versions": {
+    "pandas": "2.2.2",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.4.2",
+    "openpyxl": "3.1.2",
+    "python-docx": "1.2.0",
+    "pypdf": "4.3.1",
+    "PyYAML": "6.0.1",
+    "joblib": "1.4.2"
+  },
+  "operating_system": "Linux-5.4.0-216-generic-x86_64-with-glibc2.31",
+  "master_seed": 20260831,
+  "rng_spawn_keys": {
+    "pums_selection": [
+      0
+    ],
+    "party_sampling": [
+      1
+    ],
+    "roster_ids": [
+      2
+    ],
+    "ces_diagnostic_split": [
+      3
+    ]
+  },
+  "row_counts": {
+    "ces_n_rows_total": 60000,
+    "ces_n_rows_valid_for_training": 54857,
+    "pums_person_rows_ingested": 3422888,
+    "pums_housing_rows_ingested": 1631969,
+    "pums_housing_join_match_rate": 0.9464761920343289,
+    "pums_rows_after_inclusion_filters": 2612172
+  },
+  "ipf_convergence": {
+    "iterations": 7,
+    "max_error": 9.867937453082946e-12
+  },
+  "milp_status": {
+    "status": "optimal"
+  },
+  "ces_selected_variables": [
+    "caseid",
+    "commonweight",
+    "inputstate",
+    "birthyr",
+    "gender4",
+    "educ",
+    "race",
+    "hispanic",
+    "faminc_new",
+    "pid3"
+  ],
+  "ces_selected_weight": "commonweight",
+  "model_settings": {
+    "diagnostic_test_fraction": 0.2,
+    "regularization_c": 1.0,
+    "max_iterations": 5000,
+    "use_voter_variables": false
+  },
+  "output_sha256": {
+    "profiles_core_1000.csv": "932bb76b3d0e8ae82e597019e0800b720ee68614059c9d9ee87e939f10266fc1",
+    "simulation_roster_17000.csv": "e7d3d626711ba26c033286e714a54c4288f492e6b0a16a66f3f069b1cc1dd527"
+  },
+  "git_commit": "6513fd469d447f4e013b39a49a1083e7797c7ae2"
+}

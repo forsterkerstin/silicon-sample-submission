@@ -1,0 +1,16 @@
+{
+  "note": "SCHEMA/SERVING VALIDATION ONLY -- never used for scientific analysis or model selection. Not submitted.",
+  "per_stage": {
+    "standard": {
+      "requests": 5,
+      "manifest_sha256": "70f9b54f78805c5efb69a66fa5414d5e60e78abd61838effef77791511460b89",
+      "jsonl_sha256": "b9bfbd8289a11f7eacfdedf9f3c8f822e886d8acfa79d58d2e88c57636bac309"
+    },
+    "consensus_stage_a": {
+      "requests": 5,
+      "manifest_sha256": "0be8d1a14d6bd611cbd36a9cf18083bf257e99aff2efb16d3b5577a962d6922f",
+      "jsonl_sha256": "f41ac9baec85f7b0bf7474f64e696bfb774724e47cc06f3a6e73c3a9cde460fe"
+    }
+  },
+  "total_requests": 10
+}

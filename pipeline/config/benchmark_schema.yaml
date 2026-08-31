@@ -1,0 +1,64 @@
+schema_source: Silicon Sample Benchmark submission repository
+schema_snapshot_date: 2026-08-04
+schema_status: pre-lock snapshot; must be rechecked against final materials
+
+moderators:
+
+  gender:
+    - Male
+    - Female
+    - Other
+
+  age_band:
+    - 18-29
+    - 30-44
+    - 45-59
+    - 60+
+
+  race:
+    - White / Caucasian
+    - Black / African American
+    - Hispanic / Latino
+    - Asian / Asian American
+    - Other
+
+  education:
+    - Less than high school
+    - High school diploma / GED
+    - Some college or Associate's degree
+    - Bachelor's degree
+    - Master's degree / Professional degree
+    - Doctorate degree / Ph.D.
+
+  income:
+    - Less than $30,000
+    - $30,000 to $55,999
+    - $56,000 to $99,999
+    - $100,000 to $167,999
+    - $168,000 or more
+
+  party:
+    - Republican
+    - Democrat
+    - Independent
+    - Other
+
+conditions:
+
+  - control
+  - Corporate reliance
+  - Social justice
+  - Interview Prof. Maraun
+  - Funding
+  - Oil industry misinformation
+  - Measurement & modeling (1)
+  - Former skeptics
+  - High public trust
+  - Measurement & modeling (2)
+  - Peer-review
+  - Scientist community helpers
+  - Consensus
+  - Portrait Prof. Cherry
+  - Model accuracy
+  - Interview Prof. Sebille
+  - Extreme weather predictions

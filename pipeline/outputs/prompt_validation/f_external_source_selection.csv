@@ -1,0 +1,7 @@
+effect_id,study,outcome_name,condition_name,arm
+AnsonBRIEF60:economy_positivity:hyp1,AnsonBRIEF60,economy_positivity,Control group 1,control
+AnsonBRIEF60:economy_positivity:hyp1,AnsonBRIEF60,economy_positivity,Treatment group 1,treatment
+Braman751:scholar_credibility:hyp1,Braman751,scholar_credibility,"Gun Control, Clear Authority, 85% support",control
+Braman751:scholar_credibility:hyp1,Braman751,scholar_credibility,"Gun Control, Divided, 85% support",treatment
+Terman1029:donating to HRAC:hyp1,Terman1029,donating to HRAC,Rights Group Condemns Abuses Worldwide,control
+Terman1029:donating to HRAC:hyp1,Terman1029,donating to HRAC,International Rights Group Codemns Abuse in US,treatment

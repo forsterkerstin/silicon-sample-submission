@@ -1,0 +1,466 @@
+{
+  "note": "REAL human ATE surface from Orchinik et al. (2024) Bovitz sample -- external validation data only, never used to recompute MU_EXTERNAL or the 31-study archive",
+  "source_file": "data/domain_validation/orchinik/final_clean.csv",
+  "source_file_sha256": "6d9168d87c5ff471b4bcb94fe1542a80816c6dd2ff23eb7fa4f6aec5cac2bf06",
+  "eligible_n": 2545,
+  "eligible_n_matches_paper": true,
+  "arm_counts_eligible": {
+    "control": 847,
+    "skill": 837,
+    "trust": 861
+  },
+  "human_ate_estimator": "unweighted randomized-arm mean difference: h_e = mean(Y_e | intervention, eligible) - mean(Y_e | control, eligible); no survey weights applied (none used in the authors' own Bovitz-sample analysis code)",
+  "cells": [
+    {
+      "intervention": "History",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 50,
+      "source_column": "P_cc_given_cons50",
+      "h_e": 2.7913896682225143,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 75,
+      "source_column": "P_cc_given_cons75",
+      "h_e": 2.497051227256506,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 90,
+      "source_column": "P_cc_given_cons90",
+      "h_e": 2.458743276925091,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 97,
+      "source_column": "P_cc_given_cons97",
+      "h_e": 0.8423432763608787,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 99,
+      "source_column": "P_cc_given_cons99",
+      "h_e": 0.9600332327604946,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 50,
+      "source_column": "P_pro_bias_given_cons50",
+      "h_e": -1.179159278866024,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 75,
+      "source_column": "P_pro_bias_given_cons75",
+      "h_e": -0.11633582014813015,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 90,
+      "source_column": "P_pro_bias_given_cons90",
+      "h_e": 0.10334598604393364,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 97,
+      "source_column": "P_pro_bias_given_cons97",
+      "h_e": -0.04192321201118432,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 99,
+      "source_column": "P_pro_bias_given_cons99",
+      "h_e": 0.18392273524238334,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 50,
+      "source_column": "P_anti_bias_given_cons50",
+      "h_e": 0.34101946711917464,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 75,
+      "source_column": "P_anti_bias_given_cons75",
+      "h_e": 0.285561945385993,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 90,
+      "source_column": "P_anti_bias_given_cons90",
+      "h_e": 0.34009696179784044,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 97,
+      "source_column": "P_anti_bias_given_cons97",
+      "h_e": 0.8771417569071502,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 99,
+      "source_column": "P_anti_bias_given_cons99",
+      "h_e": 0.6627467243303045,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 50,
+      "source_column": "P_pro_skill_given_cons50",
+      "h_e": 2.1167420610235865,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 75,
+      "source_column": "P_pro_skill_given_cons75",
+      "h_e": 1.977954379713907,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 90,
+      "source_column": "P_pro_skill_given_cons90",
+      "h_e": 2.671937924137339,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 97,
+      "source_column": "P_pro_skill_given_cons97",
+      "h_e": 1.711997788244119,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 99,
+      "source_column": "P_pro_skill_given_cons99",
+      "h_e": 1.8575208868464017,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 50,
+      "source_column": "P_anti_skill_given_cons50",
+      "h_e": -1.7930061683727345,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 75,
+      "source_column": "P_anti_skill_given_cons75",
+      "h_e": -2.1560331706959275,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 90,
+      "source_column": "P_anti_skill_given_cons90",
+      "h_e": -3.425480894689109,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 97,
+      "source_column": "P_anti_skill_given_cons97",
+      "h_e": -3.588888465721304,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "History",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 99,
+      "source_column": "P_anti_skill_given_cons99",
+      "h_e": -4.089312338579198,
+      "treat_n": 837,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 50,
+      "source_column": "P_cc_given_cons50",
+      "h_e": 0.6957602633877613,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 75,
+      "source_column": "P_cc_given_cons75",
+      "h_e": 0.7332815004655373,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 90,
+      "source_column": "P_cc_given_cons90",
+      "h_e": 0.5268811011604697,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 97,
+      "source_column": "P_cc_given_cons97",
+      "h_e": 0.7444159683627589,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "human_caused_climate_change",
+      "consensus_level": 99,
+      "source_column": "P_cc_given_cons99",
+      "h_e": 0.706194027701784,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 50,
+      "source_column": "P_pro_bias_given_cons50",
+      "h_e": -0.2667376968929105,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 75,
+      "source_column": "P_pro_bias_given_cons75",
+      "h_e": -0.20984632514565504,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 90,
+      "source_column": "P_pro_bias_given_cons90",
+      "h_e": -0.23798005394458244,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 97,
+      "source_column": "P_pro_bias_given_cons97",
+      "h_e": -0.27302483178314674,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_pro_consensus_scientists",
+      "consensus_level": 99,
+      "source_column": "P_pro_bias_given_cons99",
+      "h_e": 0.05630585231472196,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 50,
+      "source_column": "P_anti_bias_given_cons50",
+      "h_e": -0.3568021040304856,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 75,
+      "source_column": "P_anti_bias_given_cons75",
+      "h_e": -0.8727311121989629,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 90,
+      "source_column": "P_anti_bias_given_cons90",
+      "h_e": -0.5992167477755075,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 97,
+      "source_column": "P_anti_bias_given_cons97",
+      "h_e": -0.052072834777938226,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "bias_of_anti_consensus_scientists",
+      "consensus_level": 99,
+      "source_column": "P_anti_bias_given_cons99",
+      "h_e": 0.06363924324013226,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 50,
+      "source_column": "P_pro_skill_given_cons50",
+      "h_e": 1.6455303750203996,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 75,
+      "source_column": "P_pro_skill_given_cons75",
+      "h_e": 1.8409210892581171,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 90,
+      "source_column": "P_pro_skill_given_cons90",
+      "h_e": 2.472965319971962,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 97,
+      "source_column": "P_pro_skill_given_cons97",
+      "h_e": 2.265134717462871,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_pro_consensus_scientists",
+      "consensus_level": 99,
+      "source_column": "P_pro_skill_given_cons99",
+      "h_e": 2.155815359806482,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 50,
+      "source_column": "P_anti_skill_given_cons50",
+      "h_e": -1.7344429406513697,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 75,
+      "source_column": "P_anti_skill_given_cons75",
+      "h_e": -1.2610456801144139,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 90,
+      "source_column": "P_anti_skill_given_cons90",
+      "h_e": -1.108503469922539,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 97,
+      "source_column": "P_anti_skill_given_cons97",
+      "h_e": -1.306783386606,
+      "treat_n": 861,
+      "control_n": 847
+    },
+    {
+      "intervention": "Institutions",
+      "belief": "skill_of_anti_consensus_scientists",
+      "consensus_level": 99,
+      "source_column": "P_anti_skill_given_cons99",
+      "h_e": -1.314452731304172,
+      "treat_n": 861,
+      "control_n": 847
+    }
+  ],
+  "n_cells": 50
+}

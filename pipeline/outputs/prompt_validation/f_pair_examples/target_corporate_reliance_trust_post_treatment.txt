@@ -1,0 +1,99 @@
+protocol_id: ashokkumar_experiment_forecast_adapted_v1
+request_key: F|target|F0001|Corporate reliance|trust_post|replicate_1
+prompt_variant_id: intro_b+profile_label_b+profile_format_bullets+survey_format_sections
+questionnaire_order: {}
+response_key_map: {"trust_post_1": "trust_post"}
+provenance: {}
+system_prompt_hash: 0b23030d043412468ad325e1a4f0d2ffee3ff623d889911d40feff0612706b86
+user_prompt_hash: cb281e74d0824d69560d4cb351f8bcf990524807a29f402ec6c0af4e268e348a
+schema_hash: d29ad2f126ee4a74415d3a7edcaf4da97941d2fe638985dbab28b1503afadf7a
+
+SYSTEM
+------
+You are completing a simulated survey response task for an experimental forecasting study.
+
+Use only the respondent profile, study setting, survey material, and response
+scale shown in the request. Return only the requested structured response.
+
+USER
+----
+Researchers sometimes study how survey materials relate to participants' answers.
+
+PARTICIPANT PROFILE
+- Age: 24
+- Gender: Male
+- Race/ethnicity: White / Caucasian
+- Education: Bachelor's degree
+- Household income: $56,000 to $99,999
+- Party identification: Independent
+- Political ideology: Moderate
+- State of residence: Tennessee
+- Religion: Protestant
+
+STUDY SETTING
+This is an online survey shown to a broad sample of adult respondents.
+
+SURVEY MATERIAL
+Survey material:
+Thank you, you have qualified for the study. 
+
+
+
+In the following sections, we’re interested in your opinion about climate change and climate scientists. 
+
+
+
+Climate scientists study changes in the Earth's climate over time and how they might affect the planet in the future. Please keep this definition in mind when filling out this study.
+
+
+
+Please make sure you do not close this tab until you have finished the study. You must complete the whole study to collect your payment.
+
+Climate scientists develop models that forecast climate-related risks, such as sea-level rise, extreme weather events, and long-term temperature changes. These models are not only used in research. They are also increasingly used by the private sector, where decisions have large financial consequences.
+
+
+
+For example, insurance companies rely on climate scientists’ projections when calculating premiums and assessing risks. If climate projections incorrectly estimate future risks, insurance companies lose money. Because of this, insurers carefully evaluate data and only rely on sources they consider reliable and accurate. These companies assess climate scientists’ work with financial incentives in mind and avoid basing decisions on information they view as biased or ideological. If the predictions are incorrect, they pay for it – literally.
+
+
+
+Insurers aren’t the only ones listening to climate scientists. Other large corporations also integrate climate projections into their long-term planning. They use climate data to plan supply chains, choose new locations, and identify potential climate-related risks to their business. In fact, many private-sector companies now actively recruit climate scientists to work in-house to help guide strategic and financial decisions.
+
+
+
+These businesses maximize their profit while reducing financial risk. They rely on climate scientists because their models help them make robust, informed, and risk-sensitive decisions.
+
+Take a moment to reflect on what you’ve just read.
+
+
+
+Many companies that depend on forecasts to ensure profit (like insurers and global manufacturers) trust climate scientists to guide their decisions.
+
+
+
+Why might so many companies stake their livelihoods on climate science when planning for the future? Please pause and consider this question.
+
+OUTCOME QUESTIONS
+Outcome questions:
+trust_post_1: How much do you trust climate scientists?
+Response options: 0 = not at all … 100 = very strongly.
+Answer with an integer from 0 to 100.
+
+Return a single JSON object with one integer value per item label on the native response scale.
+
+JSON_SCHEMA
+-----------
+{
+  "additionalProperties": false,
+  "properties": {
+    "trust_post_1": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "trust_post_1"
+  ],
+  "type": "object"
+}

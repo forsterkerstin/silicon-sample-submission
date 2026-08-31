@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "n_g_donors": 1000,
+  "n_g_design_rows": 17000,
+  "n_f_profiles": 500,
+  "n_conditions": 17,
+  "g_gender_age_max_abs_difference_pp": 0.0,
+  "g_gender_race_max_abs_difference_pp": 0.0,
+  "f_gender_age_max_abs_difference_pp": 0.0,
+  "f_gender_race_max_abs_difference_pp": 0.0,
+  "condition_balance_max_count_difference": 0,
+  "warnings": [
+    "data/quotas_18000.csv not found; using pipeline/config 1000 and 500 cross-quota CSVs as the operative benchmark quota sources."
+  ],
+  "failures": []
+}

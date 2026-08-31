@@ -1,0 +1,108 @@
+{
+  "F": {
+    "jsonl_sha256": "3ee0a8d8f1427e5338df0b7063758098db886b774e82cecd5777fd0955695e9f",
+    "manifest_sha256": "0a45cccf91f3dcecf321317286f5266da0d39ca826c755c22848c56dc7968c87",
+    "model": "google/gemma-4-31B-it",
+    "partition_count": 10,
+    "partitions": [
+      {
+        "jsonl_size_mb": 62.56,
+        "partition": "part1",
+        "requests": 10450,
+        "sha256": "01a6384d5696bbf5f4c89445fe57da0c31c42fdf4a9b0d94e49fcdeaa9e69d2c"
+      },
+      {
+        "jsonl_size_mb": 62.56,
+        "partition": "part2",
+        "requests": 10450,
+        "sha256": "560b59864cec20fba4a8700ef3ac0abe07c6146b9ba6dfb172cc35014df89071"
+      },
+      {
+        "jsonl_size_mb": 62.59,
+        "partition": "part3",
+        "requests": 10450,
+        "sha256": "6cc76e9ef671b85bf9d17b08b62f198d7a97030db2686f04fc61a0192ab97976"
+      },
+      {
+        "jsonl_size_mb": 62.6,
+        "partition": "part4",
+        "requests": 10450,
+        "sha256": "b50a4d8f221ca5718aa15253cda04b8a214c1b70b62167b6618a1231937586f3"
+      },
+      {
+        "jsonl_size_mb": 62.62,
+        "partition": "part5",
+        "requests": 10450,
+        "sha256": "abbed43f7fa5e1773224efe82294d77de63845197094573c9f12c4c7d5f8c47c"
+      },
+      {
+        "jsonl_size_mb": 62.56,
+        "partition": "part6",
+        "requests": 10450,
+        "sha256": "6d0e9ccff5ac72e5dc7aef1b8b7962a7737e02cfcd90aa0b4495bf472439c74d"
+      },
+      {
+        "jsonl_size_mb": 62.62,
+        "partition": "part7",
+        "requests": 10450,
+        "sha256": "e73ebdad575549661b38f0026cfd492cc181fa7d27f41f3f3e87d519b31e3c57"
+      },
+      {
+        "jsonl_size_mb": 62.61,
+        "partition": "part8",
+        "requests": 10450,
+        "sha256": "a99e7652e6082ffd1a36cd857d41abb62836e26b618e71d5677204434892a414"
+      },
+      {
+        "jsonl_size_mb": 62.65,
+        "partition": "part9",
+        "requests": 10450,
+        "sha256": "b9bc4f1fa42ed73145eed3452d75a797907892c56d9a5aa1be09abc3c90e1910"
+      },
+      {
+        "jsonl_size_mb": 62.66,
+        "partition": "part10",
+        "requests": 10450,
+        "sha256": "6f0f2f747d9bfbfa24ea9a99dfb4a231ebe4d34b69061e4bc8c3a201b74fc410"
+      }
+    ],
+    "requests": 104500,
+    "role": "F",
+    "worst_case_cost_usd": 80.3191
+  },
+  "G": {
+    "jsonl_sha256": "3000df9fecd7f377c6e7a598718b16f19db53abadb3fcdc0f594b6f8597c397e",
+    "manifest_sha256": "167fa6eae7b9cd4e6328371b9b3f4e0745466279ffe3fda76b5a62fb23a77408",
+    "model": "google/gemma-4-31B-it",
+    "partition_count": 4,
+    "partitions": [
+      {
+        "jsonl_size_mb": 65.81,
+        "partition": "part1",
+        "requests": 4250,
+        "sha256": "b0abe1bd6c8b42129cdc850298f79bffadfe4f7698910ce7933f9ba056cf3c13"
+      },
+      {
+        "jsonl_size_mb": 65.83,
+        "partition": "part2",
+        "requests": 4250,
+        "sha256": "6dbe063832223e9c0196268e31d83edd40a946f29360ae7dcef4c9dedfc82706"
+      },
+      {
+        "jsonl_size_mb": 65.83,
+        "partition": "part3",
+        "requests": 4250,
+        "sha256": "8ffaa931ed639403e88a74643a3593f5258f98fb00528b9cb75c9e3664c6b02c"
+      },
+      {
+        "jsonl_size_mb": 65.84,
+        "partition": "part4",
+        "requests": 4250,
+        "sha256": "211c6430eb80551a83c4d6ff229aee98a598171ffd3dc51ae8ece16562ee171d"
+      }
+    ],
+    "requests": 17000,
+    "role": "G",
+    "worst_case_cost_usd": 19.1577
+  }
+}

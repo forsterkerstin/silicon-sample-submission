@@ -1,0 +1,6 @@
+object,key,rows,unique,duplicates
+g_personas_master,donor_key,1000,1000,0
+g_personas_master,source_row_id,1000,1000,0
+simulation_roster_17000,profile_id,17000,17000,0
+tier1_design_skeleton,profile_id,17000,17000,0
+tier1_submission_skeleton,profile_id,17000,17000,0

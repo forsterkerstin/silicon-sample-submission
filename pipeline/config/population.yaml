@@ -1,0 +1,292 @@
+paths:
+  data_dir: data
+  pums_zip: data/csv_pus.zip
+  pums_housing_zip: data/csv_hus.zip
+  pums_dictionary: data/PUMS_Data_Dictionary_2024.pdf
+  ces_csv_glob: data/CCES24_Common_OUTPUT*.csv
+  ces_guide: data/CES_2024_GUIDE_vv.pdf
+  ces_questionnaire: data/CCES24_Common_pre.docx
+  existing_census_cells: data/census_cells.csv
+  nc_est_workbook: data/nc-est2024-asr6h.xlsx
+  processed_dir: data/processed/population
+  derived_dir: data/derived/population
+  reports_dir: reports/population
+  models_dir: models/population
+
+population:
+  # 1000 fixed latent donors reused once under control and once under each
+  # of the 16 treatments: native full G synthetic experiment, 17,000 total
+  # response rows.
+  n_profiles: 1000
+  reference_year: 2026
+  master_seed: 20260831
+  other_gender_mode: none
+  sample_without_replacement: true
+
+ipf:
+  tolerance: 1.0e-10
+  max_iterations: 10000
+
+ces_party_model:
+  diagnostic_test_fraction: 0.20
+  regularization_c: 1.0
+  max_iterations: 5000
+  use_voter_variables: false
+
+roster:
+  intervention_replicates: 1
+  control_replicates: 1
+
+population_source_amendments:
+  - amended_at: "2026-08-26"
+    amendment_type: TARGET_DONOR_SOURCE_ACS_PUMS_TO_CES_2024_FROZEN
+    status: ROSTER_FROZEN_LIVE_CUTOVER_DEFERRED
+    reason: >-
+      Prospective, input-population-coherence decision, independent of any
+      target outcome or model response (no target G/F responses have been
+      generated). PUMS requires a modeled/probabilistic party assignment
+      (reports/population/population_report.md: "Partisan identity is
+      imputed probabilistically from a weighted model estimated using the
+      2024 CES Common Content"; ACS collects no partisan-identity item at
+      all). CES 2024 Common Content directly observes party (pid3),
+      ideology (ideo5), gender identity (gender4), state (inputstate), and
+      religion (religpew) on the SAME respondent row, avoiding the
+      source-by-gender confounding of a PUMS+CES hybrid. Both sources pass
+      the same published demographic quota alignment. G*/F* selection does
+      not depend on this donor-source choice and is unaffected; R1 is
+      unaffected.
+      No target human outcomes were observed before or during this
+      decision. Does not reopen G* or F*.
+    religion_codebook_verification:
+      variable: religpew
+      question: "What is your present religion, if any?"
+      source: data/CES_2024_GUIDE_vv.pdf, p.60
+      mapping: {"1": "Protestant", "2": "Roman Catholic", "3": "Mormon", "4": "Eastern or Greek Orthodox", "5": "Jewish", "6": "Muslim", "7": "Buddhist", "8": "Hindu", "9": "Atheist", "10": "Agnostic", "11": "Nothing in particular", "12": "Something else"}
+      verification_method: "every one of the 12 codebook-printed (label, N) pairs matches data/CCES24_Common_OUTPUT_vv_topost_final.csv's own religpew value_counts() exactly (19038/10861/623/315/1483/413/521/204/4584/4414/12647/4837, missing=60/60000) -- a pure one-to-one categorical recode, no inference"
+      missing_rate: 0.001
+      mapping_arbitrary: false
+    other_gender_representation:
+      rule: "CES's own commonweight-weighted survey prevalence of gender4 in {Non-binary, Other} across all 60,000 valid-weight respondents"
+      share: 0.007634
+      share_independently_recomputed: true
+      n_g: 1000
+      n_other_frozen: 8
+      rounding: ordinary nearest-integer (1000 * 0.007634 = 7.634 -> 8)
+      is_benchmark_quota: false
+      selection_method: "weighted-without-replacement draw (probability proportional to the respondent's own commonweight -- the same formula src/population/sampling.sample_donors already uses per cell), from genuine CES respondents whose native gender4 recodes to Other; no Man/Woman respondent relabeled; no PUMS row spliced in; no target/outcome information used"
+      rng_stream: "ces_other_selection, spawned alongside (not replacing) the existing named streams in population.constants.spawn_rngs -- SeedSequence.spawn(k) is a strict prefix of spawn(k+1), verified before use, so the existing Male/Female draw streams are byte-identical to before"
+    male_female_quota_rescaling:
+      rule: "the published 1000-total gender x age and gender x race margins (config/quota_gender_age_1000.csv / quota_gender_race_1000.csv) rescaled to 992 (1000 - 8 reserved Other slots), preserving relative proportions as closely as mathematically possible, via calibration.study_population.largest_remainder_allocations (reused unmodified) applied in two stages: gender totals (490/510 -> 486/506), then each gender's age/race weights rescaled to that gender's new total"
+      no_new_tunable_objective: true
+      raking_reused_unmodified: "src/population/raking.py: ipf_2d + controlled_integerize, run against the rescaled margins exactly as it already runs against the 1000-total margins for the production PUMS roster"
+    frozen_roster:
+      path: data/derived/population/ces_production_roster_n1000.csv
+      sha256: 73cb40367efd0f92b8593cb9555660f68bdc95d8c1aad38f41aa13ab089ca43d
+      n: 1000
+      n_other: 8
+      n_male_female: 992
+      unique_donor_rows: 1000
+      education_approximated_n: 126
+      income_approximated_n: 134
+      religion_missing_n: 1
+      political_ideology_missing_n: 87
+      build_script: scripts/build_ces_production_roster.py
+    live_production_cutover:
+      status: DEFERRED_NOT_DONE_THIS_AMENDMENT
+      reason: >-
+        data/generated/g_personas_master.csv (the file
+        inference/together_batch.py's G-request builder actually reads),
+        data/processed/population/simulation_roster_17000.csv, and the
+        500-row F target panel are all derived FROM one core roster by
+        scripts/validate_personas.py in a single coupled build pass, and
+        are keyed by donor_key values that would silently point at
+        different real people if the core roster changed underneath them
+        without also rebuilding those three together in the same pass.
+        Rebuilding and cutting over all three together is an explicit,
+        separate, later step -- this amendment freezes the new core roster
+        only. No 17,000-row target roster and no target requests were
+        built.
+      pums_roster_preserved: true
+      pums_roster_path: data/generated/g_personas_master.csv (unmodified, untouched by this amendment)
+    row_alignment_bug_found_and_fixed:
+      description: >-
+        While building this roster, found that population.ces.build_ces_training_frame
+        reset its returned frame's index to a fresh 0..N-1 range after
+        dropping incomplete rows, which silently broke row alignment for
+        any caller joining other raw CES columns (donor_id/caseid,
+        education, income, religion, ideology) back onto the surviving
+        rows by that index -- caught by an independent cross-check (a
+        donor labeled gender=Other whose raw gender4 code was actually
+        Male). The same bug silently affected the already-committed
+        scratch roster (data/derived/population/scratch_ces_roster_n1000.csv,
+        commit 7b18345) for every non-recoded-inline field (donor_id,
+        education, income, religion, political_ideology) -- gender/age/race/
+        party/state/weight were unaffected (computed directly inline, not
+        joined back by index).
+      fix: >-
+        Removed the reset_index(drop=True) call so the returned frame keeps
+        ces_raw's original row index. Verified empirically, not just by
+        reasoning: run_diagnostics and fit_final_model (the CES party
+        model's diagnostics and the model actually used for the current
+        production PUMS roster's party imputation) produce byte-identical
+        output (n_train, weighted log loss, weighted accuracy, confusion
+        matrix, fitted coefficients) whether the index is reset or
+        preserved -- both existing callers are index-value-agnostic, so
+        this is a purely additive fix. Full offline test suite (600 tests)
+        passes after the fix.
+      scratch_roster_rebuilt: true
+      regression_test: tests/population/test_ces_recodes.py::test_build_ces_training_frame_preserves_original_row_index_for_alignment
+    g_selection_changed: false
+    f_selection_changed: false
+    r1_changed: false
+    target_human_outcomes_observed: false
+    calibration_authorized: false
+    target_inference_authorized: false
+
+  - amended_at: "2026-08-26"
+    amendment_type: CES_TARGET_ARTIFACT_ATOMIC_CUTOVER
+    status: LIVE
+    reason: >-
+      Completes the donor-source switch frozen above: rebuilds and atomically
+      cuts over the live target-G master, target-F 500-panel, and both
+      17-condition skeletons from the frozen CES-1000 roster, together, so
+      no committed state ever has G on CES while target F is still on PUMS
+      or vice versa. No target human outcomes observed; no model inference;
+      no Together submissions. Prospective, unrelated to any target
+      outcome/model response.
+    source_verification:
+      ces_roster_sha256_matches_frozen_amendment: true
+      build_script: scripts/build_ces_target_artifacts.py (materializes profiles_core_1000.csv/simulation_roster_17000.csv from the frozen CES roster, then runs the now Other-aware scripts/validate_personas.py -- see cutover_durability_fix below)
+    target_g:
+      donor_count: 1000
+      condition_rows: 17000
+      conditions: 17
+      donor_reuse_across_conditions: exact
+      quota_rescaling: "gender x age_band / gender x race margins rescaled 1000->992 (8 reserved Other slots), same two-stage largest_remainder_allocations already used to freeze the G-1000 roster -- achieved counts match exactly"
+    target_f:
+      panel_n: 500
+      other_n: 4
+      male_n: 243
+      female_n: 253
+      other_selection_method: "deterministic subset of the G master's own 8 Other-gender donors, via the identical deterministic_hash sort-and-take convention build_f_panel already uses for every Male/Female (age, race) cell -- not a fresh CES draw, not a benchmark quota invented for a level the F(500) quota tables never define"
+      quota_rescaling: "gender x age_band / gender x race margins rescaled 500->496 (4 reserved Other slots), same two-stage largest_remainder_allocations approach -- achieved counts match exactly"
+      is_subset_of_target_g: true
+      demographic_fields_verified_identical_to_g_donor_row: true
+    prompt_compilation_tests:
+      scope: offline_only_no_submission
+      g_male_female_other: PASS
+      f_male_female_other: PASS
+      optional_missingness_religion_and_ideology: PASS
+      state_dependent_routing: PASS
+      no_raw_weights_or_internal_donor_fields_rendered: PASS
+    target_f_v2_format_fix:
+      description: >-
+        Found while compiling target-F prompts: build_f_prompt_render and
+        build_f_consensus_stage_b_prompt_render (the actual target-F request
+        builders in inference/together_batch.py::iter_f_requests) still
+        defaulted to the pre-R1-remediation v1 closing instruction --
+        target F (111,000 requests) would have hit the same
+        structured-output reliability failure historical R1 hit at 24,000
+        requests. Added an opt-in response_format_instruction_version
+        parameter to both (default "v1", byte-identical for every existing
+        caller), and iter_f_requests now explicitly passes "v2" for target F
+        only. Consensus Stage A (a structurally different 3-estimate
+        elicitation protocol, never part of the R1 remediation) is
+        untouched. Regression tests: tests/inference/test_together_batch.py::test_target_f_non_consensus_requests_use_v2_format_instruction,
+        ::test_target_f_consensus_stage_a_untouched_by_v2.
+    request_count_verification:
+      target_g_expected_requests: 18000
+      target_g_breakdown: "1000 donors x 16 non-Consensus conditions (one full-questionnaire request each) + 1000 Consensus Stage A + 1000 Consensus Stage B"
+      target_g_first_wave_empirically_counted: 17000
+      target_f_expected_requests: 111000
+      target_f_breakdown: "500 profiles x 16 non-Consensus conditions x 13 outcomes (104000) + 500 Consensus Stage A (500) + 500 Consensus Stage B x 13 outcomes (6500)"
+      target_total_expected_requests: 129000
+      naive_208000_estimate_rejected_because: "the benchmark's 17 conditions already include control and Consensus as conditions in their own right -- there is no separate control-vs-treatment multiplier on top of 16 named interventions"
+    cutover_durability_fix:
+      problem_found: >-
+        The first cutover implementation left profiles_core_1000.csv and
+        simulation_roster_17000.csv (data/processed/population/) untouched,
+        PUMS-sourced, and copied the built g_personas_master.csv/
+        f_target_panel.csv/skeletons directly into data/generated/. But
+        tests/population/test_persona_validation.py's persona_artifacts
+        fixture runs scripts/validate_personas.py as a real subprocess
+        against ITS OWN hardcoded PUMS defaults (profiles_core_1000.csv,
+        the unscaled quota_gender_age_1000.csv/quota_gender_race_1000.csv
+        checks) on every test run -- silently overwriting the live CES
+        artifacts back to PUMS as a side effect. Caught directly: running
+        the full offline suite once reverted the cutover; re-verified by
+        deliberately re-running it a second time after the fix, confirming
+        it no longer reverts.
+      fix: >-
+        Generalized scripts/validate_personas.py itself rather than
+        special-casing CES: build_g_master gained a source_dataset
+        parameter (default = the historical PUMS string, byte-identical for
+        every existing caller); a new rescaled_quota_reserving_other()
+        helper rescales the published gender x age_band / gender x race
+        margins to reserve n_other slots via the SAME
+        largest_remainder_allocations two-stage approach already used to
+        freeze the CES-992+8 roster -- verified n_other=0 is an EXACT
+        no-op, reproducing the published quota_gender_age_1000.csv/
+        quota_gender_race_1000.csv/500-row counterparts unchanged
+        (tests/scripts/test_validate_personas_ces_aware.py); a new
+        build_f_panel_with_other() draws n_other_f Other-gender F-panel
+        members from the G master's own Other pool via the same
+        deterministic_hash convention (n_other_f=0 is identical to calling
+        build_f_panel directly). main() now derives n_other from core
+        itself (never assumed) and picks source_dataset from whether any
+        Other-gender donor is present. scripts/build_ces_target_artifacts.py
+        was rewritten into a thin, deterministic reshape step
+        (profiles_core_1000.csv <- rename ces_commonweight ->
+        pums_person_weight from the already-frozen CES roster; no new
+        donor selection) that materializes the two processed-population
+        input files, preserving the historical PUMS versions under
+        data/processed/population/superseded_pums/, then simply runs
+        validate_personas.py -- the SAME script every build/test path now
+        uses, with one behavior driven entirely by what's on disk.
+      verification: >-
+        Full offline suite run twice after the fix (615 tests both times);
+        after each run, directly re-read data/generated/g_personas_master.csv
+        and confirmed source_dataset=CES 2024 Common Content,
+        gender counts Female 506/Male 486/Other 8, and byte-identical
+        sha256 across both runs (3729dcf1c3b745b22083ad1f3c0472d0b3c9c8b1545ffdc762ae2b48b1662c79)
+        -- proving the rebuild is deterministic, not merely "happened to
+        still be CES." data/derived/population/ces_production_roster_n1000.csv
+        (the frozen donor SELECTION) is untouched throughout
+        (sha256 73cb40367efd0f92b8593cb9555660f68bdc95d8c1aad38f41aa13ab089ca43d,
+        matching the frozen amendment) -- only its deterministic reshape
+        into profiles_core_1000.csv is ever (re)written.
+      regression_tests: [tests/scripts/test_validate_personas_ces_aware.py, tests/scripts/test_build_ces_target_artifacts.py]
+    old_artifact_disposition:
+      g_personas_master_csv: SUPERSEDED
+      f_target_panel_csv: SUPERSEDED
+      tier1_design_skeleton_csv: SUPERSEDED
+      tier1_submission_skeleton_csv: SUPERSEDED
+      profiles_core_1000_csv: SUPERSEDED
+      simulation_roster_17000_csv: SUPERSEDED
+      superseded_dirs: [data/generated/superseded_pums_target_artifacts, data/processed/population/superseded_pums]
+      note: >-
+        profiles_core_1000.csv/simulation_roster_17000.csv are now the
+        ACTIVE default inputs validate_personas.py reads (PROFILE_PATH/
+        ROSTER_PATH are unchanged paths -- only their CONTENT was replaced,
+        deterministically, from the already-frozen CES roster). The
+        historical PUMS content of both is preserved under
+        data/processed/population/superseded_pums/. This closes the gap
+        the first cutover implementation left open (see
+        cutover_durability_fix above): the normal validation/build path can
+        no longer silently regenerate the superseded PUMS roster.
+        scripts/generate_responses.py (a separate, unguarded,
+        apparently-legacy local-inference path, not part of the
+        Together-batch-API production flow this engagement has used
+        throughout) is unaffected either way -- flagged as a residual,
+        out-of-scope path, not touched this turn.
+    atomic_cutover_result: PASS
+    cutover_durable: true
+    g_selection_changed: false
+    f_selection_changed: false
+    r1_changed: false
+    target_human_outcomes_observed: false
+    target_inference_performed: false
+    new_paid_inference_performed: false
+    target_production_currently_authorized: false
+    target_blocked_pending_calibration: true
+    other_target_production_blockers: ["R_F/frozen F protocol not yet materialized (outputs/f_reliability/frozen_f_protocol.json missing)", "final method/config/provenance manifest not yet frozen (outputs/validation/frozen_method_manifest.json missing)"]

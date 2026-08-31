@@ -1,0 +1,336 @@
+"model","study","condition.name","outcome.name","spec_template_group","prompt","outcome_scale_min","outcome_scale_max"
+"gpt-4","AnsonBRIEF60","Control group 1","economy_positivity","white","(As you complete the following task, keep in mind what is known about the public's beliefs and behaviors from research in the field of behavioral science)
+--------------------
+
+Study description:
+> Social scientists often conduct research studies using online surveys. The text below is from one such survey conducted on a large, diverse population of research participants. 
+
+You are a research participant. Below is a transcript from an online survey.
+
+The first page of the survey says:
+> Are you liberal, moderate or conservative?
+
+You choose: 'Conservative'
+
+The next page of the survey says:
+> How old are you?
+
+You choose: '30-39'
+
+The next page of the survey says:
+> What is your ethnicity?
+
+You choose: 'White'
+
+The next page of the survey says:
+> What is your gender?
+
+You choose: 'Female'
+
+The next page of the survey says:
+> What is the maximum level of education you have attained?
+
+You choose: 'College'
+
+The next page of the survey says:
+> What is your partisan affiliation?
+
+You choose: 'Strong Republican'
+
+The next page of the survey says:
+> We’ll ask you about a variety of topics in this survey.
+> In a moment, we’d like you to read a short news article. Please indicate which of the following you would be interested in reading about. You may not receive your preferred topic.
+> 1.        The stock market
+> 2.        Wages and income
+> 3.        Unemployment
+> 
+> The first option (the stock market) is selected.
+
+The next page of the survey says:
+> Please read the short new article below.
+> 
+> NEW YORK--- Verizon once again has bragging rights in the wireless industry.
+> The carrier took top honors in a new ranking of nationwide network performance by market research firm RootMetrics. Verizon ranked number one for reliability, speed, call and data performance, with AT&T a close second in all those categories. Those two firms held a significant advantage over third-ranked T-Mobile and fourth-ranked Sprint. RootMetrics conducted the study through the use of national surveys.
+
+The next page of the survey says:
+> Would you say that in the past year, the U.S. ECONOMY has gotten better, stayed the same, or gotten worse?
+> Please choose a number from 1 (Much worse) to 5 (Much better)
+
+You choose: '",1,5
+"gpt-4","AnsonBRIEF60","Treatment group 1","economy_positivity","white","(As you complete the following task, keep in mind what is known about the public's beliefs and behaviors from research in the field of behavioral science)
+--------------------
+
+Study description:
+> Social scientists often conduct research studies using online surveys. The text below is from one such survey conducted on a large, diverse population of research participants. 
+
+You are a research participant. Below is a transcript from an online survey.
+
+The first page of the survey says:
+> Are you liberal, moderate or conservative?
+
+You choose: 'Conservative'
+
+The next page of the survey says:
+> How old are you?
+
+You choose: '30-39'
+
+The next page of the survey says:
+> What is your ethnicity?
+
+You choose: 'White'
+
+The next page of the survey says:
+> What is your gender?
+
+You choose: 'Female'
+
+The next page of the survey says:
+> What is the maximum level of education you have attained?
+
+You choose: 'College'
+
+The next page of the survey says:
+> What is your partisan affiliation?
+
+You choose: 'Strong Republican'
+
+The next page of the survey says:
+> We’ll ask you about a variety of topics in this survey.
+> In a moment, we’d like you to read a short news article. Please indicate which of the following you would be interested in reading about. You may not receive your preferred topic.
+> 1.        The stock market
+> 2.        Wages and income
+> 3.        Unemployment
+> 
+> The first option (the stock market) is selected.
+
+The next page of the survey says:
+> Please read the short new article below.
+> 
+> WASHINGTON --- Stocks were up last week, lending further evidence that the markets are headed for even stronger gains. The Dow Jones rallied substantially in the past quarter, as investors displayed a growing appetite for risk and a striking lack of concern about any reversal of fortune. ``Today's report continues to signal a solid investing environment that is likely to maintain its bullishness,"" said Omair Sharif, senior economist at RBS in Stamford, Connecticut.
+
+The next page of the survey says:
+> Would you say that in the past year, the U.S. ECONOMY has gotten better, stayed the same, or gotten worse?
+> Please choose a number from 1 (Much worse) to 5 (Much better)
+
+You choose: '",1,5
+"gpt-4","Braman751","Gun Control, Clear Authority, 85% support","scholar_credibility","white","(As you complete the following task, keep in mind what is known about the public's beliefs and behaviors from research in the field of behavioral science)
+--------------------
+
+Study description:
+> Social scientists often conduct research studies using online surveys. The text below is from one such survey conducted on a large, diverse population of research participants. 
+
+You are a research participant. Below is a transcript from an online survey.
+
+The first page of the survey says:
+> Are you liberal, moderate or conservative?
+
+You choose: 'Conservative'
+
+The next page of the survey says:
+> How old are you?
+
+You choose: '30-39'
+
+The next page of the survey says:
+> What is your ethnicity?
+
+You choose: 'White'
+
+The next page of the survey says:
+> What is your gender?
+
+You choose: 'Female'
+
+The next page of the survey says:
+> What is the maximum level of education you have attained?
+
+You choose: 'College'
+
+The next page of the survey says:
+> What is your partisan affiliation?
+
+You choose: 'Strong Republican'
+
+The next page of the survey says:
+> PLEASE READ THE ARTICLE CAREFULLY. After the article we will be asking you some questions about your reaction to the article and information presented.
+> 
+> New Federal Gun Regulations Raise Constitutional Concerns
+>  (AP - 7/1/16) Congress is considering federal legislation that would require background checks for all gun buyers, including those who purchase from private sellers, currently exempt from such regulations. The proposed legislation would also limit the sale and manufacture of ammunition in automatic magazines to ten rounds. A recent public opinion poll indicates “over 85%” of Americans support federal legislation addressing gun violence in these specific respects.
+> 
+> Gun rights advocates say that the proposed legislation is a violation of their Second Amendment rights.  They also argue that the federal law infringes on States’ police powers to regulate for the health, safety and morals of local citizens. James Lott, a representative from the National Rifle Association says, “this is just another example of Congress trying to impose its will on the citizens of the several states.” Matthew Lorne, a gun control advocate is quick to point out, “the bill only fills loopholes in current laws and bans extremely dangerous weapons.  No sportsman needs more than ten rounds to kill a deer.”
+> 
+> Legal experts overwhelmingly agree that Congress has the constitutional authority to enact such legislation in our federal system. “The Supreme Court would surely uphold this statute,” said Robert Farber, a constitutional law scholar at George Washington University.  “Article I gives Congress broad discretion to regulate goods shipped through interstate commerce, including firearms. It is true that most gun safety regulations are passed as a matter of state authority under the Tenth Amendment, but this law does not represent an impermissible intrusion on state police powers.”
+
+The next page of the survey says:
+> Do you think that constitutional law scholars are credible experts with regard to this issue of Congressional Authority?
+> Please choose a number from 1 (No) to 2 (Yes)
+
+You choose: '",1,2
+"gpt-4","Braman751","Gun Control, Divided, 85% support","scholar_credibility","white","(As you complete the following task, keep in mind what is known about the public's beliefs and behaviors from research in the field of behavioral science)
+--------------------
+
+Study description:
+> Social scientists often conduct research studies using online surveys. The text below is from one such survey conducted on a large, diverse population of research participants. 
+
+You are a research participant. Below is a transcript from an online survey.
+
+The first page of the survey says:
+> Are you liberal, moderate or conservative?
+
+You choose: 'Conservative'
+
+The next page of the survey says:
+> How old are you?
+
+You choose: '30-39'
+
+The next page of the survey says:
+> What is your ethnicity?
+
+You choose: 'White'
+
+The next page of the survey says:
+> What is your gender?
+
+You choose: 'Female'
+
+The next page of the survey says:
+> What is the maximum level of education you have attained?
+
+You choose: 'College'
+
+The next page of the survey says:
+> What is your partisan affiliation?
+
+You choose: 'Strong Republican'
+
+The next page of the survey says:
+> PLEASE READ THE ARTICLE CAREFULLY. After the article we will be asking you some questions about your reaction to the article and information presented.
+> 
+> New Federal Gun Regulations Raise Constitutional Concerns
+>  (AP - 7/1/16) Congress is considering federal legislation that would require background checks for all gun buyers, including those who purchase from private sellers, currently exempt from such regulations. The proposed legislation would also limit the sale and manufacture of ammunition in automatic magazines to ten rounds. A recent public opinion poll indicates “over 85%” of Americans support federal legislation addressing gun violence in these specific respects.
+> 
+> Gun rights advocates say that the proposed legislation is a violation of their Second Amendment rights.  They also argue that the federal law infringes on States’ police powers to regulate for the health, safety and morals of local citizens. James Lott, a representative from the National Rifle Association says, “this is just another example of Congress trying to impose its will on the citizens of the several states.” Matthew Lorne, a gun control advocate is quick to point out, “the bill only fills loopholes in current laws and bans extremely dangerous weapons.  No sportsman needs more than ten rounds to kill a deer.”
+> 
+> Legal experts are currently divided about whether or not Congress would be overstepping its constitutional authority by enacting such legislation in our federal system.  “It is hard to say how the Supreme Court would rule on this issue,” said Robert Farber, a constitutional law scholar at George Washington University.  “Article I gives Congress broad discretion to regulate goods shipped through interstate commerce, including firearms, but most gun safety regulations are passed as a matter of state authority under the Tenth Amendment.  It is unclear whether this law represents an impermissible intrusion on state police powers.”
+
+The next page of the survey says:
+> Do you think that constitutional law scholars are credible experts with regard to this issue of Congressional Authority?
+> Please choose a number from 1 (No) to 2 (Yes)
+
+You choose: '",1,2
+"gpt-4","Terman1029","Rights Group Condemns Abuses Worldwide","donating to HRAC","white","(As you complete the following task, keep in mind what is known about the public's beliefs and behaviors from research in the field of behavioral science)
+--------------------
+
+Study description:
+> Social scientists often conduct research studies using online surveys. The text below is from one such survey conducted on a large, diverse population of research participants. 
+
+You are a research participant. Below is a transcript from an online survey.
+
+The first page of the survey says:
+> Are you liberal, moderate or conservative?
+
+You choose: 'Conservative'
+
+The next page of the survey says:
+> How old are you?
+
+You choose: '30-39'
+
+The next page of the survey says:
+> What is your ethnicity?
+
+You choose: 'White'
+
+The next page of the survey says:
+> What is your gender?
+
+You choose: 'Female'
+
+The next page of the survey says:
+> What is the maximum level of education you have attained?
+
+You choose: 'College'
+
+The next page of the survey says:
+> What is your partisan affiliation?
+
+You choose: 'Strong Republican'
+
+The next page of the survey says:
+> On the next screen, you are going to see part of a news article. Please read it carefully before continuing.
+
+The next page of the survey says:
+> Rights Group Condemns Abuses Worldwide
+>  
+> July 1, 2018
+>  
+> Human Rights Action Committee (HRAC), an international advocacy organization based in Geneva, Switzerland, accused multiple governments today of repeated violations of human rights throughout their criminal justice system.
+>  
+> A HRAC spokesperson said: “In many countries, the criminal justice system is plagued with injustices, including discrimination, excessively harsh sentencing, and inhumane prison conditions.”
+>  
+> The group said it would publish a report about the violations, and launch an international campaign urging states and other members of the international community to denounce these abuses.
+
+The next page of the survey says:
+> Are you willing to donate $1 to the Human Rights Action Committee to support their campaign to push for criminal justice reforms in the US? If you select 'Yes', a link to the donation page will appear at the end of this survey.
+> Please choose a number from 1 (No) to 2 (Yes)
+
+You choose: '",1,2
+"gpt-4","Terman1029","International Rights Group Codemns Abuse in US","donating to HRAC","white","(As you complete the following task, keep in mind what is known about the public's beliefs and behaviors from research in the field of behavioral science)
+--------------------
+
+Study description:
+> Social scientists often conduct research studies using online surveys. The text below is from one such survey conducted on a large, diverse population of research participants. 
+
+You are a research participant. Below is a transcript from an online survey.
+
+The first page of the survey says:
+> Are you liberal, moderate or conservative?
+
+You choose: 'Conservative'
+
+The next page of the survey says:
+> How old are you?
+
+You choose: '30-39'
+
+The next page of the survey says:
+> What is your ethnicity?
+
+You choose: 'White'
+
+The next page of the survey says:
+> What is your gender?
+
+You choose: 'Female'
+
+The next page of the survey says:
+> What is the maximum level of education you have attained?
+
+You choose: 'College'
+
+The next page of the survey says:
+> What is your partisan affiliation?
+
+You choose: 'Strong Republican'
+
+The next page of the survey says:
+> On the next screen, you are going to see part of a news article. Please read it carefully before continuing.
+
+The next page of the survey says:
+> Rights Group Condemns Abuses in United States
+>  
+> July 1, 2018
+>  
+> Human Rights Action Committee (HRAC), an international advocacy organization based in Geneva, Switzerland, accused the United States today of repeated violations of human rights throughout the criminal justice system. 
+>  
+> A HRAC spokesperson said: “The United States' criminal justice system is plagued with injustices, including discrimination, excessively harsh sentencing, and inhumane prison conditions.”
+>  
+> The group said it would publish a report about the violations, and launch an international campaign urging states and other members of the international community to denounce these abuses.
+
+The next page of the survey says:
+> Are you willing to donate $1 to the Human Rights Action Committee to support their campaign to push for criminal justice reforms in the US? If you select 'Yes', a link to the donation page will appear at the end of this survey.
+> Please choose a number from 1 (No) to 2 (Yes)
+
+You choose: '",1,2

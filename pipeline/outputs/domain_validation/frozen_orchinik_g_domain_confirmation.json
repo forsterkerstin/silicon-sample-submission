@@ -1,0 +1,116 @@
+{
+  "status": "PROSPECTIVELY_FROZEN_BEFORE_MODEL_PREDICTIONS_OBSERVED",
+  "purpose": "DOMAIN_SPECIFIC_CONFIRMATION_OF_FROZEN_G_MODEL_CHOICE",
+  "original_g_selection": "ATP_WASSERSTEIN_SCREEN",
+  "selected_g": "google/gemma-4-31B-it",
+  "comparator": "deepseek-ai/DeepSeek-V4-Pro-0813",
+  "study": "ORCHINIK_2024",
+  "study_citation": "Orchinik et al. (2024), 'Learning from and about scientists: Consensus messaging shapes perceptions of climate change and climate scientists', PNAS Nexus, DOI 10.1093/pnasnexus/pgae485",
+  "sample": "MAIN_BOVITZ_NATIONALLY_REPRESENTATIVE_US_SAMPLE",
+  "design": "ACTUAL_ASSIGNED_CONDITION_ONLY",
+  "primary_metric": "EQUAL_WEIGHT_MEAN_W1_OVER_75_ARM_OUTCOME_CONSENSUS_CELLS",
+  "scientific_consequence": "CONFIRMATION_ONLY_NO_AUTOMATIC_RESELECTION",
+  "target_f_dependence": false,
+  "target_g_dependence": false,
+  "mu_external_dependence": false,
+  "gamma_g_dependence": false,
+  "prior_role_relationship": {
+    "prior_role": "ORCHINIK_GAMMA_VALIDATION",
+    "prior_role_status": "SUPERSEDED_FOR_CURRENT_METHOD_DECISION",
+    "prior_protocol_artifact": "outputs/domain_validation/frozen_domain_validation_protocol.json",
+    "prior_protocol_artifact_sha256": "8922dcf4ab62f586869c0217368ee03a9b5d283d789fccf2795305c33b53ca44",
+    "prior_artifacts_preserved": true,
+    "prior_50_cell_human_ate_surface_retained_for": "provenance and possible later descriptive analysis only -- must not be used to estimate gamma_G, alter gamma_G=1, decide S1 vs S2, alter MU_EXTERNAL, or alter target predictions"
+  },
+  "source_files": {
+    "Bovitz_qualtrics.docx": "fd3843244d28d3f6d64f809e982ccd5ebed8e347ea585ce9a4e4807abadfd44f",
+    "Bovitz_qualtrics.qsf": "7a6528b5a13febb8f8eb30ee98c1df43100890df0b075800924ef4bc2ed52026",
+    "final_bovitz_raw.csv": "cbae3d4a7faf1027e0434d1af62b527dc82a8bf6b9b7935a469fb058a0ea65f6",
+    "final_clean.csv": "6d9168d87c5ff471b4bcb94fe1542a80816c6dd2ff23eb7fa4f6aec5cac2bf06",
+    "bovitz_data_clean.R": "b871da4832a631dbdfe765b6de2591639d8b7afb459f5daf557c3b3176cfd8e3",
+    "analysis.Rmd": "ffe1176ae6c74ab3971100545d2bb559591e1b15e8519dc659316ca8fe7db727"
+  },
+  "eligible_donors": 2545,
+  "arm_counts": {
+    "control": 847,
+    "skill_aka_History": 837,
+    "trust_aka_Institutions": 861
+  },
+  "condition_label_mapping": {
+    "skill": "History",
+    "trust": "Institutions",
+    "control": "control",
+    "verification": "from the actual Qualtrics instrument text (Skill Intervention block = history-of-climate-science passage; Trust Intervention block = institutional-bias-safeguards passage); not inferred from variable names"
+  },
+  "focal_outcomes": [
+    "human_caused_climate_change (cc)",
+    "bias_of_pro_consensus_scientists (pro_bias)",
+    "bias_of_anti_consensus_scientists (anti_bias)",
+    "skill_of_pro_consensus_scientists (pro_skill)",
+    "skill_of_anti_consensus_scientists (anti_skill)"
+  ],
+  "consensus_levels": [
+    50,
+    75,
+    90,
+    97,
+    99
+  ],
+  "primary_cells": 75,
+  "cell_weighting": "equal (no weighting by human arm sample size, no post-hoc cell selection)",
+  "persona_construction": "pretreatment demographics only (age, gender, race, education, income, party identification + lean, political ideology [social and economic], belief in God/Gods intensity) -- no prior climate belief, consensus estimate, trust/bias/skill judgment, institutional-trust rating, affect-thermometer, or any other outcome/mediator/posttreatment field",
+  "invalid_response_policy": "fail-closed: no coercion, no clipping, no fence-stripping, no JSON repair, no inference of malformed values, no automatic paid retry -- same philosophy as the original ATP G screen (ate.f_screen_validation.validate_response)",
+  "model_configuration": {
+    "gemma": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "n": 1,
+      "enable_thinking": false,
+      "chain_of_thought": false,
+      "response_format": "constrained structured JSON"
+    },
+    "deepseek": "exact previously frozen DeepSeek G-screen serving configuration (temperature=1.0, top_p=0.95, n=1, its own frozen low-reasoning setting, constrained structured JSON) -- applied automatically per-model via inference.together_batch._chat_body/model_engine_config, not hand-duplicated here",
+    "scientific_prompt_identical_across_models": true
+  },
+  "gemma_manifest_sha256": "1eefa19e1cafdb7306f4bfb37fb7d332266ae741da823d5a22541961ce17028c",
+  "gemma_jsonl_sha256": "314e5aab3965a329320bef145effccb963dcea335c5c7471fcf2ecd9fd2ae6c0",
+  "gemma_request_count": 2545,
+  "gemma_worst_case_cost_usd": 3.671515,
+  "deepseek_manifest_sha256": "651e94234ad091a27c334217c40de674db420c4e0f857c4b5091b6bc6ed9c7d1",
+  "deepseek_jsonl_sha256": "a4d6c0e58f126523e22aa0e7320bbb80a4260a91b02723551d0704c132633c03",
+  "deepseek_request_count": 2545,
+  "deepseek_worst_case_cost_usd": 25.952012,
+  "total_new_requests": 5090,
+  "total_worst_case_cost_usd": 29.623527,
+  "confirmation_rule": {
+    "pass": "L_ORCHINIK(Gemma) < L_ORCHINIK(DeepSeek) => DOMAIN_SPECIFIC_G_CONFIRMATION = PASS",
+    "fail": "L_ORCHINIK(Gemma) > L_ORCHINIK(DeepSeek) => DOMAIN_SPECIFIC_G_CONFIRMATION = FAIL_MIXED_EVIDENCE",
+    "tie": "exact numerical tie => DOMAIN_SPECIFIC_G_CONFIRMATION = TIE",
+    "automatic_g_reselection": false,
+    "note": "G* remains google/gemma-4-31B-it under all three outcomes unless a later, separate, explicit human-approved methodological decision is made"
+  },
+  "orchinik_used_to_estimate_mu_external": false,
+  "orchinik_used_to_estimate_gamma_g": false,
+  "orchinik_used_to_select_s1_vs_s2": false,
+  "orchinik_used_to_calibrate_target_ates": false,
+  "current_s2_unchanged": {
+    "mu_external": 1.9558595458395387,
+    "gamma_g": 1.0
+  },
+  "implementation": {
+    "confirmation_module": "ate/orchinik_g_domain_confirmation.py",
+    "confirmation_module_sha256": "4906c459d2aa8c6473f41ccac9c2b8a16b41c72485cf5c34b5c07bbf578db22f",
+    "manifest_builder": "scripts/build_orchinik_g_domain_confirmation_manifest.py",
+    "manifest_builder_sha256": "c2c029697cf37f3855a5e6516dbe3a57d0c3b12eeb01d098a2d721d5bc53dc35"
+  },
+  "manuscript_wording": {
+    "rationale": "The respondent simulator was prospectively selected using an external American Trends Panel distributional-fidelity screen. Because that screen used general survey items rather than climate-science outcomes, we subsequently conducted a separate domain-specific confirmation using the nationally representative U.S. climate-science experiment of Orchinik et al. (2024). Both candidate simulators generated the study's focal 0-100 response battery for each participant under the experimental condition actually assigned to that participant. The prespecified confirmation criterion was equal-weight mean Wasserstein-1 distance across the 75 condition-by-outcome-by-consensus-level response distributions. This analysis was confirmatory only and did not retroactively redefine the original model-selection rule or calibrate the S2 treatment-effect surface.",
+    "limitation": "The domain-specific confirmation assesses response-distribution fidelity under climate-science interventions; it does not establish that the simulator's relative treatment-effect surface is correctly calibrated. S2 preserves that centered surface with unit weight as a prospectively frozen structural assumption.",
+    "results_status": "PENDING -- no inference has been run; do not fill in until real results exist"
+  },
+  "target_g_scientific_outputs_inspected": false,
+  "target_human_outcomes_used": false,
+  "orchinik_human_data_used": true,
+  "orchinik_identified_post_initial_g_selection": true,
+  "post_primary_domain_validation": true
+}

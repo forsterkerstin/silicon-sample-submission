@@ -1,0 +1,52 @@
+state_abbr,state,selected_count,selected_proportion,state_source,extreme_weather_stimulus_available,source_proportion,comparison_status
+AK,Alaska,4,0.004,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+AL,Alabama,21,0.021,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+AR,Arkansas,13,0.013,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+AZ,Arizona,21,0.021,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+CA,California,95,0.095,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+CO,Colorado,20,0.02,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+CT,Connecticut,7,0.007,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+DC,"Washington, D.C.",2,0.002,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+DE,Delaware,8,0.008,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+FL,Florida,81,0.081,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+GA,Georgia,32,0.032,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+HI,Hawaii,7,0.007,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+IA,Iowa,9,0.009,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+ID,Idaho,8,0.008,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+IL,Illinois,26,0.026,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+IN,Indiana,18,0.018,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+KS,Kansas,7,0.007,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+KY,Kentucky,13,0.013,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+LA,Louisiana,18,0.018,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+MA,Massachusetts,22,0.022,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+MD,Maryland,17,0.017,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+ME,Maine,5,0.005,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+MI,Michigan,22,0.022,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+MN,Minnesota,15,0.015,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+MO,Missouri,16,0.016,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+MS,Mississippi,9,0.009,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+MT,Montana,5,0.005,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+NC,North Carolina,32,0.032,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+ND,North Dakota,1,0.001,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+NE,Nebraska,7,0.007,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+NH,New Hampshire,1,0.001,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+NJ,New Jersey,17,0.017,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+NM,New Mexico,8,0.008,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+NV,Nevada,14,0.014,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+NY,New York,56,0.056,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+OH,Ohio,34,0.034,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+OK,Oklahoma,19,0.019,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+OR,Oregon,14,0.014,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+PA,Pennsylvania,45,0.045,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+RI,Rhode Island,6,0.006,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+SC,South Carolina,13,0.013,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+SD,South Dakota,3,0.003,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+TN,Tennessee,23,0.023,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+TX,Texas,85,0.085,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+UT,Utah,8,0.008,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+VA,Virginia,33,0.033,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+VT,Vermont,1,0.001,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+WA,Washington,29,0.029,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+WI,Wisconsin,24,0.024,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+WV,West Virginia,4,0.004,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation
+WY,Wyoming,2,0.002,ACS PUMS state_fips recoded to state_abbr,True,,full source universe not materialized in lightweight validation

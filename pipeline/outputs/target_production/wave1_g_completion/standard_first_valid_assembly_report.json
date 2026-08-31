@@ -1,0 +1,17 @@
+{
+  "stage": "standard",
+  "intended_identities": 16000,
+  "first_valid_assembled": 16000,
+  "still_unresolved": 0,
+  "resolved_by_selected_attempt": {
+    "1": 14604,
+    "2": 1396,
+    "3": 0
+  },
+  "unresolved_by_next_attempt_number": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "None": 0
+  }
+}

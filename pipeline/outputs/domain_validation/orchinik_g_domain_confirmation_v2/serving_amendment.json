@@ -1,0 +1,49 @@
+{
+  "amendment_type": "ORCHINIK_DOMAIN_CONFIRMATION_SERVING_FORMAT_ONLY_V2",
+  "motivation": "audit found the v1 Orchinik manifests lacked the anti-markdown-fence closing instruction -- the exact gap independently diagnosed as the root cause of the 92-98% invalid rate on the original target G Wave-1 batch (system_fingerprint vllm-0.21.0-8326ea74)",
+  "analogous_to": {
+    "path": "outputs/target_production/g_wave1_v1_format_failure_amendment.json",
+    "sha256": "1ec34ad251fd86b841b0639213c8f84d65126205b413b744456a554a28b207e7"
+  },
+  "v1_protocol_path": "outputs/domain_validation/frozen_orchinik_g_domain_confirmation.json",
+  "v1_protocol_sha256": "c5ec02ad2153d8a3be0d912d5183e9334c73faedec03d600c3039edd7770300e",
+  "v1_protocol_unmodified_by_this_amendment": true,
+  "v1_manifests_preserved_unmodified": true,
+  "format_only_change": {
+    "description": "appends G_FORMAT_INSTRUCTION_V2 verbatim after the v1 closing instruction sentence -- never replaces or removes it",
+    "instruction_text": "Return ONLY the raw JSON object matching the supplied schema. Do not use Markdown. Do not use ```json or any other code fences. Do not place text before or after the JSON. The response must begin with { and end with }.",
+    "scientific_equivalence_programmatically_verified": true
+  },
+  "no_change_to": [
+    "personas",
+    "donor_universe",
+    "randomized_condition",
+    "experimental_material",
+    "response_battery",
+    "response_supports",
+    "item_ordering",
+    "model",
+    "temperature",
+    "top_p",
+    "reasoning_settings",
+    "stochastic_draws",
+    "primary_metric",
+    "cell_weighting",
+    "confirmation_rule",
+    "scientific_consequence"
+  ],
+  "gemma_manifest_sha256": "97f8f351f1229883e57871845cefb7ebc5a9a44a1071e026c4e8a55637a5c60a",
+  "gemma_jsonl_sha256": "612b2ec9ea4854cf9f455a3e81cc6360293b7d36df419e17aec20f1b7e546f95",
+  "gemma_request_count": 2545,
+  "gemma_worst_case_cost_usd": 3.699383,
+  "deepseek_manifest_sha256": "4cd0bb37e6de4feeb05b04f8851ecb773b7ca9570c4e194305a3aafeec6a8ba6",
+  "deepseek_jsonl_sha256": "8965f570870f4548bf870ac952b3ace24fef478dec7e6d11e7d96bbbd6358fe0",
+  "deepseek_request_count": 2545,
+  "deepseek_worst_case_cost_usd": 26.135939,
+  "total_requests": 5090,
+  "total_worst_case_cost_usd": 29.835322,
+  "eligible_donors_per_model": 2545,
+  "target_g_scientific_outputs_accessed": false,
+  "target_human_outcomes_used": false,
+  "new_paid_inference_performed": false
+}

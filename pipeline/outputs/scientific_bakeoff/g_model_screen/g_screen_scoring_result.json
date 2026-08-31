@@ -1,0 +1,137 @@
+{
+  "all_final": true,
+  "candidate_results": {
+    "deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "score": {
+        "decision_status": "CLEAN_NO_DECISION_NEEDED",
+        "g_atp_loss": 14.262642450142453,
+        "invalid_report": {
+          "overall_invalid_rate": 0.0,
+          "per_item": {
+            "ATP1": {
+              "invalid_custom_ids": [],
+              "invalid_n": 0,
+              "invalid_rate": 0.0,
+              "invalid_reasons": {},
+              "total": 650,
+              "valid_n": 650
+            },
+            "ATP2": {
+              "invalid_custom_ids": [],
+              "invalid_n": 0,
+              "invalid_rate": 0.0,
+              "invalid_reasons": {},
+              "total": 576,
+              "valid_n": 576
+            }
+          },
+          "total": 1226
+        },
+        "is_final": true,
+        "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+        "reconciliation": {
+          "duplicate": [],
+          "integrity_ok": true,
+          "malformed_records": [],
+          "missing_entirely": [],
+          "unexpected": []
+        },
+        "w1_pp_atp1": 20.30769230769231,
+        "w1_pp_atp2": 8.217592592592595
+      },
+      "usage": {
+        "completion_tokens": 11914,
+        "prompt_tokens": 310278,
+        "realized_cost_usd": 0.456746
+      }
+    },
+    "google/gemma-4-31B-it": {
+      "score": {
+        "decision_status": "CLEAN_NO_DECISION_NEEDED",
+        "g_atp_loss": 7.504807692307696,
+        "invalid_report": {
+          "overall_invalid_rate": 0.0,
+          "per_item": {
+            "ATP1": {
+              "invalid_custom_ids": [],
+              "invalid_n": 0,
+              "invalid_rate": 0.0,
+              "invalid_reasons": {},
+              "total": 650,
+              "valid_n": 650
+            },
+            "ATP2": {
+              "invalid_custom_ids": [],
+              "invalid_n": 0,
+              "invalid_rate": 0.0,
+              "invalid_reasons": {},
+              "total": 576,
+              "valid_n": 576
+            }
+          },
+          "total": 1226
+        },
+        "is_final": true,
+        "model": "google/gemma-4-31B-it",
+        "reconciliation": {
+          "duplicate": [],
+          "integrity_ok": true,
+          "malformed_records": [],
+          "missing_entirely": [],
+          "unexpected": []
+        },
+        "w1_pp_atp1": 11.88461538461539,
+        "w1_pp_atp2": 3.1250000000000013
+      },
+      "usage": {
+        "completion_tokens": 12242,
+        "prompt_tokens": 334842,
+        "realized_cost_usd": 0.073089
+      }
+    }
+  },
+  "provenance": {
+    "models": {
+      "deepseek-ai/DeepSeek-V4-Pro-0813": {
+        "batch_error_present": false,
+        "batch_id": "f137cd3b-10ae-425d-b8ad-a68e0edb1f66",
+        "batch_output_lines": 1226,
+        "batch_output_sha256": "1bdabc2b5ca32f9b3ba9a10c63ec3c15b47d5e5742eed7720a01cb7fd62a3b10",
+        "completed_at": "2026-08-25T20:06:14.620391Z",
+        "completion_tokens": 11914,
+        "created_at": "2026-08-25T20:00:42.018121Z",
+        "error_file_id": null,
+        "output_file_id": "file-e8224b6b-137f-48e3-9275-7d46965c6130",
+        "prompt_tokens": 310278,
+        "realized_cost_usd": 0.456746,
+        "status": "COMPLETED"
+      },
+      "google/gemma-4-31B-it": {
+        "batch_error_present": false,
+        "batch_id": "b1da8777-e11b-4023-9323-77ae7d40ef55",
+        "batch_output_lines": 1226,
+        "batch_output_sha256": "9baa0a8c47bb31bc04185ca71be3a13ff670d81151ca87a6be9ba6b8f23f3b7c",
+        "completed_at": "2026-08-25T20:03:53.475844Z",
+        "completion_tokens": 12242,
+        "created_at": "2026-08-25T20:00:47.404313Z",
+        "error_file_id": null,
+        "output_file_id": "file-9d360faa-5a43-47bd-9cf1-0a14069df9c9",
+        "prompt_tokens": 334842,
+        "realized_cost_usd": 0.073089,
+        "status": "COMPLETED"
+      }
+    }
+  },
+  "selection": {
+    "g_star": "google/gemma-4-31B-it",
+    "primary_metric_values": {
+      "deepseek-ai/DeepSeek-V4-Pro-0813": 14.262642450142453,
+      "google/gemma-4-31B-it": 7.504807692307696
+    },
+    "ranked": [
+      "google/gemma-4-31B-it",
+      "deepseek-ai/DeepSeek-V4-Pro-0813"
+    ],
+    "tie_break_rule": "lower invalid-response rate, then lower realized inference cost, then deterministic lexical model id"
+  }
+}

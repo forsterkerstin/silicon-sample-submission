@@ -1,0 +1,83 @@
+{
+  "g_protocol_id": "krsteski_demo_survey_adapted_v1",
+  "g_questionnaire_version": "post_treatment_blocks_questionnaire_txt_v1",
+  "consensus_interaction_protocol_id": "consensus_two_stage_interactive_adaptation_v1",
+  "g_literature_source": "Krsteski et al. ACL 2026; demographic-conditioned ATP survey-response template",
+  "g_source_doi": "10.18653/v1/2026.acl-long.498",
+  "g_adaptation_notes": "Demographic-only profile; no persona-guided prior-response synthesis; one full questionnaire request per donor x condition except Consensus, which uses a source-faithful two-stage interactive adaptation; structured JSON output.",
+  "g_not_used": "Krsteski persona-guided prior-response synthesis",
+  "f_protocol_id": "ashokkumar_experiment_forecast_adapted_v1",
+  "f_literature_source": "Ashokkumar et al. Nature 2026; experimental forecasting prompt architecture and prompt-ensemble strategy",
+  "f_source_doi": "10.1038/s41586-026-10742-x",
+  "f_adaptation_notes": "Small fixed adapted four-component variant library; paired prompt-variant assignment excludes condition_id; N_F remains 500. Consensus uses a source-faithful two-stage interactive adaptation; all other conditions use the standard request design.",
+  "consensus_expected_incremental_requests_at_n_g_1000_n_f_500": {
+    "g_increment": 1000,
+    "f_increment_formula": "500 * R_F",
+    "f_increment_at_r_f_1": 500
+  },
+  "f_variant_components": {
+    "intro_variants": {
+      "classification": "close adaptation",
+      "values": [
+        "Social scientists often conduct research studies using online surveys.",
+        "Researchers sometimes study how survey materials relate to participants' answers.",
+        "The following is a simulated response to one online survey condition."
+      ]
+    },
+    "profile_label_variants": {
+      "classification": "project serving adaptation",
+      "values": [
+        "Respondent profile",
+        "Participant profile",
+        "Survey participant"
+      ]
+    },
+    "profile_format_variants": {
+      "classification": "project serving adaptation",
+      "values": [
+        "bullets",
+        "sentence"
+      ]
+    },
+    "survey_format_variants": {
+      "classification": "project serving adaptation",
+      "values": [
+        "pages",
+        "sections"
+      ]
+    }
+  },
+  "f_assignment_key": "study_id|f_profile_id|outcome_id|replicate_id|f_protocol_id",
+  "f_assignment_condition_id_excluded": true,
+  "f_assignment_performance_selection": false,
+  "exact_system_prompt_hashes": {
+    "G": "bd227a7dd8fbc554711e48172ab92d9b051720d02750d357d9b47893222d1a8f",
+    "F": "0b23030d043412468ad325e1a4f0d2ffee3ff623d889911d40feff0612706b86"
+  },
+  "compiler_version": "prompt_compiler_v2_split_g_f",
+  "questionnaire_version_hash": "345df300b31eccfa83ef99f7fe96e5d6046c235704fdbde135f66ccb3b89004f",
+  "stimulus_library_version_hash": {
+    "survey_json": "2144815888a8413c191b5f69efe1f36a21929b77e4de4f37a7161068cc68b6c0",
+    "condition_codenames": "75ca9ff4ac64ec5daad34e1a07353b2852aea0fe552f0d495b61e076da84a75d"
+  },
+  "profile_format_version": "demographic_only_fixed_order_v1",
+  "selected_F_prompt_variants": [
+    "intro_a+profile_label_a+profile_format_sentence+survey_format_sections",
+    "intro_a+profile_label_b+profile_format_bullets+survey_format_sections",
+    "intro_a+profile_label_c+profile_format_bullets+survey_format_pages",
+    "intro_a+profile_label_c+profile_format_sentence+survey_format_pages",
+    "intro_a+profile_label_c+profile_format_sentence+survey_format_sections",
+    "intro_b+profile_label_b+profile_format_bullets+survey_format_sections",
+    "intro_b+profile_label_b+profile_format_sentence+survey_format_sections",
+    "intro_b+profile_label_c+profile_format_bullets+survey_format_pages",
+    "intro_b+profile_label_c+profile_format_sentence+survey_format_sections",
+    "intro_c+profile_label_a+profile_format_bullets+survey_format_pages",
+    "intro_c+profile_label_a+profile_format_sentence+survey_format_sections",
+    "intro_c+profile_label_b+profile_format_bullets+survey_format_sections",
+    "intro_c+profile_label_c+profile_format_bullets+survey_format_sections",
+    "intro_c+profile_label_c+profile_format_sentence+survey_format_sections"
+  ],
+  "deterministic_variant_assignment_algorithm_version": "stable_sha256_v1_condition_excluded",
+  "ashokkumar_verbatim_reference_prompt_path": "pipeline/outputs/prompt_validation/f_prompt_examples/external_primary_archive_ashokkumar_verbatim_reference.txt",
+  "git_commit": "a8ae43c810df67a6b0ba85bbaa86f70695e06b5f"
+}

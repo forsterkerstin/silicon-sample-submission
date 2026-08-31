@@ -1,0 +1,13 @@
+{
+  "model_name": "M1",
+  "alpha": 0.0,
+  "lambda": -0.41064324397114604,
+  "calibration_alpha": 0.0,
+  "calibration_lambda": -0.41064324397114604,
+  "loso_rmse_M0": 20.550930626304073,
+  "loso_rmse_M1": 10.55221732472536,
+  "loso_rmse_M2": 10.552623714875923,
+  "number_studies": 31,
+  "number_effects": 136,
+  "weighting_rule": "training effects weighted 1/n_s so every study has equal total fitting weight; held-out study MSEs averaged equally"
+}

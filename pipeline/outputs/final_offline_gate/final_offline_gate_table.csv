@@ -1,0 +1,18 @@
+gate,status,blocker,action
+prompt provenance freeze,PASS,,Use prompt_provenance_freeze.json in production manifests.
+structural sign/orientation,PASS,,/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/structural_orientation_audit.csv
+holdout eligibility,PASS,0 eligible effects from metadata-only audit.,/home/forsterk/silicon-sample-submission/pipeline/outputs/validation/holdout_effect_eligibility.csv
+party population audit,PASS,,/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/party_marginals.csv
+state population audit,PASS,,/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/state_distribution_audit.csv
+weight leakage,PASS,,/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/weight_leakage_audit.csv
+tier1 fixture,PASS,,/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/tier1_fixture/tier1_fixture_submission.csv
+production provenance guard,PASS,,"external F predictions are not production-ready:
+- predictions are marked stale/development/not production-ready: ['DEVELOPMENT_STALE_REQUIRES_REGENERATION_WITH_STUDY_SPECIFIC_F_PANEL']
+- predictions require synthetic regeneration
+- selected_f_model is not frozen; run/record candidate bakeoff before production
+- target F production requires frozen F protocol at /home/forsterk/silicon-sample-submission/pipeline/outputs/f_reliability/frozen_f_protocol.json
+- external_f_population_panel_version does not match frozen configuration; expected 'external_primary_f_effect_analytic_panels_v1', observed ['LEGACY_CACHED_NO_EFFECT_SPECIFIC_PANEL_PROVENANCE']
+- external_f_population_panel_sha256 does not match frozen configuration; expected '2f812459f251f530a261d3b819cc2d790b3a6034786b4ba2489f62e7494d5ef7', observed ['']"
+together dry run,PASS,,/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/dry_run_accounting.json
+model/R_F rule manifest,PASS,,/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/model_selection_r_f_rule_manifest.json
+offline tests,PASS,,/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/pytest_offline.txt

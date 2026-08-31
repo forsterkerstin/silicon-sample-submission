@@ -1,0 +1,92 @@
+[
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/csv_pus.zip",
+    "filename": "csv_pus.zip",
+    "sha256": "afdc6d90c6e2f0bab365ed32d95ba4c4d8ac651162f46ac7861295b2dc469894",
+    "size_bytes": 602847146,
+    "modified_utc": "2026-08-04T11:58:20.661094+00:00",
+    "role": "2024 ACS 1-Year PUMS person-file archive (psam_pusa.csv, psam_pusb.csv)",
+    "operative": true
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/csv_hus.zip",
+    "filename": "csv_hus.zip",
+    "sha256": "8281008e53de98f0ef81e7a2ee5a8725991dda1ecfd2713ead73246425e515d0",
+    "size_bytes": 251500587,
+    "modified_utc": "2026-08-16T11:35:27.658110+00:00",
+    "role": "2024 ACS 1-Year PUMS housing-file archive (HINCP source, joined via SERIALNO)",
+    "operative": true
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/PUMS_Data_Dictionary_2024.pdf",
+    "filename": "PUMS_Data_Dictionary_2024.pdf",
+    "sha256": "929c2752995b0af1c16d5c64de8cdc43b4aa7d388ee2d45b4b4df90fecce1dff",
+    "size_bytes": 395086,
+    "modified_utc": "2026-08-04T11:43:25.496200+00:00",
+    "role": "PUMS variable dictionary (verification source for recodes)",
+    "operative": true
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/CCES24_Common_OUTPUT_vv_topost_final.csv",
+    "filename": "CCES24_Common_OUTPUT_vv_topost_final.csv",
+    "sha256": "8a5e9fbc982961ad910bad9aed8d521fa0a85e85cded43fb308cce0ab22ba5d9",
+    "size_bytes": 183679005,
+    "modified_utc": "2026-08-04T11:51:41.169653+00:00",
+    "role": "2024 CES Common Content respondent-level data",
+    "operative": true
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/CCES24_Common_pre.docx",
+    "filename": "CCES24_Common_pre.docx",
+    "sha256": "fe8d9acec0a8f312fbde3a95d3d2190e6be8f992c9de41f40954f1875abfdca8",
+    "size_bytes": 183194,
+    "modified_utc": "2026-08-04T11:51:41.477646+00:00",
+    "role": "2024 CES Common Content pre-election questionnaire",
+    "operative": true
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/CES_2024_GUIDE_vv.pdf",
+    "filename": "CES_2024_GUIDE_vv.pdf",
+    "sha256": "48ef8f229980b4778dd26f321062e9d9e089abdd849cc8db2529377f3e8b0c10",
+    "size_bytes": 1162260,
+    "modified_utc": "2026-08-04T11:51:23.786024+00:00",
+    "role": "2024 CES Guide (weight table, codebook appendix)",
+    "operative": true
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/census_cells.csv",
+    "filename": "census_cells.csv",
+    "sha256": "2a3fe14b37d486747e25d81f306dd6620b1025f6c83f85d988a8aef266e20b49",
+    "size_bytes": 24,
+    "modified_utc": "2026-08-04T10:39:30.255954+00:00",
+    "role": "pre-existing 40-cell census template in this repo",
+    "operative": false
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/nc-est2024-asr6h.xlsx",
+    "filename": "nc-est2024-asr6h.xlsx",
+    "sha256": "54034788e42677dd1d05917cbaeed3ed15d9ad6c9877991e5dd0e98dfc752c57",
+    "size_bytes": 157314,
+    "modified_utc": "2026-08-04T10:54:34.372015+00:00",
+    "role": "Census Bureau Vintage 2024 national population estimates workbook",
+    "operative": false
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/ate_archive.csv",
+    "filename": "ate_archive.csv",
+    "sha256": "193fa18dbc46465f42185193f891c6447894f82241d9f6eb341e994f21ee6572",
+    "size_bytes": 64292,
+    "modified_utc": "2026-08-24T12:59:37.587468+00:00",
+    "role": "treatment-effect archive for the elicitation pipeline (out of scope here)",
+    "operative": false
+  },
+  {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/README.md",
+    "filename": "README.md",
+    "sha256": "e72336358b8f9d99a3a7deeac0322d2b6632d14c1267c23e25bd70bbe646d15d",
+    "size_bytes": 6329,
+    "modified_utc": "2026-08-24T12:57:45.794036+00:00",
+    "role": "documentation for the elicitation pipeline's data/ directory",
+    "operative": false
+  }
+]

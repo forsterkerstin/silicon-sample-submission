@@ -1,0 +1,6 @@
+{
+  "lambda_ate": -0.4106,
+  "reason": "cached external F predictions are stale/development and predate frozen effect-specific panels",
+  "status": "OBSOLETE_DEVELOPMENT_ARTIFACT",
+  "usable_for_production": false
+}

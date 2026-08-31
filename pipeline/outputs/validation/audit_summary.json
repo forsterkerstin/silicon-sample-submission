@@ -1,0 +1,13 @@
+{
+  "primary_archive_studies": 70,
+  "primary_archive_effect_rows_current": 165,
+  "primary_development_effects_current": 136,
+  "secondary_megastudies": 15,
+  "secondary_effect_rows": 606,
+  "secondary_eligible_effect_rows_current": 0,
+  "compromised_holdout_studies": [
+    "Doell",
+    "Voelkel2025"
+  ],
+  "holdout_opened": false
+}

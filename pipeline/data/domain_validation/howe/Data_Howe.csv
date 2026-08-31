@@ -1,0 +1,1175 @@
+CaseID,weight1,DM3,stormserious,STeffects,SLReffects,trustmed2,partyID,polor,educ,race,income,gender,age,region,coastdwell,seriousness,Condition
+3,0.3176,College graduate,0.75,0.67,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,West,yes,0.806666667,No Uncertainty
+4,1.0395,College graduate,0.5,0.67,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,45-54,Midwest,no,0.39,Partially Bounded
+5,0.7217,High school graduate,0.5,0,0,1,Independent,Liberal,HS grad,"Other, Non-Hispanic",Under 30,Male,25-34,West,no,0.166666667,No Uncertainty
+6,0.5898,High school graduate,0.5,0,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,18-24,West,yes,0.166666667,No Uncertainty
+7,1.6067,High school graduate,0,0.67,0,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",50-75,Male,55-64,Northeast,no,0.223333333,Partially Bounded and Irreducible
+8,0.3749,College graduate,0.5,0,0,0,Independent,Conservative,College grad,"Other, Non-Hispanic",50-75,Female,65+,South,yes,0.166666667,No Uncertainty
+9,0.2752,College graduate,0.5,0.67,0.33,1,Republican,Moderate,College grad,"Other, Non-Hispanic",75-100,Female,25-34,West,no,0.5,No Uncertainty
+10,0.4052,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,65+,Northeast,no,0.916666667,Fully Bounded
+12,0.4836,College graduate,0.25,0,0,0,Independent,Liberal,College grad,Hispanic,75-100,Male,35-44,South,yes,0.083333333,Fully Bounded and Irreducible
+13,1.2278,College graduate,0.5,0,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Male,25-34,South,yes,0.39,No Uncertainty
+15,0.1102,Graduate degree,0.75,0.67,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,West,no,0.696666667,Partially Bounded and Irreducible
+16,2.5138,Graduate degree,0.5,0.67,0.67,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",100+,Female,45-54,West,yes,0.613333333,Fully Bounded and Irreducible
+18,0.9591,Less than high school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"Other, Non-Hispanic",30-50,Male,35-44,West,no,0.916666667,Fully Bounded
+20,0.633,Some college,0.25,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Female,25-34,West,no,0.083333333,Partially Bounded and Irreducible
+21,0.275,College graduate,0.25,0.67,0.67,0,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,45-54,West,yes,0.53,Fully Bounded
+22,1.4611,High school graduate,1,1,0,1,Democrat,Liberal,HS grad,"Other, Non-Hispanic",100+,Male,18-24,West,yes,0.666666667,Partially Bounded
+23,3.8974,Less than high school graduate,0.5,1,1,1,Independent,Conservative,HS grad,Hispanic,Under 30,Female,25-34,South,no,0.833333333,Fully Bounded
+30,2.3245,Some college,0.75,0.67,0,1,Republican,Conservative,Some college,"Other, Non-Hispanic",Under 30,Male,18-24,West,yes,0.473333333,No Uncertainty
+31,0.4534,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,South,no,0.083333333,Partially Bounded and Irreducible
+32,0.7467,College graduate,1,0.67,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,0.89,Partially Bounded
+33,2.0182,High school graduate,0.75,1,1,1,Republican,Moderate,HS grad,"White, Non-Hispanic",100+,Female,55-64,Northeast,yes,0.916666667,Fully Bounded
+35,1.2984,Some college,0.5,0.67,0.67,1,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Female,55-64,South,yes,0.613333333,Partially Bounded
+36,1.6595,High school graduate,0.75,1,1,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",30-50,Male,55-64,Midwest,no,0.916666667,Fully Bounded
+38,0.1102,Some college,0.75,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,25-34,West,no,0.916666667,Irreducible
+40,4.2497,Some college,0.75,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Female,18-24,South,no,0.916666667,Fully Bounded
+41,0.7886,Some college,0.5,1,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,0.5,Fully Bounded
+42,0.4753,High school graduate,0.75,1,1,1,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,Midwest,no,0.916666667,Irreducible
+43,0.5333,Some college,0.5,1,1,0,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Female,45-54,Midwest,no,0.833333333,Fully Bounded
+44,3.4119,Some college,0.5,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Female,35-44,South,yes,0.166666667,Fully Bounded and Irreducible
+45,0.3116,High school graduate,0,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,45-54,West,no,0,No Uncertainty
+46,0.6952,College graduate,0.75,1,0,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Female,45-54,South,no,0.583333333,No Uncertainty
+47,2.2813,Some college,0.25,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,0.083333333,Fully Bounded
+48,0.4071,Graduate degree,0.5,0.67,0.67,0,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,65+,South,yes,0.613333333,Partially Bounded and Irreducible
+49,0.2789,College graduate,0.5,0.67,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Male,55-64,Northeast,yes,0.613333333,Fully Bounded and Irreducible
+50,1.3112,Some college,0.25,0.67,0.67,0,Independent,Moderate,Some college,"White, Non-Hispanic",50-75,Female,25-34,Midwest,no,0.53,Partially Bounded
+51,0.6689,College graduate,0.75,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",30-50,Female,25-34,South,yes,0.916666667,Partially Bounded
+52,1.4979,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",30-50,Male,25-34,West,no,0.916666667,Partially Bounded
+54,0.5778,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,65+,South,yes,0,Partially Bounded and Irreducible
+55,0.5019,Some graduate school,0.25,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Female,45-54,Midwest,no,0.083333333,Fully Bounded
+56,0.5367,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"Other, Non-Hispanic",Under 30,Female,25-34,South,yes,0,Fully Bounded and Irreducible
+57,2.7585,High school graduate,0.75,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",100+,Female,45-54,Northeast,yes,0.916666667,No Uncertainty
+58,2.8373,Less than high school graduate,0.75,0.67,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,no,0.473333333,No Uncertainty
+60,0.7436,Graduate degree,0.5,0.67,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Female,25-34,South,yes,0.723333333,Irreducible
+61,1.8404,Graduate degree,0,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,35-44,South,no,0,Partially Bounded
+62,0.5387,High school graduate,0.75,1,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,South,yes,0.806666667,No Uncertainty
+63,2.171,High school graduate,0.5,1,1,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,55-64,Northeast,yes,0.833333333,Partially Bounded and Irreducible
+64,0.3193,College graduate,0.75,1,1,1,Democrat,Conservative,College grad,"White, Non-Hispanic",Under 30,Female,55-64,South,no,0.916666667,No Uncertainty
+67,1.588,Technical/trade school,0.75,0,0,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",75-100,Male,65+,South,yes,0.25,Fully Bounded
+69,0.4733,College graduate,0.25,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Male,65+,South,no,0.083333333,No Uncertainty
+71,1.3509,Some college,0.5,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Male,35-44,West,no,0.166666667,Partially Bounded
+72,1.4382,College graduate,0.5,0,0,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",50-75,Male,55-64,Northeast,yes,0.166666667,No Uncertainty
+73,0.9531,Graduate degree,0.25,0.67,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,25-34,Northeast,yes,0.306666667,Irreducible
+74,0.6921,High school graduate,0.5,0,0,1,Independent,Refused,HS grad,"White, Non-Hispanic",75-100,Female,65+,Northeast,no,0.166666667,Fully Bounded and Irreducible
+75,0.7815,Some graduate school,0.75,1,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,35-44,South,no,0.916666667,Fully Bounded and Irreducible
+76,0.4344,High school graduate,0.75,1,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",50-75,Male,55-64,Midwest,no,0.806666667,Partially Bounded
+78,0.9585,High school graduate,0.75,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,65+,Midwest,no,0.916666667,Fully Bounded
+79,0.4436,Graduate degree,0.75,0.67,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,South,yes,0.696666667,Partially Bounded
+80,0.392,Some college,0.75,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,65+,Northeast,yes,0.916666667,Fully Bounded and Irreducible
+82,2.2376,High school graduate,0.5,0.67,1,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0.723333333,Partially Bounded and Irreducible
+84,1.636,College graduate,0.5,0.67,0.67,1,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Female,65+,South,yes,0.613333333,Fully Bounded and Irreducible
+85,0.4773,College graduate,0.5,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,35-44,Midwest,no,0.166666667,Partially Bounded
+86,1.14,College graduate,0.75,0.67,0.67,1,Independent,Conservative,College grad,"White, Non-Hispanic",30-50,Female,35-44,South,yes,0.696666667,Irreducible
+87,1.6793,Some college,0.75,1,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Female,45-54,South,yes,0.806666667,No Uncertainty
+92,0.1823,Less than high school graduate,0.5,0,1,1,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,18-24,South,yes,0.5,Fully Bounded
+93,0.4944,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,65+,Midwest,no,0,Partially Bounded
+95,0.8187,College graduate,0.75,0.67,0.67,1,Independent,Conservative,College grad,"Other, Non-Hispanic",75-100,Male,25-34,Northeast,yes,0.696666667,Fully Bounded and Irreducible
+96,1.5929,Less than high school graduate,1,0.33,1,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Male,18-24,Midwest,no,0.776666667,Irreducible
+97,0.1102,Some graduate school,0.5,1,0,1,Democrat,Moderate,College grad,"White, Non-Hispanic",30-50,Female,55-64,Northeast,no,0.5,Partially Bounded
+98,1.0463,College graduate,0.5,0.67,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,65+,South,no,0.39,No Uncertainty
+101,0.1397,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,65+,Northeast,yes,0.083333333,Fully Bounded and Irreducible
+103,0.2886,Some graduate school,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,18-24,Northeast,no,0.916666667,Irreducible
+104,0.5489,Some college,0.5,0,0,1,Independent,Conservative,Some college,"White, Non-Hispanic",30-50,Male,65+,Midwest,no,0.166666667,Partially Bounded
+105,0.2098,Graduate degree,1,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Male,65+,West,yes,1,Partially Bounded and Irreducible
+107,1.1698,College graduate,0.75,1,1,1,Democrat,Conservative,College grad,"White, Non-Hispanic",100+,Male,25-34,West,no,0.916666667,Partially Bounded
+108,1.2309,Some college,0.5,0.67,0.67,0,Independent,Conservative,Some college,"White, Non-Hispanic",100+,Female,25-34,Northeast,yes,0.613333333,Partially Bounded and Irreducible
+111,0.2336,High school graduate,0.5,0,0,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,25-34,South,no,0.166666667,Partially Bounded
+112,0.8987,Some college,0,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",100+,Male,65+,Northeast,no,0,Fully Bounded and Irreducible
+113,0.6637,Technical/trade school,0.25,0,0,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,Midwest,no,0.083333333,No Uncertainty
+114,0.9876,Some graduate school,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,65+,West,yes,1,No Uncertainty
+115,1.3893,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,West,yes,0.916666667,Irreducible
+116,0.5628,Technical/trade school,1,1,1,1,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Midwest,no,1,Irreducible
+117,0.9121,Some college,1,1,1,1,Republican,Conservative,Some college,"Black, Non-Hispanic",Under 30,Female,18-24,Midwest,no,1,Partially Bounded
+118,1.3925,Some college,0,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Male,45-54,West,no,0,Partially Bounded
+119,1.0489,Technical/trade school,0.25,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,55-64,South,no,0.083333333,Partially Bounded
+120,1.4676,Some college,0,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Female,65+,West,no,0,No Uncertainty
+121,0.6154,Some college,0.5,0,0,0,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,65+,West,yes,0.166666667,No Uncertainty
+122,0.327,Some college,0,0,0,0,Independent,Conservative,Some college,"Other, Non-Hispanic",Under 30,Female,25-34,West,no,0,No Uncertainty
+125,0.3105,College graduate,0.5,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",Under 30,Male,18-24,South,yes,0.166666667,Irreducible
+126,0.4767,High school graduate,0.5,0,0,1,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,Midwest,no,0.166666667,Partially Bounded and Irreducible
+128,1.8483,High school graduate,0.5,0,0,1,Independent,Liberal,HS grad,"White, Non-Hispanic",50-75,Female,18-24,West,no,0.166666667,No Uncertainty
+130,0.5264,Some college,0.25,0,0,0,Independent,Moderate,Some college,"White, Non-Hispanic",50-75,Male,55-64,West,no,0.083333333,Fully Bounded and Irreducible
+131,1.1287,College graduate,0.5,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",30-50,Female,35-44,West,yes,0.833333333,Irreducible
+133,0.4166,College graduate,0.5,1,0.67,0,Democrat,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,35-44,Midwest,no,0.723333333,Partially Bounded
+134,1.7711,High school graduate,0.25,0.67,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,35-44,Northeast,yes,0.306666667,No Uncertainty
+135,0.6375,College graduate,0.25,0,0,0,Democrat,Liberal,College grad,Hispanic,30-50,Male,35-44,South,no,0.083333333,Fully Bounded
+136,0.4967,Refused,NA,NA,NA,NA,Refused,Refused,Refused,"Other, Non-Hispanic",100+,Female,25-34,Northeast,no,NA,Fully Bounded and Irreducible
+137,1.3705,High school graduate,0.5,0,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",100+,Female,65+,South,yes,0.39,Fully Bounded and Irreducible
+139,0.4589,Some college,0.5,0,1,1,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Female,35-44,Northeast,no,0.5,Partially Bounded and Irreducible
+141,0.2601,Graduate degree,0.5,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Male,55-64,Northeast,yes,0.166666667,Fully Bounded and Irreducible
+142,1.581,High school graduate,0.75,1,0,1,Independent,Conservative,HS grad,"White, Non-Hispanic",75-100,Female,45-54,Midwest,no,0.583333333,Fully Bounded
+143,1.1213,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,65+,West,no,0,No Uncertainty
+145,1.3289,Some college,0.75,1,1,1,Democrat,Moderate,Some college,Hispanic,50-75,Male,35-44,Northeast,yes,0.916666667,Fully Bounded
+146,1.0985,Some graduate school,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Male,55-64,Northeast,no,0.916666667,Partially Bounded
+149,0.5344,Some college,0.25,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",Under 30,Male,65+,Midwest,no,0.083333333,Fully Bounded and Irreducible
+152,0.1829,Technical/trade school,0.25,0.67,0.67,0,Democrat,Liberal,HS grad,"White, Non-Hispanic",75-100,Male,45-54,South,no,0.53,Irreducible
+153,0.2182,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,45-54,South,no,0.916666667,Fully Bounded
+155,0.8215,Some college,0,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",30-50,Male,65+,Northeast,yes,0,No Uncertainty
+158,0.5262,High school graduate,0,0,0,0,Republican,Conservative,HS grad,Hispanic,50-75,Male,45-54,West,yes,0,No Uncertainty
+159,0.6406,High school graduate,0,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,South,yes,0,Partially Bounded
+165,0.6174,Graduate degree,0.75,0,0,1,Independent,Liberal,College grad,"White, Non-Hispanic",50-75,Male,35-44,Northeast,yes,0.25,Fully Bounded
+166,0.3038,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,1,Fully Bounded
+167,0.7542,Some college,0.75,1,1,1,Democrat,Liberal,Some college,"Black, Non-Hispanic",75-100,Female,65+,South,no,0.916666667,Fully Bounded
+168,1.8462,High school graduate,0.5,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",75-100,Male,35-44,South,no,0.166666667,Partially Bounded
+169,3.8569,Some college,1,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",100+,Female,18-24,South,no,1,Partially Bounded and Irreducible
+170,0.2794,Graduate degree,0.25,1,0,0,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Male,65+,Northeast,yes,0.416666667,Fully Bounded and Irreducible
+171,0.464,College graduate,0.25,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,South,no,0.083333333,No Uncertainty
+172,0.3183,Graduate degree,1,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Female,55-64,Northeast,no,1,Irreducible
+173,0.4998,Some graduate school,0.25,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Female,55-64,South,no,0.083333333,Irreducible
+176,1.6229,Some college,0.75,1,0,1,Democrat,Conservative,Some college,"White, Non-Hispanic",30-50,Female,55-64,West,yes,0.583333333,Fully Bounded
+178,1.9378,High school graduate,0.25,0.67,0.33,1,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,45-54,Northeast,no,0.416666667,Fully Bounded and Irreducible
+180,1.4413,High school graduate,0.75,0,0,0,Independent,Refused,HS grad,"Black, Non-Hispanic",75-100,Female,55-64,South,no,0.25,Fully Bounded and Irreducible
+181,1.3407,College graduate,0.75,1,0.67,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",75-100,Female,35-44,Midwest,no,0.806666667,Fully Bounded
+183,1.1473,College graduate,0.75,0.67,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",50-75,Male,35-44,Midwest,no,0.806666667,Fully Bounded and Irreducible
+185,0.5732,College graduate,0.25,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Male,25-34,Midwest,no,0.083333333,Fully Bounded and Irreducible
+187,2.2461,Some college,0.5,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Male,35-44,South,no,0.166666667,No Uncertainty
+188,0.2378,Some graduate school,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Male,65+,Midwest,no,0.916666667,Fully Bounded and Irreducible
+189,1.2242,Some college,0.5,0.67,0.33,1,Democrat,Liberal,Some college,"White, Non-Hispanic",100+,Female,45-54,Midwest,no,0.5,No Uncertainty
+190,1.5192,Some college,0.75,1,1,1,Independent,Liberal,Some college,"White, Non-Hispanic",Under 30,Female,18-24,Northeast,no,0.916666667,Fully Bounded
+191,0.8438,College graduate,0.75,0.67,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Female,25-34,South,no,0.806666667,Irreducible
+192,0.7518,Graduate degree,0.25,0,0,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Male,18-24,Northeast,yes,0.083333333,Fully Bounded and Irreducible
+193,0.5081,Graduate degree,1,1,1,1,Independent,Liberal,College grad,Hispanic,50-75,Male,55-64,West,no,1,Irreducible
+195,1.6007,Less than high school graduate,0.75,1,0.33,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,no,0.693333333,Partially Bounded
+197,0.5307,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",50-75,Male,55-64,Midwest,no,0.916666667,Partially Bounded and Irreducible
+199,0.9786,Less than high school graduate,0.25,0,0,0,Democrat,Moderate,HS grad,Hispanic,30-50,Male,65+,South,yes,0.083333333,No Uncertainty
+200,0.6335,Some college,0.75,1,1,1,Republican,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,55-64,Northeast,yes,0.916666667,Irreducible
+201,0.9633,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,35-44,West,no,0.916666667,Irreducible
+202,0.4139,College graduate,0.5,0.67,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",30-50,Male,65+,West,no,0.39,Partially Bounded
+204,1.2393,Technical/trade school,1,0,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,45-54,South,no,0.666666667,Partially Bounded
+205,0.1528,Some college,0.75,1,1,1,Democrat,Liberal,Some college,"Black, Non-Hispanic",50-75,Female,55-64,Northeast,yes,0.916666667,Fully Bounded
+206,0.2578,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,no,1,Partially Bounded and Irreducible
+207,0.6371,College graduate,1,1,0.67,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,25-34,Northeast,yes,0.89,No Uncertainty
+208,0.7248,College graduate,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Female,45-54,Midwest,no,0,No Uncertainty
+209,1.7091,Some college,0.75,1,1,1,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Female,55-64,South,yes,0.916666667,Fully Bounded
+210,1.3,High school graduate,0.5,0.67,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,45-54,Northeast,no,0.613333333,Partially Bounded
+213,0.2876,Some college,1,1,1,1,Democrat,Liberal,Some college,"Black, Non-Hispanic",50-75,Male,55-64,South,yes,1,Fully Bounded
+214,2.8264,Graduate degree,0.75,1,0.67,1,Democrat,Liberal,College grad,Hispanic,75-100,Male,25-34,South,no,0.806666667,Partially Bounded and Irreducible
+215,0.3341,College graduate,0.75,0.67,0.67,1,Independent,Moderate,College grad,"Other, Non-Hispanic",75-100,Male,55-64,West,yes,0.696666667,Partially Bounded and Irreducible
+217,0.2488,Some college,0.5,1,0.67,1,Independent,Liberal,Some college,"White, Non-Hispanic",30-50,Female,25-34,Midwest,no,0.723333333,Fully Bounded and Irreducible
+220,0.8021,High school graduate,0,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,65+,Northeast,no,0,Partially Bounded
+222,2.3219,Some college,0.75,1,1,1,Democrat,Moderate,Some college,Hispanic,Under 30,Female,18-24,Northeast,no,0.916666667,Partially Bounded
+224,0.6933,College graduate,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,yes,0.916666667,Fully Bounded and Irreducible
+226,0.9651,College graduate,0.75,1,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,25-34,South,no,0.806666667,Fully Bounded and Irreducible
+228,0.458,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",75-100,Female,25-34,Northeast,no,1,Partially Bounded
+229,0.6365,Graduate degree,0.5,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Female,35-44,South,no,0.833333333,Fully Bounded
+231,0.3697,College graduate,0.5,1,0.67,1,Republican,Moderate,College grad,"White, Non-Hispanic",75-100,Female,35-44,West,no,0.723333333,Fully Bounded and Irreducible
+234,1.9187,High school graduate,1,0,0,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Female,55-64,South,no,0.333333333,Irreducible
+235,1.7251,Some college,0.5,0,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",75-100,Male,35-44,South,no,0.39,Partially Bounded and Irreducible
+236,0.2981,Some college,1,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Male,65+,Northeast,yes,1,Partially Bounded
+238,1.0502,College graduate,1,1,1,1,Independent,Conservative,College grad,"Other, Non-Hispanic",100+,Male,35-44,South,no,1,No Uncertainty
+243,1.0479,Graduate degree,1,1,1,1,Independent,Moderate,College grad,"Other, Non-Hispanic",100+,Male,55-64,West,no,1,Fully Bounded
+244,0.9504,High school graduate,0.75,0.67,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,South,yes,0.696666667,Irreducible
+245,0.9408,Some graduate school,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Male,18-24,Midwest,no,0.916666667,No Uncertainty
+246,0.5275,Some college,1,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,65+,West,yes,1,Fully Bounded
+250,1.5324,High school graduate,0.25,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,55-64,Northeast,no,0.083333333,Irreducible
+251,1.4226,Graduate degree,0.25,0,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",75-100,Male,35-44,South,yes,0.083333333,Fully Bounded and Irreducible
+252,0.6818,Graduate degree,1,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",30-50,Female,65+,West,yes,1,Irreducible
+256,0.6953,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,65+,West,yes,1,Partially Bounded and Irreducible
+258,0.1972,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Male,35-44,Northeast,yes,1,No Uncertainty
+259,0.5177,Some college,0.25,0,0,0,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,65+,Midwest,no,0.083333333,Fully Bounded and Irreducible
+260,0.4456,Graduate degree,0.5,0,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",50-75,Male,65+,Northeast,no,0.166666667,Partially Bounded
+261,0.275,High school graduate,0.5,0,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,18-24,South,no,0.39,Partially Bounded and Irreducible
+264,0.4591,College graduate,0.75,0.67,0.67,1,Independent,Conservative,College grad,"White, Non-Hispanic",30-50,Female,55-64,Northeast,no,0.696666667,Fully Bounded
+265,1.4398,High school graduate,0.5,0.67,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,25-34,South,no,0.39,Fully Bounded
+267,0.8465,College graduate,0.25,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Male,55-64,South,yes,0.083333333,Fully Bounded and Irreducible
+268,0.3344,College graduate,0.5,0.67,0.67,1,Independent,Moderate,College grad,"Black, Non-Hispanic",100+,Female,35-44,South,no,0.613333333,Irreducible
+271,0.6304,High school graduate,0.75,0.67,0,1,Independent,Moderate,HS grad,"Other, Non-Hispanic",Under 30,Male,25-34,West,yes,0.473333333,Partially Bounded
+272,0.3297,High school graduate,0,0,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,yes,0,Partially Bounded and Irreducible
+273,1.1714,College graduate,0.5,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Male,45-54,South,no,0.613333333,Fully Bounded
+274,0.2916,Graduate degree,0.75,1,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,no,0.806666667,Fully Bounded and Irreducible
+277,1.7106,Some college,0.75,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Female,55-64,Midwest,no,0.916666667,Irreducible
+278,0.2671,Graduate degree,0.75,1,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,65+,Northeast,yes,0.916666667,Fully Bounded
+279,1.688,Less than high school graduate,0.5,0.67,0.67,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,65+,South,no,0.613333333,No Uncertainty
+280,1.609,College graduate,1,1,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,18-24,Midwest,no,0.89,No Uncertainty
+281,0.6437,Some college,0.5,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Male,65+,South,yes,0.166666667,Partially Bounded
+282,1.7565,College graduate,0.75,1,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",50-75,Female,55-64,Northeast,yes,0.916666667,Fully Bounded
+283,0.7595,High school graduate,0.5,0,0,1,Independent,Conservative,HS grad,"Black, Non-Hispanic",75-100,Male,65+,South,no,0.166666667,Partially Bounded and Irreducible
+284,1.1442,High school graduate,0,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,55-64,Midwest,no,0,Irreducible
+285,0.3467,Graduate degree,0.25,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Male,35-44,South,no,0.083333333,Partially Bounded
+286,1.6335,High school graduate,0.25,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,Midwest,no,0.083333333,Fully Bounded and Irreducible
+287,0.6786,Graduate degree,0.25,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,65+,Midwest,no,0.083333333,Fully Bounded
+289,0.251,Some college,0,0.67,0,1,Democrat,Liberal,Some college,"White, Non-Hispanic",Under 30,Female,55-64,Midwest,no,0.223333333,Partially Bounded and Irreducible
+292,0.2411,College graduate,0.5,0.67,0.33,0,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Female,45-54,South,no,0.5,Partially Bounded and Irreducible
+293,0.3179,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,65+,West,no,1,Irreducible
+294,0.2184,Graduate degree,0.5,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",30-50,Male,55-64,South,no,0.613333333,No Uncertainty
+295,0.612,High school graduate,1,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,65+,Midwest,no,1,Partially Bounded and Irreducible
+298,2.2722,Some college,0.25,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Female,25-34,South,no,0.083333333,Fully Bounded and Irreducible
+302,0.7347,High school graduate,0.5,0.67,1,1,Republican,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,65+,South,no,0.723333333,Partially Bounded
+303,0.6777,College graduate,1,1,1,1,Democrat,Conservative,College grad,"White, Non-Hispanic",75-100,Female,35-44,Midwest,no,1,Fully Bounded
+308,1.9876,High school graduate,0.25,1,0,1,Republican,Liberal,HS grad,"White, Non-Hispanic",50-75,Male,35-44,West,no,0.416666667,Fully Bounded
+311,0.2488,Graduate degree,0.5,0,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Male,65+,Northeast,yes,0.39,Fully Bounded and Irreducible
+312,0.4299,Some college,0.75,1,1,1,Independent,Moderate,Some college,"Other, Non-Hispanic",75-100,Male,25-34,South,no,0.916666667,Partially Bounded and Irreducible
+313,0.8154,High school graduate,0.5,1,1,1,Independent,Conservative,HS grad,Hispanic,50-75,Female,55-64,West,no,0.833333333,Partially Bounded and Irreducible
+314,0.3032,College graduate,0.75,0,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",Under 30,Female,18-24,West,yes,0.583333333,Fully Bounded and Irreducible
+317,0.1102,College graduate,0.75,0.67,0.67,1,Independent,Liberal,College grad,Hispanic,50-75,Male,45-54,South,yes,0.696666667,Irreducible
+319,1.7861,Less than high school graduate,0.5,0,0,0,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,65+,South,no,0.166666667,Partially Bounded and Irreducible
+320,1.1192,Some college,0,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",75-100,Male,55-64,West,yes,0,Fully Bounded
+322,1.0213,Some college,0,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Female,35-44,West,no,0,Partially Bounded
+324,0.3623,College graduate,0.75,1,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Female,55-64,Midwest,no,0.916666667,Fully Bounded and Irreducible
+325,0.6,High school graduate,0.5,0,0,1,Republican,Conservative,HS grad,"White, Non-Hispanic",100+,Female,55-64,Midwest,no,0.166666667,Fully Bounded
+326,1.2447,Graduate degree,0.75,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",100+,Male,65+,West,no,0.916666667,Partially Bounded and Irreducible
+327,1.4426,Graduate degree,0.75,0.67,0.33,1,Independent,Liberal,College grad,"White, Non-Hispanic",75-100,Male,35-44,West,yes,0.583333333,No Uncertainty
+328,1.7267,High school graduate,0.75,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,0.916666667,Partially Bounded
+330,0.4482,Some college,0.5,0.67,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Male,55-64,Midwest,no,0.613333333,Fully Bounded and Irreducible
+333,2.2422,Less than high school graduate,1,1,1,1,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,18-24,South,no,1,Irreducible
+335,0.4767,Some graduate school,0.25,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,South,no,0.53,Fully Bounded and Irreducible
+336,0.7003,Technical/trade school,0.5,0.67,0.67,0,Democrat,Moderate,HS grad,"Black, Non-Hispanic",30-50,Female,35-44,South,no,0.613333333,Irreducible
+337,0.7993,Some graduate school,0.25,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Male,25-34,Northeast,no,0.53,Irreducible
+338,0.4392,Graduate degree,0.75,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,45-54,South,no,0.696666667,Irreducible
+339,0.4717,Some college,0.5,0.67,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Male,65+,Midwest,no,0.613333333,Irreducible
+340,0.5123,Graduate degree,0.5,0,0.67,1,Republican,Conservative,College grad,Hispanic,50-75,Female,65+,Northeast,yes,0.39,Partially Bounded and Irreducible
+342,0.8948,College graduate,0.75,1,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,no,0.916666667,Fully Bounded
+343,0.3276,High school graduate,0.5,0,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,65+,West,yes,0.39,Fully Bounded and Irreducible
+344,0.9397,Some graduate school,0.75,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,65+,Northeast,yes,0.25,Irreducible
+345,0.3893,College graduate,0.5,0,0,0,Refused,Refused,College grad,"White, Non-Hispanic",50-75,Male,65+,South,yes,0.166666667,Fully Bounded and Irreducible
+348,0.3723,Graduate degree,0.25,0,0.67,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,South,no,0.306666667,Fully Bounded
+350,0.2051,College graduate,1,1,1,1,Independent,Moderate,College grad,Hispanic,30-50,Male,35-44,South,yes,1,No Uncertainty
+352,0.3832,College graduate,0.5,0.67,0,1,Republican,Moderate,College grad,"Other, Non-Hispanic",100+,Female,45-54,Northeast,yes,0.39,Fully Bounded
+354,1.8671,Some college,0.75,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0.916666667,Fully Bounded and Irreducible
+355,0.4789,Graduate degree,0.75,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,45-54,South,no,0.25,Irreducible
+356,0.2387,College graduate,0.75,0,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,65+,South,yes,0.583333333,Irreducible
+357,0.5273,Graduate degree,0.75,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",50-75,Female,65+,West,no,0.916666667,Partially Bounded and Irreducible
+362,2.5977,Some college,1,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",50-75,Female,65+,West,no,1,Partially Bounded
+363,1.378,Some college,0,0,0,1,Democrat,Liberal,Some college,"White, Non-Hispanic",Under 30,Female,18-24,Northeast,yes,0,Fully Bounded and Irreducible
+364,1.3777,Less than high school graduate,0.75,0.67,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Northeast,yes,0.696666667,No Uncertainty
+366,0.6819,Graduate degree,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Female,45-54,West,no,0.916666667,Partially Bounded and Irreducible
+367,0.3252,College graduate,0.5,0.67,0,1,Democrat,Conservative,College grad,"White, Non-Hispanic",100+,Male,65+,Midwest,no,0.39,Fully Bounded
+369,0.36,High school graduate,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,no,1,Fully Bounded and Irreducible
+370,1.2309,High school graduate,0.75,1,1,0,Democrat,Liberal,HS grad,"White, Non-Hispanic",50-75,Male,45-54,South,no,0.916666667,Partially Bounded and Irreducible
+371,0.9,Technical/trade school,1,1,1,1,Independent,Conservative,HS grad,"White, Non-Hispanic",75-100,Male,45-54,South,no,1,Fully Bounded
+372,0.8152,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,55-64,Midwest,no,0.916666667,Partially Bounded and Irreducible
+373,1.2727,Some college,1,0,0,0,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Female,65+,Midwest,no,0.333333333,No Uncertainty
+376,0.5872,College graduate,0.5,0.67,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Male,25-34,Midwest,no,0.613333333,Partially Bounded
+377,0.8975,Graduate degree,0.75,1,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Female,55-64,Northeast,yes,0.806666667,Irreducible
+378,0.53,Graduate degree,0.75,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",100+,Female,35-44,Northeast,no,0.916666667,Fully Bounded and Irreducible
+379,0.2346,Some graduate school,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Male,35-44,West,yes,0.916666667,Fully Bounded
+380,0.4634,College graduate,1,1,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,yes,0.89,Partially Bounded
+381,1.1922,High school graduate,0.5,1,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,55-64,Northeast,no,0.723333333,Irreducible
+382,1.1376,Some graduate school,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,18-24,Midwest,no,0.916666667,Fully Bounded
+383,0.1783,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,0.166666667,Partially Bounded and Irreducible
+384,0.1102,Some college,0.75,1,1,1,Republican,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,55-64,West,no,0.916666667,Partially Bounded and Irreducible
+385,0.311,College graduate,0.25,0,0,1,Independent,Liberal,College grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,yes,0.083333333,No Uncertainty
+386,0.3899,Some graduate school,0.25,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Male,65+,Northeast,yes,0.083333333,Fully Bounded
+387,0.8616,College graduate,1,1,1,1,Independent,Conservative,College grad,Hispanic,30-50,Female,45-54,South,yes,1,Partially Bounded
+388,0.3279,High school graduate,0.75,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,65+,West,no,0.25,Fully Bounded
+389,0.7587,High school graduate,0.75,1,1,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,South,no,0.916666667,Fully Bounded
+392,0.5434,Graduate degree,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,West,no,0.916666667,Irreducible
+396,1.2806,Some college,0.25,0.67,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Male,55-64,South,yes,0.306666667,No Uncertainty
+397,0.9976,College graduate,0.5,0,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Male,55-64,West,yes,0.5,Fully Bounded
+398,0.2728,High school graduate,0.5,0.67,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,55-64,Northeast,no,0.613333333,Partially Bounded
+400,2.0292,High school graduate,0.25,0.67,0.33,1,Independent,Moderate,HS grad,"Black, Non-Hispanic",50-75,Male,65+,West,yes,0.416666667,Fully Bounded and Irreducible
+401,1.4058,High school graduate,0.75,1,1,1,Democrat,Liberal,HS grad,Hispanic,30-50,Female,55-64,South,no,0.916666667,Irreducible
+402,1.2097,College graduate,0.5,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",30-50,Female,45-54,West,no,0.613333333,Partially Bounded
+403,0.8929,College graduate,0.5,0,0,0,Republican,Moderate,College grad,"White, Non-Hispanic",30-50,Male,55-64,West,yes,0.166666667,Fully Bounded
+404,0.5863,Graduate degree,0.5,1,0.33,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,25-34,South,no,0.61,Fully Bounded
+405,1.3127,College graduate,0.75,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",30-50,Female,35-44,South,yes,0.916666667,Partially Bounded
+408,0.1441,Less than high school graduate,0.75,0.67,1,1,Democrat,Conservative,HS grad,Hispanic,Under 30,Female,45-54,West,no,0.806666667,Partially Bounded and Irreducible
+410,0.4836,Technical/trade school,1,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",30-50,Male,35-44,Northeast,yes,1,Fully Bounded and Irreducible
+412,0.5524,Some college,0.25,0,0,1,Republican,Moderate,Some college,Hispanic,30-50,Male,65+,South,yes,0.083333333,Irreducible
+414,0.8326,College graduate,1,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Female,35-44,West,yes,1,Partially Bounded and Irreducible
+415,0.5346,High school graduate,0,0,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,55-64,South,no,0,Fully Bounded
+416,0.5251,Technical/trade school,0.5,0.67,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,55-64,Midwest,no,0.613333333,Fully Bounded and Irreducible
+418,0.9029,College graduate,0.75,0.67,0,0,Democrat,Moderate,College grad,"Black, Non-Hispanic",30-50,Female,25-34,South,no,0.473333333,Fully Bounded
+420,0.5079,Graduate degree,0.25,0,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",50-75,Male,65+,Midwest,no,0.083333333,No Uncertainty
+422,0.3339,Less than high school graduate,0.5,1,0.67,0,Independent,Conservative,HS grad,Hispanic,Under 30,Female,35-44,South,no,0.723333333,Partially Bounded
+426,0.8746,Technical/trade school,1,0,0,1,Democrat,Liberal,HS grad,Hispanic,Under 30,Female,18-24,South,yes,0.333333333,Fully Bounded and Irreducible
+427,1.083,Some college,0.5,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Female,55-64,Midwest,no,0.166666667,Irreducible
+428,0.3278,High school graduate,0.75,1,1,1,Independent,Moderate,HS grad,Hispanic,30-50,Male,35-44,South,yes,0.916666667,Fully Bounded and Irreducible
+429,0.9688,Less than high school graduate,0.5,1,0,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Female,65+,South,no,0.5,Partially Bounded and Irreducible
+431,2.7803,Less than high school graduate,0.75,0.67,1,1,Independent,Liberal,HS grad,Hispanic,Under 30,Female,35-44,South,no,0.806666667,Fully Bounded
+432,0.3097,Some college,0,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Female,45-54,West,yes,0,Partially Bounded
+433,0.8939,Some college,0.5,0.67,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Female,55-64,Midwest,no,0.613333333,Fully Bounded
+435,2.4349,Technical/trade school,1,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",30-50,Female,35-44,West,no,1,Partially Bounded and Irreducible
+437,0.5497,Graduate degree,0.5,1,0.67,1,Democrat,Liberal,College grad,Hispanic,75-100,Male,45-54,West,yes,0.723333333,Partially Bounded
+438,1.2894,High school graduate,0.25,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,65+,South,yes,0.083333333,Fully Bounded
+439,0.8827,High school graduate,0.75,0,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,45-54,West,no,0.583333333,Irreducible
+440,0.7473,Technical/trade school,0.25,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,65+,South,yes,0.083333333,Fully Bounded and Irreducible
+441,3.5967,Less than high school graduate,0.75,1,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,18-24,Midwest,no,0.583333333,Partially Bounded and Irreducible
+442,4.6252,Some college,1,1,1,1,Democrat,Moderate,Some college,Hispanic,100+,Male,25-34,Northeast,no,1,Irreducible
+443,0.8786,Some college,1,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,45-54,South,no,1,Partially Bounded
+444,0.5137,Graduate degree,0.5,1,0,1,Independent,Conservative,College grad,"Other, Non-Hispanic",100+,Male,55-64,Northeast,yes,0.5,Partially Bounded
+445,1.0285,Some college,0,0,0,0,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,65+,Midwest,no,0,Partially Bounded
+449,0.2435,Graduate degree,0.5,1,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Male,65+,Midwest,no,0.723333333,Fully Bounded
+450,0.2955,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",50-75,Male,55-64,South,no,1,Irreducible
+451,0.3034,Graduate degree,1,1,1,1,Democrat,Conservative,College grad,"Other, Non-Hispanic",75-100,Male,45-54,Northeast,yes,1,Irreducible
+453,0.9627,High school graduate,0.5,0,0,0,Independent,Conservative,HS grad,"Other, Non-Hispanic",50-75,Male,25-34,Midwest,no,0.166666667,Partially Bounded and Irreducible
+454,1.5035,High school graduate,0.5,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,West,no,0.166666667,Fully Bounded
+457,2.1421,Technical/trade school,0.5,0,0,0,Republican,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,35-44,West,no,0.166666667,Partially Bounded and Irreducible
+458,1.762,College graduate,0.25,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,South,yes,0.083333333,Partially Bounded
+461,0.9316,Graduate degree,0.5,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,West,yes,0.613333333,Fully Bounded
+462,0.7037,College graduate,0.25,0,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Male,65+,Midwest,no,0.083333333,Partially Bounded and Irreducible
+463,0.1186,Some graduate school,1,1,1,1,Independent,Liberal,College grad,"Other, Non-Hispanic",75-100,Female,55-64,West,no,1,No Uncertainty
+464,0.5501,High school graduate,0.75,1,1,1,Republican,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,65+,South,yes,0.916666667,Partially Bounded
+466,4.6252,Some college,0.5,0.67,0.33,1,Democrat,Moderate,Some college,Hispanic,100+,Male,18-24,Northeast,yes,0.5,Partially Bounded
+467,0.2339,Graduate degree,0.5,0,0,1,Democrat,Moderate,College grad,Hispanic,75-100,Male,35-44,West,yes,0.166666667,Fully Bounded and Irreducible
+468,0.7481,High school graduate,0,0,0,1,Independent,Conservative,HS grad,"White, Non-Hispanic",100+,Male,35-44,South,no,0,Partially Bounded and Irreducible
+469,1.2943,High school graduate,0.5,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,55-64,Midwest,no,0.166666667,Fully Bounded
+472,0.7876,High school graduate,1,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,65+,Northeast,yes,1,Partially Bounded
+477,0.3979,Less than high school graduate,1,1,1,1,Democrat,Liberal,HS grad,Hispanic,Under 30,Female,35-44,West,no,1,Partially Bounded
+478,0.7165,College graduate,0.75,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Female,45-54,West,no,0.916666667,Irreducible
+479,0.5681,Graduate degree,0.25,0.33,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Male,65+,Northeast,yes,0.193333333,Fully Bounded and Irreducible
+480,0.3207,College graduate,1,1,1,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",100+,Male,55-64,Northeast,yes,1,Fully Bounded and Irreducible
+481,0.3122,Graduate degree,0.75,1,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Female,35-44,West,no,0.806666667,Fully Bounded and Irreducible
+482,0.2521,High school graduate,0.25,0,0,0,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,55-64,West,yes,0.083333333,No Uncertainty
+483,2.4192,High school graduate,0.5,1,1,1,Independent,Moderate,HS grad,Hispanic,50-75,Male,35-44,Northeast,no,0.833333333,No Uncertainty
+486,0.8856,Some college,0.5,1,0,1,Independent,Conservative,Some college,"Other, Non-Hispanic",Under 30,Male,45-54,West,yes,0.5,Irreducible
+488,0.2125,College graduate,0.5,1,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Male,65+,West,yes,0.723333333,Partially Bounded and Irreducible
+489,0.3512,Graduate degree,0.25,0,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Male,65+,Midwest,no,0.306666667,No Uncertainty
+491,1.7043,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,55-64,Northeast,yes,1,Partially Bounded and Irreducible
+494,1.8156,High school graduate,0.5,0.67,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,0.613333333,Fully Bounded and Irreducible
+497,0.2994,Some graduate school,0,0,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",50-75,Female,65+,Midwest,no,0,Partially Bounded and Irreducible
+499,1.571,High school graduate,0.25,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,yes,0.083333333,Partially Bounded
+500,0.2218,College graduate,0.5,0.67,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,55-64,Northeast,yes,0.39,Partially Bounded and Irreducible
+501,0.115,High school graduate,1,1,1,1,Democrat,Liberal,HS grad,Hispanic,Under 30,Female,65+,Northeast,yes,1,Partially Bounded and Irreducible
+503,0.7037,High school graduate,0.75,1,1,0,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,35-44,Midwest,no,0.916666667,Fully Bounded and Irreducible
+504,0.3431,Some graduate school,0.25,0,0.67,0,Democrat,Moderate,College grad,"White, Non-Hispanic",50-75,Male,55-64,Midwest,no,0.306666667,Partially Bounded and Irreducible
+507,2.5679,Some college,0.75,1,1,1,Independent,Conservative,Some college,"Other, Non-Hispanic",75-100,Female,45-54,South,no,0.916666667,Irreducible
+508,0.3452,College graduate,0.25,0.67,0.67,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,35-44,Northeast,no,0.53,No Uncertainty
+509,1.4019,High school graduate,NA,NA,NA,1,Independent,Moderate,HS grad,"Other, Non-Hispanic",100+,Male,18-24,West,no,NA,Partially Bounded
+511,2.25,High school graduate,0.75,0,0,0,Democrat,Conservative,HS grad,"Black, Non-Hispanic",50-75,Male,65+,West,no,0.25,Irreducible
+512,1.0486,College graduate,0.5,0.67,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,0.613333333,Irreducible
+513,0.4395,High school graduate,0.75,1,1,0,Republican,Conservative,HS grad,"White, Non-Hispanic",75-100,Female,45-54,West,yes,0.916666667,Fully Bounded and Irreducible
+515,0.2234,College graduate,0.75,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Male,35-44,West,yes,0.916666667,Fully Bounded
+516,0.7447,High school graduate,0.5,0.67,0.67,0,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,25-34,South,no,0.613333333,Fully Bounded and Irreducible
+518,2.1431,Graduate degree,0.25,0,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Female,45-54,South,yes,0.083333333,Partially Bounded
+519,0.5116,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",30-50,Female,25-34,Midwest,no,1,Partially Bounded
+520,1.8045,College graduate,0.75,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,Northeast,yes,0.916666667,Fully Bounded
+522,1.2124,High school graduate,0.5,0,0,0,Democrat,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,65+,West,no,0.166666667,Partially Bounded
+524,0.3049,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Female,65+,Midwest,no,1,Fully Bounded
+527,0.9739,Some college,0.75,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",75-100,Female,55-64,South,no,0.916666667,Fully Bounded
+528,1.2779,Graduate degree,1,1,0,1,Democrat,Liberal,College grad,Hispanic,100+,Male,45-54,Midwest,no,0.666666667,Partially Bounded and Irreducible
+529,0.3927,College graduate,0.5,1,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",Under 30,Male,65+,West,no,0.723333333,No Uncertainty
+530,2.9505,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,Hispanic,30-50,Female,25-34,West,no,0.166666667,Partially Bounded
+532,1.0676,High school graduate,0.75,1,0.67,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Female,25-34,South,no,0.806666667,Fully Bounded
+533,0.7517,High school graduate,0.75,0.67,0.67,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",30-50,Male,55-64,South,no,0.696666667,No Uncertainty
+537,2.6443,Some college,0.75,0.67,0.67,1,Democrat,Conservative,Some college,Hispanic,100+,Male,35-44,West,yes,0.696666667,Partially Bounded and Irreducible
+539,3.4094,High school graduate,0.5,NA,0,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",30-50,Male,25-34,South,no,0.25,Fully Bounded
+541,1.472,Graduate degree,0.75,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",30-50,Male,25-34,Midwest,no,0.696666667,Fully Bounded and Irreducible
+543,0.1188,College graduate,0.25,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,West,yes,0.083333333,Partially Bounded
+544,2.7857,Some college,1,1,1,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",50-75,Male,55-64,West,no,1,Partially Bounded and Irreducible
+545,0.5934,High school graduate,1,0,0,0,Democrat,Conservative,HS grad,"Black, Non-Hispanic",Under 30,Male,25-34,South,yes,0.333333333,Partially Bounded
+546,1.5925,Some graduate school,0.5,0,0.33,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,25-34,West,no,0.276666667,Fully Bounded
+547,2.2421,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,35-44,Midwest,no,0.083333333,No Uncertainty
+548,1.0777,Some college,0.5,0,0,0,Democrat,Moderate,Some college,"Black, Non-Hispanic",Under 30,Female,35-44,Midwest,no,0.166666667,Partially Bounded and Irreducible
+549,3.6041,Less than high school graduate,0.75,1,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,65+,Midwest,no,0.806666667,Fully Bounded
+552,0.427,Some college,0.75,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,35-44,West,yes,0.916666667,Partially Bounded and Irreducible
+553,0.7081,Graduate degree,0.75,0,0.33,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Female,35-44,Northeast,yes,0.36,Partially Bounded
+555,2.282,Some college,0.75,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Female,35-44,West,no,0.916666667,Fully Bounded and Irreducible
+556,4.6252,Some college,0.75,0,0,0,Independent,Moderate,Some college,"Other, Non-Hispanic",100+,Female,25-34,Northeast,no,0.25,Partially Bounded
+557,0.1102,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,Hispanic,30-50,Female,45-54,Northeast,yes,1,Irreducible
+558,1.7093,College graduate,0.25,1,0,1,Independent,Liberal,College grad,"White, Non-Hispanic",30-50,Female,18-24,West,yes,0.416666667,Partially Bounded and Irreducible
+559,0.5731,College graduate,0.25,0,0,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Male,45-54,Northeast,yes,0.083333333,Irreducible
+560,1.9171,Graduate degree,0.75,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",100+,Female,35-44,South,yes,0.916666667,Partially Bounded and Irreducible
+561,0.2337,High school graduate,0.5,0.67,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,65+,West,no,0.613333333,Fully Bounded
+564,1.1524,Some college,0.75,1,0.67,1,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Female,35-44,South,no,0.806666667,Partially Bounded
+565,0.5842,College graduate,0.75,0,0.33,1,Independent,Conservative,College grad,"Other, Non-Hispanic",100+,Male,18-24,West,yes,0.36,Fully Bounded
+566,0.4606,Graduate degree,1,1,1,1,Independent,Conservative,College grad,"Black, Non-Hispanic",100+,Male,45-54,South,no,1,Fully Bounded
+567,0.6561,Some graduate school,1,1,1,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",100+,Female,35-44,West,yes,1,Irreducible
+569,1.4164,High school graduate,1,1,1,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",30-50,Male,45-54,South,yes,1,Fully Bounded
+570,0.7589,Technical/trade school,0.25,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,no,0.083333333,Partially Bounded
+571,0.7523,Graduate degree,1,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,65+,Northeast,yes,1,Irreducible
+574,0.3169,Some graduate school,0,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Female,45-54,West,yes,0,Partially Bounded and Irreducible
+575,0.7774,Some college,0.75,1,0.67,1,Independent,Liberal,Some college,"White, Non-Hispanic",Under 30,Female,18-24,South,yes,0.806666667,No Uncertainty
+577,0.637,Technical/trade school,1,1,1,1,Democrat,Moderate,HS grad,Hispanic,30-50,Male,35-44,West,yes,1,Fully Bounded and Irreducible
+578,0.9897,Some college,1,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,1,Fully Bounded
+580,0.5975,Graduate degree,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,West,yes,0.916666667,No Uncertainty
+581,4.0057,Some college,0.75,1,1,1,Independent,Liberal,Some college,"Other, Non-Hispanic",30-50,Female,25-34,West,yes,0.916666667,Partially Bounded
+589,0.6954,College graduate,0.75,1,1,1,Republican,Conservative,College grad,"Other, Non-Hispanic",75-100,Female,35-44,South,yes,0.916666667,Irreducible
+589,0.6954,College graduate,0.75,1,1,1,Republican,Conservative,College grad,"Other, Non-Hispanic",75-100,Female,35-44,South,yes,0.916666667,Irreducible
+590,0.8942,Less than high school graduate,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,65+,Northeast,no,1,Fully Bounded
+591,1.5993,College graduate,0.5,1,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Female,25-34,Midwest,no,0.723333333,Irreducible
+595,0.7208,High school graduate,0.75,1,0,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,25-34,South,yes,0.583333333,Partially Bounded
+597,0.8486,Graduate degree,0,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",50-75,Male,65+,Midwest,no,0,Fully Bounded and Irreducible
+598,0.8624,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,Hispanic,50-75,Male,35-44,West,yes,0.916666667,Irreducible
+599,1.8899,Some college,1,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",100+,Male,18-24,West,no,1,Fully Bounded and Irreducible
+600,0.1995,Graduate degree,0,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,West,no,0,Partially Bounded and Irreducible
+603,0.9799,Technical/trade school,0.25,0,0,0,Independent,Refused,HS grad,Hispanic,75-100,Female,35-44,West,no,0.083333333,Irreducible
+604,0.7816,Graduate degree,1,1,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,45-54,West,yes,0.89,Partially Bounded and Irreducible
+606,1.2811,Some college,0.25,0,0,1,Republican,Moderate,Some college,"White, Non-Hispanic",100+,Male,18-24,Northeast,no,0.083333333,Fully Bounded
+607,1.4783,Graduate degree,0.5,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,35-44,Northeast,yes,0.613333333,No Uncertainty
+609,0.5677,Graduate degree,0.75,0.67,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Female,45-54,Northeast,yes,0.696666667,Partially Bounded and Irreducible
+610,0.3933,College graduate,0.5,0.67,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",30-50,Female,55-64,West,no,0.39,Fully Bounded and Irreducible
+611,2.2544,High school graduate,0.25,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",75-100,Female,55-64,South,no,0.083333333,Partially Bounded and Irreducible
+614,0.4525,College graduate,0.25,0,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",30-50,Male,45-54,Midwest,no,0.083333333,Fully Bounded and Irreducible
+615,0.6522,Some college,0.75,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",100+,Female,65+,West,yes,0.916666667,Irreducible
+616,0.3382,College graduate,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",Under 30,Female,25-34,South,no,0,No Uncertainty
+618,0.1102,College graduate,0.5,0.67,0.67,1,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Male,18-24,South,no,0.613333333,Partially Bounded and Irreducible
+620,1.2598,Some college,0.75,1,1,1,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Female,18-24,Midwest,no,0.916666667,Irreducible
+625,0.4757,High school graduate,0.5,0,0.67,0,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,25-34,Midwest,no,0.39,No Uncertainty
+626,0.5261,College graduate,0.25,0,0,0,Independent,Conservative,College grad,"Other, Non-Hispanic",100+,Male,25-34,South,yes,0.083333333,Irreducible
+634,0.4534,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"Black, Non-Hispanic",50-75,Female,65+,Northeast,yes,0.916666667,Fully Bounded and Irreducible
+637,0.2054,Graduate degree,0.75,0.67,0.67,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",75-100,Male,35-44,West,no,0.696666667,Partially Bounded
+638,1.073,Some college,0.75,1,1,1,Independent,Conservative,Some college,"White, Non-Hispanic",50-75,Female,25-34,Midwest,no,0.916666667,No Uncertainty
+641,0.1283,Graduate degree,1,1,1,1,Independent,Moderate,College grad,"Other, Non-Hispanic",100+,Male,45-54,West,yes,1,Partially Bounded
+642,0.2811,Graduate degree,1,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",75-100,Female,45-54,West,no,1,Partially Bounded
+643,1.7499,Graduate degree,0.75,1,1,1,Independent,Moderate,College grad,"Other, Non-Hispanic",100+,Male,45-54,West,yes,0.916666667,No Uncertainty
+645,1.6484,Graduate degree,0.5,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,West,no,0.833333333,Fully Bounded
+647,0.9617,Some college,0,0,0,0,Independent,Conservative,Some college,Hispanic,Under 30,Male,18-24,South,no,0,Fully Bounded
+648,1.3019,Some college,0.5,0,0,0,Independent,Conservative,Some college,"Black, Non-Hispanic",Under 30,Male,55-64,South,no,0.166666667,Partially Bounded and Irreducible
+651,0.8582,High school graduate,0.5,0.67,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,55-64,Northeast,no,0.723333333,Fully Bounded and Irreducible
+652,0.9476,High school graduate,0.75,1,1,1,Independent,Conservative,HS grad,"White, Non-Hispanic",75-100,Female,45-54,South,no,0.916666667,Fully Bounded
+653,0.2445,Graduate degree,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,55-64,West,yes,0.916666667,Fully Bounded and Irreducible
+655,0.2083,High school graduate,0.25,0.67,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,Midwest,no,0.64,Fully Bounded and Irreducible
+656,0.8977,Some college,1,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Female,65+,West,yes,1,Partially Bounded
+657,2.4289,Some college,0.5,0.67,0.67,1,Democrat,Moderate,Some college,"White, Non-Hispanic",30-50,Female,65+,South,no,0.613333333,Partially Bounded
+658,1.2568,High school graduate,0.5,0.67,0.67,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",Under 30,Female,25-34,Northeast,yes,0.613333333,Irreducible
+659,0.4853,Some college,0.5,0,0.67,1,Democrat,Liberal,Some college,"White, Non-Hispanic",Under 30,Female,18-24,West,yes,0.39,No Uncertainty
+660,0.6681,High school graduate,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,18-24,South,yes,1,Irreducible
+663,0.7581,Graduate degree,0.75,1,1,1,Democrat,Liberal,College grad,Hispanic,100+,Male,35-44,South,no,0.916666667,Fully Bounded
+664,0.2355,Some college,0.5,0,0.33,1,Independent,Moderate,Some college,"Other, Non-Hispanic",Under 30,Male,18-24,West,yes,0.276666667,Partially Bounded
+665,0.7213,Some college,1,1,1,1,Independent,Liberal,Some college,Hispanic,Under 30,Male,25-34,Northeast,yes,1,Fully Bounded
+666,0.2557,High school graduate,0.75,0.67,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",75-100,Male,55-64,Northeast,yes,0.696666667,Irreducible
+667,0.8383,Some college,0,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Male,65+,Midwest,no,0,Fully Bounded and Irreducible
+668,3.3304,Less than high school graduate,0.5,1,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,55-64,South,no,0.723333333,Fully Bounded
+669,0.9474,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,65+,South,no,1,Fully Bounded and Irreducible
+670,0.7524,High school graduate,0,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",75-100,Female,65+,Northeast,no,0,Partially Bounded
+671,3.4049,Less than high school graduate,0.5,0,0,1,Republican,Moderate,HS grad,"Other, Non-Hispanic",Under 30,Female,65+,South,no,0.166666667,No Uncertainty
+672,0.1366,College graduate,0.75,0.33,0.67,1,Independent,Liberal,College grad,"White, Non-Hispanic",Under 30,Female,35-44,Northeast,yes,0.583333333,No Uncertainty
+673,0.2382,Technical/trade school,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",75-100,Male,65+,Midwest,no,0,Fully Bounded
+675,3.0018,Graduate degree,0,0,0,0,Democrat,Moderate,College grad,"Black, Non-Hispanic",100+,Female,45-54,South,no,0,Fully Bounded and Irreducible
+677,0.1465,Graduate degree,0,0,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Male,55-64,South,no,0.223333333,Partially Bounded
+681,0.9224,College graduate,0.75,1,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,25-34,South,yes,0.916666667,No Uncertainty
+682,0.8081,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,65+,South,yes,0.916666667,Irreducible
+683,0.6463,College graduate,0.5,0,0,1,Democrat,Conservative,College grad,"White, Non-Hispanic",30-50,Female,45-54,Northeast,yes,0.166666667,Fully Bounded and Irreducible
+687,0.7058,Some college,0,0,0,0,Independent,Conservative,Some college,"Black, Non-Hispanic",Under 30,Male,25-34,South,no,0,Partially Bounded
+688,0.8715,High school graduate,0.5,0.67,0,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,Midwest,no,0.39,No Uncertainty
+689,1.4895,College graduate,0.5,1,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,South,no,0.5,No Uncertainty
+690,0.4792,College graduate,0.5,1,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,45-54,Midwest,no,0.723333333,No Uncertainty
+691,0.2178,Some graduate school,0.5,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",30-50,Male,35-44,South,no,0.613333333,Irreducible
+692,2.3015,Some college,0.5,0.67,0,1,Independent,Conservative,Some college,"White, Non-Hispanic",75-100,Female,25-34,Midwest,no,0.39,Fully Bounded
+693,0.2073,High school graduate,0.5,0,0,0,Independent,Conservative,HS grad,"Other, Non-Hispanic",30-50,Male,65+,Midwest,no,0.166666667,No Uncertainty
+694,0.641,Some college,0.5,0,0,1,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,65+,South,yes,0.166666667,No Uncertainty
+695,0.4449,College graduate,0.25,0,0,0,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Male,45-54,Midwest,no,0.083333333,Partially Bounded and Irreducible
+697,0.9329,College graduate,0.25,NA,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,65+,South,yes,0.125,No Uncertainty
+698,1.4261,College graduate,0.75,1,0.67,1,Democrat,Conservative,College grad,"White, Non-Hispanic",50-75,Male,35-44,South,yes,0.806666667,Partially Bounded
+699,1.5355,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,55-64,Midwest,no,1,Partially Bounded
+701,0.3917,College graduate,0.5,1,0,0,Democrat,Conservative,College grad,"White, Non-Hispanic",Under 30,Female,55-64,South,no,0.5,No Uncertainty
+702,1.4132,Some college,0,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Male,55-64,Midwest,no,0,Irreducible
+703,1.7485,Some college,0.5,0.67,0.33,1,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Male,45-54,Northeast,no,0.5,Irreducible
+704,3.2227,Some college,0.25,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Male,45-54,South,no,0.083333333,Partially Bounded
+705,0.1102,College graduate,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",Under 30,Male,18-24,West,no,0,Partially Bounded and Irreducible
+707,0.2117,College graduate,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",Under 30,Male,55-64,Midwest,no,0.916666667,Fully Bounded and Irreducible
+708,0.7884,Some college,0.5,1,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Male,25-34,South,no,0.5,Fully Bounded and Irreducible
+709,0.3838,High school graduate,0.5,0.67,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,65+,South,no,0.613333333,Partially Bounded
+710,0.825,Refused,NA,NA,NA,0,Refused,Refused,Refused,"White, Non-Hispanic",75-100,Male,65+,South,no,NA,Partially Bounded
+711,0.5836,High school graduate,0.5,0.67,0.67,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Male,55-64,West,yes,0.613333333,Fully Bounded
+712,0.9129,Some college,1,1,1,1,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Male,25-34,Midwest,no,1,Partially Bounded and Irreducible
+713,0.3985,Technical/trade school,0.5,0.67,0.33,1,Republican,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,35-44,Northeast,no,0.5,Fully Bounded and Irreducible
+716,0.3962,Some college,0.5,0,1,1,Independent,Moderate,Some college,Hispanic,Under 30,Female,25-34,West,yes,0.5,Partially Bounded
+717,0.8267,Some college,0.75,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Female,35-44,Midwest,no,0.916666667,Fully Bounded
+718,0.7484,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,65+,South,yes,1,No Uncertainty
+720,0.3638,College graduate,1,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",Under 30,Female,18-24,Northeast,yes,1,Partially Bounded and Irreducible
+721,1.1945,High school graduate,0.5,1,1,0,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Midwest,no,0.833333333,Fully Bounded
+722,0.2323,Graduate degree,0.5,1,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Male,55-64,South,no,0.723333333,Partially Bounded
+723,0.4359,High school graduate,0.5,1,0.67,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",Under 30,Male,45-54,Midwest,no,0.723333333,Fully Bounded
+725,0.4198,Technical/trade school,0.75,1,1,1,Democrat,Moderate,HS grad,"Other, Non-Hispanic",Under 30,Male,55-64,South,no,0.916666667,Fully Bounded
+727,1.855,Some college,0.75,0,1,1,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Female,18-24,Midwest,no,0.583333333,Partially Bounded
+728,0.6081,College graduate,0.5,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,45-54,Northeast,no,0.833333333,Partially Bounded
+730,1.2998,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,Midwest,no,0.916666667,Fully Bounded and Irreducible
+731,0.1907,College graduate,0,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",Under 30,Male,45-54,Northeast,yes,0,No Uncertainty
+733,0.3433,College graduate,1,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,yes,0.333333333,Fully Bounded and Irreducible
+734,1.1559,Graduate degree,0.75,1,1,1,Democrat,Moderate,College grad,"Black, Non-Hispanic",100+,Female,45-54,Northeast,yes,0.916666667,Partially Bounded
+735,0.2034,College graduate,0.5,0,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Male,55-64,South,no,0.39,No Uncertainty
+736,0.7924,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Female,18-24,Northeast,yes,0.166666667,No Uncertainty
+738,0.7092,College graduate,0.5,0.67,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,45-54,Midwest,no,0.613333333,Fully Bounded
+739,0.8121,Graduate degree,1,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Male,65+,South,no,1,Partially Bounded
+740,1.128,High school graduate,1,1,1,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",100+,Female,35-44,South,no,1,Fully Bounded
+741,3.471,Less than high school graduate,0.25,0,0,1,Democrat,Conservative,HS grad,"Black, Non-Hispanic",Under 30,Female,45-54,South,no,0.083333333,Irreducible
+742,0.4173,Graduate degree,0.25,0.67,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,35-44,Midwest,no,0.306666667,Irreducible
+743,1.1259,College graduate,0.5,0.67,0.67,1,Independent,Liberal,College grad,"White, Non-Hispanic",Under 30,Female,45-54,Midwest,no,0.613333333,Partially Bounded
+744,2.0481,Less than high school graduate,0.5,0.67,0,0,Democrat,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Female,65+,South,no,0.39,Fully Bounded and Irreducible
+745,0.7513,Graduate degree,0.25,0,0,0,Independent,Liberal,College grad,Hispanic,100+,Male,65+,South,no,0.083333333,No Uncertainty
+746,0.3837,Some college,0.5,1,1,0,Democrat,Liberal,Some college,"White, Non-Hispanic",30-50,Male,45-54,Northeast,no,0.833333333,No Uncertainty
+747,0.8238,College graduate,0.25,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,45-54,Midwest,no,0.083333333,Irreducible
+748,0.7662,High school graduate,1,1,1,1,Independent,Moderate,HS grad,Hispanic,Under 30,Female,65+,South,yes,1,Irreducible
+749,0.5311,Graduate degree,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Male,25-34,Midwest,no,0,Partially Bounded
+751,1.7252,College graduate,0.75,1,1,1,Democrat,Moderate,College grad,Hispanic,Under 30,Male,45-54,South,yes,0.916666667,Fully Bounded and Irreducible
+751,1.7252,College graduate,0.75,1,1,1,Democrat,Moderate,College grad,Hispanic,Under 30,Male,45-54,South,yes,0.916666667,Fully Bounded and Irreducible
+752,0.2283,Graduate degree,0.5,0,0,1,Democrat,Liberal,College grad,"White, Non-Hispanic",Under 30,Female,55-64,Midwest,no,0.166666667,No Uncertainty
+753,1.0859,Technical/trade school,0.5,0.67,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,45-54,West,no,0.613333333,Fully Bounded and Irreducible
+754,1.1403,Some college,0.5,0.67,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Female,18-24,Midwest,no,0.613333333,Fully Bounded and Irreducible
+755,0.4986,College graduate,0.25,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",30-50,Female,55-64,Northeast,no,0.083333333,Fully Bounded and Irreducible
+757,0.1506,High school graduate,1,1,0.33,0,Independent,Conservative,HS grad,Hispanic,Under 30,Female,18-24,South,no,0.776666667,Partially Bounded and Irreducible
+759,0.7595,High school graduate,1,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",30-50,Male,18-24,South,no,1,Fully Bounded and Irreducible
+761,1.0059,High school graduate,0.25,0,0,0,Refused,Refused,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Midwest,no,0.083333333,Fully Bounded
+762,2.1692,Some college,0.75,1,1,1,Independent,Conservative,Some college,"White, Non-Hispanic",30-50,Female,45-54,West,yes,0.916666667,Irreducible
+764,0.2769,Some college,0.5,0.67,0.33,1,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,65+,Midwest,no,0.5,Fully Bounded and Irreducible
+765,0.1543,High school graduate,0,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,65+,West,no,0,Irreducible
+766,0.8121,Some graduate school,0.5,0.67,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,25-34,West,no,0.613333333,Partially Bounded and Irreducible
+767,4.6252,Technical/trade school,0.75,0.67,0.67,1,Democrat,Liberal,HS grad,Hispanic,50-75,Male,25-34,South,yes,0.696666667,Partially Bounded
+771,1.6428,Graduate degree,0.75,1,1,1,Republican,Moderate,College grad,Hispanic,50-75,Female,35-44,South,no,0.916666667,Partially Bounded
+772,0.3057,Some college,0.5,0.67,0,1,Independent,Liberal,Some college,Hispanic,50-75,Male,18-24,Midwest,no,0.39,Partially Bounded and Irreducible
+775,0.3446,Graduate degree,0.25,0,0.33,0,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,65+,Midwest,no,0.193333333,Irreducible
+776,0.3796,Technical/trade school,0.5,0,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,55-64,Midwest,no,0.39,Fully Bounded and Irreducible
+778,0.4893,Technical/trade school,0,0,0,0,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,65+,West,yes,0,Fully Bounded and Irreducible
+779,0.7372,High school graduate,0.5,1,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0.5,No Uncertainty
+780,0.679,Some college,0,0,0,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Female,55-64,Northeast,yes,0,Partially Bounded
+781,1.2747,Some college,1,1,1,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",Under 30,Female,55-64,Midwest,no,1,Irreducible
+783,1.4589,Less than high school graduate,0.75,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,65+,South,yes,0.916666667,Partially Bounded
+785,0.9354,High school graduate,0.75,1,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,65+,Midwest,no,0.806666667,Fully Bounded and Irreducible
+786,0.1102,College graduate,0.75,1,1,1,Republican,Conservative,College grad,Hispanic,Under 30,Male,35-44,South,yes,0.916666667,Fully Bounded
+788,0.6923,High school graduate,0.75,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,Midwest,no,0.916666667,Partially Bounded
+789,0.265,Graduate degree,0.5,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Male,65+,West,yes,0.613333333,Fully Bounded and Irreducible
+791,0.3139,Some graduate school,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Female,55-64,Northeast,yes,0.916666667,Partially Bounded and Irreducible
+792,0.1102,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Male,45-54,South,no,0.916666667,Partially Bounded
+793,2.6725,Some college,0,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",30-50,Male,18-24,Midwest,no,0,Partially Bounded and Irreducible
+794,0.366,College graduate,0,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Male,45-54,South,yes,0,Fully Bounded and Irreducible
+796,1.5466,Some college,0.5,0.67,0.67,1,Democrat,Moderate,Some college,"White, Non-Hispanic",100+,Female,45-54,South,no,0.613333333,Fully Bounded
+797,1.2346,High school graduate,0.5,0.33,0.67,0,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Male,35-44,Northeast,yes,0.5,No Uncertainty
+798,1.5959,Some college,0.25,0,0,0,Democrat,Moderate,Some college,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,0.083333333,Fully Bounded and Irreducible
+801,0.6737,High school graduate,0.25,0.67,0.33,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,65+,South,yes,0.416666667,No Uncertainty
+804,0.7235,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",30-50,Female,18-24,Northeast,no,1,Partially Bounded
+805,0.5977,Some graduate school,0.5,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",Under 30,Male,65+,Midwest,no,0.613333333,No Uncertainty
+806,0.5266,High school graduate,0.75,1,1,1,Democrat,Liberal,HS grad,Hispanic,Under 30,Male,25-34,West,no,0.916666667,Fully Bounded
+807,0.7866,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,no,1,Fully Bounded
+809,0.3555,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,55-64,Midwest,no,0,Fully Bounded and Irreducible
+811,0.1429,Less than high school graduate,0.25,0.67,1,0,Independent,Conservative,HS grad,Hispanic,Under 30,Female,35-44,West,no,0.64,Partially Bounded
+812,1.7459,Some college,1,1,1,1,Republican,Conservative,Some college,"Other, Non-Hispanic",50-75,Female,65+,West,yes,1,Partially Bounded and Irreducible
+815,1.2582,Some college,0.5,0,0,0,Independent,Conservative,Some college,"Other, Non-Hispanic",100+,Female,18-24,Northeast,yes,0.166666667,No Uncertainty
+819,0.8702,Graduate degree,0.75,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,65+,West,no,0.696666667,Irreducible
+820,0.8972,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Male,25-34,Northeast,yes,1,Partially Bounded and Irreducible
+821,0.3917,College graduate,0.25,0.67,0,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Male,35-44,West,no,0.306666667,Partially Bounded
+822,0.3447,High school graduate,0.25,0,0.67,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Midwest,no,0.306666667,No Uncertainty
+823,0.3821,High school graduate,0.75,0.67,0.67,0,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,South,no,0.696666667,Partially Bounded
+824,0.8689,High school graduate,0.5,0.67,0.67,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,65+,Northeast,no,0.613333333,Fully Bounded and Irreducible
+826,0.4357,Graduate degree,1,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,1,Partially Bounded
+828,0.2688,Graduate degree,0.75,0.67,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0.696666667,Irreducible
+829,0.7081,Some graduate school,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Male,65+,South,no,0,Partially Bounded and Irreducible
+831,0.3302,Graduate degree,0.75,0.33,0.33,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Female,65+,West,no,0.47,Fully Bounded
+832,1.8163,College graduate,0.5,1,1,0,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,Northeast,yes,0.833333333,Partially Bounded
+833,1.0853,Graduate degree,0.5,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,45-54,South,no,0.833333333,Partially Bounded and Irreducible
+836,0.4491,Some college,0.5,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Male,55-64,Northeast,yes,0.166666667,No Uncertainty
+837,0.378,Graduate degree,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,South,yes,0,Irreducible
+839,1.4622,Some graduate school,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Male,55-64,South,no,0.916666667,No Uncertainty
+842,0.4608,College graduate,0.75,0,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Male,25-34,Midwest,no,0.25,Fully Bounded
+844,0.1914,Graduate degree,0.25,0,0,0,Independent,Moderate,College grad,"Black, Non-Hispanic",50-75,Female,25-34,South,no,0.083333333,No Uncertainty
+845,3.5857,Some college,0.5,0,0,1,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Female,18-24,West,yes,0.166666667,No Uncertainty
+847,1.3934,Some college,0.5,0.67,0.67,1,Republican,Moderate,Some college,"White, Non-Hispanic",75-100,Female,18-24,Midwest,no,0.613333333,Irreducible
+849,0.4879,College graduate,0.5,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Female,45-54,Midwest,no,0.166666667,Irreducible
+850,0.6547,Technical/trade school,0.75,1,1,1,Democrat,Moderate,HS grad,Hispanic,30-50,Female,45-54,Midwest,no,0.916666667,Partially Bounded and Irreducible
+853,2.0634,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,Hispanic,50-75,Male,45-54,West,yes,1,Partially Bounded and Irreducible
+854,0.5179,High school graduate,0.75,1,1,0,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,55-64,West,yes,0.916666667,Irreducible
+855,1.5769,High school graduate,1,0,0,1,Democrat,Moderate,HS grad,Hispanic,50-75,Male,65+,West,yes,0.333333333,No Uncertainty
+857,0.8599,Some graduate school,0.25,0,0.33,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,0.193333333,Fully Bounded and Irreducible
+858,0.9585,Some college,0.5,1,1,1,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Male,45-54,South,no,0.833333333,Fully Bounded
+859,0.9532,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,Hispanic,75-100,Male,65+,South,yes,1,Partially Bounded
+862,0.5334,Graduate degree,0.25,0,0,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Male,25-34,Northeast,no,0.083333333,Partially Bounded and Irreducible
+863,0.8751,Some graduate school,0.75,1,0.67,1,Independent,Refused,College grad,"White, Non-Hispanic",Under 30,Male,35-44,South,no,0.806666667,Fully Bounded
+864,1.329,High school graduate,0.5,1,1,0,Democrat,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Male,65+,South,yes,0.833333333,Fully Bounded
+866,1.5042,Less than high school graduate,1,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",Under 30,Female,18-24,South,no,1,Fully Bounded and Irreducible
+867,0.6449,Some college,0.5,0.67,0.67,1,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,45-54,West,no,0.613333333,No Uncertainty
+868,0.3326,Graduate degree,0,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",50-75,Male,45-54,Midwest,no,0,No Uncertainty
+871,0.2518,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,West,yes,0.916666667,No Uncertainty
+872,1.2491,College graduate,1,1,1,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",100+,Male,55-64,West,yes,1,Partially Bounded
+874,1.1904,Refused,0.75,1,0.67,1,Refused,Refused,Refused,"Black, Non-Hispanic",Under 30,Male,18-24,West,no,0.806666667,Partially Bounded and Irreducible
+875,0.5391,High school graduate,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,35-44,Northeast,yes,1,Fully Bounded
+878,2.328,Some college,0.25,0,0,1,Republican,Moderate,Some college,"White, Non-Hispanic",100+,Male,35-44,Midwest,no,0.083333333,Partially Bounded
+880,0.4425,Some college,0.5,1,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,0.723333333,Irreducible
+883,0.5773,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,Hispanic,30-50,Female,45-54,West,no,0.166666667,No Uncertainty
+884,0.6852,College graduate,0.75,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",50-75,Female,35-44,Midwest,no,0.916666667,Irreducible
+885,2.3457,High school graduate,0.75,1,1,0,Democrat,Conservative,HS grad,"Black, Non-Hispanic",50-75,Male,55-64,South,no,0.916666667,Fully Bounded and Irreducible
+887,0.8162,Technical/trade school,1,1,1,1,Independent,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Male,35-44,South,no,1,Partially Bounded
+889,2.5079,College graduate,0.5,0.67,0.67,1,Independent,Moderate,College grad,Hispanic,50-75,Female,65+,West,yes,0.613333333,Fully Bounded and Irreducible
+891,1.54,Less than high school graduate,0.25,0,0,0,Independent,Conservative,HS grad,Hispanic,Under 30,Female,25-34,West,no,0.083333333,Fully Bounded
+894,0.5828,High school graduate,0,0,0,0,Democrat,Moderate,HS grad,"Other, Non-Hispanic",30-50,Male,35-44,South,no,0,Irreducible
+895,1.0952,High school graduate,0,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",100+,Female,35-44,Midwest,no,0,Fully Bounded and Irreducible
+896,0.9547,High school graduate,0.75,1,0.67,0,Democrat,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,65+,Northeast,no,0.806666667,Partially Bounded
+897,2.8017,Some college,0.25,0,0,1,Independent,Conservative,Some college,"White, Non-Hispanic",100+,Male,65+,West,no,0.083333333,Fully Bounded and Irreducible
+898,0.9412,Less than high school graduate,0.25,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,65+,Midwest,no,0.083333333,Fully Bounded and Irreducible
+899,1.489,Some college,0.5,0.67,0.67,0,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Female,45-54,South,no,0.613333333,Partially Bounded and Irreducible
+900,0.7803,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,South,yes,0.083333333,Fully Bounded and Irreducible
+901,1.8485,Some college,0.75,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Male,18-24,Northeast,no,0.25,Irreducible
+905,1.7237,College graduate,0.75,0,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Male,25-34,Northeast,no,0.473333333,Partially Bounded
+906,0.8992,High school graduate,0.5,0.67,0.67,0,Democrat,Liberal,HS grad,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0.613333333,Fully Bounded and Irreducible
+907,0.2519,Technical/trade school,0.25,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,35-44,South,no,0.083333333,No Uncertainty
+910,2.1157,Some college,0.75,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",30-50,Female,35-44,West,no,0.916666667,Fully Bounded and Irreducible
+913,0.5988,Some college,0.75,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",75-100,Female,65+,South,no,0.916666667,Fully Bounded and Irreducible
+914,4.0744,High school graduate,0.5,1,NA,0,Democrat,Liberal,HS grad,"Black, Non-Hispanic",50-75,Male,18-24,South,no,0.75,No Uncertainty
+915,0.9233,Graduate degree,0.5,0.67,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Female,65+,Midwest,no,0.613333333,Partially Bounded and Irreducible
+916,0.9757,College graduate,0.5,0.67,0.33,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Male,55-64,West,no,0.5,Fully Bounded
+918,0.5167,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,Hispanic,30-50,Male,35-44,South,yes,0.166666667,No Uncertainty
+920,0.5799,Some college,1,1,1,1,Democrat,Liberal,Some college,"Black, Non-Hispanic",75-100,Male,25-34,West,yes,1,No Uncertainty
+921,0.3506,High school graduate,0,0,0,1,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,65+,Northeast,no,0,Fully Bounded
+923,2.7986,Graduate degree,0.25,0.67,0.67,1,Republican,Conservative,College grad,Hispanic,75-100,Female,35-44,South,no,0.53,Partially Bounded
+924,0.9442,College graduate,0.5,1,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",75-100,Female,25-34,South,no,0.5,Fully Bounded
+925,0.2741,Less than high school graduate,0.25,0,0,1,Independent,Moderate,HS grad,Hispanic,Under 30,Female,55-64,South,yes,0.083333333,No Uncertainty
+926,2.6029,High school graduate,0.75,1,1,1,Republican,Moderate,HS grad,"White, Non-Hispanic",100+,Female,55-64,West,yes,0.916666667,No Uncertainty
+931,0.196,College graduate,0.5,0.67,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,55-64,West,no,0.613333333,No Uncertainty
+932,1.1634,College graduate,0.75,0,0,0,Independent,Conservative,College grad,Hispanic,75-100,Male,25-34,Midwest,no,0.25,Fully Bounded
+934,1.6708,Less than high school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,18-24,Northeast,yes,0,Fully Bounded
+935,3.2853,Less than high school graduate,0,0,0,0,Independent,Conservative,HS grad,Hispanic,Under 30,Female,35-44,West,no,0,Fully Bounded and Irreducible
+937,0.2536,Graduate degree,0.25,0.67,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,South,yes,0.306666667,Fully Bounded
+938,0.5398,Some college,0.75,1,1,1,Republican,Moderate,Some college,"White, Non-Hispanic",75-100,Female,45-54,South,no,0.916666667,Irreducible
+939,1.1393,High school graduate,1,1,1,1,Democrat,Conservative,HS grad,"Black, Non-Hispanic",Under 30,Male,55-64,South,no,1,Fully Bounded and Irreducible
+942,0.5219,High school graduate,0.75,0,1,1,Republican,Conservative,HS grad,"Other, Non-Hispanic",30-50,Female,65+,Northeast,no,0.583333333,Fully Bounded
+943,1.2721,Some college,0.75,0.67,1,0,Independent,Conservative,Some college,"White, Non-Hispanic",100+,Male,35-44,Midwest,no,0.806666667,No Uncertainty
+944,1.8003,Some graduate school,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,45-54,South,yes,0.083333333,Fully Bounded and Irreducible
+946,0.4063,College graduate,0.25,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,18-24,Midwest,yes,0.083333333,Fully Bounded and Irreducible
+947,0.422,Some college,0.25,0,0,0,Independent,Moderate,Some college,"White, Non-Hispanic",50-75,Male,35-44,Midwest,no,0.083333333,Fully Bounded and Irreducible
+948,1.2791,High school graduate,0.5,0.67,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,45-54,Northeast,no,0.613333333,No Uncertainty
+949,1.2101,Some college,0.75,0,1,0,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,55-64,Midwest,no,0.583333333,Fully Bounded and Irreducible
+953,4.0246,Less than high school graduate,0.75,1,1,1,Independent,Refused,HS grad,"White, Non-Hispanic",50-75,Male,65+,South,no,0.916666667,Partially Bounded and Irreducible
+955,0.3472,High school graduate,0.5,0,0,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Male,25-34,South,yes,0.166666667,Partially Bounded
+957,0.3265,College graduate,0.25,0,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,no,0.083333333,Partially Bounded and Irreducible
+958,0.3438,High school graduate,0.75,1,1,1,Independent,Conservative,HS grad,Hispanic,Under 30,Female,45-54,Northeast,yes,0.916666667,Partially Bounded
+959,0.5811,College graduate,1,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",Under 30,Female,35-44,Midwest,no,1,Fully Bounded
+960,0.588,College graduate,0.75,0.67,0.67,0,Independent,Conservative,College grad,"White, Non-Hispanic",30-50,Male,55-64,Northeast,no,0.696666667,Irreducible
+961,0.7423,Some college,0.25,0,0.67,0,Independent,Conservative,Some college,"White, Non-Hispanic",100+,Male,65+,West,no,0.306666667,Partially Bounded and Irreducible
+963,0.502,Graduate degree,0.5,1,0.67,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,45-54,West,yes,0.723333333,Fully Bounded
+966,0.5476,College graduate,0.75,1,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Male,45-54,Midwest,no,0.806666667,Fully Bounded
+968,1.0583,Some college,0.25,0,0,0,Democrat,Liberal,Some college,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0.083333333,Fully Bounded and Irreducible
+969,0.5365,High school graduate,0.5,0,0,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",75-100,Female,65+,Midwest,no,0.166666667,Irreducible
+970,0.8509,Some college,0.5,0.67,0.67,1,Republican,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,55-64,South,no,0.613333333,Partially Bounded and Irreducible
+971,0.4756,College graduate,0.5,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,35-44,Midwest,no,0.166666667,Fully Bounded and Irreducible
+972,0.3099,Some graduate school,0,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,35-44,Midwest,no,0,Fully Bounded and Irreducible
+973,0.5554,College graduate,0.25,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Male,25-34,Midwest,no,0.083333333,Partially Bounded and Irreducible
+974,0.7433,Some college,0.25,0.67,0,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",75-100,Female,65+,South,no,0.306666667,Partially Bounded
+975,1.1253,Technical/trade school,1,1,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,South,no,0.89,Fully Bounded and Irreducible
+977,0.6041,High school graduate,0,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,18-24,Midwest,no,0,Irreducible
+978,1.1002,High school graduate,0.5,0.67,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,45-54,West,no,0.613333333,Irreducible
+980,0.8348,High school graduate,0.5,1,0,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",30-50,Male,45-54,Northeast,no,0.5,Partially Bounded
+981,1.4988,High school graduate,0.5,0,1,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,35-44,Midwest,no,0.5,Partially Bounded
+982,1.7917,Graduate degree,0.25,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,no,0.083333333,Partially Bounded
+983,0.4535,High school graduate,1,1,1,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",100+,Male,18-24,Northeast,yes,1,Irreducible
+984,0.1377,Some college,1,1,1,0,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Female,18-24,South,no,1,Irreducible
+985,1.4373,Some college,0.5,1,0,1,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Male,18-24,Midwest,no,0.5,Fully Bounded and Irreducible
+988,0.2932,Graduate degree,1,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,West,yes,1,No Uncertainty
+989,2.9837,Technical/trade school,0.5,0.67,0.67,1,Independent,Conservative,HS grad,"Other, Non-Hispanic",50-75,Female,18-24,West,no,0.613333333,Partially Bounded and Irreducible
+990,0.682,College graduate,1,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",30-50,Female,35-44,Midwest,no,1,Fully Bounded and Irreducible
+991,0.6647,High school graduate,1,1,1,1,Independent,Moderate,HS grad,Hispanic,75-100,Female,45-54,West,yes,1,Fully Bounded
+992,0.6856,High school graduate,0.5,0,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",100+,Female,55-64,South,no,0.39,Partially Bounded
+993,0.5235,Some college,0.75,1,1,0,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Female,45-54,West,no,0.916666667,Partially Bounded and Irreducible
+994,0.8847,Technical/trade school,1,1,1,1,Republican,Conservative,HS grad,Hispanic,30-50,Female,45-54,Northeast,yes,1,No Uncertainty
+997,0.689,Graduate degree,0.5,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,18-24,West,no,0.166666667,No Uncertainty
+998,0.7041,Graduate degree,1,1,1,1,Democrat,Moderate,College grad,Hispanic,Under 30,Male,55-64,Northeast,yes,1,Partially Bounded and Irreducible
+1000,0.9548,College graduate,0,0,0,0,Independent,Conservative,College grad,"Black, Non-Hispanic",50-75,Male,65+,West,no,0,Partially Bounded and Irreducible
+1002,1.6897,High school graduate,0.5,0.67,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,South,yes,0.613333333,Partially Bounded and Irreducible
+1003,0.1493,Some college,0.5,0.67,0.67,0,Independent,Conservative,Some college,Hispanic,Under 30,Male,25-34,Northeast,yes,0.613333333,Irreducible
+1004,0.3967,Some graduate school,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Female,65+,West,no,1,Fully Bounded
+1005,1.981,High school graduate,0.75,1,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,25-34,South,yes,0.806666667,Fully Bounded and Irreducible
+1007,0.725,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,45-54,Midwest,no,0.083333333,Irreducible
+1008,0.7881,Technical/trade school,0.75,1,0,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Male,45-54,South,yes,0.583333333,Fully Bounded
+1009,1.3968,Some college,0.5,0,0,1,Democrat,Liberal,Some college,"White, Non-Hispanic",75-100,Male,65+,South,yes,0.166666667,Irreducible
+1011,0.6627,Technical/trade school,0.75,1,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,South,yes,0.806666667,No Uncertainty
+1012,0.2302,Technical/trade school,1,1,1,0,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,Midwest,no,1,No Uncertainty
+1013,0.8586,Some college,0.75,1,0.33,1,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,65+,West,yes,0.693333333,Fully Bounded and Irreducible
+1014,1.1447,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Male,65+,South,no,0.083333333,Irreducible
+1015,4.6252,Less than high school graduate,1,1,1,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",30-50,Female,45-54,Midwest,no,1,Partially Bounded and Irreducible
+1017,2.2196,Technical/trade school,0.5,1,0.33,0,Democrat,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Female,55-64,South,no,0.61,Fully Bounded
+1018,0.6011,High school graduate,0.75,0,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,45-54,Northeast,yes,0.25,Partially Bounded and Irreducible
+1020,1.0614,Some college,0.5,0,0,1,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,55-64,South,yes,0.166666667,No Uncertainty
+1021,0.6757,Some graduate school,0.75,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,South,no,0.25,Partially Bounded
+1022,0.5599,Some college,1,0,0,0,Democrat,Conservative,Some college,"Black, Non-Hispanic",Under 30,Female,65+,South,no,0.333333333,No Uncertainty
+1023,2.8215,Some college,NA,0,0,1,Refused,Moderate,Some college,"Black, Non-Hispanic",Under 30,Male,18-24,South,yes,0,Partially Bounded
+1027,1.4907,High school graduate,0.5,0,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,Northeast,yes,0.166666667,No Uncertainty
+1030,0.265,Some college,0.25,0,0,1,Democrat,Liberal,Some college,"White, Non-Hispanic",100+,Female,18-24,Midwest,no,0.083333333,Partially Bounded
+1031,2.1489,Some college,1,1,1,1,Independent,Liberal,Some college,"White, Non-Hispanic",75-100,Male,35-44,West,no,1,Irreducible
+1032,0.452,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,South,no,1,Fully Bounded and Irreducible
+1033,2.7736,Some college,0,0,0,0,Independent,Moderate,Some college,"White, Non-Hispanic",50-75,Male,25-34,Midwest,no,0,No Uncertainty
+1034,0.5212,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"Other, Non-Hispanic",Under 30,Male,55-64,South,no,0.166666667,No Uncertainty
+1035,0.169,Less than high school graduate,0.25,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,18-24,Midwest,no,0.083333333,Partially Bounded
+1036,0.8998,Technical/trade school,0.75,0,0.67,1,Republican,Moderate,HS grad,"White, Non-Hispanic",50-75,Male,18-24,South,no,0.473333333,Fully Bounded
+1038,1.3057,Technical/trade school,0.75,1,1,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,yes,0.916666667,Fully Bounded
+1039,1.9908,Some college,0.5,0,0,1,Independent,Liberal,Some college,"White, Non-Hispanic",100+,Female,25-34,South,no,0.166666667,Fully Bounded
+1040,0.7845,Less than high school graduate,0.5,0,0,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",30-50,Female,45-54,Midwest,no,0.166666667,Fully Bounded and Irreducible
+1041,0.6324,Some college,0.5,0,0,0,Democrat,Moderate,Some college,"Black, Non-Hispanic",Under 30,Female,55-64,South,no,0.166666667,Fully Bounded
+1042,0.3108,College graduate,1,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Female,35-44,Northeast,no,0.333333333,Partially Bounded
+1043,0.1599,Graduate degree,0.25,0,0,0,Republican,Conservative,College grad,Hispanic,75-100,Male,25-34,Midwest,no,0.083333333,Partially Bounded and Irreducible
+1044,1.9188,Some college,0.75,1,0.67,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",50-75,Female,25-34,South,no,0.806666667,No Uncertainty
+1045,0.9225,Less than high school graduate,0.75,0.67,0.67,1,Independent,Moderate,HS grad,Hispanic,Under 30,Female,35-44,West,yes,0.696666667,Fully Bounded and Irreducible
+1047,0.9408,Some college,0.5,1,0.67,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",30-50,Female,18-24,Northeast,yes,0.723333333,No Uncertainty
+1048,1.2326,College graduate,0.5,1,0.67,1,Independent,Liberal,College grad,"White, Non-Hispanic",50-75,Female,35-44,South,no,0.723333333,Fully Bounded
+1049,1.0236,High school graduate,0.75,1,1,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,Midwest,no,0.916666667,Irreducible
+1051,2.3766,Some college,0.75,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",30-50,Female,18-24,Northeast,no,0.916666667,Irreducible
+1052,1.2013,Graduate degree,0.75,1,1,1,Democrat,Liberal,College grad,Hispanic,75-100,Male,35-44,West,yes,0.916666667,Irreducible
+1054,0.5178,College graduate,0.5,0,0,1,Independent,Moderate,College grad,Hispanic,30-50,Female,25-34,South,no,0.166666667,Fully Bounded
+1055,0.9238,High school graduate,0.75,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",100+,Female,65+,Midwest,no,0.916666667,Partially Bounded
+1056,1.3295,Some college,0.25,0.67,0,0,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Male,25-34,South,no,0.306666667,No Uncertainty
+1057,0.367,Graduate degree,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,South,no,0.083333333,Irreducible
+1058,1.2404,High school graduate,0,0,0,0,Democrat,Liberal,HS grad,"Black, Non-Hispanic",30-50,Female,55-64,South,no,0,Irreducible
+1060,4.6252,Refused,NA,NA,NA,1,Refused,Refused,Refused,"Other, Non-Hispanic",75-100,Male,55-64,South,no,NA,Fully Bounded and Irreducible
+1061,1.0638,High school graduate,0,0,0,0,Independent,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Male,35-44,Midwest,no,0,No Uncertainty
+1062,0.1546,College graduate,0.5,0,0,1,Republican,Conservative,College grad,"Other, Non-Hispanic",75-100,Female,25-34,South,no,0.166666667,Fully Bounded and Irreducible
+1064,0.5966,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,35-44,Northeast,yes,0.916666667,Partially Bounded and Irreducible
+1065,0.4668,College graduate,0.5,0.67,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Female,45-54,West,no,0.723333333,Partially Bounded and Irreducible
+1066,1.4781,Graduate degree,0.5,0,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Female,25-34,Midwest,no,0.166666667,Fully Bounded
+1067,0.1102,College graduate,0.75,1,1,1,Independent,Moderate,College grad,Hispanic,30-50,Male,45-54,West,no,0.916666667,No Uncertainty
+1068,0.7976,College graduate,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,South,no,0.916666667,Irreducible
+1071,0.1472,High school graduate,0,0,0,0,Democrat,Moderate,HS grad,Hispanic,Under 30,Female,25-34,Northeast,yes,0,Fully Bounded
+1072,0.6231,College graduate,0.75,1,1,1,Democrat,Moderate,College grad,"Black, Non-Hispanic",Under 30,Female,65+,South,no,0.916666667,Partially Bounded and Irreducible
+1074,0.1102,Graduate degree,0.75,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",100+,Male,25-34,West,yes,0.916666667,Fully Bounded
+1076,0.1102,High school graduate,0.25,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,45-54,South,yes,0.083333333,Partially Bounded and Irreducible
+1078,0.9553,Technical/trade school,0.75,1,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Northeast,no,0.583333333,Fully Bounded
+1083,0.576,High school graduate,0.25,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,65+,West,no,0.083333333,Fully Bounded and Irreducible
+1086,2.1059,Refused,NA,NA,NA,NA,Refused,Refused,Refused,"Other, Non-Hispanic",30-50,Female,35-44,West,no,NA,Partially Bounded
+1088,0.5188,High school graduate,0.25,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,45-54,West,no,0.083333333,Partially Bounded
+1089,1.1159,High school graduate,0.5,0.67,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,55-64,Northeast,no,0.613333333,Partially Bounded
+1091,1.2889,Some college,0.75,1,0.67,1,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Male,55-64,West,no,0.806666667,Partially Bounded
+1095,0.4558,High school graduate,0.5,0,0,0,Republican,Conservative,HS grad,"Other, Non-Hispanic",Under 30,Male,55-64,South,no,0.166666667,Partially Bounded and Irreducible
+1096,0.2671,Some college,1,1,1,1,Democrat,Conservative,Some college,"Black, Non-Hispanic",Under 30,Female,35-44,Northeast,yes,1,Partially Bounded and Irreducible
+1097,0.7367,Some graduate school,0.75,1,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",50-75,Male,65+,South,yes,0.916666667,Fully Bounded and Irreducible
+1099,1.2504,Some college,0.25,0,0,0,Republican,Moderate,Some college,"White, Non-Hispanic",100+,Male,35-44,Midwest,no,0.083333333,Fully Bounded and Irreducible
+1102,0.6298,College graduate,1,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,25-34,Midwest,no,1,Fully Bounded
+1103,1.4489,Graduate degree,0.5,0,0,0,Democrat,Conservative,College grad,"White, Non-Hispanic",100+,Male,35-44,Midwest,no,0.166666667,No Uncertainty
+1106,0.2878,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Female,35-44,South,yes,1,Irreducible
+1108,0.7479,Graduate degree,1,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,South,yes,1,Fully Bounded and Irreducible
+1109,0.8361,College graduate,0.25,1,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Female,18-24,Northeast,yes,0.416666667,No Uncertainty
+1111,0.8954,High school graduate,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,1,Partially Bounded and Irreducible
+1112,0.4278,Some college,0,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0,No Uncertainty
+1114,1.211,Some college,1,1,1,1,Democrat,Liberal,Some college,Hispanic,30-50,Male,25-34,Northeast,yes,1,Fully Bounded
+1115,0.6669,Some college,0.75,1,0.33,1,Democrat,Liberal,Some college,"White, Non-Hispanic",100+,Male,35-44,Northeast,yes,0.693333333,Partially Bounded
+1117,1.5412,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Female,35-44,West,no,1,Irreducible
+1118,0.2857,Graduate degree,0.5,0,0.67,1,Republican,Moderate,College grad,"White, Non-Hispanic",75-100,Male,35-44,South,yes,0.39,Partially Bounded and Irreducible
+1119,0.487,College graduate,0.5,0,0.67,0,Republican,Moderate,College grad,"White, Non-Hispanic",75-100,Female,25-34,Northeast,yes,0.39,No Uncertainty
+1120,0.7623,Some college,0.5,0.67,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Female,18-24,Midwest,no,0.613333333,Partially Bounded and Irreducible
+1121,1.4639,Some college,0.5,1,1,0,Republican,Conservative,Some college,"White, Non-Hispanic",100+,Female,45-54,West,yes,0.833333333,Fully Bounded
+1122,1.8377,Some college,0.25,0.67,0,1,Democrat,Conservative,Some college,"Black, Non-Hispanic",Under 30,Male,45-54,South,no,0.306666667,Partially Bounded and Irreducible
+1123,0.9643,High school graduate,0,0,0,0,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,South,yes,0,Fully Bounded and Irreducible
+1125,2.6275,Some college,0.5,1,1,1,Democrat,Liberal,Some college,"Other, Non-Hispanic",30-50,Male,55-64,Midwest,no,0.833333333,Partially Bounded
+1126,0.8217,College graduate,0.25,0,0.67,0,Independent,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,45-54,West,yes,0.306666667,No Uncertainty
+1128,0.4309,Some graduate school,1,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",Under 30,Male,18-24,South,yes,1,Fully Bounded and Irreducible
+1130,0.5605,Some college,0.25,0,0,1,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Female,65+,South,no,0.083333333,Irreducible
+1132,0.7619,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Female,18-24,Midwest,no,0.916666667,No Uncertainty
+1133,0.9306,Graduate degree,0,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,South,yes,0,Fully Bounded
+1135,0.5331,Some college,0.25,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Female,25-34,West,no,0.083333333,Irreducible
+1136,1.9696,Less than high school graduate,0,0,0,0,Independent,Moderate,HS grad,Hispanic,30-50,Female,55-64,South,no,0,Partially Bounded
+1137,2.7246,College graduate,0.75,1,1,1,Democrat,Moderate,College grad,"Black, Non-Hispanic",100+,Male,35-44,South,no,0.916666667,Fully Bounded
+1138,0.3336,College graduate,1,1,1,1,Democrat,Liberal,College grad,Hispanic,50-75,Male,55-64,West,yes,1,Partially Bounded and Irreducible
+1139,0.8502,Less than high school graduate,0.75,1,0,1,Democrat,Liberal,HS grad,Hispanic,Under 30,Male,45-54,Northeast,yes,0.583333333,Irreducible
+1140,0.7318,Graduate degree,0.75,0.67,0.67,1,Independent,Conservative,College grad,"White, Non-Hispanic",50-75,Female,65+,Northeast,yes,0.696666667,Irreducible
+1143,0.574,College graduate,0.75,0.67,0.67,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",100+,Female,35-44,West,yes,0.696666667,Fully Bounded and Irreducible
+1145,1.0053,College graduate,0.5,0,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,65+,South,yes,0.39,No Uncertainty
+1146,2.6384,Graduate degree,0.75,0.67,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,25-34,West,no,0.806666667,Fully Bounded and Irreducible
+1147,2.896,Some college,0.5,1,1,1,Independent,Conservative,Some college,"White, Non-Hispanic",50-75,Female,35-44,West,no,0.833333333,Partially Bounded
+1148,0.6673,High school graduate,1,0,0,0,Republican,Liberal,HS grad,"White, Non-Hispanic",Under 30,Female,25-34,Northeast,yes,0.333333333,Fully Bounded
+1149,0.3435,Graduate degree,0.5,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",Under 30,Male,55-64,Midwest,no,0.613333333,Partially Bounded and Irreducible
+1151,1.1429,High school graduate,0.75,1,0.67,1,Independent,Moderate,HS grad,Hispanic,30-50,Male,55-64,West,no,0.806666667,Fully Bounded
+1152,0.6128,Some college,0.5,0.67,0.67,1,Republican,Moderate,Some college,"White, Non-Hispanic",30-50,Female,25-34,Midwest,no,0.613333333,Partially Bounded
+1153,1.6331,Graduate degree,0.75,0,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Female,35-44,South,yes,0.473333333,Partially Bounded
+1156,1.2566,Graduate degree,0.5,1,0.67,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",100+,Female,25-34,South,yes,0.723333333,Fully Bounded
+1157,0.6662,College graduate,0.25,0,0,0,Democrat,Conservative,College grad,"White, Non-Hispanic",50-75,Female,35-44,Midwest,no,0.083333333,Partially Bounded and Irreducible
+1158,0.1199,High school graduate,0.25,0,0,1,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,no,0.083333333,Partially Bounded
+1160,0.2971,Some graduate school,0.5,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Male,65+,South,yes,0.166666667,Fully Bounded and Irreducible
+1161,2.3306,College graduate,0.5,0.67,0,1,Democrat,Liberal,College grad,"Black, Non-Hispanic",100+,Female,65+,Midwest,no,0.39,Fully Bounded
+1162,0.5129,Graduate degree,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Male,25-34,Midwest,no,0,Irreducible
+1163,1.9206,High school graduate,0.5,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,18-24,Northeast,no,0.166666667,Fully Bounded
+1164,0.7357,High school graduate,0.25,1,0.67,1,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,65+,West,yes,0.64,Fully Bounded and Irreducible
+1165,0.5025,High school graduate,0.5,0,0.67,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,45-54,Midwest,no,0.39,Fully Bounded and Irreducible
+1169,1.2707,High school graduate,0.5,0,0,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,65+,South,no,0.166666667,Partially Bounded and Irreducible
+1170,0.5105,High school graduate,0.75,1,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,55-64,Midwest,no,0.806666667,Fully Bounded
+1172,1.7531,Graduate degree,0.75,1,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,25-34,Northeast,yes,0.806666667,Fully Bounded
+1173,0.626,Some college,0.75,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",75-100,Female,55-64,Midwest,no,0.916666667,Partially Bounded and Irreducible
+1175,4.6252,High school graduate,0.75,0.67,1,1,Independent,Moderate,HS grad,Hispanic,50-75,Female,18-24,South,yes,0.806666667,Partially Bounded and Irreducible
+1178,0.182,Graduate degree,0.75,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",50-75,Male,65+,Midwest,no,0.696666667,Irreducible
+1185,0.5789,Some graduate school,0.25,0,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,18-24,South,no,0.306666667,Partially Bounded and Irreducible
+1190,1.2501,Some college,1,1,1,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",50-75,Male,65+,South,yes,1,No Uncertainty
+1191,0.2912,Graduate degree,0.25,0,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,yes,0.083333333,Fully Bounded
+1192,0.3432,Some college,0.5,1,0.67,1,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,45-54,Northeast,no,0.723333333,Fully Bounded and Irreducible
+1193,1.5849,Refused,NA,NA,0,0,Refused,Refused,Refused,"White, Non-Hispanic",50-75,Male,45-54,Midwest,no,0,Fully Bounded
+1195,1.0118,Technical/trade school,0.75,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,35-44,Northeast,yes,0.916666667,Irreducible
+1198,0.8884,Some college,0.75,0.67,0.67,1,Independent,Liberal,Some college,"White, Non-Hispanic",30-50,Female,55-64,Midwest,no,0.696666667,Fully Bounded
+1199,0.4332,Graduate degree,0.5,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,Midwest,no,0.613333333,Irreducible
+1201,1.7533,College graduate,0.5,1,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,35-44,Midwest,no,0.833333333,No Uncertainty
+1203,0.7569,College graduate,0.25,0,0,0,Democrat,Liberal,College grad,"White, Non-Hispanic",Under 30,Male,25-34,Midwest,no,0.083333333,Irreducible
+1206,1.9567,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,35-44,South,no,0,Fully Bounded
+1208,0.668,Technical/trade school,0.75,1,1,0,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,55-64,West,yes,0.916666667,Fully Bounded
+1209,0.1102,College graduate,0.75,1,0.67,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",Under 30,Male,65+,West,yes,0.806666667,Partially Bounded
+1211,0.1479,Graduate degree,0.75,0.67,0.33,1,Independent,Moderate,College grad,"White, Non-Hispanic",30-50,Female,55-64,Northeast,yes,0.583333333,Irreducible
+1212,1.6549,Graduate degree,1,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,Northeast,yes,1,No Uncertainty
+1213,1.4671,High school graduate,0.25,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,West,no,0.083333333,Fully Bounded
+1215,1.139,High school graduate,0.75,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,65+,South,no,0.916666667,Fully Bounded and Irreducible
+1218,1.4922,High school graduate,0.75,1,1,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,45-54,South,no,0.916666667,Partially Bounded and Irreducible
+1219,0.644,College graduate,0.5,1,0,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Female,35-44,Midwest,no,0.5,Irreducible
+1220,0.2851,Graduate degree,0.75,1,1,0,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,65+,Northeast,yes,0.916666667,Fully Bounded
+1221,0.3513,Some graduate school,0.5,1,1,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",75-100,Male,35-44,Northeast,no,0.833333333,Partially Bounded and Irreducible
+1223,0.4493,High school graduate,0.5,1,0,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Female,25-34,West,yes,0.5,Irreducible
+1227,0.3746,Some college,0.75,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Male,55-64,Midwest,no,0.916666667,Fully Bounded
+1228,0.5581,Some graduate school,0.5,0.67,0.67,0,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Female,18-24,Northeast,no,0.613333333,Fully Bounded and Irreducible
+1229,1.7247,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",50-75,Male,55-64,Midwest,no,0.916666667,Fully Bounded
+1230,0.3233,Some graduate school,0.5,0.67,0.33,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,65+,South,no,0.5,Irreducible
+1231,0.338,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,South,yes,0.166666667,Irreducible
+1232,1.0052,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,55-64,South,yes,0.916666667,Fully Bounded
+1233,0.1102,Some college,0.75,1,0.67,1,Democrat,Liberal,Some college,"Other, Non-Hispanic",50-75,Male,18-24,Northeast,yes,0.806666667,Irreducible
+1234,0.5087,College graduate,0.5,0,0.67,0,Independent,Conservative,College grad,"Other, Non-Hispanic",Under 30,Female,25-34,Midwest,no,0.39,No Uncertainty
+1235,0.2575,High school graduate,0.5,0,0,1,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,55-64,South,no,0.166666667,No Uncertainty
+1236,1.1179,High school graduate,1,1,1,1,Independent,Refused,HS grad,"White, Non-Hispanic",Under 30,Female,25-34,West,no,1,Fully Bounded and Irreducible
+1238,0.3313,Graduate degree,0.5,0.67,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Female,45-54,West,yes,0.613333333,Partially Bounded and Irreducible
+1240,1.4038,Less than high school graduate,0.75,1,1,1,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,18-24,Northeast,no,0.916666667,Partially Bounded and Irreducible
+1242,0.6389,High school graduate,0.75,1,0,1,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,65+,Northeast,yes,0.583333333,Partially Bounded
+1243,0.6438,Some college,0.5,0,0,1,Independent,Conservative,Some college,"White, Non-Hispanic",Under 30,Female,65+,Northeast,no,0.166666667,Partially Bounded
+1244,0.3707,Less than high school graduate,0.5,0,0.67,1,Independent,Conservative,HS grad,Hispanic,Under 30,Male,25-34,South,no,0.39,Fully Bounded
+1245,0.1429,Less than high school graduate,1,0,0,1,Independent,Conservative,HS grad,Hispanic,Under 30,Female,35-44,West,yes,0.333333333,Partially Bounded and Irreducible
+1246,1.0669,Technical/trade school,0.25,0,0,1,Republican,Conservative,HS grad,Hispanic,75-100,Female,35-44,Midwest,no,0.083333333,Fully Bounded and Irreducible
+1247,3.3249,Some college,0.5,1,0.67,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",30-50,Female,25-34,South,yes,0.723333333,Partially Bounded and Irreducible
+1249,0.6361,Graduate degree,0.75,1,0,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",30-50,Female,25-34,South,no,0.583333333,Partially Bounded and Irreducible
+1254,3.0261,Some college,0.5,0.67,0.33,1,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Male,25-34,South,yes,0.5,Fully Bounded
+1255,0.4642,Some college,0.25,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Female,18-24,South,no,0.083333333,Irreducible
+1256,0.1516,Graduate degree,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,yes,0.083333333,Fully Bounded and Irreducible
+1257,0.5532,College graduate,0.25,0.67,0.33,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Female,25-34,Northeast,yes,0.416666667,Partially Bounded and Irreducible
+1259,0.5788,College graduate,0.5,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,0.166666667,Fully Bounded
+1261,0.6082,High school graduate,0.25,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",50-75,Female,35-44,South,yes,0.083333333,No Uncertainty
+1262,0.9303,Technical/trade school,0.5,0.33,0.33,0,Republican,Moderate,HS grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,no,0.386666667,Irreducible
+1264,1.2901,Graduate degree,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,0.083333333,Partially Bounded
+1266,0.1102,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Male,25-34,West,yes,0.916666667,Irreducible
+1267,1.3131,Some college,0.5,0,0,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",Under 30,Male,35-44,South,no,0.166666667,No Uncertainty
+1268,0.6332,Some college,1,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",75-100,Male,18-24,West,no,1,No Uncertainty
+1270,0.7975,Graduate degree,0.75,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",50-75,Male,25-34,South,no,0.916666667,Fully Bounded and Irreducible
+1272,1.2099,College graduate,0.25,0.67,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,35-44,West,no,0.306666667,Fully Bounded
+1276,0.5787,High school graduate,0.25,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Female,45-54,Northeast,yes,0.083333333,Partially Bounded
+1277,4.525,Less than high school graduate,0.25,0.67,0.67,0,Republican,Liberal,HS grad,"White, Non-Hispanic",Under 30,Male,25-34,South,no,0.53,Irreducible
+1280,1.9168,Technical/trade school,1,1,1,1,Independent,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Male,55-64,South,no,1,No Uncertainty
+1282,0.8819,High school graduate,1,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",75-100,Female,65+,Midwest,no,1,Partially Bounded
+1283,2.7754,Some college,0.5,0.67,0.67,1,Independent,Conservative,Some college,"White, Non-Hispanic",50-75,Female,65+,West,no,0.613333333,Fully Bounded
+1284,1.792,Some college,0.5,0.67,1,1,Republican,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,45-54,South,yes,0.723333333,No Uncertainty
+1285,0.9223,College graduate,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,55-64,West,yes,0.916666667,Fully Bounded
+1286,0.6719,College graduate,0,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",50-75,Female,25-34,West,yes,0,Irreducible
+1287,0.3487,Less than high school graduate,0.75,0.67,1,0,Independent,Conservative,HS grad,Hispanic,Under 30,Female,18-24,West,no,0.806666667,Partially Bounded and Irreducible
+1288,0.3622,College graduate,0,0,0,0,Republican,Moderate,College grad,"Other, Non-Hispanic",30-50,Female,45-54,West,no,0,Irreducible
+1290,1.2111,Technical/trade school,1,1,1,1,Independent,Liberal,HS grad,Hispanic,Under 30,Male,35-44,West,yes,1,Fully Bounded and Irreducible
+1291,1.079,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Female,55-64,West,yes,1,Fully Bounded
+1299,1.4615,Graduate degree,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Male,45-54,South,no,0.083333333,No Uncertainty
+1300,1.1831,High school graduate,0.75,1,1,1,Independent,Moderate,HS grad,Hispanic,30-50,Male,18-24,West,yes,0.916666667,No Uncertainty
+1301,0.4034,Some college,0,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",100+,Male,55-64,South,no,0,Partially Bounded
+1302,0.5236,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",100+,Female,45-54,Midwest,no,0,Partially Bounded and Irreducible
+1306,3.2969,Some college,0.5,0.67,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Male,35-44,South,no,0.613333333,Fully Bounded
+1307,2.6415,Technical/trade school,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Male,45-54,South,yes,1,No Uncertainty
+1308,1.0688,Less than high school graduate,0,0,1,1,Independent,Conservative,HS grad,Hispanic,Under 30,Female,45-54,Midwest,no,0.333333333,Irreducible
+1310,0.7858,College graduate,0.5,0.67,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",30-50,Female,65+,South,no,0.39,Partially Bounded
+1311,0.5264,High school graduate,0.5,0,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,65+,Northeast,yes,0.39,No Uncertainty
+1312,0.4344,Some graduate school,0.5,0,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,65+,Northeast,no,0.5,Fully Bounded
+1313,1.6557,College graduate,0.75,0.67,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Female,25-34,Midwest,no,0.696666667,Partially Bounded and Irreducible
+1316,0.3904,High school graduate,0,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,35-44,Midwest,no,0,Partially Bounded and Irreducible
+1317,0.7823,College graduate,0,0.67,0,1,Democrat,Liberal,College grad,"White, Non-Hispanic",Under 30,Male,35-44,South,yes,0.223333333,Fully Bounded
+1319,0.6817,High school graduate,1,1,1,1,Independent,Conservative,HS grad,"Black, Non-Hispanic",Under 30,Male,25-34,South,no,1,Irreducible
+1320,1.5497,Graduate degree,0.5,0.67,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,South,yes,0.613333333,No Uncertainty
+1322,0.1245,College graduate,0.25,0,0.67,0,Independent,Conservative,College grad,"White, Non-Hispanic",Under 30,Male,65+,Northeast,yes,0.306666667,Fully Bounded and Irreducible
+1324,1.816,Graduate degree,0.5,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,35-44,West,no,0.833333333,Irreducible
+1326,0.4134,Some college,0.5,0.67,0.67,1,Independent,Moderate,Some college,"White, Non-Hispanic",100+,Female,35-44,West,no,0.613333333,Fully Bounded and Irreducible
+1330,0.3275,Some college,0.75,1,0.67,1,Independent,Moderate,Some college,Hispanic,100+,Male,35-44,Northeast,no,0.806666667,Fully Bounded
+1332,2.3264,Some college,0.75,1,1,1,Democrat,Liberal,Some college,"Black, Non-Hispanic",Under 30,Female,35-44,West,no,0.916666667,Fully Bounded and Irreducible
+1333,1.5187,College graduate,0,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Female,45-54,West,yes,0,Partially Bounded
+1334,0.8902,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,55-64,West,no,1,Irreducible
+1340,0.5103,College graduate,0.5,0,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,35-44,South,no,0.39,No Uncertainty
+1341,1.9371,Refused,NA,NA,NA,0,Refused,Refused,Refused,"Black, Non-Hispanic",30-50,Male,35-44,West,no,NA,Fully Bounded
+1343,0.5268,College graduate,0.75,0.67,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,yes,0.696666667,Fully Bounded
+1345,1.5159,High school graduate,0.75,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Male,65+,Northeast,no,0.916666667,Irreducible
+1349,0.2279,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,1,Irreducible
+1350,3.0509,Some college,0.75,1,1,1,Independent,Moderate,Some college,"Black, Non-Hispanic",50-75,Male,25-34,Northeast,no,0.916666667,Irreducible
+1352,0.8154,Some college,1,1,1,1,Independent,Conservative,Some college,"Other, Non-Hispanic",50-75,Male,35-44,West,yes,1,Partially Bounded and Irreducible
+1356,0.7093,Graduate degree,0.75,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",50-75,Male,65+,Northeast,no,0.916666667,Fully Bounded and Irreducible
+1357,0.388,High school graduate,0.25,0,0,1,Republican,Moderate,HS grad,"White, Non-Hispanic",50-75,Male,45-54,West,no,0.083333333,Irreducible
+1358,1.8745,High school graduate,0,0,0,0,Independent,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Male,18-24,South,no,0,Partially Bounded
+1360,1.2373,College graduate,0.75,1,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",75-100,Female,45-54,West,yes,0.806666667,No Uncertainty
+1361,0.3502,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,65+,Midwest,no,0,Fully Bounded and Irreducible
+1362,0.6854,Technical/trade school,1,1,1,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,65+,Midwest,no,1,Partially Bounded
+1365,0.5229,Less than high school graduate,0.5,0,0,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Male,65+,Northeast,yes,0.166666667,Partially Bounded
+1366,1.7019,College graduate,0.25,0,0,1,Democrat,Moderate,College grad,"White, Non-Hispanic",50-75,Female,25-34,West,no,0.083333333,Partially Bounded and Irreducible
+1367,0.1341,College graduate,0.5,1,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",Under 30,Male,35-44,Northeast,no,0.723333333,No Uncertainty
+1368,0.5436,College graduate,0.75,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",30-50,Female,35-44,Midwest,no,0.916666667,Partially Bounded
+1369,1.3967,Some college,0.75,1,0.67,1,Democrat,Moderate,Some college,"White, Non-Hispanic",100+,Female,45-54,Midwest,no,0.806666667,Irreducible
+1370,0.6568,High school graduate,1,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Northeast,yes,1,Partially Bounded
+1371,0.5023,College graduate,1,0,0,1,Democrat,Conservative,College grad,Hispanic,Under 30,Male,35-44,South,yes,0.333333333,Irreducible
+1374,1.6148,Some college,0.5,1,0,0,Independent,Liberal,Some college,"Black, Non-Hispanic",30-50,Male,18-24,South,yes,0.5,Partially Bounded
+1375,0.2691,College graduate,1,1,1,1,Democrat,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,45-54,Northeast,no,1,Irreducible
+1376,2.1817,High school graduate,0.25,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,65+,Northeast,no,0.083333333,Fully Bounded
+1377,0.2181,College graduate,0.75,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",50-75,Male,65+,Midwest,no,0.696666667,Partially Bounded and Irreducible
+1378,2.0728,Graduate degree,0.5,0.67,0.67,1,Republican,Conservative,College grad,"Other, Non-Hispanic",100+,Male,35-44,West,yes,0.613333333,No Uncertainty
+1379,0.3935,Some graduate school,0.5,0,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,65+,South,no,0.5,Partially Bounded and Irreducible
+1385,2.1742,Some college,0.25,0,0,1,Republican,Moderate,Some college,"White, Non-Hispanic",50-75,Male,55-64,West,yes,0.083333333,Partially Bounded
+1387,1.075,Some college,0.75,1,1,1,Republican,Moderate,Some college,Hispanic,100+,Female,35-44,South,yes,0.916666667,Partially Bounded and Irreducible
+1388,0.1102,College graduate,0.5,0.67,0.67,1,Republican,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,18-24,South,no,0.613333333,No Uncertainty
+1390,1.2715,Less than high school graduate,1,1,1,1,Republican,Moderate,HS grad,Hispanic,Under 30,Female,45-54,South,no,1,No Uncertainty
+1391,0.3896,Some college,0,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Male,55-64,South,no,0,Fully Bounded and Irreducible
+1392,1.7198,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,18-24,South,no,0,Irreducible
+1393,0.3095,Some college,0.5,0,0,1,Independent,Conservative,Some college,"White, Non-Hispanic",Under 30,Female,65+,West,no,0.166666667,Irreducible
+1394,1.448,Graduate degree,0.25,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,55-64,South,no,0.53,Fully Bounded and Irreducible
+1395,0.4979,High school graduate,0.75,1,0.67,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,65+,West,no,0.806666667,No Uncertainty
+1397,2.8832,High school graduate,0.5,1,1,1,Democrat,Liberal,HS grad,Hispanic,Under 30,Female,25-34,West,yes,0.833333333,Irreducible
+1398,2.2547,High school graduate,0.5,0,0,1,Independent,Conservative,HS grad,"Other, Non-Hispanic",30-50,Female,25-34,South,yes,0.166666667,Fully Bounded
+1399,1.4043,Some college,0.5,0,0,1,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,25-34,Northeast,no,0.166666667,Partially Bounded and Irreducible
+1400,0.326,High school graduate,0.75,0,0,1,Independent,Conservative,HS grad,Hispanic,Under 30,Male,25-34,West,no,0.25,Fully Bounded and Irreducible
+1401,2.7343,Less than high school graduate,0.5,0,0,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Midwest,no,0.166666667,Partially Bounded
+1404,2.4535,High school graduate,0.5,0.67,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,55-64,Northeast,no,0.613333333,Irreducible
+1405,1.2058,Technical/trade school,0.5,1,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Female,25-34,West,no,0.723333333,No Uncertainty
+1407,1.1277,High school graduate,0.5,0,0,1,Republican,Conservative,HS grad,Hispanic,Under 30,Male,25-34,South,no,0.166666667,Irreducible
+1408,0.1102,Some graduate school,0.25,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",30-50,Male,25-34,South,no,0.083333333,Partially Bounded and Irreducible
+1410,2.045,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,18-24,Northeast,yes,0.083333333,Partially Bounded
+1411,1.2911,Graduate degree,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,Northeast,yes,0.916666667,No Uncertainty
+1413,0.3693,Some graduate school,0.75,1,0.67,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,West,yes,0.806666667,Partially Bounded and Irreducible
+1417,0.1102,College graduate,0.75,1,1,0,Independent,Conservative,College grad,Hispanic,Under 30,Male,55-64,South,no,0.916666667,Irreducible
+1418,2.2003,Some college,0.75,1,1,1,Republican,Moderate,Some college,"White, Non-Hispanic",75-100,Female,35-44,South,no,0.916666667,Partially Bounded
+1421,0.5231,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Female,55-64,South,yes,1,No Uncertainty
+1423,1.1391,High school graduate,0.25,1,0,0,Democrat,Liberal,HS grad,Hispanic,75-100,Male,18-24,Northeast,yes,0.416666667,Partially Bounded
+1429,0.4845,High school graduate,0.5,0.67,0.67,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Female,65+,South,yes,0.613333333,Fully Bounded and Irreducible
+1430,4.6252,Less than high school graduate,0.75,1,1,1,Independent,Conservative,HS grad,Hispanic,30-50,Male,25-34,West,yes,0.916666667,Fully Bounded and Irreducible
+1431,0.7363,College graduate,0.75,0.67,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,45-54,West,yes,0.806666667,Partially Bounded and Irreducible
+1432,0.989,College graduate,0.75,1,0.33,1,Independent,Conservative,College grad,"Black, Non-Hispanic",Under 30,Female,35-44,South,yes,0.693333333,Fully Bounded and Irreducible
+1433,1.0256,Some college,0.5,0.67,0.67,1,Democrat,Liberal,Some college,"White, Non-Hispanic",Under 30,Male,55-64,West,no,0.613333333,Irreducible
+1434,2.0133,High school graduate,0.5,1,0,1,Independent,Liberal,HS grad,"White, Non-Hispanic",50-75,Female,55-64,Northeast,no,0.5,Partially Bounded and Irreducible
+1437,0.9747,Graduate degree,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Female,55-64,South,yes,0.083333333,Partially Bounded and Irreducible
+1438,0.5011,High school graduate,0.75,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",100+,Male,45-54,South,no,0.25,Irreducible
+1439,1.6531,High school graduate,1,0.67,1,1,Democrat,Conservative,HS grad,"Black, Non-Hispanic",Under 30,Male,45-54,South,no,0.89,Fully Bounded
+1442,1.2006,Some graduate school,0.5,0.67,0,1,Democrat,Moderate,College grad,"White, Non-Hispanic",30-50,Female,65+,West,no,0.39,Fully Bounded and Irreducible
+1444,1.1063,High school graduate,0,0,0,1,Independent,Conservative,HS grad,"White, Non-Hispanic",75-100,Female,55-64,South,no,0,Partially Bounded
+1445,4.6252,Less than high school graduate,0.5,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Male,35-44,South,yes,0.166666667,Partially Bounded
+1447,2.5349,Some college,0,0,0,0,Independent,Liberal,Some college,"Black, Non-Hispanic",Under 30,Female,25-34,South,no,0,Irreducible
+1449,0.8264,College graduate,0.5,1,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Female,18-24,South,no,0.723333333,No Uncertainty
+1450,1.0052,High school graduate,0.25,0,0,0,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,Northeast,no,0.083333333,No Uncertainty
+1451,1.8596,Some college,0.75,1,1,1,Independent,Liberal,Some college,"Other, Non-Hispanic",100+,Male,25-34,Midwest,no,0.916666667,No Uncertainty
+1452,0.4692,High school graduate,0.5,0,0,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",100+,Female,55-64,Midwest,no,0.166666667,Partially Bounded
+1453,1.0726,High school graduate,0.25,0.33,0.67,0,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,45-54,West,no,0.416666667,Irreducible
+1454,0.3386,Some college,1,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",75-100,Female,45-54,South,yes,1,Fully Bounded and Irreducible
+1456,0.9759,Technical/trade school,0.75,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,Midwest,no,0.916666667,Partially Bounded
+1457,0.1642,Less than high school graduate,0.75,0,1,0,Democrat,Conservative,HS grad,Hispanic,Under 30,Female,65+,South,no,0.583333333,Partially Bounded and Irreducible
+1458,1.0601,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"Black, Non-Hispanic",Under 30,Male,65+,South,yes,0.916666667,Irreducible
+1459,0.9567,College graduate,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Female,65+,South,no,0,Partially Bounded and Irreducible
+1460,0.3943,College graduate,1,0.67,1,1,Democrat,Conservative,College grad,Hispanic,Under 30,Male,55-64,South,yes,0.89,Partially Bounded
+1466,0.8034,College graduate,0.5,0,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,West,no,0.5,Partially Bounded
+1468,0.6171,Some college,0.25,0,0,1,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Female,55-64,West,no,0.083333333,Irreducible
+1469,1.9532,High school graduate,0.5,0.67,0.67,1,Republican,Moderate,HS grad,"White, Non-Hispanic",100+,Female,65+,Northeast,yes,0.613333333,Fully Bounded and Irreducible
+1470,0.389,Graduate degree,0.5,1,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,55-64,South,no,0.723333333,Irreducible
+1472,2.0743,Less than high school graduate,0.5,1,1,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,65+,Northeast,no,0.833333333,Fully Bounded
+1476,0.9344,Less than high school graduate,0.5,0.67,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",75-100,Female,35-44,Midwest,no,0.613333333,Fully Bounded
+1479,0.3349,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,45-54,Midwest,no,1,Fully Bounded
+1480,0.694,High school graduate,0.25,0,0,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",75-100,Male,55-64,Northeast,no,0.083333333,Partially Bounded
+1481,0.4243,High school graduate,0.5,0.67,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,65+,Northeast,yes,0.613333333,Fully Bounded and Irreducible
+1482,1.4612,High school graduate,0,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,25-34,Midwest,no,0,No Uncertainty
+1483,0.4943,College graduate,0.75,1,1,1,Democrat,Moderate,College grad,Hispanic,Under 30,Female,18-24,South,no,0.916666667,Partially Bounded and Irreducible
+1485,0.4803,Technical/trade school,0.25,0.67,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,45-54,Midwest,no,0.53,Partially Bounded and Irreducible
+1486,2.3846,Some college,0.5,0,0.67,1,Democrat,Liberal,Some college,"White, Non-Hispanic",75-100,Female,18-24,South,no,0.39,Fully Bounded
+1489,1.9882,Some college,1,1,1,1,Independent,Conservative,Some college,"White, Non-Hispanic",30-50,Female,55-64,Midwest,no,1,No Uncertainty
+1490,0.8753,Some college,0.75,1,0.67,1,Democrat,Moderate,Some college,Hispanic,50-75,Male,18-24,West,no,0.806666667,Fully Bounded
+1491,3.8437,Some college,0.5,0,0,1,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Female,55-64,South,no,0.166666667,Fully Bounded
+1492,0.7019,High school graduate,0.75,1,0.67,1,Republican,Conservative,HS grad,Hispanic,30-50,Female,45-54,West,yes,0.806666667,Fully Bounded
+1495,0.7215,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Male,25-34,South,no,0.166666667,Fully Bounded
+1497,1.2009,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",30-50,Female,35-44,Northeast,yes,0.916666667,No Uncertainty
+1498,1.2009,Some college,0.25,0,0,1,Democrat,Conservative,Some college,"Black, Non-Hispanic",Under 30,Female,55-64,South,no,0.083333333,Fully Bounded
+1499,0.1102,College graduate,0.25,0,0,1,Independent,Moderate,College grad,"Other, Non-Hispanic",Under 30,Female,25-34,South,no,0.083333333,Irreducible
+1503,0.5245,College graduate,0.25,0,0,0,Independent,Moderate,College grad,"Black, Non-Hispanic",100+,Female,55-64,Midwest,no,0.083333333,Partially Bounded
+1504,0.2464,College graduate,0.75,0,0.33,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",50-75,Male,45-54,West,no,0.36,No Uncertainty
+1506,0.3101,High school graduate,0.75,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,South,no,0.916666667,Partially Bounded
+1508,0.7384,Technical/trade school,0.5,1,1,1,Republican,Moderate,HS grad,Hispanic,75-100,Male,45-54,West,yes,0.833333333,Partially Bounded and Irreducible
+1512,2.5916,Some college,0.75,0.67,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",30-50,Female,25-34,Midwest,no,0.806666667,Irreducible
+1514,4.6252,Less than high school graduate,0.75,1,1,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",50-75,Female,55-64,Midwest,no,0.916666667,No Uncertainty
+1517,0.3243,Some graduate school,1,1,1,1,Independent,Conservative,College grad,"White, Non-Hispanic",50-75,Male,25-34,South,yes,1,Fully Bounded and Irreducible
+1518,0.3621,College graduate,0.5,0,0,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Female,55-64,West,no,0.166666667,Partially Bounded and Irreducible
+1519,1.5774,Less than high school graduate,0.25,0.67,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Midwest,no,0.53,Fully Bounded
+1522,1.0803,Some college,0.5,0,0.67,1,Independent,Moderate,Some college,Hispanic,50-75,Male,18-24,South,no,0.39,Partially Bounded and Irreducible
+1523,1.8726,Some college,0.25,0,0,0,Independent,Liberal,Some college,"White, Non-Hispanic",30-50,Male,25-34,West,no,0.083333333,Fully Bounded and Irreducible
+1526,1.4425,College graduate,0.75,1,0.67,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Female,25-34,Midwest,no,0.806666667,Partially Bounded and Irreducible
+1527,0.3001,College graduate,1,1,1,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",50-75,Female,25-34,West,no,1,Partially Bounded and Irreducible
+1530,1.4976,Graduate degree,0.75,0,0,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,25-34,Northeast,yes,0.25,Partially Bounded and Irreducible
+1533,0.2882,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,no,1,Fully Bounded
+1536,0.3441,High school graduate,0.5,1,0.67,0,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,South,no,0.723333333,Fully Bounded and Irreducible
+1537,0.298,Graduate degree,0.25,0,0,0,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,0.083333333,Fully Bounded and Irreducible
+1538,0.2054,College graduate,0.75,0.33,1,1,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,0.693333333,Partially Bounded
+1539,0.9574,College graduate,0.5,0.67,0.67,1,Republican,Conservative,College grad,"Other, Non-Hispanic",50-75,Female,45-54,West,no,0.613333333,Irreducible
+1543,0.5518,Some college,0.5,0.67,0.67,1,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Male,65+,West,no,0.613333333,Fully Bounded
+1544,0.86,High school graduate,0.5,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,35-44,West,no,0.166666667,Partially Bounded
+1545,0.4663,High school graduate,0.5,0.67,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,65+,South,yes,0.613333333,Partially Bounded
+1547,0.4689,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,35-44,South,yes,1,Fully Bounded and Irreducible
+1548,0.551,Some college,1,1,1,1,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Male,45-54,South,no,1,Partially Bounded
+1549,2.1782,High school graduate,0,0,0,0,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Female,65+,South,yes,0,Irreducible
+1553,3.0137,Some college,0.5,0.33,0.67,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",75-100,Female,45-54,South,yes,0.5,Fully Bounded
+1554,0.4251,Some graduate school,0.5,0,0,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Female,18-24,Northeast,yes,0.166666667,Fully Bounded
+1555,0.2508,College graduate,0.5,0.33,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Female,35-44,Midwest,no,0.276666667,Fully Bounded
+1556,0.1999,Some college,0.75,1,1,1,Independent,Moderate,Some college,"Black, Non-Hispanic",50-75,Male,18-24,South,yes,0.916666667,No Uncertainty
+1557,2.0952,Technical/trade school,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Female,55-64,Northeast,no,1,Fully Bounded
+1561,0.7715,Some graduate school,1,1,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Female,25-34,Midwest,no,1,Fully Bounded and Irreducible
+1563,0.6157,Technical/trade school,0.75,1,0.67,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",100+,Female,35-44,South,yes,0.806666667,Irreducible
+1564,1.3746,Graduate degree,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,65+,South,yes,0,Partially Bounded and Irreducible
+1565,1.9573,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,18-24,South,no,0.166666667,Partially Bounded and Irreducible
+1566,2.4491,High school graduate,0.75,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,18-24,Midwest,no,0.25,Irreducible
+1567,0.6875,College graduate,0.75,1,1,0,Independent,Moderate,College grad,"Black, Non-Hispanic",Under 30,Female,25-34,Midwest,no,0.916666667,Fully Bounded and Irreducible
+1568,4.1438,Less than high school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,South,no,0.166666667,Fully Bounded and Irreducible
+1569,0.4127,High school graduate,0,0,0,0,Republican,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,South,no,0,No Uncertainty
+1572,0.221,College graduate,0.75,1,1,1,Independent,Liberal,College grad,"Other, Non-Hispanic",100+,Male,35-44,West,no,0.916666667,No Uncertainty
+1579,1.3901,Refused,NA,NA,NA,NA,Refused,Refused,Refused,"Black, Non-Hispanic",50-75,Male,25-34,Midwest,no,NA,No Uncertainty
+1583,0.5637,College graduate,0.5,0.67,0,1,Independent,Conservative,College grad,Hispanic,50-75,Female,35-44,West,yes,0.39,Partially Bounded
+1584,1.287,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Male,55-64,South,no,0.916666667,Partially Bounded and Irreducible
+1585,1.3685,Technical/trade school,0.5,0,0,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Male,35-44,South,yes,0.166666667,No Uncertainty
+1588,0.1139,High school graduate,0.75,1,1,1,Republican,Moderate,HS grad,Hispanic,Under 30,Female,35-44,West,no,0.916666667,Partially Bounded and Irreducible
+1591,0.253,High school graduate,0.75,0,0.33,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",30-50,Female,55-64,South,yes,0.36,No Uncertainty
+1592,0.5891,High school graduate,1,0,0,1,Republican,Liberal,HS grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,no,0.333333333,Fully Bounded
+1594,0.6639,High school graduate,0.25,0,0,1,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,55-64,South,no,0.083333333,Partially Bounded and Irreducible
+1596,1.6987,Graduate degree,1,1,1,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",75-100,Female,25-34,Northeast,no,1,Irreducible
+1597,0.9599,Some college,0.75,1,1,1,Republican,Moderate,Some college,"White, Non-Hispanic",100+,Male,45-54,West,no,0.916666667,Partially Bounded
+1598,1.3901,Some college,0.75,1,1,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",30-50,Female,65+,South,no,0.916666667,Irreducible
+1599,0.5991,Technical/trade school,0.75,0,0,1,Democrat,Conservative,HS grad,Hispanic,30-50,Female,55-64,South,yes,0.25,No Uncertainty
+1600,0.7957,High school graduate,1,1,1,0,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,55-64,South,no,1,No Uncertainty
+1603,0.519,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,South,no,0.166666667,Partially Bounded
+1604,1.2112,Some college,1,1,1,1,Democrat,Moderate,Some college,"White, Non-Hispanic",Under 30,Female,35-44,South,no,1,Irreducible
+1606,1.6136,Some college,0.75,1,1,1,Democrat,Liberal,Some college,"Black, Non-Hispanic",Under 30,Female,55-64,Midwest,no,0.916666667,Partially Bounded and Irreducible
+1607,0.6227,Some college,0.25,0.67,0.67,1,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Male,55-64,South,yes,0.53,Partially Bounded
+1609,1.6384,Some college,0.25,0,0.67,0,Democrat,Moderate,Some college,"Black, Non-Hispanic",Under 30,Male,45-54,Northeast,yes,0.306666667,No Uncertainty
+1610,0.3037,High school graduate,0.75,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Female,55-64,Midwest,no,0.916666667,Fully Bounded and Irreducible
+1611,0.3622,Some college,0.75,1,1,1,Republican,Conservative,Some college,"White, Non-Hispanic",Under 30,Male,18-24,Midwest,no,0.916666667,Fully Bounded
+1613,0.1102,Technical/trade school,0.75,1,1,1,Democrat,Conservative,HS grad,Hispanic,Under 30,Male,35-44,South,no,0.916666667,Fully Bounded
+1614,0.8358,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Male,45-54,South,no,1,Fully Bounded
+1615,0.2662,Some graduate school,0.25,0,0,1,Republican,Moderate,College grad,"White, Non-Hispanic",75-100,Male,65+,South,no,0.083333333,No Uncertainty
+1616,0.3175,High school graduate,0.5,0,0,1,Independent,Conservative,HS grad,Hispanic,Under 30,Male,45-54,West,no,0.166666667,Fully Bounded and Irreducible
+1619,1.5708,Technical/trade school,0.75,0.67,0.67,1,Independent,Conservative,HS grad,Hispanic,Under 30,Female,25-34,Northeast,yes,0.696666667,Fully Bounded
+1620,0.4511,College graduate,0.75,0,1,1,Refused,Conservative,College grad,"White, Non-Hispanic",50-75,Male,65+,South,yes,0.583333333,No Uncertainty
+1622,0.9869,Less than high school graduate,0.75,0.67,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",Under 30,Male,45-54,West,no,0.806666667,Partially Bounded
+1624,0.316,College graduate,1,0,0,0,Democrat,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,West,yes,0.333333333,Fully Bounded
+1629,0.439,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,55-64,South,no,1,Fully Bounded and Irreducible
+1630,2.6322,Some college,0.5,0.67,1,1,Independent,Moderate,Some college,Hispanic,30-50,Male,18-24,South,no,0.723333333,Partially Bounded
+1632,1.1687,High school graduate,0.5,0.67,0.67,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",50-75,Male,55-64,South,no,0.613333333,Partially Bounded and Irreducible
+1633,0.4982,High school graduate,1,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,Midwest,no,1,Partially Bounded and Irreducible
+1634,1.0744,High school graduate,0.5,1,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,45-54,West,yes,0.5,Irreducible
+1635,1.5704,Graduate degree,0.75,1,1,1,Independent,Conservative,College grad,"Other, Non-Hispanic",75-100,Male,45-54,West,yes,0.916666667,Fully Bounded and Irreducible
+1639,2.9396,Some college,0.25,0.67,0.67,1,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Female,45-54,Midwest,no,0.53,Irreducible
+1640,0.1285,Some college,0.5,0.33,0,0,Democrat,Moderate,Some college,"Black, Non-Hispanic",Under 30,Female,25-34,South,no,0.276666667,No Uncertainty
+1641,0.2813,Graduate degree,0.5,0.67,0.33,1,Democrat,Moderate,College grad,"White, Non-Hispanic",100+,Female,55-64,South,no,0.5,Partially Bounded
+1642,0.54,Some college,0.5,1,1,1,Independent,Moderate,Some college,"White, Non-Hispanic",Under 30,Male,18-24,Northeast,yes,0.833333333,Partially Bounded
+1644,1.0772,Some college,0.75,0.67,0.67,1,Republican,Moderate,Some college,"Other, Non-Hispanic",75-100,Male,18-24,Midwest,no,0.696666667,Fully Bounded
+1646,0.5711,Some college,0.25,0,0,0,Republican,Conservative,Some college,"Other, Non-Hispanic",75-100,Female,35-44,Midwest,no,0.083333333,Partially Bounded and Irreducible
+1647,3.505,Some college,0.5,1,1,0,Independent,Conservative,Some college,Hispanic,50-75,Female,25-34,West,yes,0.833333333,Fully Bounded and Irreducible
+1648,0.6225,Graduate degree,0.75,1,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Female,65+,West,yes,0.916666667,Irreducible
+1649,0.3252,Some college,0,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",75-100,Female,45-54,West,yes,0,Irreducible
+1653,0.6474,Some graduate school,0,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",75-100,Male,55-64,South,no,0,No Uncertainty
+1654,0.1224,Technical/trade school,0.5,1,0.67,1,Democrat,Liberal,HS grad,Hispanic,30-50,Male,25-34,South,no,0.723333333,Irreducible
+1655,0.5933,High school graduate,0.5,0,0,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,65+,West,yes,0.166666667,Fully Bounded and Irreducible
+1656,0.5075,Technical/trade school,0.5,0.67,0.67,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",30-50,Female,55-64,Midwest,no,0.613333333,Fully Bounded and Irreducible
+1657,0.8773,Some college,0,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Female,45-54,South,yes,0,No Uncertainty
+1658,0.6558,Graduate degree,1,1,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,1,Partially Bounded and Irreducible
+1660,0.6365,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",30-50,Female,25-34,South,yes,1,Fully Bounded
+1661,0.1618,College graduate,0.75,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",30-50,Male,65+,Midwest,no,0.916666667,Fully Bounded
+1663,1.022,Less than high school graduate,0.25,0,0,0,Democrat,Conservative,HS grad,Hispanic,Under 30,Female,55-64,West,no,0.083333333,Fully Bounded
+1664,0.2478,Graduate degree,0.5,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",75-100,Female,55-64,West,yes,0.833333333,Partially Bounded and Irreducible
+1665,2.7027,Some college,1,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",30-50,Female,35-44,South,no,1,Fully Bounded
+1666,0.5775,Some college,0.75,0.67,0.67,1,Independent,Moderate,Some college,Hispanic,30-50,Male,55-64,South,yes,0.696666667,No Uncertainty
+1667,0.49,Graduate degree,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",30-50,Male,55-64,Midwest,no,0.916666667,Partially Bounded
+1672,0.2528,Graduate degree,1,0.67,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,65+,West,yes,0.89,Irreducible
+1676,0.6727,High school graduate,0.25,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,18-24,West,yes,0.083333333,Fully Bounded
+1677,1.6992,High school graduate,1,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,1,Partially Bounded and Irreducible
+1680,4.6252,Refused,NA,NA,1,1,Independent,Moderate,Refused,Hispanic,Under 30,Male,45-54,Northeast,yes,1,Irreducible
+1681,0.2281,College graduate,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Female,45-54,Midwest,no,0,Fully Bounded
+1683,0.4526,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,55-64,South,no,0,No Uncertainty
+1684,0.1102,Technical/trade school,0.75,1,0.67,1,Independent,Liberal,HS grad,Hispanic,Under 30,Female,35-44,West,yes,0.806666667,Fully Bounded and Irreducible
+1688,1.1972,College graduate,0.5,0.33,0.33,1,Independent,Liberal,College grad,"White, Non-Hispanic",75-100,Male,35-44,West,no,0.386666667,Partially Bounded
+1689,1.5732,Some college,0.75,0,0,1,Republican,Conservative,Some college,"White, Non-Hispanic",75-100,Female,18-24,West,no,0.25,Partially Bounded and Irreducible
+1692,0.5299,Technical/trade school,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,0,Fully Bounded
+1693,1.0866,Some college,0.5,1,0.67,1,Republican,Conservative,Some college,"Other, Non-Hispanic",100+,Male,18-24,West,yes,0.723333333,Irreducible
+1694,0.2722,High school graduate,0.75,1,0.67,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",50-75,Female,55-64,West,yes,0.806666667,No Uncertainty
+1696,0.7996,Graduate degree,0.25,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,yes,0.53,Partially Bounded and Irreducible
+1697,2.2515,Some college,0.5,1,1,0,Independent,Conservative,Some college,"White, Non-Hispanic",75-100,Female,35-44,Midwest,no,0.833333333,Irreducible
+1698,0.5337,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,25-34,South,yes,0.083333333,Partially Bounded and Irreducible
+1699,0.4555,College graduate,1,1,1,1,Independent,Liberal,College grad,"White, Non-Hispanic",75-100,Male,35-44,Midwest,no,1,Partially Bounded and Irreducible
+1700,1.4926,Some college,0.5,1,0.33,1,Independent,Conservative,Some college,"White, Non-Hispanic",100+,Male,65+,South,yes,0.61,Fully Bounded
+1701,0.2557,High school graduate,0.5,0.33,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,South,yes,0.276666667,Partially Bounded and Irreducible
+1702,3.2885,Some college,0.75,0,0,1,Democrat,Liberal,Some college,"Black, Non-Hispanic",75-100,Female,55-64,South,no,0.25,Fully Bounded and Irreducible
+1703,0.4017,College graduate,0,0,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",Under 30,Male,55-64,South,yes,0,Fully Bounded and Irreducible
+1705,0.2088,High school graduate,0.75,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",50-75,Male,55-64,South,yes,0.916666667,Partially Bounded and Irreducible
+1707,0.3595,High school graduate,0.5,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,0.166666667,Partially Bounded
+1708,1.1299,High school graduate,0.5,0.67,0.67,1,Independent,Moderate,HS grad,"White, Non-Hispanic",75-100,Male,65+,Northeast,yes,0.613333333,No Uncertainty
+1709,2.4881,Less than high school graduate,1,1,1,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,Northeast,no,1,Partially Bounded and Irreducible
+1710,0.2812,Some college,0.25,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",100+,Male,65+,South,no,0.083333333,No Uncertainty
+1711,0.2906,Some graduate school,0,0,0,0,Republican,Conservative,College grad,Hispanic,Under 30,Male,65+,Northeast,yes,0,Fully Bounded
+1712,0.4867,High school graduate,0.5,0,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",75-100,Male,55-64,South,yes,0.39,Irreducible
+1713,0.2865,Technical/trade school,0.75,0.67,0,1,Democrat,Conservative,HS grad,"Black, Non-Hispanic",75-100,Male,55-64,South,no,0.473333333,Irreducible
+1715,0.9535,Some college,0.75,1,0.67,1,Democrat,Moderate,Some college,"White, Non-Hispanic",50-75,Female,35-44,Northeast,no,0.806666667,Fully Bounded and Irreducible
+1718,1.0549,Some college,1,0.33,0.67,1,Republican,Conservative,Some college,"White, Non-Hispanic",30-50,Female,65+,West,no,0.666666667,Partially Bounded
+1719,0.2577,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,35-44,West,no,0,Fully Bounded
+1720,0.2697,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,55-64,Midwest,no,0.916666667,Irreducible
+1722,0.3725,Technical/trade school,0.25,0,0,0,Republican,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,35-44,Midwest,no,0.083333333,Irreducible
+1723,1.8177,Technical/trade school,0.5,0.67,0,0,Democrat,Moderate,HS grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,0.39,Fully Bounded
+1725,0.595,College graduate,1,0.33,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",50-75,Male,25-34,Midwest,no,0.666666667,Irreducible
+1726,0.5088,College graduate,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,35-44,West,no,0.083333333,Partially Bounded
+1727,0.4533,Some graduate school,1,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,45-54,South,yes,1,Irreducible
+1728,0.4459,Graduate degree,0.25,1,0.67,1,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,Midwest,no,0.64,Fully Bounded and Irreducible
+1729,0.7302,High school graduate,0.25,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,55-64,Northeast,no,0.083333333,Partially Bounded and Irreducible
+1730,0.5577,High school graduate,0.75,1,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",100+,Female,45-54,Midwest,no,0.806666667,Irreducible
+1734,0.4554,High school graduate,0.25,0.67,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,yes,0.306666667,Fully Bounded and Irreducible
+1735,0.114,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",75-100,Female,35-44,Northeast,yes,0.916666667,Fully Bounded and Irreducible
+1736,1.1349,High school graduate,1,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",100+,Female,55-64,Midwest,no,1,Fully Bounded
+1738,0.2348,College graduate,0.75,1,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",Under 30,Female,18-24,Midwest,no,0.583333333,Partially Bounded
+1739,1.9027,High school graduate,0.5,1,0.33,1,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,18-24,Northeast,no,0.61,No Uncertainty
+1742,0.6995,Some college,1,0,1,1,Democrat,Moderate,Some college,Hispanic,Under 30,Male,45-54,Midwest,no,0.666666667,Irreducible
+1743,0.5866,High school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,Midwest,no,0.166666667,Partially Bounded and Irreducible
+1744,0.9384,Graduate degree,0.5,0,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",50-75,Female,55-64,West,yes,0.39,Fully Bounded
+1745,1.3056,Some college,1,1,1,1,Democrat,Liberal,Some college,"Black, Non-Hispanic",50-75,Female,65+,South,no,1,Partially Bounded and Irreducible
+1746,0.177,Graduate degree,0.75,1,1,1,Democrat,Moderate,College grad,Hispanic,50-75,Female,35-44,Northeast,no,0.916666667,Irreducible
+1747,0.8337,College graduate,1,1,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,35-44,West,no,0.666666667,Fully Bounded
+1748,0.3456,College graduate,0.75,1,1,1,Independent,Conservative,College grad,"Other, Non-Hispanic",50-75,Female,35-44,South,yes,0.916666667,Irreducible
+1749,0.5331,Some college,1,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",Under 30,Male,18-24,Northeast,no,1,Partially Bounded and Irreducible
+1751,1.5743,Graduate degree,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,65+,West,yes,1,Partially Bounded
+1754,0.3419,Some college,0.75,1,0.67,1,Democrat,Liberal,Some college,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,0.806666667,No Uncertainty
+1755,1.3824,Some college,1,1,1,1,Democrat,Liberal,Some college,Hispanic,30-50,Male,18-24,Midwest,no,1,Fully Bounded
+1757,1.0705,High school graduate,0.25,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Male,25-34,South,no,0.083333333,Irreducible
+1758,0.7326,Technical/trade school,1,1,1,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Female,65+,West,yes,1,Partially Bounded
+1759,0.1332,Technical/trade school,0.5,1,0,1,Democrat,Moderate,HS grad,"Black, Non-Hispanic",Under 30,Male,35-44,West,yes,0.5,No Uncertainty
+1762,0.1962,High school graduate,1,1,1,1,Independent,Liberal,HS grad,"Other, Non-Hispanic",30-50,Male,25-34,West,yes,1,Fully Bounded and Irreducible
+1763,0.7175,High school graduate,0.5,0.67,0,1,Independent,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,West,no,0.39,Partially Bounded and Irreducible
+1764,0.2311,College graduate,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",50-75,Male,55-64,West,yes,0,Fully Bounded and Irreducible
+1765,1.0687,High school graduate,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Female,35-44,Midwest,no,1,Partially Bounded
+1766,0.78,High school graduate,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",Under 30,Male,18-24,Northeast,no,1,Irreducible
+1767,0.3265,Graduate degree,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Male,45-54,South,yes,0.083333333,Partially Bounded
+1768,0.4679,Some graduate school,0.5,0.67,0.67,1,Democrat,Moderate,College grad,"White, Non-Hispanic",50-75,Male,25-34,South,yes,0.613333333,Irreducible
+1769,0.4129,College graduate,0.5,0.67,0.67,0,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,Midwest,no,0.613333333,Irreducible
+1770,4.6252,Less than high school graduate,0.5,0,0,0,Independent,Liberal,HS grad,Hispanic,Under 30,Female,65+,West,no,0.166666667,Partially Bounded
+1776,1.0573,Some college,0.25,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Male,45-54,West,yes,0.083333333,Fully Bounded
+1778,2.9875,Some college,0.25,0,0,1,Republican,Moderate,Some college,"White, Non-Hispanic",100+,Male,35-44,South,no,0.083333333,Fully Bounded
+1781,0.4332,High school graduate,0.25,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,25-34,South,no,0.083333333,No Uncertainty
+1782,0.2623,Some college,0.5,0.67,0.67,1,Republican,Moderate,Some college,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,0.613333333,Partially Bounded
+1784,1.3112,Graduate degree,0.5,0,0.67,1,Democrat,Moderate,College grad,"Black, Non-Hispanic",50-75,Female,25-34,South,yes,0.39,Fully Bounded
+1785,1.0151,High school graduate,0.5,0,0.67,1,Republican,Conservative,HS grad,"White, Non-Hispanic",30-50,Female,55-64,South,no,0.39,Irreducible
+1786,0.7524,College graduate,0.25,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,45-54,Northeast,no,0.53,Partially Bounded
+1787,1.0943,Graduate degree,0.25,1,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,65+,Midwest,no,0.416666667,Partially Bounded
+1788,0.5641,Graduate degree,0.5,0.67,0.67,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,yes,0.613333333,No Uncertainty
+1789,0.3891,Some graduate school,0.5,0,0,1,Independent,Moderate,College grad,"White, Non-Hispanic",Under 30,Female,25-34,South,yes,0.166666667,Fully Bounded and Irreducible
+1790,0.4953,Some college,0.25,0,0,0,Republican,Conservative,Some college,"White, Non-Hispanic",50-75,Female,65+,Midwest,no,0.083333333,Partially Bounded and Irreducible
+1793,0.541,High school graduate,0.5,0.67,0.67,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0.613333333,Partially Bounded and Irreducible
+1794,0.4548,High school graduate,0.75,1,0,1,Democrat,Conservative,HS grad,"White, Non-Hispanic",100+,Male,45-54,Northeast,no,0.583333333,Partially Bounded
+1797,0.422,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,Hispanic,Under 30,Male,65+,South,no,0.916666667,Irreducible
+1799,0.1231,Some graduate school,0,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",30-50,Female,65+,Midwest,no,0,Fully Bounded
+1802,0.4847,Less than high school graduate,0.5,0.67,0.67,1,Republican,Moderate,HS grad,"Other, Non-Hispanic",Under 30,Female,65+,West,yes,0.613333333,Fully Bounded
+1805,0.3883,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"Other, Non-Hispanic",50-75,Female,35-44,West,yes,0.916666667,Fully Bounded and Irreducible
+1806,0.1326,Graduate degree,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Male,55-64,Northeast,no,0.916666667,Partially Bounded and Irreducible
+1807,2.1519,Some college,0.25,0,0,1,Independent,Conservative,Some college,"White, Non-Hispanic",75-100,Male,25-34,South,no,0.083333333,Fully Bounded and Irreducible
+1809,0.8597,College graduate,0.75,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",100+,Female,65+,West,yes,0.916666667,Partially Bounded
+1810,1.2116,Graduate degree,0.5,0.67,0.67,1,Democrat,Moderate,College grad,"Other, Non-Hispanic",75-100,Male,35-44,West,yes,0.613333333,Partially Bounded
+1812,0.1102,Some graduate school,0.75,0.67,0.67,1,Independent,Conservative,College grad,Hispanic,30-50,Male,35-44,West,yes,0.696666667,Fully Bounded and Irreducible
+1815,0.3565,College graduate,0.5,1,1,0,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,45-54,Midwest,no,0.833333333,Fully Bounded
+1818,1.1089,High school graduate,0.75,1,0.67,1,Independent,Liberal,HS grad,"White, Non-Hispanic",Under 30,Female,25-34,Northeast,yes,0.806666667,Fully Bounded and Irreducible
+1819,0.3655,Technical/trade school,1,1,0.67,1,Democrat,Liberal,HS grad,"Black, Non-Hispanic",Under 30,Female,25-34,South,no,0.89,No Uncertainty
+1820,2.6951,Less than high school graduate,0.75,1,1,1,Republican,Conservative,HS grad,"White, Non-Hispanic",Under 30,Female,45-54,Midwest,no,0.916666667,Irreducible
+1821,1.8177,Graduate degree,1,1,1,1,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,55-64,West,yes,1,No Uncertainty
+1822,1.9022,Some college,0.75,0.67,1,1,Independent,Moderate,Some college,"Black, Non-Hispanic",Under 30,Female,55-64,Northeast,yes,0.806666667,Irreducible
+1823,0.5471,College graduate,0.5,0.67,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",50-75,Male,45-54,South,no,0.723333333,Partially Bounded
+1824,0.1597,College graduate,0.5,1,0,1,Republican,Conservative,College grad,"White, Non-Hispanic",75-100,Male,55-64,Midwest,no,0.5,Partially Bounded
+1826,1.2558,Less than high school graduate,0.5,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,Northeast,yes,0.166666667,Fully Bounded and Irreducible
+1827,0.8616,Some college,0.75,1,1,1,Democrat,Moderate,Some college,"Black, Non-Hispanic",75-100,Male,55-64,South,yes,0.916666667,Fully Bounded and Irreducible
+1830,0.2558,Graduate degree,0,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,55-64,Midwest,no,0,Partially Bounded
+1831,0.2801,Technical/trade school,0.25,0,0,0,Independent,Conservative,HS grad,"White, Non-Hispanic",30-50,Male,45-54,Midwest,no,0.083333333,Irreducible
+1832,0.522,High school graduate,0.75,1,1,1,Democrat,Moderate,HS grad,"White, Non-Hispanic",50-75,Female,55-64,South,yes,0.916666667,Fully Bounded
+1833,0.1449,High school graduate,0,0,0,0,Republican,Conservative,HS grad,"White, Non-Hispanic",50-75,Male,65+,South,no,0,Irreducible
+1835,0.5857,College graduate,0.75,1,0,1,Independent,Liberal,College grad,"Black, Non-Hispanic",Under 30,Male,18-24,South,yes,0.583333333,No Uncertainty
+1837,0.3539,High school graduate,1,0,0,1,Democrat,Moderate,HS grad,Hispanic,30-50,Male,25-34,Northeast,yes,0.333333333,Fully Bounded and Irreducible
+1838,0.5042,High school graduate,0.75,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,45-54,South,no,0.916666667,Fully Bounded and Irreducible
+1841,0.3385,High school graduate,1,1,1,1,Independent,Moderate,HS grad,"White, Non-Hispanic",30-50,Male,65+,West,no,1,No Uncertainty
+1842,1.8791,Some college,0.5,1,0.33,1,Independent,Moderate,Some college,"White, Non-Hispanic",30-50,Male,55-64,Northeast,yes,0.61,Fully Bounded and Irreducible
+1843,3.5663,Less than high school graduate,0.75,1,1,1,Independent,Liberal,HS grad,"White, Non-Hispanic",100+,Male,18-24,South,yes,0.916666667,Irreducible
+1844,0.377,High school graduate,0.75,1,0.67,1,Democrat,Liberal,HS grad,"White, Non-Hispanic",Under 30,Male,55-64,South,no,0.806666667,No Uncertainty
+1845,0.405,College graduate,0.5,0,0,0,Independent,Conservative,College grad,"White, Non-Hispanic",100+,Male,65+,South,no,0.166666667,No Uncertainty
+1846,0.4775,Graduate degree,0.25,0,0,0,Republican,Conservative,College grad,"White, Non-Hispanic",100+,Female,25-34,Northeast,no,0.083333333,No Uncertainty
+1848,0.3648,High school graduate,0.75,1,1,1,Independent,Moderate,HS grad,Hispanic,Under 30,Male,45-54,South,no,0.916666667,Partially Bounded
+1849,2.3103,Some college,0.25,0,0,0,Republican,Moderate,Some college,"White, Non-Hispanic",75-100,Male,25-34,Midwest,no,0.083333333,Fully Bounded and Irreducible
+1850,2.1926,Less than high school graduate,0.75,1,0,0,Independent,Moderate,HS grad,"Other, Non-Hispanic",Under 30,Female,55-64,South,no,0.583333333,Fully Bounded and Irreducible
+1851,0.5513,Technical/trade school,0.5,1,0,1,Democrat,Moderate,HS grad,Hispanic,50-75,Male,35-44,Northeast,yes,0.5,No Uncertainty
+1852,0.941,High school graduate,0.5,1,1,1,Democrat,Moderate,HS grad,"Other, Non-Hispanic",30-50,Female,25-34,Midwest,no,0.833333333,Partially Bounded and Irreducible
+1853,1.5343,Some college,1,1,1,1,Democrat,Liberal,Some college,"White, Non-Hispanic",Under 30,Male,18-24,Midwest,no,1,Irreducible
+1854,0.7934,Some college,0.25,0,0,0,Independent,Conservative,Some college,"White, Non-Hispanic",30-50,Male,35-44,Midwest,no,0.083333333,Fully Bounded and Irreducible
+1855,0.5729,College graduate,0.75,1,0.67,1,Republican,Moderate,College grad,"White, Non-Hispanic",50-75,Male,35-44,Midwest,no,0.806666667,Fully Bounded and Irreducible
+1856,0.4338,Technical/trade school,0.25,0,0,1,Independent,Moderate,HS grad,"White, Non-Hispanic",100+,Male,35-44,Midwest,no,0.083333333,No Uncertainty
+1857,0.2738,College graduate,1,1,1,1,Democrat,Liberal,College grad,"White, Non-Hispanic",75-100,Female,35-44,South,no,1,Partially Bounded
+1858,3.6969,Less than high school graduate,0.5,0,0,1,Independent,Moderate,HS grad,Hispanic,30-50,Male,65+,West,yes,0.166666667,No Uncertainty
+1860,0.8779,Graduate degree,0.25,0,0,0,Independent,Moderate,College grad,"White, Non-Hispanic",100+,Female,35-44,Midwest,no,0.083333333,Fully Bounded and Irreducible
+1861,1.3169,Technical/trade school,0.5,1,1,1,Independent,Liberal,HS grad,Hispanic,50-75,Male,45-54,South,no,0.833333333,Partially Bounded and Irreducible
+1862,0.3804,College graduate,1,1,1,1,Republican,Moderate,College grad,"White, Non-Hispanic",50-75,Female,45-54,South,no,1,Fully Bounded
+1863,1.5012,High school graduate,0.75,1,1,1,Republican,Moderate,HS grad,"White, Non-Hispanic",30-50,Female,65+,Northeast,no,0.916666667,Fully Bounded
+1866,1.4198,High school graduate,0.5,0,0,0,Republican,Conservative,HS grad,Hispanic,100+,Male,18-24,South,no,0.166666667,Irreducible
+1867,1.6719,College graduate,0.5,1,0.67,1,Republican,Moderate,College grad,"White, Non-Hispanic",100+,Male,35-44,South,no,0.723333333,Fully Bounded and Irreducible
+1871,0.242,Some graduate school,0.5,0,NA,0,Democrat,Moderate,College grad,"Black, Non-Hispanic",Under 30,Female,25-34,South,yes,0.25,Irreducible
+1872,4.6252,Graduate degree,0.5,0,0,0,Republican,Moderate,College grad,Hispanic,100+,Male,25-34,West,no,0.166666667,Fully Bounded and Irreducible

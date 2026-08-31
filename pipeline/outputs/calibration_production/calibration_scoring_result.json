@@ -1,0 +1,49 @@
+{
+  "invalid_rate": 7.3529411764705884e-06,
+  "per_partition": {
+    "part1": {
+      "batch_id": "667d617e-bb8e-4399-9f76-892152d79ba0",
+      "batch_output_sha256": "e3887c534ecf59bbd639badf49176d88f16887ab7feab2d7c2aa6743ed03cb5d",
+      "expected": 27200,
+      "retrieved_lines": 27199,
+      "status": "COMPLETED"
+    },
+    "part2": {
+      "batch_id": "6ff0ca1f-ed92-4752-b4fc-96786cbd5061",
+      "batch_output_sha256": "0b51e23f36e49944f864791b62a4c5082f8dc6296ab46e4a6718a3eb32080e2e",
+      "expected": 27200,
+      "retrieved_lines": 27200,
+      "status": "COMPLETED"
+    },
+    "part3": {
+      "batch_id": "63307e37-ebf0-46e5-b73d-a16c08d57a68",
+      "batch_output_sha256": "d563ca16833ad25c581511ca24cbec0cbfd7e655bc9420c143574f7314c3bd79",
+      "expected": 27200,
+      "retrieved_lines": 27200,
+      "status": "COMPLETED"
+    },
+    "part4": {
+      "batch_id": "0eb43312-dce2-47ba-b7d0-823f8a26a109",
+      "batch_output_sha256": "f999d9bfa7cb6d64325b9e34cd7d964c60c908d1b117046c930533e76154bfb9",
+      "expected": 27200,
+      "retrieved_lines": 27200,
+      "status": "COMPLETED"
+    },
+    "part5": {
+      "batch_id": "0772a827-7c0a-461e-994b-f065d24058d2",
+      "batch_output_sha256": "07fdef55f1730e4e946246ac49333a3d288c8a2cbb0a34701db71a13d5f1b67f",
+      "expected": 27200,
+      "retrieved_lines": 27200,
+      "status": "COMPLETED"
+    }
+  },
+  "reconciliation": {
+    "duplicate": [],
+    "integrity_ok": true,
+    "malformed_records": [],
+    "missing_entirely": [
+      "google-gemma-4-31B-it-8ea61e80f7ed8366fc90c9eb9b76fc6797a0e551"
+    ],
+    "unexpected": []
+  }
+}

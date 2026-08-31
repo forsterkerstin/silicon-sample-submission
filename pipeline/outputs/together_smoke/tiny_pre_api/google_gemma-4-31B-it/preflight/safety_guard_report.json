@@ -1,0 +1,26 @@
+{
+  "requests": {
+    "completion_tokens_budget": 128,
+    "estimated_prompt_characters": 286,
+    "estimated_prompt_tokens_rough": 71,
+    "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/preflight/batch_input.jsonl",
+    "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/preflight/request_manifest.csv",
+    "requests": 1
+  },
+  "safety_guard": {
+    "batch_estimated_worst_case_cost_usd": 7.8e-05,
+    "cumulative_new_requests": 25,
+    "estimated_input_tokens": 71,
+    "estimated_worst_case_cost_usd": 0.187552,
+    "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/preflight/batch_input.jsonl",
+    "maximum_output_tokens": 128,
+    "model": "google/gemma-4-31B-it",
+    "request_count": 1,
+    "smoke_cost_cap_usd": 0.3,
+    "state_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/smoke_submission_state.json",
+    "submission_allowed": true,
+    "wave": "engineering_capability_preflight"
+  },
+  "status": "PASS",
+  "submitted": false
+}

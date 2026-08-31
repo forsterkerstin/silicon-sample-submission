@@ -1,0 +1,65 @@
+{
+  "accounting_csv": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/smoke_manifest_accounting.csv",
+  "models": {
+    "deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "note": "Existing submitted first-wave manifest was not regenerated.",
+      "status": "PRESERVED_SUBMITTED_FIRST_WAVE"
+    },
+    "google/gemma-4-31B-it": {
+      "checks": {
+        "api_model_resolution_ready": true,
+        "paired_profile_prompt_invariants": true,
+        "parser_retry_fixture_succeeds": true,
+        "raw_response_retention_path": true,
+        "resume_no_duplicate_basis": true,
+        "stage_a_b_provenance_binds": true,
+        "state_routing_extreme_weather_present": true,
+        "support_constraints_in_json_schema": true,
+        "valid_structured_response_schema_present": true
+      },
+      "completion_tokens_budget": 14336,
+      "estimated_total_prompt_tokens_rough": 21114,
+      "first_wave": {
+        "completion_tokens_budget": 12288,
+        "estimated_prompt_characters": 64936,
+        "estimated_prompt_tokens_rough": 16234,
+        "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/first_wave/batch_input.jsonl",
+        "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/first_wave/request_manifest.csv",
+        "requests": 12
+      },
+      "first_wave_request_count": 12,
+      "request_count": 14,
+      "retry_resume_fixture": {
+        "completion_tokens": 8,
+        "malformed": 1,
+        "prompt_tokens": 20,
+        "raw": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/mock_parse/raw_responses.jsonl",
+        "retry_manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/mock_parse/retry_manifest.csv",
+        "success": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/mock_parse/parsed_success.csv",
+        "successful": 1,
+        "total_tokens": 28
+      },
+      "shards": [
+        "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/first_wave/shards/batch_input_part0001.jsonl"
+      ],
+      "stage_b_placeholder_validate_only": {
+        "completion_tokens_budget": 2048,
+        "estimated_prompt_characters": 19522,
+        "estimated_prompt_tokens_rough": 4880,
+        "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/stage_b_placeholder_validate_only/batch_input.jsonl",
+        "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/stage_b_placeholder_validate_only/request_manifest.csv",
+        "requests": 2
+      },
+      "stage_b_request_count_after_real_stage_a_parse": 2,
+      "stage_b_submit_note": "After parsing real Stage A successes, regenerate/submit the matching Stage-B manifest; placeholder validation path: /home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/stage_b_placeholder_validate_only/batch_input.jsonl",
+      "status": "PASS",
+      "submit_command_first_wave": "python pipeline/scripts/together_batch.py submit --jsonl /home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/first_wave/batch_input.jsonl --metadata-out /home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/first_wave/submitted_batch_metadata.json"
+    }
+  },
+  "purpose": "engineering smoke only; do not rank models by response quality",
+  "stage_b_note": "Second-wave manifests here use deterministic placeholder Stage A responses for offline validation only; regenerate Stage B from parsed real Stage A before submission.",
+  "status": "PASS",
+  "submit_commands": [
+    "python pipeline/scripts/together_batch.py submit --jsonl /home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/first_wave/batch_input.jsonl --metadata-out /home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/google_gemma-4-31B-it/first_wave/submitted_batch_metadata.json"
+  ]
+}

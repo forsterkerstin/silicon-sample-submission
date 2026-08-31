@@ -1,0 +1,101 @@
+{
+  "expected_requests": 10,
+  "total_expected_observed": 10,
+  "missing": 0,
+  "unexpected": 0,
+  "duplicates": 0,
+  "schema_valid": 10,
+  "schema_invalid": 0,
+  "malformed_json": 0,
+  "smoke_pass": true,
+  "standard": {
+    "stage": "standard",
+    "expected": 5,
+    "retrieved": 5,
+    "missing": 0,
+    "unexpected": 0,
+    "duplicates": 0,
+    "schema_valid": 5,
+    "schema_invalid": 0,
+    "malformed_json": 0,
+    "per_response": [
+      {
+        "custom_id": "G-00013793b8fe7c24dec6d7277b83f8997b8cb24a",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      },
+      {
+        "custom_id": "G-00094a39755d7d59e6ae9944e815757598d34075",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      },
+      {
+        "custom_id": "G-00096b99a67c3e00a8a71fec9ace32750ce622c1",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      },
+      {
+        "custom_id": "G-0016fa931544c57dd5f72b0972092e88b68fdef0",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      },
+      {
+        "custom_id": "G-0019ef3060750eb4f1f346d1a8c3cdcad3040946",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      }
+    ]
+  },
+  "consensus_stage_a": {
+    "stage": "consensus_stage_a",
+    "expected": 5,
+    "retrieved": 5,
+    "missing": 0,
+    "unexpected": 0,
+    "duplicates": 0,
+    "schema_valid": 5,
+    "schema_invalid": 0,
+    "malformed_json": 0,
+    "per_response": [
+      {
+        "custom_id": "G-0051c71539e60e0282792fad7073a3e2fda22c89",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      },
+      {
+        "custom_id": "G-008ca02ff5b6fd7ad464120410a7035dad77b1d4",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      },
+      {
+        "custom_id": "G-011083a85f2d12b4d4de505cd411e88280962f4b",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      },
+      {
+        "custom_id": "G-01976dc30cdfbfae44ae7da759eddb1f78b195ef",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      },
+      {
+        "custom_id": "G-0230d17c201cfc9f18aa12f969b9bb41dfd8ca51",
+        "system_fingerprint": null,
+        "valid": true,
+        "reason": ""
+      }
+    ]
+  },
+  "failed_fingerprint_seen_count": 0,
+  "failed_fingerprint_responses": [],
+  "failed_fingerprint_any_schema_valid": null,
+  "full_replacement_automatically_authorized": false
+}

@@ -1,0 +1,776 @@
+---
+title: "Main Analysis of Bovitz Data for Nexus"
+author: "Reed Orchinik"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load packages and data
+Load packages and set theme
+
+```{r load, echo=FALSE, message=FALSE}
+rm(list = ls())
+
+library('dplyr')
+library('stringr')
+library('reshape2')
+library('tidyr')
+library('ggplot2')
+library('readr')
+library('bnlearn')
+library('plotly')
+library('fixest')
+library('vtable')
+library('brms')
+library('BayesPostEst')
+library('xtable')
+library('lavaan')
+library('blavaan')
+library('tidySEM')
+library('cluster')
+library('factoextra')
+library('nnet')
+library('ggpubr')
+library('ggcorrplot')
+library('ggpattern')
+library('knitr')
+library('kableExtra')
+library('ggh4x')
+library('tidybayes')
+library('ggridges')
+library('tidyverse')
+
+set.seed(1997)
+
+theme_set(theme_light())
+```
+
+Load data, change to numeric, and do final cleaning
+```{r data, echo=FALSE, message=FALSE}
+df <- read.csv2('../data/final_clean.csv', sep = ",") %>%
+  filter(drop == FALSE) %>%
+  mutate(across(c(prior_sci_always_E_yes, prior_sci_always_E_no, prior_sci_unbiased,
+                  prior_cc_occur_adj, prior_sci_unbiased_adj, prior_sci_skill_adj,
+                  ends_with("_b0"), ends_with("_b1")), as.numeric))
+
+table_path = "../tables/nexus"
+figure_path = "../figures/nexus"
+
+#Offset for plots
+pd <- position_dodge(2)
+```
+
+# Main analyses
+Create long version of dataframe where each row is an observation for a participant at a consensus level
+```{r ind_cons, echo=FALSE, message=FALSE}
+ind_cons <- df %>%
+  #Pivot longer to get to ID-consensus observation
+  pivot_longer(
+    cols = starts_with("P_cc_given_cons"),
+    names_to = "Consensus Level",
+    names_prefix = "P_cc_given_cons",
+    values_to = c("belief")
+  ) %>%
+  group_by("Consensus Level" = as.numeric(`Consensus Level`),
+           ID = as.character(ID),
+           Party) %>%
+  summarise(belief = mean(belief))
+
+#Same for all non-climate variables
+namelist <- c("pro_bias", "anti_bias", "pro_skill", "anti_skill")
+for(name in namelist){
+  temp <- df %>%
+    pivot_longer(
+      cols = starts_with(sprintf("P_%s_given_cons", name)),
+      names_to = "Consensus Level",
+      names_prefix = sprintf("P_%s_given_cons", name),
+      values_to = "var"
+    ) %>%
+    group_by("Consensus Level" = as.numeric(`Consensus Level`),
+             ID = as.character(ID)) %>%
+    summarise(var = mean(var))
+  
+  ind_cons <- left_join(ind_cons, temp)
+  names(ind_cons)[names(ind_cons) == "var"] <- name
+}
+
+#Join in priors
+ind_cons <- df %>%
+  mutate(ID = as.character(ID)) %>%
+  select(ID, prior_sci_unbiased, prior_sci_skill_adj,
+         prior_cc_occur, prior_consensus_num, condition) %>%
+  right_join(., ind_cons, by = "ID")
+```
+
+## Control group analyses
+### Main regressions
+Baseline regressions that appear in Table S2 and posterior probabilities of positive effects
+```{r}
+#Climate regression of belief on consensus and random intercept and slope
+belief_m1_bayes <- ind_cons %>%
+  filter(condition == "control") %>%
+  mutate(consensus = `Consensus Level`) %>%
+  brm(belief ~ consensus + (1 + consensus | ID),
+      data = .,
+      cores = 4,
+      chains = 4)
+
+#Get distribution of individual-level random effects and find probability of positive draw
+distr_belief_ranef <- belief_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(ind_slope = b_consensus + r_ID) %>%
+  group_by(ID) %>%
+  summarise(mean = mean(ind_slope)) %>%
+  ungroup() %>%
+  summarise(prob_pos = mean(mean > 0))
+
+#Same for pro-skill
+pro_skill_m1_bayes <- ind_cons %>%
+  filter(condition == "control") %>%
+  mutate(consensus = `Consensus Level`) %>%
+  brm(pro_skill ~ consensus + (1 + consensus | ID),
+      data = .,
+      cores = 4,
+      chains = 4)
+
+distr_pro_skill_ranef <- pro_skill_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(ind_slope = b_consensus + r_ID) %>%
+  group_by(ID) %>%
+  summarise(mean = mean(ind_slope)) %>%
+  ungroup() %>%
+  summarise(prob_pos = mean(mean > 0))
+
+#pro-bias
+pro_bias_m1_bayes <- ind_cons %>%
+  filter(condition == "control") %>%
+  mutate(consensus = `Consensus Level`) %>%
+  brm(pro_bias ~ consensus + (1 + consensus | ID),
+      data = .,
+      cores = 4,
+      chains = 4)
+
+distr_pro_bias_ranef <- pro_bias_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(ind_slope = b_consensus + r_ID) %>%
+  group_by(ID) %>%
+  summarise(mean = mean(ind_slope)) %>%
+  ungroup() %>%
+  summarise(prob_pos = mean(mean > 0))
+
+#anti-skill
+anti_skill_m1_bayes <- ind_cons %>%
+  filter(condition == "control") %>%
+  mutate(consensus = `Consensus Level`) %>%
+  brm(anti_skill ~ consensus + (1 + consensus | ID),
+      data = .,
+      cores = 4,
+      chains = 4)
+
+distr_anti_skill_ranef <- anti_skill_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(ind_slope = b_consensus + r_ID) %>%
+  group_by(ID) %>%
+  summarise(mean = mean(ind_slope)) %>%
+  ungroup() %>%
+  summarise(prob_pos = mean(mean > 0))
+
+#anti-bias
+anti_bias_m1_bayes <- ind_cons %>%
+  filter(condition == "control") %>%
+  mutate(consensus = `Consensus Level`) %>%
+  brm(anti_bias ~ consensus + (1 + consensus | ID),
+      data = .,
+      cores = 4,
+      chains = 4)
+
+distr_anti_bias_ranef <- anti_bias_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(ind_slope = b_consensus + r_ID) %>%
+  group_by(ID) %>%
+  summarise(mean = mean(ind_slope)) %>%
+  ungroup() %>%
+  summarise(prob_pos = mean(mean > 0))
+```
+
+### Figure 1
+Climate belief curves by consensus level, faceted by party without average
+```{r, echo=FALSE, message=FALSE}
+plot <- ind_cons %>%
+  mutate('_Climate' = belief) %>%
+  rename(ProConsensus_Bias = pro_bias,
+         AntiConsensus_Bias = anti_bias,
+         ProConsensus_Skill = pro_skill,
+         AntiConsensus_Skill = anti_skill) %>%
+  pivot_longer(
+    cols = c("_Climate", "ProConsensus_Bias",
+             "AntiConsensus_Bias", "ProConsensus_Skill", "AntiConsensus_Skill"),
+    names_to = c("type", "measure"),
+    names_pattern = "(.*)_(.*)"
+  ) %>%
+  dplyr::group_by(consensus = `Consensus Level`,
+                  type,
+                  measure,
+                  Party = case_when(Party == "Dem" ~ "Democrat",
+                                    Party == "Ind" ~ "Independent",
+                                    Party == "Rep" ~ "Republican")) %>%
+  dplyr::summarise(mean = mean(value, na.rm = TRUE),
+                CI = 1.96*sd(value, na.rm = TRUE)/sqrt(n())) %>%
+  ggplot(aes(x = consensus)) +
+  geom_point(aes(y = mean, color = Party), position = pd) +
+  # geom_point(aes(y = value, color = Party), position = pd, alpha = 0.005) +
+  geom_line(aes(y = mean, color = Party), position = pd) +
+  # geom_line(aes(y = value, color = Party, group = ID), position = pd, alpha = 0.01) +
+  geom_errorbar(aes(ymin = mean - CI, ymax = mean + CI, color = Party),
+                position = pd, alpha = 0.5) +
+  ylab("Belief") +
+  xlab("Consensus Level") +
+  scale_x_continuous(breaks = c(50, 75, 100)) +
+  scale_color_manual(values=c("#0000FF", "#006633", "#CC0000")) +
+  scale_fill_manual(values=c("#0000FF", "#006633", "#CC0000")) +
+  facet_wrap2(~factor(measure, levels = c("Climate", "Skill", "Bias")) +
+                      factor(type, levels = c("", "ProConsensus", "AntiConsensus"),
+                             labels = c("", "Pro-Consensus", "Anti-Consensus")),
+              nrow = 1,
+              strip = strip_nested(bleed = TRUE,
+                                   background_x = list(NULL, NULL, NULL,
+                                                       element_rect(fill = "grey90"),
+                                                       element_rect(fill = "grey90"),
+                                                       element_rect(fill = "grey90"),
+                                                       element_rect(fill = "grey90"),
+                                                       element_rect(fill = "grey90")),
+                                   text_x = list(element_text(size = 15),
+                                                 element_text(size = 15),
+                                                 element_text(size = 15), NULL,
+                                                 element_text(color = "black"),
+                                                 element_text(color = "black"),
+                                                 element_text(color = "black"),
+                                                 element_text(color = "black")))) +
+  theme(legend.position = "bottom",
+        axis.title.x = element_text(size = 15),
+        axis.text = element_text(size = 10),
+        axis.title.y = element_text(size = 15),
+        legend.text = element_text(size = 12),
+        legend.title = element_text(size = 15),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+
+print(plot)
+pdf(file = sprintf("%s/belief_curves_bovitz.pdf", figure_path), height = 6, width = 8)
+print(plot)
+dev.off()
+```
+
+### SEM 
+Within-subject SEM
+```{r SEM, echo=FALSE, message=FALSE, warning=FALSE}
+model <- '
+    level: within
+        ProSkill ~ a1*Consensus
+        AntiSkill ~ b1*Consensus
+        ProBias ~ c1*Consensus
+        AntiBias ~ d1*Consensus
+        Climate ~ e1*Consensus + e2*ProSkill + e3*ProBias + e4*AntiSkill + e5*AntiBias
+    level: between
+        ProSkill ~ 1 + age + male + white + college + dem
+        AntiSkill ~ 1 + age + male + white + college + dem
+        ProBias ~ 1 + age + male + white + college + dem
+        AntiBias ~ 1 + age + male + white + college + dem
+        Climate ~ 1 + age + male + white + college + dem
+    direct_effect := e1
+    indirect_effect := (a1*e2) + (b1*e3) + (c1*e4) + (d1*e5)
+    skill_path := a1*e2
+    total_effect := e1 + (a1*e2) + (b1*e3) + (c1*e4) + (d1*e5)
+'
+
+bsem <- ind_cons %>%
+  filter(condition == "control") %>%
+  group_by(ID) %>%
+  rename(consensus = `Consensus Level`) %>%
+  arrange(consensus) %>%
+  mutate(Climate = belief,
+         ProSkill = pro_skill,
+         ProBias = pro_bias,
+         AntiSkill = anti_skill,
+         AntiBias = anti_bias,
+         Consensus = consensus) %>%
+  left_join(., df %>%
+              group_by(ID = as.character(ID)) %>%
+              summarise(age = as.numeric(age),
+                        male = as.numeric(gender == 1),
+                        white = as.numeric(race == 4),
+                        college = as.numeric(edu %in% c(5, 6)),
+                        dem = as.numeric(Party == "Dem")),
+            by = "ID") %>%
+  bsem(model, data=., burnin = 1000, sample = 1000, n.chains = 4, bcontrol = list(cores = 4), cluster = "ID")
+
+bsem_CIs <- data.frame(standardizedPosterior(bsem)) %>%
+  select(ProSkill.Consensus:Climate.AntiBias, contains("effect")) %>%
+  summarise(across(everything(), list(mean = mean, LB = ~quantile(.x, 0.025), UB = ~quantile(.x, 0.975))))
+
+prop_indirect <- data.frame(standardizedPosterior(bsem)) %>%
+  rename(direct_effect = starts_with("direct_effect"),
+         indirect_effect = starts_with("indirect_effect"),
+         total_effect = starts_with("total_effect"),
+         skill_path = starts_with("skill_path")) %>%
+  mutate(prop_indirect = indirect_effect/total_effect,
+         indirect_direct_ratio = indirect_effect/direct_effect,
+         prop_skill = skill_path/direct_effect) %>%
+  summarise(across(c(prop_indirect:prop_skill),
+                   list(mean = mean, LB = ~quantile(.x, 0.025), UB = ~quantile(.x, 0.975))))
+```
+
+#### Heterogeneity in updating ####
+Create dataframe of belief curves using the random-effects from the previous Bayesian models
+```{r}
+belief_slopes <- belief_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(belief_slope = r_ID) %>%
+  group_by(ID) %>%
+  summarise(belief_slope_mean = mean(belief_slope),
+            belief_slope_sd = sd(belief_slope))
+
+pro_skill_slopes <- pro_skill_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(proskill_slope = r_ID) %>%
+  group_by(ID) %>%
+  summarise(proskill_slope_mean = mean(proskill_slope),
+            proskill_slope_sd = sd(proskill_slope))
+
+anti_skill_slopes <- anti_skill_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(antiskill_slope = r_ID) %>%
+  group_by(ID) %>%
+  summarise(antiskill_slope_mean = mean(antiskill_slope),
+            antiskill_slope_sd = sd(antiskill_slope))
+
+pro_bias_slopes <- pro_bias_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(probias_slope = r_ID) %>%
+  group_by(ID) %>%
+  summarise(probias_slope_mean = mean(probias_slope),
+            probias_slope_sd = sd(probias_slope))
+
+anti_bias_slopes <- anti_bias_m1_bayes %>%
+  spread_draws(b_consensus, r_ID[ID,term]) %>%
+  filter(term == "consensus") %>%
+  mutate(antibias_slope = r_ID) %>%
+  group_by(ID) %>%
+  summarise(antibias_slope_mean = mean(antibias_slope),
+            antibias_slope_sd = sd(antibias_slope))
+
+slopes_df <- belief_slopes %>%
+  left_join(., pro_skill_slopes) %>%
+  left_join(., anti_skill_slopes) %>%
+  left_join(., pro_bias_slopes) %>%
+  left_join(., anti_bias_slopes) %>%
+  left_join(., df)
+```
+
+Describe heterogeneity in one-step updating at aggregate level
+```{r}
+het <- ind_cons %>%
+  group_by(ID = as.numeric(ID)) %>%
+  rename(consensus = `Consensus Level`) %>%
+  left_join(., (df %>%
+                  select(ID, age, gender, edu, income, politics, uni.science.trust) %>%
+                  mutate(across(everything(), ~as.numeric(.x))))) %>%
+  mutate(male = gender == 1) %>%
+  mutate(across(c("belief", "pro_skill", "anti_skill", "pro_bias", "anti_bias"),
+                ~ (.x - lag(.x)))) %>%
+  group_by(consensus) %>%
+  summarise(mean = mean(belief),
+            sd = sd(belief),
+            pos = mean(belief > 0))
+```
+
+Function to compute LOO R^2
+```{r}
+bayes_R2_res <- function(fit) {
+  y <- rstanarm::get_y(fit)
+  ypred <- rstanarm::posterior_epred(fit)
+  if (family(fit)$family == "binomial" && NCOL(y) == 2) {
+    trials <- rowSums(y)
+    y <- y[, 1]
+    ypred <- ypred %*% diag(trials)
+  }
+  e <- -1 * sweep(ypred, 2, y)
+  var_ypred <- apply(ypred, 1, var)
+  var_e <- apply(e, 1, var)
+  var_ypred / (var_ypred + var_e)
+}
+```
+
+Predict heterogeneity in updates
+```{r}
+belief_update_demos_bayes <- ind_cons %>%
+  group_by(ID = as.numeric(ID)) %>%
+  rename(consensus = `Consensus Level`) %>%
+  left_join(., (df %>%
+                  select(ID, age, gender, edu, income, politics, 
+                         uni.science.trust, race) %>%
+                  mutate(across(everything(), ~as.numeric(.x))))) %>%
+  mutate(age = as.numeric(age),
+         female = as.numeric(gender == 2),
+         college = as.numeric(edu == 5 | edu == 6),
+         white = as.numeric(race == 4)) %>%
+  mutate(across(c("belief", "pro_skill", "anti_skill", "pro_bias", "anti_bias"),
+                ~ (.x - lag(.x)))) %>%
+  filter(condition == "control") %>%
+  na.omit() %>%
+  brm(belief ~ Party + age + female + college + income + white + politics + uni.science.trust + (1 | ID) +
+        (1 + Party + age + female + college + income + white + politics + uni.science.trust | consensus),
+      data = .,
+      control = list(adapt_delta = 0.99,
+                     max_treedepth = 15),
+      cores = 4,
+      chains = 4)
+
+median(bayes_R2_res(belief_update_demos_bayes))
+
+belief_update_bayes <- ind_cons %>%
+  filter(condition == "control") %>%
+  group_by(ID) %>%
+  rename(consensus = `Consensus Level`) %>%
+  mutate(across(c("belief", "pro_skill", "anti_skill", "pro_bias", "anti_bias"),
+                ~ (.x - lag(.x)))) %>%
+  ungroup() %>%
+  mutate(across(c("pro_skill", "anti_skill", "pro_bias", "anti_bias"), ~ scale(.x))) %>%
+  brm(belief ~ pro_skill + anti_skill + pro_bias + anti_bias +
+        (1 | ID) +
+        (1 + pro_skill + anti_skill + pro_bias + anti_bias | consensus),
+      data = .,
+      control = list(adapt_delta = 0.999,
+                     max_treedepth = 15),
+      cores = 4,
+      chains = 4)
+
+median(bayes_R2_res(belief_update_bayes))
+
+belief_update_bayes_priors <- ind_cons %>%
+  filter(condition == "control") %>%
+  group_by(ID) %>%
+  rename(consensus = `Consensus Level`) %>%
+  mutate(across(c("belief", "pro_skill", "anti_skill", "pro_bias", "anti_bias"),
+                ~ (.x - lag(.x)))) %>%
+  ungroup() %>%
+  mutate(across(c("prior_cc_occur", "prior_consensus_num", "prior_sci_unbiased", "prior_sci_skill_adj"), ~ scale(.x))) %>%
+  brm(belief ~ prior_cc_occur + prior_consensus_num +
+        prior_sci_unbiased + prior_sci_skill_adj + (1 | ID) +
+        (1 + prior_cc_occur + prior_consensus_num +
+        prior_sci_unbiased + prior_sci_skill_adj | consensus),
+      data = .,
+      control = list(adapt_delta = 0.999,
+                     max_treedepth = 15),
+      cores = 4,
+      chains = 4)
+
+median(bayes_R2_res(belief_update_bayes_priors))
+```
+
+Same for backfires
+```{r}
+backfire_demos_bayes <- ind_cons %>%
+  group_by(ID = as.numeric(ID)) %>%
+  rename(consensus = `Consensus Level`)  %>%
+  left_join(., (df %>%
+                  select(ID, age, gender, edu, income, politics, uni.science.trust, race) %>%
+                  mutate(across(everything(), ~as.numeric(.x))))) %>%
+  mutate(age = as.numeric(age),
+         female = as.numeric(gender == 2),
+         college = as.numeric(edu == 5 | edu == 6),
+         white = as.numeric(race == 4)) %>%
+  mutate(across(c("belief", "pro_skill", "anti_skill", "pro_bias", "anti_bias"),
+                ~ (.x - lag(.x))),
+         backfire = belief < 0) %>%
+  filter(condition == "control") %>%
+  brm(backfire ~ Party + age + female + college + income + white + politics + uni.science.trust + (1 | ID) +
+        (1 + Party + age + female + college + income + white + politics + uni.science.trust | consensus),
+      data = .,
+      family = bernoulli(link = "logit"),
+      control = list(adapt_delta = 0.999,
+                     max_treedepth = 15),
+      cores = 4,
+      chains = 4)
+
+backfire_demos_bayes <- ind_cons %>%
+  group_by(ID = as.numeric(ID)) %>%
+  rename(consensus = `Consensus Level`)  %>%
+  left_join(., (df %>%
+                  select(ID, age, gender, edu, income, politics, uni.science.trust, race) %>%
+                  mutate(across(everything(), ~as.numeric(.x))))) %>%
+  mutate(age = as.numeric(age),
+         female = as.numeric(gender == 2),
+         college = as.numeric(edu == 5 | edu == 6),
+         white = as.numeric(race == 4)) %>%
+  mutate(across(c("belief", "pro_skill", "anti_skill", "pro_bias", "anti_bias"),
+                ~ (.x - lag(.x))),
+         backfire = belief < 0) %>%
+  filter(condition == "control") %>%
+  brm(backfire ~ Party + age + female + college + income + white + factor(politics) + uni.science.trust + (1 | ID) +
+        (1 + Party + age + female + college + income + white + factor(politics) + uni.science.trust | consensus),
+      data = .,
+      family = bernoulli(link = "logit"),
+      control = list(adapt_delta = 0.999,
+                     max_treedepth = 15),
+      cores = 4,
+      chains = 4)
+
+median(bayes_R2_res(backfire_demos_bayes))
+
+backfire_bayes <- ind_cons %>%
+  filter(condition == "control") %>%
+  group_by(ID) %>%
+  rename(consensus = `Consensus Level`) %>%
+  mutate(across(c("belief", "pro_skill", "anti_skill", "pro_bias", "anti_bias"),
+                ~ (.x - lag(.x))),
+         backfire = belief < 0) %>%
+  ungroup() %>%
+  mutate(across(c("pro_skill", "anti_skill", "pro_bias", "anti_bias"), ~ scale(.x))) %>%
+  brm(backfire ~ pro_skill + anti_skill + pro_bias + anti_bias + (1 | ID) +
+        (1 + pro_skill + anti_skill + pro_bias + anti_bias | consensus),
+      data = .,
+      family = bernoulli(link = "logit"),
+      control = list(adapt_delta = 0.999,
+                     max_treedepth = 15),
+      cores = 4,
+      chains = 4)
+
+median(bayes_R2_res(backfire_bayes))
+
+backfire_bayes_priors <- ind_cons %>%
+  filter(condition == "control") %>%
+  group_by(ID) %>%
+  rename(consensus = `Consensus Level`) %>%
+  mutate(across(c("belief", "pro_skill", "anti_skill", "pro_bias", "anti_bias"),
+                ~ (.x - lag(.x))),
+         backfire = belief < 0) %>%
+  ungroup() %>%
+  mutate(across(c("prior_cc_occur", "prior_consensus_num", "prior_sci_unbiased", "prior_sci_skill_adj"), ~ scale(.x))) %>%
+  brm(backfire ~ prior_cc_occur + prior_consensus_num +
+        prior_sci_unbiased + prior_sci_skill_adj + (1 | ID) +
+        (1 + prior_cc_occur + prior_consensus_num +
+        prior_sci_unbiased + prior_sci_skill_adj | consensus),
+      data = .,
+      family = bernoulli(link = "logit"),
+      control = list(adapt_delta = 0.999,
+                     max_treedepth = 15),
+      cores = 4,
+      chains = 4)
+
+median(bayes_R2_res(backfire_bayes_priors))
+```
+
+Show plot predicting heterogeneity in updates
+```{r}
+belief_update_draws <- belief_update_bayes %>%
+  spread_draws(b_pro_skill, b_anti_skill, b_pro_bias, b_anti_bias)
+
+backfire_draws <- backfire_bayes %>%
+  spread_draws(b_pro_skill, b_anti_skill, b_pro_bias, b_anti_bias)
+
+plot <- data.frame(belief_update_draws) %>%
+  mutate(model = "Beliefs",
+         Outcome = "OneStep Update") %>%
+  bind_rows(data.frame(backfire_draws) %>%
+              mutate(model = "Beliefs",
+                     Outcome = "Backfire")) %>%
+  pivot_longer(
+    cols = c(b_pro_skill, b_anti_skill, b_pro_bias, b_anti_bias),
+    names_to = "variable",
+    names_pattern = "b_(.*)"
+  ) %>%
+  mutate(Variable = factor(case_when(grepl("pro_skill", variable) ~ "Pro-Consensus \nSkill",
+                              grepl("anti_skill", variable) ~ "Anti-Consensus \nSkill",
+                              grepl("pro_bias", variable) ~ "Pro-Consensus \nBias",
+                              grepl("anti_bias", variable) ~ "Anti-Consensus \nBias"),
+                           levels = c("Anti-Consensus \nBias", "Pro-Consensus \nBias",
+                             "Anti-Consensus \nSkill", "Pro-Consensus \nSkill"))) %>%
+  group_by(model,
+           Outcome,
+           Variable) %>%
+  summarise(mean = mean(value),
+            Q90 = quantile(value, 0.9),
+            Q10 = quantile(value, 0.1),
+            Q2.5 = quantile(value, 0.025),
+            Q97.5 = quantile(value, 0.975)) %>%
+  filter(model == "Beliefs") %>%
+  ggplot(aes(x = Variable)) +
+  geom_errorbar(aes(ymin = Q10, ymax = Q90, color = Variable),
+                linewidth = 2, width = 0, position = position_dodge(1)) +
+  geom_errorbar(aes(ymin = Q2.5, ymax = Q97.5, color = Variable),
+                width = 0, position = position_dodge(1)) +
+  geom_point(aes(y = mean, fill = Variable), position = position_dodge(1),
+             size = 3, shape = 23, color = "black") +
+  geom_hline(yintercept = 0, color = "black", linetype = "dashed") +
+  ylab("Predicted Relationship with Climate Belief") +
+  xlab("") +
+  coord_flip() +
+  theme(text = element_text(size = 20),
+        legend.position = "None") +
+  facet_wrap(~Outcome, scales = "free_x")
+
+print(plot)
+pdf(file = sprintf("%s/het_updates.pdf", figure_path), height = 6, width = 8)
+print(plot)
+dev.off()
+```
+
+# Treatment Effects
+Coefficient plot for average effect on each variable
+```{r TE_plots, echo=FALSE, message=FALSE}
+climate_exp_bayes <- ind_cons %>%
+  mutate(consensus = `Consensus Level` - 50) %>%
+  ungroup() %>%
+  mutate(z_consensus = scale(as.numeric(consensus))) %>%
+  brm(formula = belief ~ relevel(factor(condition), ref = "control") +
+        (1 + consensus | ID),
+      data = .,
+      chains = 4,
+      cores = 4)
+
+climate_draws <- climate_exp_bayes %>%
+  spread_draws(b_relevelfactorconditionrefEQcontroltrust, b_relevelfactorconditionrefEQcontrolskill)
+
+mean(climate_draws$b_relevelfactorconditionrefEQcontroltrust > 0)
+mean(climate_draws$b_relevelfactorconditionrefEQcontrolskill > 0)
+
+pro_skill_exp_bayes <- ind_cons %>%
+  mutate(consensus = `Consensus Level` - 50) %>%
+  ungroup() %>%
+  mutate(z_consensus = scale(as.numeric(consensus))) %>%
+  brm(formula = pro_skill ~ relevel(factor(condition), ref = "control") + consensus +
+        (1 + consensus | ID),
+      data = .,
+      chains = 4,
+      cores = 4)
+
+pro_skill_draws <- pro_skill_exp_bayes %>%
+  spread_draws(b_relevelfactorconditionrefEQcontroltrust, b_relevelfactorconditionrefEQcontrolskill)
+
+mean(pro_skill_draws$b_relevelfactorconditionrefEQcontroltrust > 0)
+mean(pro_skill_draws$b_relevelfactorconditionrefEQcontrolskill > 0)
+
+pro_bias_exp_bayes <- ind_cons %>%
+  mutate(consensus = `Consensus Level` - 50) %>%
+  ungroup() %>%
+  mutate(z_consensus = scale(as.numeric(consensus))) %>%
+  brm(formula = pro_bias ~ relevel(factor(condition), ref = "control") + consensus +
+        (1 + consensus | ID),
+      data = .,
+      chains = 4,
+      cores = 4)
+
+pro_bias_draws <- pro_bias_exp_bayes %>%
+  spread_draws(b_relevelfactorconditionrefEQcontroltrust, b_relevelfactorconditionrefEQcontrolskill)
+
+mean(pro_bias_draws$b_relevelfactorconditionrefEQcontroltrust > 0)
+mean(pro_bias_draws$b_relevelfactorconditionrefEQcontrolskill > 0)
+
+anti_skill_exp_bayes <- ind_cons %>%
+  mutate(consensus = `Consensus Level` - 50) %>%
+  ungroup() %>%
+  mutate(z_consensus = scale(as.numeric(consensus))) %>%
+  brm(formula = anti_skill ~ relevel(factor(condition), ref = "control") + consensus +
+        (1 + consensus | ID),
+      data = .,
+      chains = 4,
+      cores = 4)
+
+anti_skill_draws <- anti_skill_exp_bayes %>%
+  spread_draws(b_relevelfactorconditionrefEQcontroltrust, b_relevelfactorconditionrefEQcontrolskill)
+
+mean(anti_skill_draws$b_relevelfactorconditionrefEQcontroltrust < 0)
+mean(anti_skill_draws$b_relevelfactorconditionrefEQcontrolskill < 0)
+
+anti_bias_exp_bayes <- ind_cons %>%
+  mutate(consensus = `Consensus Level` - 50) %>%
+  ungroup() %>%
+  mutate(z_consensus = scale(as.numeric(consensus))) %>%
+  brm(formula = anti_bias ~ relevel(factor(condition), ref = "control") + consensus +
+        (1 + consensus | ID),
+      data = .,
+      chains = 4,
+      cores = 4)
+
+anti_bias_draws <- anti_bias_exp_bayes %>%
+  spread_draws(b_relevelfactorconditionrefEQcontroltrust, b_relevelfactorconditionrefEQcontrolskill)
+
+mean(anti_bias_draws$b_relevelfactorconditionrefEQcontroltrust > 0)
+mean(anti_bias_draws$b_relevelfactorconditionrefEQcontrolskill > 0)
+
+plot <- climate_exp_bayes %>%
+  spread_draws(b_relevelfactorconditionrefEQcontrolskill, b_relevelfactorconditionrefEQcontroltrust) %>%
+  mutate(outcome = "belief") %>%
+  rbind(., (pro_skill_exp_bayes %>%
+              spread_draws(b_relevelfactorconditionrefEQcontrolskill, b_relevelfactorconditionrefEQcontroltrust) %>%
+              mutate(outcome = "pro_skill"))) %>%
+  rbind(., (pro_bias_exp_bayes %>%
+              spread_draws(b_relevelfactorconditionrefEQcontrolskill, b_relevelfactorconditionrefEQcontroltrust) %>%
+              mutate(outcome = "pro_bias"))) %>%
+  rbind(., (anti_skill_exp_bayes %>%
+              spread_draws(b_relevelfactorconditionrefEQcontrolskill, b_relevelfactorconditionrefEQcontroltrust) %>%
+              mutate(outcome = "anti_skill"))) %>%
+  rbind(., (anti_bias_exp_bayes %>%
+              spread_draws(b_relevelfactorconditionrefEQcontrolskill, b_relevelfactorconditionrefEQcontroltrust) %>%
+              mutate(outcome = "anti_bias"))) %>%
+  rename(skill_TE = b_relevelfactorconditionrefEQcontrolskill,
+         trust_TE = b_relevelfactorconditionrefEQcontroltrust) %>%
+  pivot_longer(
+    cols = c("skill_TE", "trust_TE"),
+    values_to = "TE",
+    names_to = "Condition",
+    names_pattern = "(.*)_TE"
+  ) %>%
+  mutate(Outcome = factor(case_when(outcome == "belief" ~ "Climate \n Belief",
+                             outcome == "pro_skill" ~ "Pro-Consensus \n Scientist Skill",
+                             outcome == "pro_bias" ~ "Pro-Consensus \n Scientist Bias",
+                             outcome == "anti_skill" ~ "Anti-Consensus \n Scientist Skill",
+                             outcome == "anti_bias" ~ "Anti-Consensus \n Scientist Bias"),
+                          levels = c("Anti-Consensus \n Scientist Bias", "Pro-Consensus \n Scientist Bias",
+                                     "Anti-Consensus \n Scientist Skill", "Pro-Consensus \n Scientist Skill", "Climate \n Belief"))) %>%
+  group_by(Condition,
+           Outcome) %>%
+  summarise(mean = mean(TE, na.rm = TRUE),
+            UB = quantile(TE, probs = c(0.9)),
+            LB = quantile(TE, probs = c(0.1)),
+            UUB = quantile(TE, probs = c(0.975)),
+            LLB = quantile(TE, probs = c(0.025))) %>%
+  ggplot(aes(x = Outcome)) +
+  geom_errorbar(aes(ymin = LB, ymax = UB, color = Condition),
+                linewidth = 2, width = 0, position = position_dodge(1)) +
+  geom_errorbar(aes(ymin = LLB, ymax = UUB, color = Condition),
+                width = 0, position = position_dodge(1)) +
+  geom_point(aes(y = mean, fill = Condition), position = position_dodge(1),
+             size = 3, shape = 23, color = "black") +
+  ylab("Treatment Effect") +
+  xlab("") +
+  geom_hline(yintercept = 0, color = "black", linetype = "dashed") +
+  scale_color_manual(name = "Condition",
+                     labels = c("History", "Institutions"),
+                     values = c("#56B4E9", "#CC79A7"),
+                     guide = guide_legend(reverse = TRUE)) +
+  scale_fill_manual(name = "Condition",
+                    labels = c("History", "Institutions"),
+                    values = c("#56B4E9", "#CC79A7"),
+                    guide = guide_legend(reverse = TRUE)) +
+  coord_flip() + 
+  theme(text = element_text(size = 20))
+
+print(plot)
+pdf(file = sprintf("%s/TE_coefplot.pdf", figure_path), width = 9, height = 6)
+print(plot)
+dev.off()
+```

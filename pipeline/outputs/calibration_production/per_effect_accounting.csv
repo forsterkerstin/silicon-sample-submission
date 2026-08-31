@@ -1,0 +1,137 @@
+effect_id,planned_pairs,valid_paired_n,invalid_control_n,invalid_treatment_n,invalid_both_n
+AnsonBRIEF60:blue_collar_positivity:hyp1,500,500,0,0,0
+AnsonBRIEF60:economy_positivity:hyp1,500,500,0,0,0
+Blair1131:Approve_Handling:hyp1,500,500,0,0,0
+Blair1131:Approve_Handling:hyp2,500,500,0,0,0
+Braman751:legitimacy:hyp1,500,500,0,0,0
+Braman751:legitimacy:hyp2,500,500,0,0,0
+Braman751:pass_legislation:hyp1,500,500,0,0,0
+Braman751:scholar_credibility:hyp1,500,499,1,0,0
+Braman751:scholar_credibility:hyp2,500,500,0,0,0
+CalarcoS38:Approval:hyp1,500,500,0,0,0
+CalarcoS38:Approval:hyp2,500,500,0,0,0
+CalarcoS38:Approval:hyp3,500,500,0,0,0
+Campbell1308:Gender Roles:hyp1,500,500,0,0,0
+Campbell1308:Political Engagement:hyp1,500,500,0,0,0
+Campbell1308:Political Responsiveness:hyp1,500,500,0,0,0
+Cohen1099:Accounting:hyp1,500,500,0,0,0
+Cohen1099:Accounting:hyp2,500,500,0,0,0
+Cohen1099:History:hyp1,500,500,0,0,0
+Cohen1099:Nursing:hyp1,500,500,0,0,0
+Cohen1099:Nursing:hyp2,500,500,0,0,0
+CorstangeBRIEF69:welcome_refugees:hyp1,500,500,0,0,0
+CorstangeBRIEF69:welcome_refugees:hyp2,500,500,0,0,0
+Enos700:modern_racism1:hyp1,500,500,0,0,0
+FaheyS78:cancel culture:hyp1,500,500,0,0,0
+FarrowS6:Disappointment:hyp1,500,500,0,0,0
+Haaland874:Affirmative action: Assistance:hyp1,500,500,0,0,0
+Haaland874:Affirmative action: Preference:hyp1,500,500,0,0,0
+Haaland874:Racial Discrimination perception:hyp1,500,500,0,0,0
+HankinsonS22:Clinic_support:hyp1,500,500,0,0,0
+Howard823:Willingness_to_spend_on_optional_expense:hyp1,500,500,0,0,0
+Howard823:Willingness_to_spend_on_optional_expense:hyp2,500,500,0,0,0
+Howard823:financial_slack:hyp1,500,500,0,0,0
+Howard823:financial_slack:hyp2,500,500,0,0,0
+Iles1294:Confusing:hyp1,500,500,0,0,0
+Iles1294:Confusing:hyp2,500,500,0,0,0
+Iles1294:Confusing:hyp3,500,500,0,0,0
+Iles1294:Frustrated:hyp1,500,500,0,0,0
+Iles1294:Frustrated:hyp2,500,500,0,0,0
+Iles1294:Frustrated:hyp3,500,500,0,0,0
+Iles1294:collaborative:hyp1,500,500,0,0,0
+Iles1294:collaborative:hyp2,500,500,0,0,0
+Iles1294:collaborative:hyp3,500,500,0,0,0
+Kennedy1017:Family_approval:hyp1,500,500,0,0,0
+Kennedy1017:Family_approval:hyp2,500,500,0,0,0
+Kennedy1017:Family_friends:hyp1,500,500,0,0,0
+Kennedy1017:Family_friends:hyp2,500,500,0,0,0
+Kennedy1017:Family_knowledge:hyp1,500,500,0,0,0
+Kennedy1017:Family_knowledge:hyp2,500,500,0,0,0
+KlarS44:efficacy:hyp1,500,500,0,0,0
+KlarS44:efficacy:hyp2,500,500,0,0,0
+KlarS44:importance:hyp1,500,500,0,0,0
+KlarS44:importance:hyp2,500,500,0,0,0
+KlarS44:support_candidate:hyp1,500,500,0,0,0
+KlarS44:support_candidate:hyp2,500,500,0,0,0
+McGinty730:social_stigma:hyp1,500,500,0,0,0
+McGinty730:social_stigma:hyp2,500,500,0,0,0
+McGinty730:social_stigma:hyp3,500,500,0,0,0
+McGinty730:social_stigma:hyp4,500,500,0,0,0
+McGinty730:treatment_support:hyp1,500,500,0,0,0
+McGinty730:treatment_support:hyp2,500,500,0,0,0
+McGinty730:treatment_support:hyp3,500,500,0,0,0
+McGinty730:treatment_support:hyp4,500,500,0,0,0
+McGinty730:willingness_to_pay_mentalhealthservices:hyp1,500,500,0,0,0
+McGinty730:willingness_to_pay_mentalhealthservices:hyp2,500,500,0,0,0
+McGinty730:willingness_to_pay_mentalhealthservices:hyp3,500,500,0,0,0
+McGinty730:willingness_to_pay_mentalhealthservices:hyp4,500,500,0,0,0
+Melin1066:Capable:hyp1,500,500,0,0,0
+Melin1066:Capable:hyp2,500,500,0,0,0
+Melin1066:Capable:hyp3,500,500,0,0,0
+Melin1066:masculine:hyp1,500,500,0,0,0
+Melin1066:masculine:hyp2,500,500,0,0,0
+Melin1066:masculine:hyp3,500,500,0,0,0
+Merolla843:foreign_policy:hyp1,500,500,0,0,0
+Merolla843:foreign_policy:hyp2,500,500,0,0,0
+Merolla843:foreign_policy:hyp3,500,500,0,0,0
+Merolla843:hillary_clinton_leadership:hyp1,500,500,0,0,0
+Merolla843:hillary_clinton_leadership:hyp2,500,500,0,0,0
+Merolla843:trump_leadership:hyp1,500,500,0,0,0
+Merolla843:trump_leadership:hyp2,500,500,0,0,0
+Mezzapelle1439:BELIEVABLE:hyp1,500,500,0,0,0
+Mezzapelle1439:BELIEVABLE:hyp2,500,500,0,0,0
+Mezzapelle1439:BELIEVABLE:hyp3,500,500,0,0,0
+Mezzapelle1439:COMPENSATION:hyp1,500,500,0,0,0
+Mezzapelle1439:COMPENSATION:hyp2,500,500,0,0,0
+Mezzapelle1439:COMPENSATION:hyp3,500,500,0,0,0
+Mezzapelle1439:PERCEIVED HARM:hyp1,500,500,0,0,0
+Mezzapelle1439:PERCEIVED HARM:hyp2,500,500,0,0,0
+Mezzapelle1439:PERCEIVED HARM:hyp3,500,500,0,0,0
+MunschS68:Morgan_Committed:hyp1,500,500,0,0,0
+SchaadS62:still_identify:hyp1,500,500,0,0,0
+SchaadS62:still_identify:hyp2,500,500,0,0,0
+SchaadS62:still_identify:hyp3,500,500,0,0,0
+Schnabel903:Feminine:hyp1,500,500,0,0,0
+Schnabel903:Masculine:hyp1,500,500,0,0,0
+ShannonS2:tax credit effective:hyp1,500,500,0,0,0
+ShannonS2:tax credit effective:hyp2,500,500,0,0,0
+ShannonS2:tax credit effective:hyp3,500,500,0,0,0
+Silverman1035:Americans_Killed:hyp1,500,500,0,0,0
+Silverman1035:Americans_Killed:hyp2,500,500,0,0,0
+Silverman1035:Americans_Killed:hyp3,500,500,0,0,0
+Silverman1035:Americans_Killed:hyp4,500,500,0,0,0
+Silverman1035:Terrorism_likely:hyp1,500,500,0,0,0
+Silverman1035:Terrorism_likely:hyp2,500,500,0,0,0
+Silverman1035:Terrorism_likely:hyp3,500,500,0,0,0
+Silverman1035:Terrorism_likely:hyp4,500,500,0,0,0
+Silverman1035:Terrorism_worry:hyp1,500,500,0,0,0
+Silverman1035:Terrorism_worry:hyp2,500,500,0,0,0
+Silverman1035:Terrorism_worry:hyp3,500,500,0,0,0
+Silverman1035:Terrorism_worry:hyp4,500,500,0,0,0
+Stoker1063:Anger:hyp1,500,500,0,0,0
+Stoker1063:Serious:hyp1,500,500,0,0,0
+Stoker1063:Worry:hyp1,500,500,0,0,0
+Terman1029:donating to HRAC:hyp1,500,500,0,0,0
+Terman1029:donating to HRAC:hyp2,500,500,0,0,0
+Terman1029:donating to HRAC:hyp3,500,500,0,0,0
+Terman1029:naitonalist superiority:hyp1,500,500,0,0,0
+Terman1029:naitonalist superiority:hyp2,500,500,0,0,0
+Terman1029:naitonalist superiority:hyp3,500,500,0,0,0
+Terman1029:perception of domestic human rights conditions:hyp1,500,500,0,0,0
+Terman1029:perception of domestic human rights conditions:hyp2,500,500,0,0,0
+Terman1029:perception of domestic human rights conditions:hyp3,500,500,0,0,0
+WallaceS9:credibility:hyp1,500,500,0,0,0
+WallaceS9:president_approval:hyp1,500,500,0,0,0
+Williamson859:Food stamps:hyp1,500,500,0,0,0
+Williamson859:Military:hyp1,500,500,0,0,0
+Williamson859:Social Security:hyp1,500,500,0,0,0
+bolsenM6:Providing Personal Pronouns:hyp1,500,500,0,0,0
+bolsenM6:Providing Personal Pronouns:hyp2,500,500,0,0,0
+bolsenM6:Providing Personal Pronouns:hyp3,500,500,0,0,0
+bolsenM6:They/Them Pronouns in Forms:hyp1,500,500,0,0,0
+bolsenM6:They/Them Pronouns in Forms:hyp2,500,500,0,0,0
+bolsenM6:They/Them Pronouns in Forms:hyp3,500,500,0,0,0
+bolsenM6:Using They/Them Pronouns:hyp1,500,500,0,0,0
+bolsenM6:Using They/Them Pronouns:hyp2,500,500,0,0,0
+bolsenM6:Using They/Them Pronouns:hyp3,500,500,0,0,0
+bucci1408:Rewarding:hyp1,500,500,0,0,0

@@ -1,0 +1,19 @@
+{
+  "id": "f137cd3b-10ae-425d-b8ad-a68e0edb1f66",
+  "completed_at": "2026-08-25T20:06:14.620391Z",
+  "created_at": "2026-08-25T20:00:42.018121Z",
+  "endpoint": "/v1/chat/completions",
+  "error": null,
+  "error_file_id": null,
+  "file_size_bytes": 2115733,
+  "input_file_id": "file-d03e0b21-9e1d-4aae-82d2-5c6a2500cb8e",
+  "job_deadline": "2026-08-26T20:00:42.018120Z",
+  "x_model_id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+  "output_file_id": "file-e8224b6b-137f-48e3-9275-7d46965c6130",
+  "progress": 100.0,
+  "status": "COMPLETED",
+  "user_id": "user_REDACTED",
+  "project_id": "proj_REDACTED",
+  "organization_id": "org_REDACTED",
+  "model_id": "deepseek-ai/DeepSeek-V4-Pro-0813"
+}

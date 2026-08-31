@@ -1,0 +1,73 @@
+{
+  "method_name": "A3_PROMPT_ENSEMBLE_GSHAPE",
+  "status": "PROSPECTIVELY_FROZEN_BEFORE_TARGET_G_OUTPUT_INSPECTION",
+  "target_g_outputs_inspected_before_freeze": false,
+  "target_human_outcome_blind": true,
+  "post_primary_method_development": true,
+  "prompt_variants": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "prompt_weights": {
+    "P1": 0.3333333333333333,
+    "P2": 0.3333333333333333,
+    "P3": 0.3333333333333333
+  },
+  "microdata_source": "P1_ONLY",
+  "ate_shape_source": "MEAN_OF_P1_P2_P3_PROMPT_SPECIFIC_NORMALIZED_G_ATEs",
+  "external_mu": 1.9558595458395387,
+  "centering_scope": "all_208_normalized_target_ATE_cells",
+  "expected_cells": 208,
+  "target_f_dependence": false,
+  "target_g_dependence": true,
+  "ces_source_sha256": "73cb40367efd0f92b8593cb9555660f68bdc95d8c1aad38f41aa13ab089ca43d",
+  "g_star_model": "google/gemma-4-31B-it",
+  "p1_is_current_production_g": true,
+  "p1_prompt_sha256": "bd227a7dd8fbc554711e48172ab92d9b051720d02750d357d9b47893222d1a8f",
+  "p2_prompt_template_sha256": "ef4cc242ee12c33ab5f5121117f57f9c3d0e5841fcc6a544e27906d814aef530",
+  "p3_prompt_template_sha256": "08fcc455bc4d35bdd07e25589d27a66d618265373eb85ff8444b0a3236231873",
+  "only_presentation_wrapper_differs": true,
+  "wrapper_design_note": "'Do not explain or justify your answers' is treated as SHARED tail content (identical across all three variants), not part of the varying wrapper -- the literal P2/P3 wrapper text supplied in the task spec included that clause, and it is deliberately trimmed from the wrapper component and kept in the shared tail to avoid duplicating the instruction. See inference.prompts.G_ROLE_WRAPPER_P1/P2/P3 and G_SHARED_TAIL_INSTRUCTIONS.",
+  "current_target_g_can_serve_as_p1": true,
+  "current_target_g_can_serve_as_p1_evidence": "directly inspected a submitted target Wave-1 G request body: model=google/gemma-4-31B-it, temperature=1.0, top_p=0.95, enable_thinking=false, system prompt byte-identical to G_SYSTEM_PROMPT (P1), prompt_compiler_version=prompt_compiler_v2_split_g_f matching the current value -- no target G output was retrieved or inspected, only already-submitted request bodies/manifests",
+  "additional_target_wave1_requests": {
+    "P2": 17000,
+    "P3": 17000,
+    "total": 34000
+  },
+  "additional_target_wave2_requests": {
+    "P2": 1000,
+    "P3": 1000,
+    "total": 2000,
+    "status": "cannot be finalized until each variant's own Consensus Stage-A outputs exist"
+  },
+  "prompt_averaging_applied_to_microdata": false,
+  "prompt_averaging_applied_to_ate_shape": true,
+  "consensus_variant_isolation": "each prompt variant's Stage B may only be built from its own Stage A parent (ate.approach3_prompt_ensemble.assert_stage_a_matches_variant) -- P1/P2/P3 Consensus Stage A->Stage B is never cross-wired",
+  "shared_projector_status": "PROSPECTIVELY_FROZEN",
+  "shared_projector_artifact_sha256": "adc936abc1641beabf0c5ca009ad2e62642ffbb3d4901b2dafff11064ecc76f0",
+  "implementation": {
+    "ate_shape_module": "ate/approach3_prompt_ensemble.py",
+    "ate_shape_module_sha256": "e8559a988c9bfdfc7f8fedac3601930ca04f858f513aa08a54bd65bfa758b0ed",
+    "prompt_compiler_extension": "inference/prompts.py (build_g_prompt_render/build_g_consensus_stage_a_prompt_render/build_g_consensus_stage_b_prompt_render gained optional system_prompt/prompt_variant params, defaulting to the exact prior P1-only behavior) and inference/together_batch.py (iter_g_requests/prepare_batch gained an optional prompt_variant param, same default guarantee)",
+    "backward_compatibility_proof": "tests/inference/test_prompt_variant_wrappers.py + the full pre-existing tests/inference/ and tests/scripts/ suites pass unmodified"
+  },
+  "wave1_manifests_built_not_submitted": true,
+  "wave1_zero_custom_id_overlap_verified": true,
+  "atp_pilot": {
+    "status": "NOT BUILT -- local ATP source data (data/atp1_human_test.csv, data/atp2_human_test.csv) is not present in this environment (gitignored external data, per scripts/prepare_g_atp_screen_manifest.py's own docstring)",
+    "expected_new_requests": {
+      "P2": 1226,
+      "P3": 1226,
+      "total": 2452
+    },
+    "cost_estimate_usd": "not computed with real ATP prompts; do not submit or estimate further until the source data is available and real manifests are built"
+  },
+  "not_executed_on_real_target_output_in_this_freeze": true,
+  "upstream_provenance_pointers": {
+    "primary_artifact_sha256": "a9b839fb9ae8c2c43ff36fe78e7cc8c011acb6f557460f2fe52e3acc866510de",
+    "secondary_1_artifact_sha256": "c0391906784f54c17f1503fccc91963f22af85dd81dc090bdc69ec38e75684e0",
+    "secondary_2_artifact_sha256": "07518f45735ec4f702d6a67521cb06cf4a1c306f4e3e206ce823aac262abeaad"
+  }
+}

@@ -1,0 +1,69 @@
+condition,outcome,model_ate_pp,human_ate_pp,n_human_control,n_human_treatment,usable,exclusion_reason
+BindingMorals,belief_post,3.1150603477634187,4.785141677910943,586,688,True,
+BindingMorals,policy_general,22.847995976235886,3.545417039641141,583,686,True,
+BindingMorals,donation_ams,82.91327550305716,8.273176849063246,592,691,True,
+BindingMorals,newsletter_signup,10.614381638039784,0.8051378446115309,570,672,True,
+BipartisanEliteCues,belief_post,,-0.2929101832971681,586,626,False,stimulus explicitly refers to an embedded video not present in this export
+BipartisanEliteCues,policy_general,,-0.45324185248714066,583,625,False,stimulus explicitly refers to an embedded video not present in this export
+BipartisanEliteCues,donation_ams,,0.818276918397498,592,622,False,stimulus explicitly refers to an embedded video not present in this export
+BipartisanEliteCues,newsletter_signup,,1.6545821604253719,570,617,False,stimulus explicitly refers to an embedded video not present in this export
+ActivistPerspective,belief_post,,1.4617302792866327,586,568,False,stimulus explicitly refers to an embedded video not present in this export
+ActivistPerspective,policy_general,,-0.4007550800003701,583,567,False,stimulus explicitly refers to an embedded video not present in this export
+ActivistPerspective,donation_ams,,6.825643443797147,592,566,False,stimulus explicitly refers to an embedded video not present in this export
+ActivistPerspective,newsletter_signup,,0.49786628733997085,570,555,False,stimulus explicitly refers to an embedded video not present in this export
+ClimatePolicyLiteracy,belief_post,,3.881719962609509,586,628,False,stimulus explicitly refers to an embedded video not present in this export
+ClimatePolicyLiteracy,policy_general,,0.11133684385625786,583,629,False,stimulus explicitly refers to an embedded video not present in this export
+ClimatePolicyLiteracy,donation_ams,,0.7767401835797993,592,636,False,stimulus explicitly refers to an embedded video not present in this export
+ClimatePolicyLiteracy,newsletter_signup,,3.072280701754387,570,625,False,stimulus explicitly refers to an embedded video not present in this export
+CoBenefits,belief_post,7.0139828125550805,3.301198423508578,586,659,True,
+CoBenefits,policy_general,21.133293472915074,0.17835632102883858,583,657,True,
+CoBenefits,donation_ams,37.10457623199948,3.4767458326590006,592,668,True,
+CoBenefits,newsletter_signup,19.299837614624455,2.086193745232645,570,644,True,
+CollEfficacyEmoBenefit,belief_post,,2.154042402380829,586,703,False,stimulus explicitly refers to an embedded video not present in this export
+CollEfficacyEmoBenefit,policy_general,,0.5000819706227011,583,701,False,stimulus explicitly refers to an embedded video not present in this export
+CollEfficacyEmoBenefit,donation_ams,,5.9179102663814875,592,695,False,stimulus explicitly refers to an embedded video not present in this export
+CollEfficacyEmoBenefit,newsletter_signup,,-0.08771929824561431,570,684,False,stimulus explicitly refers to an embedded video not present in this export
+EcologicalDisruptions,belief_post,6.680613597287748,-0.42338103051223763,586,701,True,
+EcologicalDisruptions,policy_general,21.798311850973857,-1.5783773731718798,583,701,True,
+EcologicalDisruptions,donation_ams,46.576259907757915,7.266280497235433,592,699,True,
+EcologicalDisruptions,newsletter_signup,0.007500761612365241,-5.174928600571197,570,688,True,
+DynamicAngerNorm,belief_post,5.5166811513829614,5.121165526451799,586,667,True,
+DynamicAngerNorm,policy_general,18.65583992049133,1.6312694257083482,583,665,True,
+DynamicAngerNorm,donation_ams,57.114537931169345,5.2601481674552915,592,674,True,
+DynamicAngerNorm,newsletter_signup,0.056371045840421886,1.2990872984560364,570,667,True,
+GlobalHealthThreat,belief_post,,1.5272361192041894,586,656,False,stimulus explicitly refers to an embedded video not present in this export
+GlobalHealthThreat,policy_general,,-0.5830277852088561,583,654,False,stimulus explicitly refers to an embedded video not present in this export
+GlobalHealthThreat,donation_ams,,5.780223492723491,592,650,False,stimulus explicitly refers to an embedded video not present in this export
+GlobalHealthThreat,newsletter_signup,,0.18192631038304596,570,649,False,stimulus explicitly refers to an embedded video not present in this export
+GuiltCollResponsibility,belief_post,-2.653757124754544,5.180028479081445,586,604,True,
+GuiltCollResponsibility,policy_general,5.679657190198533,3.139050506316843,583,602,True,
+GuiltCollResponsibility,donation_ams,61.04958514082101,3.4838336470799147,592,603,True,
+GuiltCollResponsibility,newsletter_signup,2.9400066504640243,3.387992594551703,570,597,True,
+HopeAngerNarratives,belief_post,7.426710123277641,-2.1814990408461576,586,717,True,
+HopeAngerNarratives,policy_general,23.030997224174833,-5.613801293046578,583,715,True,
+HopeAngerNarratives,donation_ams,70.46576804275166,5.4787066996573985,592,710,True,
+HopeAngerNarratives,newsletter_signup,0.027177115898637777,-1.003212255992092,570,710,True,
+LetterFuture,belief_post,6.534071512743378,1.1533450119302846,586,565,True,
+LetterFuture,policy_general,15.39938751119189,-0.5130648613366984,583,565,True,
+LetterFuture,donation_ams,45.588021821604045,5.167742146908805,592,567,True,
+LetterFuture,newsletter_signup,-0.004163490488489226,2.331635540464061,570,558,True,
+IndStructuralChange,belief_post,5.738517497735872,2.908990822015156,586,682,True,
+IndStructuralChange,policy_general,21.5189289316079,1.3782287357481549,583,680,True,
+IndStructuralChange,donation_ams,24.757483467267942,4.061983653959633,592,687,True,
+IndStructuralChange,newsletter_signup,0.1336184064447874,-2.550405865409794,570,670,True,
+MispCorrectionRisks,belief_post,,4.834584440263578,586,722,False,references Qualtrics piped-field values not present in this export
+MispCorrectionRisks,policy_general,,2.0125123374569953,583,716,False,references Qualtrics piped-field values not present in this export
+MispCorrectionRisks,donation_ams,,4.161766221839036,592,721,False,references Qualtrics piped-field values not present in this export
+MispCorrectionRisks,newsletter_signup,,-1.0265231925432494,570,719,False,references Qualtrics piped-field values not present in this export
+ShiftFocusIndColl,belief_post,,0.2215526463246964,586,670,False,stimulus explicitly refers to an embedded video not present in this export
+ShiftFocusIndColl,policy_general,,-0.49910134426590647,583,669,False,stimulus explicitly refers to an embedded video not present in this export
+ShiftFocusIndColl,donation_ams,,3.4861546369116536,592,677,False,stimulus explicitly refers to an embedded video not present in this export
+ShiftFocusIndColl,newsletter_signup,,4.519531457041392,570,662,False,stimulus explicitly refers to an embedded video not present in this export
+SystemJustification,belief_post,-8.434560504292243,1.6038298828963238,586,668,True,
+SystemJustification,policy_general,4.137715493326691,0.9786378467609769,583,665,True,
+SystemJustification,donation_ams,33.27894622796315,4.0437340451395904,592,667,True,
+SystemJustification,newsletter_signup,0.0017135069254169855,2.1850079744816564,570,660,True,
+ThreatInjustEfficacy,belief_post,6.313391552600014,4.297383236270768,586,739,True,
+ThreatInjustEfficacy,policy_general,19.768199818011784,4.249522375155134,583,738,True,
+ThreatInjustEfficacy,donation_ams,72.31808015080779,4.924728987228977,592,728,True,
+ThreatInjustEfficacy,newsletter_signup,38.14446589392598,-1.0877192982456152,570,725,True,

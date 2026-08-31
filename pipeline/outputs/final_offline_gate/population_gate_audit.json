@@ -1,0 +1,22 @@
+{
+  "party": {
+    "crosstab_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/party_crosstab_gender_age.csv",
+    "deterministic_donor_level_draw": "PASS",
+    "marginals_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/party_marginals.csv",
+    "no_outcome_target_leakage": "PASS",
+    "predictors": "UNKNOWN",
+    "source": "CES/CCES 2024 party model diagnostics and ACS/PUMS donor predictors",
+    "status": "PASS"
+  },
+  "state": {
+    "extreme_weather_routing_failures": [],
+    "note": "Distribution comparison uses selected donors and their retained source_weight; full PUMS universe is not regenerated here.",
+    "selected_vs_weighted_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/state_distribution_audit.csv",
+    "status": "PASS"
+  },
+  "weight_leakage": {
+    "note": "PASS requires no source_weight/PUMS-weight tokens in active ATE/final-submission code paths scanned here.",
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/weight_leakage_audit.csv",
+    "status": "PASS"
+  }
+}

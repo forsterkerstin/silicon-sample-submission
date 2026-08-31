@@ -1,0 +1,83 @@
+{
+  "note": "Schema-validity accounting ONLY on the ORIGINAL (v1) target G Wave-1 retrieved output -- no scientific target-G value (mean/ATE/distribution/ranking) is computed or exposed anywhere here. No fence-stripping, no repair.",
+  "standard": {
+    "per_batch": {
+      "95f5f512": {
+        "n": 4000,
+        "valid": 1063,
+        "invalid": 2937,
+        "invalid_rate": 0.73425,
+        "fingerprint_counts": {
+          "vllm-0.21.0-8326ea74": 2937,
+          "None": 1063
+        },
+        "invalid_reason_counts": {
+          "malformed_json": 2937
+        }
+      },
+      "ba0731c0": {
+        "n": 4000,
+        "valid": 73,
+        "invalid": 3927,
+        "invalid_rate": 0.98175,
+        "fingerprint_counts": {
+          "vllm-0.21.0-8326ea74": 3927,
+          "None": 73
+        },
+        "invalid_reason_counts": {
+          "malformed_json": 3927
+        }
+      },
+      "60eaedf5": {
+        "n": 4000,
+        "valid": 57,
+        "invalid": 3943,
+        "invalid_rate": 0.98575,
+        "fingerprint_counts": {
+          "vllm-0.21.0-8326ea74": 3943,
+          "None": 57
+        },
+        "invalid_reason_counts": {
+          "malformed_json": 3943
+        }
+      },
+      "9859219f": {
+        "n": 4000,
+        "valid": 87,
+        "invalid": 3913,
+        "invalid_rate": 0.97825,
+        "fingerprint_counts": {
+          "vllm-0.21.0-8326ea74": 3913,
+          "None": 87
+        },
+        "invalid_reason_counts": {
+          "malformed_json": 3913
+        }
+      }
+    },
+    "total_n": 16000,
+    "total_valid": 1280,
+    "total_invalid": 14720,
+    "total_invalid_rate": 0.92,
+    "fingerprint_counts": {
+      "vllm-0.21.0-8326ea74": 14720,
+      "None": 1280
+    }
+  },
+  "consensus_stage_a": {
+    "n": 1000,
+    "valid": 20,
+    "invalid": 980,
+    "invalid_rate": 0.98,
+    "fingerprint_counts": {
+      "vllm-0.21.0-8326ea74": 980,
+      "None": 20
+    },
+    "invalid_reason_counts": {
+      "malformed_json": 980
+    }
+  },
+  "failed_fingerprint": "vllm-0.21.0-8326ea74",
+  "root_cause_classification": "PROVIDER_SERVING_FORMAT_FAILURE",
+  "root_cause_evidence": "system_fingerprint is a perfect predictor of validity: every invalid response carries fingerprint vllm-0.21.0-8326ea74 (content wrapped in a markdown ```json code fence despite response_format.json_schema being set to strict structured output); every valid response carries a different/absent fingerprint. This is the exact same failure signature documented for the historical F* R1 batch (scripts/prepare_f_reliability_r1_replacement_manifest.py)."
+}

@@ -1,0 +1,594 @@
+protocol_id: krsteski_demo_survey_adapted_v1
+request_key: G|LP0005|Extreme weather predictions|replicate_1
+prompt_variant_id: 
+questionnaire_order: {"assignment_algorithm": "qualtrics_primary_fixed_then_secondary_FL_55_then_tertiary_FL_49_stable_sha256_donor_protocol_questionnaire_version_randomizer_block", "assignment_key_hash": "44d3127a411ab416e06705219365af1fc6d425b03043f1560941fadea0583203", "condition_id_excluded": true, "ordered_block_ids": ["trust_multidimensional", "distrust_post", "newsletter", "institutional_trust", "trust_post", "funding", "policy_role", "donation", "belief_post", "policy_specific", "behavior", "policy_general", "concern"], "qualtrics_randomizer_structure": {"primary_fixed": ["trust_multidimensional"], "secondary_outcomes_FL_55": ["distrust_post", "newsletter", "institutional_trust", "trust_post", "funding", "policy_role", "donation"], "tertiary_outcomes_FL_49": ["belief_post", "policy_specific", "behavior", "policy_general", "concern"]}, "questionnaire_version": "post_treatment_blocks_questionnaire_txt_v1"}
+response_key_map: {"Q001": "trust_competence_1", "Q002": "trust_competence_2", "Q003": "trust_competence_3", "Q004": "trust_integrity_1", "Q005": "trust_integrity_2", "Q006": "trust_integrity_3", "Q007": "trust_benevolence_1", "Q008": "trust_benevolence_2", "Q009": "trust_benevolence_3", "Q010": "trust_openness_1", "Q011": "trust_openness_2", "Q012": "trust_openness_3", "Q013": "distrust_post", "Q014": "newsletter_signup", "Q015": "inst_trust_epa", "Q016": "inst_trust_nasa", "Q017": "inst_trust_noaa", "Q018": "inst_trust_universities", "Q019": "inst_trust_federal_gov", "Q020": "trust_post", "Q021": "funding_5_raw", "Q022": "policy_role_1", "Q023": "policy_role_2", "Q024": "policy_role_3", "Q025": "policy_role_4", "Q026": "donation_ams", "Q027": "belief_post", "Q028": "policy_specific_1", "Q029": "policy_specific_2", "Q030": "policy_specific_3", "Q031": "policy_specific_4", "Q032": "policy_specific_5", "Q033": "policy_specific_6", "Q034": "policy_specific_7", "Q035": "behavior_meat", "Q036": "behavior_transport", "Q037": "behavior_solar", "Q038": "behavior_fly", "Q039": "behavior_talk", "Q040": "behavior_donate", "Q041": "policy_general", "Q042": "concern_1", "Q043": "concern_2", "Q044": "concern_3"}
+provenance: {}
+system_prompt_hash: bd227a7dd8fbc554711e48172ab92d9b051720d02750d357d9b47893222d1a8f
+user_prompt_hash: 60a870d6c83cb997dffe2871d66a59c7061a8083b4778a506c2b69c523136517
+schema_hash: a688b9ec952f1287c03f1451368ae57ac298be14e4f128e7dbfbc419291ecfa2
+
+SYSTEM
+------
+You are a survey respondent.
+
+Adopt the respondent profile provided below and answer the survey as this
+respondent.
+
+Use the response scales exactly as provided. Do not explain or justify your
+answers. Do not discuss the study design or what most people would answer.
+
+Return only the requested structured responses.
+
+USER
+----
+RESPONDENT PROFILE
+- Age: 24
+- Gender: Male
+- Race/ethnicity: White / Caucasian
+- Education: High school diploma / GED
+- Household income: Less than $30,000
+- Party identification: Democrat
+- Political ideology: Moderate
+- State of residence: New York
+- Religion: Protestant
+
+SURVEY MATERIAL
+Thank you, you have qualified for the study. 
+
+
+
+In the following sections, we’re interested in your opinion about climate change and climate scientists. 
+
+
+
+Climate scientists study changes in the Earth's climate over time and how they might affect the planet in the future. Please keep this definition in mind when filling out this study.
+
+
+
+Please make sure you do not close this tab until you have finished the study. You must complete the whole study to collect your payment.
+
+You reported that you are currently living in New York, one of several states with severe cold, snow, ice, or blizzards. Please read the text on the following page carefully. It describes a real project in the U.S., working particularly on reducing the risks from these hazards by helping communities prepare for extreme weather.
+
+Forecasting Winter Storms Before They Strike 
+
+
+
+
+
+In many parts of the United States, severe winter storms have become a very real and nearby threat. Heavy snowfall, freezing rain, and sudden cold snaps have caused power outages, road closures, and even loss of life. Events like the 2021 Texas freeze and the 2022 Buffalo blizzard showed that dangerous winter weather can strike almost anywhere. For many families, these storms are no longer something that happens “somewhere else” – they happen close to home.
+
+
+To help communities prepare, climate scientists at the National Weather Service and several U.S. universities are developing new forecasting systems that can predict blizzards and extreme cold days to weeks in advance. Using satellite data, radar observations, and high-resolution climate models, they identify patterns in the atmosphere that signal when and where dangerous storms are likely to form. Their work has already helped local authorities issue warnings earlier and protect residents and infrastructure before conditions worsen.
+
+
+Climate researchers are also working with city planners and emergency agencies to translate forecasts into concrete actions – salting roads, securing power lines, or warning schools and hospitals in time to prepare.
+
+
+Together, this work shows how climate scientists, working alongside forecasters, are improving winter storm forecasts and early-warning systems – helping to protect communities by giving them earlier and more reliable warnings.
+
+SURVEY QUESTIONS
+POST-CONDITION TRANSITION
+
+You are now moving on to the final section of the study.
+
+Please answer the following questions to the best of your ability.
+
+Thank you.
+
+QUESTION PAGE 1
+
+Please answer the following questions on how you perceive climate scientists.
+
+Answer options below range from 0 to 100. Click on any space within this range and a bar will appear. Feel free to move that bar around to the number that best represents your answer.
+
+Q001. How incompetent or competent are most climate scientists?
+Response options: 0 = Very incompetent … 100 = Very competent
+Answer with an integer from 0 to 100.
+
+Q002. How unintelligent or intelligent are most climate scientists?
+Response options: 0 = Very unintelligent … 100 = Very intelligent
+Answer with an integer from 0 to 100.
+
+Q003. How unqualified or qualified are most climate scientists?
+Response options: 0 = Very unqualified … 100 = Very qualified
+Answer with an integer from 0 to 100.
+
+Q004. How dishonest or honest are most climate scientists?
+Response options: 0 = Very dishonest … 100 = Very honest
+Answer with an integer from 0 to 100.
+
+Q005. How unethical or ethical are most climate scientists?
+Response options: 0 = Very unethical … 100 = Very ethical
+Answer with an integer from 0 to 100.
+
+Q006. How insincere or sincere are most climate scientists?
+Response options: 0 = Very insincere … 100 = Very sincere
+Answer with an integer from 0 to 100.
+
+Q007. How unconcerned or concerned are most climate scientists about people’s wellbeing?
+Response options: 0 = Very unconcerned … 100 = Very concerned
+Answer with an integer from 0 to 100.
+
+Q008. How uneager or eager are most climate scientists to improve others’ lives?
+Response options: 0 = Very uneager … 100 = Very eager
+Answer with an integer from 0 to 100.
+
+Q009. How inconsiderate or considerate are most climate scientists of others’ interests?
+Response options: 0 = Very inconsiderate … 100 = Very considerate
+Answer with an integer from 0 to 100.
+
+Q010. How open, if at all, are most climate scientists to feedback?
+Response options: 0 = Not open at all … 100 = Very open
+Answer with an integer from 0 to 100.
+
+Q011. How unwilling or willing are most climate scientists to be transparent?
+Response options: 0 = Very unwilling … 100 = Very willing
+Answer with an integer from 0 to 100.
+
+Q012. How much or how little attention do climate scientists pay to other people's views?
+Response options: 0 = Very little attention … 100 = A great deal of attention
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 2
+
+Q013. How much do you distrust climate scientists?
+Response options: 0 = not at all … 100 = very strongly
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 3
+
+NEWSLETTER OFFER PAGE
+
+Learn more about climate science
+
+If you’d like to learn more about climate science and solutions, you can subscribe to the newsletter by climate scientist Katharine Hayhoe.
+
+Her newsletter "Talking Climate" provides short, accessible updates on climate science and climate solutions for a general audience.
+
+Signing up takes less than a minute. Please select the free subscription option — there is no need to choose a paid version.
+
+The link below will open the newsletter in a new tab. You can switch back to the current tab and continue the survey right away.
+
+[ Open Talking Climate newsletter (opens in a new tab) ]
+
+Note: Subscribing to this newsletter is optional.
+
+Q014. Did you subscribe to the "Talking Climate" newsletter on the previous page?
+Response options: Yes or No
+Answer 1 for Yes and 0 for No.
+
+QUESTION PAGE 4
+
+How much do you trust the following institutions?
+
+Q015. Environmental Protection Agency (EPA)
+Response options: 0 = not at all … 100 = very strongly
+Answer with an integer from 0 to 100.
+
+Q016. National Aeronautics and Space Administration (NASA)
+Response options: 0 = not at all … 100 = very strongly
+Answer with an integer from 0 to 100.
+
+Q017. National Oceanic and Atmospheric Administration (NOAA)
+Response options: 0 = not at all … 100 = very strongly
+Answer with an integer from 0 to 100.
+
+Q018. Universities and colleges
+Response options: 0 = not at all … 100 = very strongly
+Answer with an integer from 0 to 100.
+
+Q019. Federal government
+Response options: 0 = not at all … 100 = very strongly
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 5
+
+Q020. How much do you trust climate scientists?
+Response options: 0 = not at all … 100 = very strongly
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 6
+
+Q021. Do you think the federal government is spending too much, too little or about the right amount of money on climate change research?
+Response options: 0 = far too little, 50 = about the right amount, 100 = far too much
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 7
+
+To what extent do you agree or disagree with the following statements?
+
+Q022. Climate scientists should work closely with policy makers to integrate scientific results into policy-making.
+Response options: 0 = Strongly disagree … 100 = Strongly agree
+Answer with an integer from 0 to 100.
+
+Q023. Climate scientists should actively advocate for specific policies.
+Response options: 0 = Strongly disagree … 100 = Strongly agree
+Answer with an integer from 0 to 100.
+
+Q024. Climate scientists should communicate their findings to policy makers.
+Response options: 0 = Strongly disagree … 100 = Strongly agree
+Answer with an integer from 0 to 100.
+
+Q025. Climate scientists should be more involved in the policy-making process.
+Response options: 0 = Strongly disagree … 100 = Strongly agree
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 8
+
+On the following page, you will have the opportunity to allocate real money between yourself and a non-profit organization.
+
+After data collection is complete, we will randomly select 100 participants from this study to receive a $10 bonus payment.
+
+If you are selected, the amount you allocate to yourself will be paid to you as a bonus, and the amount you allocate to the organization will be donated on your behalf.
+
+Q026. Of the $10 bonus, how much would you like to donate to the American Meteorological Society (AMS)?
+Response options: $0-$10 in whole-dollar choices ($1 increments; integers only).
+Answer with an integer from 0 to 10.
+
+QUESTION PAGE 9
+
+Q027. How accurate do you think this statement is? "Human activities are causing climate change."
+Response options: 0 = not at all accurate … 100 = extremely accurate
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 10
+
+How much do you support or oppose the following policies?
+
+Q028. Raising taxes on fossil fuels (e.g., gas, oil, coal)
+Response options: 0 = Strongly oppose … 100 = Strongly support
+Answer with an integer from 0 to 100.
+
+Q029. Expanding infrastructure for public transportation
+Response options: 0 = Strongly oppose … 100 = Strongly support
+Answer with an integer from 0 to 100.
+
+Q030. Increasing the use of sustainable energy such as wind and solar energy
+Response options: 0 = Strongly oppose … 100 = Strongly support
+Answer with an integer from 0 to 100.
+
+Q031. Protecting forested and land areas
+Response options: 0 = Strongly oppose … 100 = Strongly support
+Answer with an integer from 0 to 100.
+
+Q032. Increasing taxes on carbon-intensive foods (e.g., beef and dairy products)
+Response options: 0 = Strongly oppose … 100 = Strongly support
+Answer with an integer from 0 to 100.
+
+Q033. Investing more in green jobs and businesses
+Response options: 0 = Strongly oppose … 100 = Strongly support
+Answer with an integer from 0 to 100.
+
+Q034. Introducing laws to keep waterways and oceans clean
+Response options: 0 = Strongly oppose … 100 = Strongly support
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 11
+
+How likely are you to engage in the following activities in the next twelve months?
+
+Q035. Eat less meat
+Response options: 0 = Not likely at all … 100 = Extremely likely
+Answer with an integer from 0 to 100.
+
+Q036. Walk, bicycle, carpool, or take public transportation more often instead of driving by yourself
+Response options: 0 = Not likely at all … 100 = Extremely likely
+Answer with an integer from 0 to 100.
+
+Q037. Install a solar panel
+Response options: 0 = Not likely at all … 100 = Extremely likely
+Answer with an integer from 0 to 100.
+
+Q038. Go on less personal (non-business) air travel
+Response options: 0 = Not likely at all … 100 = Extremely likely
+Answer with an integer from 0 to 100.
+
+Q039. Talk to friends and family about the importance of climate change
+Response options: 0 = Not likely at all … 100 = Extremely likely
+Answer with an integer from 0 to 100.
+
+Q040. Donate to an environmental NGO
+Response options: 0 = Not likely at all … 100 = Extremely likely
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 12
+
+Q041. How much do you oppose or support the following statement? "The U.S. government should do more to reduce global warming"
+Response options: 0 = Strongly oppose … 100 = Strongly support
+Answer with an integer from 0 to 100.
+
+QUESTION PAGE 13
+
+Please indicate your views on the following questions.
+
+Q042. How concerned are you about climate change?
+Response options: 0 = Not at all … 100 = Extremely
+Answer with an integer from 0 to 100.
+
+Q043. How serious a problem is climate change?
+Response options: 0 = Not at all … 100 = Extremely
+Answer with an integer from 0 to 100.
+
+Q044. Relative to other issues facing the U.S., how important is climate change?
+Response options: 0 = The least important issue … 100 = The most important issue
+Answer with an integer from 0 to 100.
+
+Return a single JSON object with one integer value per question key. Return raw item responses only.
+
+JSON_SCHEMA
+-----------
+{
+  "additionalProperties": false,
+  "properties": {
+    "Q001": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q002": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q003": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q004": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q005": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q006": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q007": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q008": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q009": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q010": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q011": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q012": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q013": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q014": {
+      "enum": [
+        0,
+        1
+      ],
+      "type": "integer"
+    },
+    "Q015": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q016": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q017": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q018": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q019": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q020": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q021": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q022": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q023": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q024": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q025": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q026": {
+      "maximum": 10,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q027": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q028": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q029": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q030": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q031": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q032": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q033": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q034": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q035": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q036": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q037": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q038": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q039": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q040": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q041": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q042": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q043": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "Q044": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Q001",
+    "Q002",
+    "Q003",
+    "Q004",
+    "Q005",
+    "Q006",
+    "Q007",
+    "Q008",
+    "Q009",
+    "Q010",
+    "Q011",
+    "Q012",
+    "Q013",
+    "Q014",
+    "Q015",
+    "Q016",
+    "Q017",
+    "Q018",
+    "Q019",
+    "Q020",
+    "Q021",
+    "Q022",
+    "Q023",
+    "Q024",
+    "Q025",
+    "Q026",
+    "Q027",
+    "Q028",
+    "Q029",
+    "Q030",
+    "Q031",
+    "Q032",
+    "Q033",
+    "Q034",
+    "Q035",
+    "Q036",
+    "Q037",
+    "Q038",
+    "Q039",
+    "Q040",
+    "Q041",
+    "Q042",
+    "Q043",
+    "Q044"
+  ],
+  "type": "object"
+}

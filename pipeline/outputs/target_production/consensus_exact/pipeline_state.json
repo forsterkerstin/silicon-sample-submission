@@ -1,0 +1,11 @@
+{
+  "stages": {
+    "step1": {
+      "universe": 1000,
+      "resolved": 1000,
+      "pending": 0,
+      "exhausted": 0
+    }
+  },
+  "final_row_eligible_donor_count": 0
+}

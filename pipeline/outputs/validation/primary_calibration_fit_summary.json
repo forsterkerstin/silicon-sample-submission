@@ -1,0 +1,35 @@
+{
+  "fit": {
+    "model_name": "M1",
+    "alpha": 0.0,
+    "lambda": -0.41064324397114604,
+    "calibration_alpha": 0.0,
+    "calibration_lambda": -0.41064324397114604,
+    "loso_rmse_M0": 20.550930626304073,
+    "loso_rmse_M1": 10.55221732472536,
+    "loso_rmse_M2": 10.552623714875923,
+    "number_studies": 31,
+    "number_effects": 136,
+    "weighting_rule": "training effects weighted 1/n_s so every study has equal total fitting weight; held-out study MSEs averaged equally",
+    "rmse_loso": {
+      "M0": 20.550930626304073,
+      "M1": 10.55221732472536,
+      "M2": 10.552623714875923
+    },
+    "calibration_status": "DEVELOPMENT_STALE_PENDING_STUDY_SPECIFIC_EXTERNAL_F_REGENERATION",
+    "usable_for_production": false,
+    "stale_reason": "Primary external synthetic effects were not regenerated from study-specific empirical respondent F panels."
+  },
+  "calibration_set_summary": {
+    "n_studies": 31,
+    "n_effects": 136,
+    "population_types": [
+      "general_us_adult"
+    ],
+    "n_using_survey_weights": 0,
+    "n_using_representative_us_fallback": 0,
+    "n_using_study_respondent_profile_distribution_unweighted": 136,
+    "n_attitude_effects": 127,
+    "n_behavioral_effects": 9
+  }
+}

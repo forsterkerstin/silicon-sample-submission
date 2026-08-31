@@ -1,0 +1,7 @@
+{
+  "successful": 12,
+  "malformed": 0,
+  "prompt_tokens": 15854,
+  "completion_tokens": 1676,
+  "total_tokens": 17530
+}

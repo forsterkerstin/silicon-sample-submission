@@ -1,0 +1,26 @@
+{
+  "belief_post": {
+    "mean": 55.18446601941748,
+    "variance": 1260.296549228179,
+    "n": 618,
+    "source": "Control-condition respondents (condName == 'Control') from the CALIBRATION half (see advocacy_split.py) of the climate-advocacy megastudy supplied as data/wv7c3-osfstorage-archive.zip (see data/climate_advocacy_megastudy/data/codebook_advocacy.pdf); column 'belief_1'"
+  },
+  "policy_general": {
+    "mean": 53.74554294975689,
+    "variance": 1248.264691953103,
+    "n": 617,
+    "source": "Control-condition respondents (condName == 'Control') from the CALIBRATION half (see advocacy_split.py) of the climate-advocacy megastudy supplied as data/wv7c3-osfstorage-archive.zip (see data/climate_advocacy_megastudy/data/codebook_advocacy.pdf); column 'policy_1'"
+  },
+  "donation_ams": {
+    "mean": 4.824274193548387,
+    "variance": 14.125536629058285,
+    "n": 620,
+    "source": "Control-condition respondents (condName == 'Control') from the CALIBRATION half (see advocacy_split.py) of the climate-advocacy megastudy supplied as data/wv7c3-osfstorage-archive.zip (see data/climate_advocacy_megastudy/data/codebook_advocacy.pdf); column 'donation'"
+  },
+  "newsletter_signup": {
+    "mean": 0.23500810372771475,
+    "variance": 0.1800711444147445,
+    "n": 617,
+    "source": "Control-condition respondents (condName == 'Control') from the CALIBRATION half (see advocacy_split.py) of the climate-advocacy megastudy supplied as data/wv7c3-osfstorage-archive.zip (see data/climate_advocacy_megastudy/data/codebook_advocacy.pdf); column 'newsletter1'"
+  }
+}

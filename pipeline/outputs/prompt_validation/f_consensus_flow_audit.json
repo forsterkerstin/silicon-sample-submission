@@ -1,0 +1,98 @@
+{
+  "survey_source": "survey/survey.json",
+  "qsf_source": "survey/survey.qsf",
+  "flow_path": "SurveyFlow.Flow[37]",
+  "branch_flow_id": "FL_37",
+  "interactive_randomizer_flow_path": "SurveyFlow.Flow[37].Flow[1]",
+  "interactive_randomizer_flow_id": "FL_137",
+  "interactive_randomizer_subset": 3,
+  "participant_entered_estimates_before_feedback": true,
+  "blocks": [
+    {
+      "block_key": "human_primary_cause",
+      "block_id": "BL_6W0XpFkTpycQ3J4",
+      "estimate_qid": "QID1721185886",
+      "feedback_qid": "QID1721185887",
+      "target_label": "consensus_estimate_human_primary_cause",
+      "block_description": "jealous jaguar - human",
+      "question_ids": [
+        "QID1721185886",
+        "QID1721185887",
+        "QID1721185888"
+      ],
+      "slider_qids": [
+        "QID1721185886"
+      ],
+      "feedback_qids": [
+        "QID1721185887"
+      ],
+      "estimate_question_type": "Slider",
+      "estimate_selector": "HBAR",
+      "estimate_choice_display": "% of scientific agreement",
+      "estimate_slider_min": 0,
+      "estimate_slider_max": 100,
+      "estimate_num_decimals": "0",
+      "feedback_question_type": "DB"
+    },
+    {
+      "block_key": "co2_warms_planet",
+      "block_id": "BL_0ju57PhCZss5AI6",
+      "estimate_qid": "QID1721185889",
+      "feedback_qid": "QID1721185890",
+      "target_label": "consensus_estimate_co2_warms_planet",
+      "block_description": "jealous jaguar - CO2",
+      "question_ids": [
+        "QID1721185889",
+        "QID1721185890",
+        "QID1721185891"
+      ],
+      "slider_qids": [
+        "QID1721185889"
+      ],
+      "feedback_qids": [
+        "QID1721185890"
+      ],
+      "estimate_question_type": "Slider",
+      "estimate_selector": "HBAR",
+      "estimate_choice_display": "% of scientific agreement",
+      "estimate_slider_min": 0,
+      "estimate_slider_max": 100,
+      "estimate_num_decimals": "0",
+      "feedback_question_type": "DB"
+    },
+    {
+      "block_key": "net_zero_before_2085",
+      "block_id": "BL_6u8mo7QchfcEHgG",
+      "estimate_qid": "QID1721185892",
+      "feedback_qid": "QID1721185893",
+      "target_label": "consensus_estimate_net_zero_before_2085",
+      "block_description": "jealous jaguar - year",
+      "question_ids": [
+        "QID1721185892",
+        "QID1721185893",
+        "QID1721185894"
+      ],
+      "slider_qids": [
+        "QID1721185892"
+      ],
+      "feedback_qids": [
+        "QID1721185893"
+      ],
+      "estimate_question_type": "Slider",
+      "estimate_selector": "HBAR",
+      "estimate_choice_display": "% of scientific agreement",
+      "estimate_slider_min": 0,
+      "estimate_slider_max": 100,
+      "estimate_num_decimals": "0",
+      "feedback_question_type": "DB"
+    }
+  ],
+  "status": "PASS",
+  "current_g_and_f_representation": "source-faithful two-stage exception: Stage A estimate questions only; Stage B retains Stage A user/assistant history, then shows feedback and post-treatment outcome request",
+  "consensus_interaction_protocol_id": "consensus_two_stage_interactive_adaptation_v1",
+  "stage_a_incremental_requests_at_n_g_1000_n_f_500_r_f_1": {
+    "G": 1000,
+    "F": 500,
+    "F_formula": "500 * R_F"
+  }
+}

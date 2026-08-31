@@ -1,0 +1,66 @@
+protocol_id: ashokkumar_experiment_forecast_adapted_v1
+request_key: F|Braman751|Braman751__3510074aadd3de1a__F056|treatment|Braman751:scholar_credibility:hyp1|replicate_1
+prompt_variant_id: intro_a+profile_label_b+profile_format_bullets+survey_format_sections
+questionnaire_order: {}
+response_key_map: {"response": "response"}
+provenance: {}
+system_prompt_hash: 0b23030d043412468ad325e1a4f0d2ffee3ff623d889911d40feff0612706b86
+user_prompt_hash: c01b51d5619a1b37087395aaa250774f125894550d4fc2e83e5b1c3b2cc9eadf
+schema_hash: 78832326e29318cd79c64f495287966dd9d6d30bc8305fc9cb77b9f6dbe85676
+
+SYSTEM
+------
+You are completing a simulated survey response task for an experimental forecasting study.
+
+Use only the respondent profile, study setting, survey material, and response
+scale shown in the request. Return only the requested structured response.
+
+USER
+----
+Social scientists often conduct research studies using online surveys.
+
+PARTICIPANT PROFILE
+- Age: Younger than 50
+- Gender: Male
+- Education: College
+- Party identification: Republican
+- Political ideology: Liberal
+
+STUDY SETTING
+This is an online survey shown to adult respondents.
+
+SURVEY MATERIAL
+Survey material:
+PLEASE READ THE ARTICLE CAREFULLY. After the article we will be asking you some questions about your reaction to the article and information presented.
+
+New Federal Gun Regulations Raise Constitutional Concerns
+ (AP - 7/1/16) Congress is considering federal legislation that would require background checks for all gun buyers, including those who purchase from private sellers, currently exempt from such regulations. The proposed legislation would also limit the sale and manufacture of ammunition in automatic magazines to ten rounds. A recent public opinion poll indicates “over 85%” of Americans support federal legislation addressing gun violence in these specific respects.
+
+Gun rights advocates say that the proposed legislation is a violation of their Second Amendment rights.  They also argue that the federal law infringes on States’ police powers to regulate for the health, safety and morals of local citizens. James Lott, a representative from the National Rifle Association says, “this is just another example of Congress trying to impose its will on the citizens of the several states.” Matthew Lorne, a gun control advocate is quick to point out, “the bill only fills loopholes in current laws and bans extremely dangerous weapons.  No sportsman needs more than ten rounds to kill a deer.”
+
+Legal experts are currently divided about whether or not Congress would be overstepping its constitutional authority by enacting such legislation in our federal system.  “It is hard to say how the Supreme Court would rule on this issue,” said Robert Farber, a constitutional law scholar at George Washington University.  “Article I gives Congress broad discretion to regulate goods shipped through interstate commerce, including firearms, but most gun safety regulations are passed as a matter of state authority under the Tenth Amendment.  It is unclear whether this law represents an impermissible intrusion on state police powers.”
+
+OUTCOME QUESTIONS
+Outcome questions:
+response: Do you think that constitutional law scholars are credible experts with regard to this issue of Congressional Authority?
+Please choose a number from 1 (No) to 2 (Yes)
+Answer with an integer from 1 to 2.
+
+Return a single JSON object with one integer value per item label on the native response scale.
+
+JSON_SCHEMA
+-----------
+{
+  "additionalProperties": false,
+  "properties": {
+    "response": {
+      "maximum": 2,
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "response"
+  ],
+  "type": "object"
+}

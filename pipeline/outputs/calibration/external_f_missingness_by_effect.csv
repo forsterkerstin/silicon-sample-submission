@@ -1,0 +1,800 @@
+study_id,effect_id,demographic_variable,observed_n,missing_n,missing_pct
+AnsonBRIEF60,AnsonBRIEF60:blue_collar_positivity:hyp1,GENDER,389,0,0.0
+AnsonBRIEF60,AnsonBRIEF60:blue_collar_positivity:hyp1,race_4,334,55,14.138817480719794
+AnsonBRIEF60,AnsonBRIEF60:blue_collar_positivity:hyp1,pid_3,389,0,0.0
+AnsonBRIEF60,AnsonBRIEF60:blue_collar_positivity:hyp1,age_5,389,0,0.0
+AnsonBRIEF60,AnsonBRIEF60:blue_collar_positivity:hyp1,EDUC4,389,0,0.0
+AnsonBRIEF60,AnsonBRIEF60:blue_collar_positivity:hyp1,ideo_3,388,1,0.2570694087403599
+AnsonBRIEF60,AnsonBRIEF60:economy_positivity:hyp1,GENDER,389,0,0.0
+AnsonBRIEF60,AnsonBRIEF60:economy_positivity:hyp1,race_4,335,54,13.881748071979434
+AnsonBRIEF60,AnsonBRIEF60:economy_positivity:hyp1,pid_3,389,0,0.0
+AnsonBRIEF60,AnsonBRIEF60:economy_positivity:hyp1,age_5,389,0,0.0
+AnsonBRIEF60,AnsonBRIEF60:economy_positivity:hyp1,EDUC4,389,0,0.0
+AnsonBRIEF60,AnsonBRIEF60:economy_positivity:hyp1,ideo_3,388,1,0.2570694087403599
+Blair1131,Blair1131:Approve_Handling:hyp1,GENDER,378,0,0.0
+Blair1131,Blair1131:Approve_Handling:hyp1,race_4,285,93,24.603174603174605
+Blair1131,Blair1131:Approve_Handling:hyp1,pid_3,377,1,0.26455026455026454
+Blair1131,Blair1131:Approve_Handling:hyp1,age_5,378,0,0.0
+Blair1131,Blair1131:Approve_Handling:hyp1,EDUC4,378,0,0.0
+Blair1131,Blair1131:Approve_Handling:hyp1,ideo_3,336,42,11.11111111111111
+Blair1131,Blair1131:Approve_Handling:hyp2,GENDER,385,0,0.0
+Blair1131,Blair1131:Approve_Handling:hyp2,race_4,294,91,23.636363636363637
+Blair1131,Blair1131:Approve_Handling:hyp2,pid_3,382,3,0.7792207792207793
+Blair1131,Blair1131:Approve_Handling:hyp2,age_5,385,0,0.0
+Blair1131,Blair1131:Approve_Handling:hyp2,EDUC4,385,0,0.0
+Blair1131,Blair1131:Approve_Handling:hyp2,ideo_3,356,29,7.532467532467533
+Braman751,Braman751:legitimacy:hyp1,GENDER,531,0,0.0
+Braman751,Braman751:legitimacy:hyp1,race_4,425,106,19.962335216572505
+Braman751,Braman751:legitimacy:hyp1,pid_3,531,0,0.0
+Braman751,Braman751:legitimacy:hyp1,age_5,531,0,0.0
+Braman751,Braman751:legitimacy:hyp1,EDUC4,531,0,0.0
+Braman751,Braman751:legitimacy:hyp1,ideo_3,529,2,0.3766478342749529
+Braman751,Braman751:legitimacy:hyp2,GENDER,542,0,0.0
+Braman751,Braman751:legitimacy:hyp2,race_4,432,110,20.29520295202952
+Braman751,Braman751:legitimacy:hyp2,pid_3,542,0,0.0
+Braman751,Braman751:legitimacy:hyp2,age_5,542,0,0.0
+Braman751,Braman751:legitimacy:hyp2,EDUC4,542,0,0.0
+Braman751,Braman751:legitimacy:hyp2,ideo_3,539,3,0.5535055350553506
+Braman751,Braman751:pass_legislation:hyp1,GENDER,726,0,0.0
+Braman751,Braman751:pass_legislation:hyp1,race_4,582,144,19.834710743801654
+Braman751,Braman751:pass_legislation:hyp1,pid_3,726,0,0.0
+Braman751,Braman751:pass_legislation:hyp1,age_5,726,0,0.0
+Braman751,Braman751:pass_legislation:hyp1,EDUC4,726,0,0.0
+Braman751,Braman751:pass_legislation:hyp1,ideo_3,725,1,0.13774104683195593
+Braman751,Braman751:scholar_credibility:hyp1,GENDER,344,0,0.0
+Braman751,Braman751:scholar_credibility:hyp1,race_4,275,69,20.058139534883722
+Braman751,Braman751:scholar_credibility:hyp1,pid_3,344,0,0.0
+Braman751,Braman751:scholar_credibility:hyp1,age_5,344,0,0.0
+Braman751,Braman751:scholar_credibility:hyp1,EDUC4,344,0,0.0
+Braman751,Braman751:scholar_credibility:hyp1,ideo_3,343,1,0.29069767441860467
+Braman751,Braman751:scholar_credibility:hyp2,GENDER,338,0,0.0
+Braman751,Braman751:scholar_credibility:hyp2,race_4,270,68,20.118343195266274
+Braman751,Braman751:scholar_credibility:hyp2,pid_3,338,0,0.0
+Braman751,Braman751:scholar_credibility:hyp2,age_5,338,0,0.0
+Braman751,Braman751:scholar_credibility:hyp2,EDUC4,338,0,0.0
+Braman751,Braman751:scholar_credibility:hyp2,ideo_3,337,1,0.2958579881656805
+CalarcoS38,CalarcoS38:Approval:hyp1,GENDER,2002,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp1,race_4,1545,457,22.827172827172827
+CalarcoS38,CalarcoS38:Approval:hyp1,pid_3,2000,2,0.0999000999000999
+CalarcoS38,CalarcoS38:Approval:hyp1,age_5,2002,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp1,EDUC4,2002,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp1,ideo_3,1865,137,6.8431568431568435
+CalarcoS38,CalarcoS38:Approval:hyp2,GENDER,1355,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp2,race_4,1066,289,21.328413284132843
+CalarcoS38,CalarcoS38:Approval:hyp2,pid_3,1354,1,0.07380073800738007
+CalarcoS38,CalarcoS38:Approval:hyp2,age_5,1355,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp2,EDUC4,1355,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp2,ideo_3,1268,87,6.4206642066420665
+CalarcoS38,CalarcoS38:Approval:hyp3,GENDER,705,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp3,race_4,555,150,21.27659574468085
+CalarcoS38,CalarcoS38:Approval:hyp3,pid_3,704,1,0.14184397163120568
+CalarcoS38,CalarcoS38:Approval:hyp3,age_5,705,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp3,EDUC4,705,0,0.0
+CalarcoS38,CalarcoS38:Approval:hyp3,ideo_3,659,46,6.524822695035461
+Campbell1308,Campbell1308:Gender Roles:hyp1,GENDER,991,0,0.0
+Campbell1308,Campbell1308:Gender Roles:hyp1,race_4,759,232,23.41069626639758
+Campbell1308,Campbell1308:Gender Roles:hyp1,pid_3,989,2,0.20181634712411706
+Campbell1308,Campbell1308:Gender Roles:hyp1,age_5,991,0,0.0
+Campbell1308,Campbell1308:Political Engagement:hyp1,GENDER,973,0,0.0
+Campbell1308,Campbell1308:Political Engagement:hyp1,race_4,744,229,23.53545734840699
+Campbell1308,Campbell1308:Political Engagement:hyp1,pid_3,971,2,0.20554984583761562
+Campbell1308,Campbell1308:Political Engagement:hyp1,age_5,973,0,0.0
+Campbell1308,Campbell1308:Political Responsiveness:hyp1,GENDER,974,0,0.0
+Campbell1308,Campbell1308:Political Responsiveness:hyp1,race_4,746,228,23.408624229979466
+Campbell1308,Campbell1308:Political Responsiveness:hyp1,pid_3,972,2,0.2053388090349076
+Campbell1308,Campbell1308:Political Responsiveness:hyp1,age_5,974,0,0.0
+Cohen1099,Cohen1099:Accounting:hyp1,GENDER,1592,0,0.0
+Cohen1099,Cohen1099:Accounting:hyp1,race_4,1241,351,22.047738693467338
+Cohen1099,Cohen1099:Accounting:hyp1,pid_3,1581,11,0.6909547738693468
+Cohen1099,Cohen1099:Accounting:hyp1,age_5,1592,0,0.0
+Cohen1099,Cohen1099:Accounting:hyp1,EDUC4,1592,0,0.0
+Cohen1099,Cohen1099:Accounting:hyp1,ideo_3,1464,128,8.040201005025125
+Cohen1099,Cohen1099:Accounting:hyp2,GENDER,1079,0,0.0
+Cohen1099,Cohen1099:Accounting:hyp2,race_4,851,228,21.1306765523633
+Cohen1099,Cohen1099:Accounting:hyp2,pid_3,1070,9,0.8341056533827618
+Cohen1099,Cohen1099:Accounting:hyp2,age_5,1079,0,0.0
+Cohen1099,Cohen1099:Accounting:hyp2,EDUC4,1079,0,0.0
+Cohen1099,Cohen1099:Accounting:hyp2,ideo_3,990,89,8.248378127896201
+Cohen1099,Cohen1099:History:hyp1,GENDER,1596,0,0.0
+Cohen1099,Cohen1099:History:hyp1,race_4,1243,353,22.117794486215537
+Cohen1099,Cohen1099:History:hyp1,pid_3,1585,11,0.6892230576441103
+Cohen1099,Cohen1099:History:hyp1,age_5,1596,0,0.0
+Cohen1099,Cohen1099:History:hyp1,EDUC4,1596,0,0.0
+Cohen1099,Cohen1099:History:hyp1,ideo_3,1470,126,7.894736842105263
+Cohen1099,Cohen1099:Nursing:hyp1,GENDER,1591,0,0.0
+Cohen1099,Cohen1099:Nursing:hyp1,race_4,1240,351,22.061596480201132
+Cohen1099,Cohen1099:Nursing:hyp1,pid_3,1581,10,0.6285355122564424
+Cohen1099,Cohen1099:Nursing:hyp1,age_5,1591,0,0.0
+Cohen1099,Cohen1099:Nursing:hyp1,EDUC4,1591,0,0.0
+Cohen1099,Cohen1099:Nursing:hyp1,ideo_3,1465,126,7.919547454431175
+Cohen1099,Cohen1099:Nursing:hyp2,GENDER,1080,0,0.0
+Cohen1099,Cohen1099:Nursing:hyp2,race_4,852,228,21.11111111111111
+Cohen1099,Cohen1099:Nursing:hyp2,pid_3,1071,9,0.8333333333333334
+Cohen1099,Cohen1099:Nursing:hyp2,age_5,1080,0,0.0
+Cohen1099,Cohen1099:Nursing:hyp2,EDUC4,1080,0,0.0
+Cohen1099,Cohen1099:Nursing:hyp2,ideo_3,992,88,8.148148148148149
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp1,GENDER,528,0,0.0
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp1,race_4,419,109,20.643939393939394
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp1,pid_3,528,0,0.0
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp1,age_5,528,0,0.0
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp1,EDUC4,528,0,0.0
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp1,ideo_3,527,1,0.1893939393939394
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp2,GENDER,518,0,0.0
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp2,race_4,408,110,21.235521235521237
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp2,pid_3,518,0,0.0
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp2,age_5,518,0,0.0
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp2,EDUC4,518,0,0.0
+CorstangeBRIEF69,CorstangeBRIEF69:welcome_refugees:hyp2,ideo_3,516,2,0.3861003861003861
+Enos700,Enos700:modern_racism1:hyp1,GENDER,715,0,0.0
+Enos700,Enos700:modern_racism1:hyp1,race_4,584,131,18.321678321678323
+Enos700,Enos700:modern_racism1:hyp1,pid_3,715,0,0.0
+Enos700,Enos700:modern_racism1:hyp1,age_5,715,0,0.0
+Enos700,Enos700:modern_racism1:hyp1,EDUC4,715,0,0.0
+Enos700,Enos700:modern_racism1:hyp1,ideo_3,708,7,0.9790209790209791
+FaheyS78,FaheyS78:cancel culture:hyp1,GENDER,2002,0,0.0
+FaheyS78,FaheyS78:cancel culture:hyp1,race_4,1542,460,22.977022977022976
+FaheyS78,FaheyS78:cancel culture:hyp1,pid_3,2001,1,0.04995004995004995
+FaheyS78,FaheyS78:cancel culture:hyp1,age_5,2002,0,0.0
+FaheyS78,FaheyS78:cancel culture:hyp1,EDUC4,2002,0,0.0
+FaheyS78,FaheyS78:cancel culture:hyp1,ideo_3,1973,29,1.4485514485514486
+FarrowS6,FarrowS6:Disappointment:hyp1,GENDER,974,0,0.0
+FarrowS6,FarrowS6:Disappointment:hyp1,race_4,750,224,22.99794661190965
+FarrowS6,FarrowS6:Disappointment:hyp1,pid_3,734,240,24.640657084188913
+FarrowS6,FarrowS6:Disappointment:hyp1,age_5,974,0,0.0
+FarrowS6,FarrowS6:Disappointment:hyp1,EDUC4,974,0,0.0
+FarrowS6,FarrowS6:Disappointment:hyp1,ideo_3,725,249,25.564681724845997
+Haaland874,Haaland874:Affirmative action: Assistance:hyp1,GENDER,1533,0,0.0
+Haaland874,Haaland874:Affirmative action: Assistance:hyp1,race_4,1181,352,22.961513372472275
+Haaland874,Haaland874:Affirmative action: Assistance:hyp1,pid_3,1529,4,0.2609262883235486
+Haaland874,Haaland874:Affirmative action: Assistance:hyp1,age_5,1533,0,0.0
+Haaland874,Haaland874:Affirmative action: Assistance:hyp1,EDUC4,1533,0,0.0
+Haaland874,Haaland874:Affirmative action: Assistance:hyp1,ideo_3,1517,16,1.0437051532941943
+Haaland874,Haaland874:Affirmative action: Preference:hyp1,GENDER,1535,0,0.0
+Haaland874,Haaland874:Affirmative action: Preference:hyp1,race_4,1185,350,22.80130293159609
+Haaland874,Haaland874:Affirmative action: Preference:hyp1,pid_3,1532,3,0.19543973941368079
+Haaland874,Haaland874:Affirmative action: Preference:hyp1,age_5,1535,0,0.0
+Haaland874,Haaland874:Affirmative action: Preference:hyp1,EDUC4,1535,0,0.0
+Haaland874,Haaland874:Affirmative action: Preference:hyp1,ideo_3,1519,16,1.0423452768729642
+Haaland874,Haaland874:Racial Discrimination perception:hyp1,GENDER,1538,0,0.0
+Haaland874,Haaland874:Racial Discrimination perception:hyp1,race_4,1186,352,22.886866059817944
+Haaland874,Haaland874:Racial Discrimination perception:hyp1,pid_3,1534,4,0.26007802340702213
+Haaland874,Haaland874:Racial Discrimination perception:hyp1,age_5,1538,0,0.0
+Haaland874,Haaland874:Racial Discrimination perception:hyp1,EDUC4,1538,0,0.0
+Haaland874,Haaland874:Racial Discrimination perception:hyp1,ideo_3,1521,17,1.105331599479844
+HankinsonS22,HankinsonS22:Clinic_support:hyp1,GENDER,2000,0,0.0
+HankinsonS22,HankinsonS22:Clinic_support:hyp1,race_4,1548,452,22.6
+HankinsonS22,HankinsonS22:Clinic_support:hyp1,pid_3,1997,3,0.15
+HankinsonS22,HankinsonS22:Clinic_support:hyp1,age_5,2000,0,0.0
+HankinsonS22,HankinsonS22:Clinic_support:hyp1,EDUC4,2000,0,0.0
+HankinsonS22,HankinsonS22:Clinic_support:hyp1,ideo_3,1787,213,10.65
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp1,GENDER,854,0,0.0
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp1,race_4,707,147,17.21311475409836
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp1,pid_3,854,0,0.0
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp1,age_5,854,0,0.0
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp1,EDUC4,854,0,0.0
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp1,ideo_3,852,2,0.234192037470726
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp2,GENDER,827,0,0.0
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp2,race_4,672,155,18.742442563482467
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp2,pid_3,827,0,0.0
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp2,age_5,827,0,0.0
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp2,EDUC4,827,0,0.0
+Howard823,Howard823:Willingness_to_spend_on_optional_expense:hyp2,ideo_3,824,3,0.36275695284159615
+Howard823,Howard823:financial_slack:hyp1,GENDER,851,0,0.0
+Howard823,Howard823:financial_slack:hyp1,race_4,704,147,17.2737955346651
+Howard823,Howard823:financial_slack:hyp1,pid_3,851,0,0.0
+Howard823,Howard823:financial_slack:hyp1,age_5,851,0,0.0
+Howard823,Howard823:financial_slack:hyp1,EDUC4,851,0,0.0
+Howard823,Howard823:financial_slack:hyp1,ideo_3,849,2,0.23501762632197415
+Howard823,Howard823:financial_slack:hyp2,GENDER,825,0,0.0
+Howard823,Howard823:financial_slack:hyp2,race_4,668,157,19.03030303030303
+Howard823,Howard823:financial_slack:hyp2,pid_3,825,0,0.0
+Howard823,Howard823:financial_slack:hyp2,age_5,825,0,0.0
+Howard823,Howard823:financial_slack:hyp2,EDUC4,825,0,0.0
+Howard823,Howard823:financial_slack:hyp2,ideo_3,822,3,0.36363636363636365
+Iles1294,Iles1294:Confusing:hyp1,GENDER,1026,0,0.0
+Iles1294,Iles1294:Confusing:hyp1,race_4,795,231,22.514619883040936
+Iles1294,Iles1294:Confusing:hyp1,pid_3,1022,4,0.3898635477582846
+Iles1294,Iles1294:Confusing:hyp1,age_5,1026,0,0.0
+Iles1294,Iles1294:Confusing:hyp1,EDUC4,1026,0,0.0
+Iles1294,Iles1294:Confusing:hyp1,ideo_3,1009,17,1.6569200779727096
+Iles1294,Iles1294:Confusing:hyp2,GENDER,508,0,0.0
+Iles1294,Iles1294:Confusing:hyp2,race_4,385,123,24.212598425196852
+Iles1294,Iles1294:Confusing:hyp2,pid_3,508,0,0.0
+Iles1294,Iles1294:Confusing:hyp2,age_5,508,0,0.0
+Iles1294,Iles1294:Confusing:hyp2,EDUC4,508,0,0.0
+Iles1294,Iles1294:Confusing:hyp2,ideo_3,501,7,1.3779527559055118
+Iles1294,Iles1294:Confusing:hyp3,GENDER,514,0,0.0
+Iles1294,Iles1294:Confusing:hyp3,race_4,400,114,22.17898832684825
+Iles1294,Iles1294:Confusing:hyp3,pid_3,512,2,0.38910505836575876
+Iles1294,Iles1294:Confusing:hyp3,age_5,514,0,0.0
+Iles1294,Iles1294:Confusing:hyp3,EDUC4,514,0,0.0
+Iles1294,Iles1294:Confusing:hyp3,ideo_3,505,9,1.7509727626459144
+Iles1294,Iles1294:Frustrated:hyp1,GENDER,1026,0,0.0
+Iles1294,Iles1294:Frustrated:hyp1,race_4,795,231,22.514619883040936
+Iles1294,Iles1294:Frustrated:hyp1,pid_3,1022,4,0.3898635477582846
+Iles1294,Iles1294:Frustrated:hyp1,age_5,1026,0,0.0
+Iles1294,Iles1294:Frustrated:hyp1,EDUC4,1026,0,0.0
+Iles1294,Iles1294:Frustrated:hyp1,ideo_3,1009,17,1.6569200779727096
+Iles1294,Iles1294:Frustrated:hyp2,GENDER,508,0,0.0
+Iles1294,Iles1294:Frustrated:hyp2,race_4,385,123,24.212598425196852
+Iles1294,Iles1294:Frustrated:hyp2,pid_3,508,0,0.0
+Iles1294,Iles1294:Frustrated:hyp2,age_5,508,0,0.0
+Iles1294,Iles1294:Frustrated:hyp2,EDUC4,508,0,0.0
+Iles1294,Iles1294:Frustrated:hyp2,ideo_3,501,7,1.3779527559055118
+Iles1294,Iles1294:Frustrated:hyp3,GENDER,514,0,0.0
+Iles1294,Iles1294:Frustrated:hyp3,race_4,400,114,22.17898832684825
+Iles1294,Iles1294:Frustrated:hyp3,pid_3,512,2,0.38910505836575876
+Iles1294,Iles1294:Frustrated:hyp3,age_5,514,0,0.0
+Iles1294,Iles1294:Frustrated:hyp3,EDUC4,514,0,0.0
+Iles1294,Iles1294:Frustrated:hyp3,ideo_3,505,9,1.7509727626459144
+Iles1294,Iles1294:collaborative:hyp1,GENDER,1027,0,0.0
+Iles1294,Iles1294:collaborative:hyp1,race_4,796,231,22.49269717624148
+Iles1294,Iles1294:collaborative:hyp1,pid_3,1023,4,0.3894839337877313
+Iles1294,Iles1294:collaborative:hyp1,age_5,1027,0,0.0
+Iles1294,Iles1294:collaborative:hyp1,EDUC4,1027,0,0.0
+Iles1294,Iles1294:collaborative:hyp1,ideo_3,1010,17,1.6553067185978578
+Iles1294,Iles1294:collaborative:hyp2,GENDER,509,0,0.0
+Iles1294,Iles1294:collaborative:hyp2,race_4,386,123,24.165029469548134
+Iles1294,Iles1294:collaborative:hyp2,pid_3,509,0,0.0
+Iles1294,Iles1294:collaborative:hyp2,age_5,509,0,0.0
+Iles1294,Iles1294:collaborative:hyp2,EDUC4,509,0,0.0
+Iles1294,Iles1294:collaborative:hyp2,ideo_3,502,7,1.37524557956778
+Iles1294,Iles1294:collaborative:hyp3,GENDER,514,0,0.0
+Iles1294,Iles1294:collaborative:hyp3,race_4,400,114,22.17898832684825
+Iles1294,Iles1294:collaborative:hyp3,pid_3,512,2,0.38910505836575876
+Iles1294,Iles1294:collaborative:hyp3,age_5,514,0,0.0
+Iles1294,Iles1294:collaborative:hyp3,EDUC4,514,0,0.0
+Iles1294,Iles1294:collaborative:hyp3,ideo_3,505,9,1.7509727626459144
+Kennedy1017,Kennedy1017:Family_approval:hyp1,GENDER,1282,0,0.0
+Kennedy1017,Kennedy1017:Family_approval:hyp1,race_4,1024,258,20.12480499219969
+Kennedy1017,Kennedy1017:Family_approval:hyp1,pid_3,1282,0,0.0
+Kennedy1017,Kennedy1017:Family_approval:hyp1,age_5,1282,0,0.0
+Kennedy1017,Kennedy1017:Family_approval:hyp1,EDUC4,1282,0,0.0
+Kennedy1017,Kennedy1017:Family_approval:hyp1,ideo_3,1123,159,12.402496099843994
+Kennedy1017,Kennedy1017:Family_approval:hyp2,GENDER,2563,0,0.0
+Kennedy1017,Kennedy1017:Family_approval:hyp2,race_4,2036,527,20.56184159188451
+Kennedy1017,Kennedy1017:Family_approval:hyp2,pid_3,2563,0,0.0
+Kennedy1017,Kennedy1017:Family_approval:hyp2,age_5,2563,0,0.0
+Kennedy1017,Kennedy1017:Family_approval:hyp2,EDUC4,2563,0,0.0
+Kennedy1017,Kennedy1017:Family_approval:hyp2,ideo_3,2249,314,12.251268045259462
+Kennedy1017,Kennedy1017:Family_friends:hyp1,GENDER,1279,0,0.0
+Kennedy1017,Kennedy1017:Family_friends:hyp1,race_4,1021,258,20.172009382329946
+Kennedy1017,Kennedy1017:Family_friends:hyp1,pid_3,1279,0,0.0
+Kennedy1017,Kennedy1017:Family_friends:hyp1,age_5,1279,0,0.0
+Kennedy1017,Kennedy1017:Family_friends:hyp1,EDUC4,1279,0,0.0
+Kennedy1017,Kennedy1017:Family_friends:hyp1,ideo_3,1122,157,12.275215011727912
+Kennedy1017,Kennedy1017:Family_friends:hyp2,GENDER,2566,0,0.0
+Kennedy1017,Kennedy1017:Family_friends:hyp2,race_4,2034,532,20.73265783320343
+Kennedy1017,Kennedy1017:Family_friends:hyp2,pid_3,2566,0,0.0
+Kennedy1017,Kennedy1017:Family_friends:hyp2,age_5,2566,0,0.0
+Kennedy1017,Kennedy1017:Family_friends:hyp2,EDUC4,2566,0,0.0
+Kennedy1017,Kennedy1017:Family_friends:hyp2,ideo_3,2253,313,12.197973499610288
+Kennedy1017,Kennedy1017:Family_knowledge:hyp1,GENDER,1274,0,0.0
+Kennedy1017,Kennedy1017:Family_knowledge:hyp1,race_4,1018,256,20.09419152276295
+Kennedy1017,Kennedy1017:Family_knowledge:hyp1,pid_3,1274,0,0.0
+Kennedy1017,Kennedy1017:Family_knowledge:hyp1,age_5,1274,0,0.0
+Kennedy1017,Kennedy1017:Family_knowledge:hyp1,EDUC4,1274,0,0.0
+Kennedy1017,Kennedy1017:Family_knowledge:hyp1,ideo_3,1117,157,12.323390894819466
+Kennedy1017,Kennedy1017:Family_knowledge:hyp2,GENDER,2560,0,0.0
+Kennedy1017,Kennedy1017:Family_knowledge:hyp2,race_4,2030,530,20.703125
+Kennedy1017,Kennedy1017:Family_knowledge:hyp2,pid_3,2560,0,0.0
+Kennedy1017,Kennedy1017:Family_knowledge:hyp2,age_5,2560,0,0.0
+Kennedy1017,Kennedy1017:Family_knowledge:hyp2,EDUC4,2560,0,0.0
+Kennedy1017,Kennedy1017:Family_knowledge:hyp2,ideo_3,2248,312,12.1875
+KlarS44,KlarS44:efficacy:hyp1,GENDER,1379,0,0.0
+KlarS44,KlarS44:efficacy:hyp1,race_4,1087,292,21.174764321972443
+KlarS44,KlarS44:efficacy:hyp1,pid_3,1371,8,0.580130529369108
+KlarS44,KlarS44:efficacy:hyp1,age_5,1379,0,0.0
+KlarS44,KlarS44:efficacy:hyp1,EDUC4,1379,0,0.0
+KlarS44,KlarS44:efficacy:hyp1,ideo_3,1261,118,8.556925308194344
+KlarS44,KlarS44:efficacy:hyp2,GENDER,1432,0,0.0
+KlarS44,KlarS44:efficacy:hyp2,race_4,1129,303,21.15921787709497
+KlarS44,KlarS44:efficacy:hyp2,pid_3,1421,11,0.7681564245810056
+KlarS44,KlarS44:efficacy:hyp2,age_5,1432,0,0.0
+KlarS44,KlarS44:efficacy:hyp2,EDUC4,1432,0,0.0
+KlarS44,KlarS44:efficacy:hyp2,ideo_3,1298,134,9.35754189944134
+KlarS44,KlarS44:importance:hyp1,GENDER,1382,0,0.0
+KlarS44,KlarS44:importance:hyp1,race_4,1089,293,21.201157742402316
+KlarS44,KlarS44:importance:hyp1,pid_3,1374,8,0.5788712011577424
+KlarS44,KlarS44:importance:hyp1,age_5,1382,0,0.0
+KlarS44,KlarS44:importance:hyp1,EDUC4,1382,0,0.0
+KlarS44,KlarS44:importance:hyp1,ideo_3,1264,118,8.538350217076701
+KlarS44,KlarS44:importance:hyp2,GENDER,1435,0,0.0
+KlarS44,KlarS44:importance:hyp2,race_4,1131,304,21.18466898954704
+KlarS44,KlarS44:importance:hyp2,pid_3,1424,11,0.7665505226480837
+KlarS44,KlarS44:importance:hyp2,age_5,1435,0,0.0
+KlarS44,KlarS44:importance:hyp2,EDUC4,1435,0,0.0
+KlarS44,KlarS44:importance:hyp2,ideo_3,1301,134,9.337979094076655
+KlarS44,KlarS44:support_candidate:hyp1,GENDER,1381,0,0.0
+KlarS44,KlarS44:support_candidate:hyp1,race_4,1089,292,21.144098479362782
+KlarS44,KlarS44:support_candidate:hyp1,pid_3,1373,8,0.5792903692976105
+KlarS44,KlarS44:support_candidate:hyp1,age_5,1381,0,0.0
+KlarS44,KlarS44:support_candidate:hyp1,EDUC4,1381,0,0.0
+KlarS44,KlarS44:support_candidate:hyp1,ideo_3,1264,117,8.472121650977552
+KlarS44,KlarS44:support_candidate:hyp2,GENDER,1437,0,0.0
+KlarS44,KlarS44:support_candidate:hyp2,race_4,1133,304,21.15518441196938
+KlarS44,KlarS44:support_candidate:hyp2,pid_3,1426,11,0.7654836464857342
+KlarS44,KlarS44:support_candidate:hyp2,age_5,1437,0,0.0
+KlarS44,KlarS44:support_candidate:hyp2,EDUC4,1437,0,0.0
+KlarS44,KlarS44:support_candidate:hyp2,ideo_3,1304,133,9.255393180236604
+McGinty730,McGinty730:social_stigma:hyp1,GENDER,690,0,0.0
+McGinty730,McGinty730:social_stigma:hyp1,race_4,569,121,17.536231884057973
+McGinty730,McGinty730:social_stigma:hyp1,pid_3,690,0,0.0
+McGinty730,McGinty730:social_stigma:hyp1,age_5,690,0,0.0
+McGinty730,McGinty730:social_stigma:hyp1,EDUC4,690,0,0.0
+McGinty730,McGinty730:social_stigma:hyp1,ideo_3,688,2,0.2898550724637681
+McGinty730,McGinty730:social_stigma:hyp2,GENDER,1046,0,0.0
+McGinty730,McGinty730:social_stigma:hyp2,race_4,873,173,16.539196940726576
+McGinty730,McGinty730:social_stigma:hyp2,pid_3,1046,0,0.0
+McGinty730,McGinty730:social_stigma:hyp2,age_5,1046,0,0.0
+McGinty730,McGinty730:social_stigma:hyp2,EDUC4,1046,0,0.0
+McGinty730,McGinty730:social_stigma:hyp2,ideo_3,1043,3,0.28680688336520077
+McGinty730,McGinty730:social_stigma:hyp3,GENDER,1038,0,0.0
+McGinty730,McGinty730:social_stigma:hyp3,race_4,866,172,16.570327552986512
+McGinty730,McGinty730:social_stigma:hyp3,pid_3,1038,0,0.0
+McGinty730,McGinty730:social_stigma:hyp3,age_5,1038,0,0.0
+McGinty730,McGinty730:social_stigma:hyp3,EDUC4,1038,0,0.0
+McGinty730,McGinty730:social_stigma:hyp3,ideo_3,1037,1,0.09633911368015415
+McGinty730,McGinty730:social_stigma:hyp4,GENDER,1066,0,0.0
+McGinty730,McGinty730:social_stigma:hyp4,race_4,872,194,18.19887429643527
+McGinty730,McGinty730:social_stigma:hyp4,pid_3,1066,0,0.0
+McGinty730,McGinty730:social_stigma:hyp4,age_5,1066,0,0.0
+McGinty730,McGinty730:social_stigma:hyp4,EDUC4,1066,0,0.0
+McGinty730,McGinty730:social_stigma:hyp4,ideo_3,1065,1,0.09380863039399624
+McGinty730,McGinty730:treatment_support:hyp1,GENDER,691,0,0.0
+McGinty730,McGinty730:treatment_support:hyp1,race_4,570,121,17.510853835021706
+McGinty730,McGinty730:treatment_support:hyp1,pid_3,691,0,0.0
+McGinty730,McGinty730:treatment_support:hyp1,age_5,691,0,0.0
+McGinty730,McGinty730:treatment_support:hyp1,EDUC4,691,0,0.0
+McGinty730,McGinty730:treatment_support:hyp1,ideo_3,689,2,0.2894356005788712
+McGinty730,McGinty730:treatment_support:hyp2,GENDER,1051,0,0.0
+McGinty730,McGinty730:treatment_support:hyp2,race_4,878,173,16.460513796384397
+McGinty730,McGinty730:treatment_support:hyp2,pid_3,1051,0,0.0
+McGinty730,McGinty730:treatment_support:hyp2,age_5,1051,0,0.0
+McGinty730,McGinty730:treatment_support:hyp2,EDUC4,1051,0,0.0
+McGinty730,McGinty730:treatment_support:hyp2,ideo_3,1048,3,0.285442435775452
+McGinty730,McGinty730:treatment_support:hyp3,GENDER,1043,0,0.0
+McGinty730,McGinty730:treatment_support:hyp3,race_4,868,175,16.778523489932887
+McGinty730,McGinty730:treatment_support:hyp3,pid_3,1043,0,0.0
+McGinty730,McGinty730:treatment_support:hyp3,age_5,1043,0,0.0
+McGinty730,McGinty730:treatment_support:hyp3,EDUC4,1043,0,0.0
+McGinty730,McGinty730:treatment_support:hyp3,ideo_3,1042,1,0.09587727708533078
+McGinty730,McGinty730:treatment_support:hyp4,GENDER,1069,0,0.0
+McGinty730,McGinty730:treatment_support:hyp4,race_4,875,194,18.147801683816652
+McGinty730,McGinty730:treatment_support:hyp4,pid_3,1069,0,0.0
+McGinty730,McGinty730:treatment_support:hyp4,age_5,1069,0,0.0
+McGinty730,McGinty730:treatment_support:hyp4,EDUC4,1069,0,0.0
+McGinty730,McGinty730:treatment_support:hyp4,ideo_3,1068,1,0.09354536950420954
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp1,GENDER,693,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp1,race_4,571,122,17.604617604617605
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp1,pid_3,693,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp1,age_5,693,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp1,EDUC4,693,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp1,ideo_3,691,2,0.2886002886002886
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp2,GENDER,1048,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp2,race_4,875,173,16.50763358778626
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp2,pid_3,1048,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp2,age_5,1048,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp2,EDUC4,1048,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp2,ideo_3,1046,2,0.19083969465648856
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp3,GENDER,1042,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp3,race_4,868,174,16.698656429942417
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp3,pid_3,1042,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp3,age_5,1042,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp3,EDUC4,1042,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp3,ideo_3,1040,2,0.19193857965451055
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp4,GENDER,1069,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp4,race_4,875,194,18.147801683816652
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp4,pid_3,1069,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp4,age_5,1069,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp4,EDUC4,1069,0,0.0
+McGinty730,McGinty730:willingness_to_pay_mentalhealthservices:hyp4,ideo_3,1068,1,0.09354536950420954
+Melin1066,Melin1066:Capable:hyp1,GENDER,548,0,0.0
+Melin1066,Melin1066:Capable:hyp1,race_4,422,126,22.99270072992701
+Melin1066,Melin1066:Capable:hyp1,pid_3,546,2,0.36496350364963503
+Melin1066,Melin1066:Capable:hyp1,age_5,548,0,0.0
+Melin1066,Melin1066:Capable:hyp1,EDUC4,548,0,0.0
+Melin1066,Melin1066:Capable:hyp1,ideo_3,497,51,9.306569343065693
+Melin1066,Melin1066:Capable:hyp2,GENDER,567,0,0.0
+Melin1066,Melin1066:Capable:hyp2,race_4,413,154,27.160493827160494
+Melin1066,Melin1066:Capable:hyp2,pid_3,565,2,0.3527336860670194
+Melin1066,Melin1066:Capable:hyp2,age_5,567,0,0.0
+Melin1066,Melin1066:Capable:hyp2,EDUC4,567,0,0.0
+Melin1066,Melin1066:Capable:hyp2,ideo_3,527,40,7.054673721340388
+Melin1066,Melin1066:Capable:hyp3,GENDER,562,0,0.0
+Melin1066,Melin1066:Capable:hyp3,race_4,428,134,23.843416370106763
+Melin1066,Melin1066:Capable:hyp3,pid_3,561,1,0.17793594306049823
+Melin1066,Melin1066:Capable:hyp3,age_5,562,0,0.0
+Melin1066,Melin1066:Capable:hyp3,EDUC4,562,0,0.0
+Melin1066,Melin1066:Capable:hyp3,ideo_3,524,38,6.761565836298932
+Melin1066,Melin1066:masculine:hyp1,GENDER,524,0,0.0
+Melin1066,Melin1066:masculine:hyp1,race_4,406,118,22.519083969465647
+Melin1066,Melin1066:masculine:hyp1,pid_3,522,2,0.3816793893129771
+Melin1066,Melin1066:masculine:hyp1,age_5,524,0,0.0
+Melin1066,Melin1066:masculine:hyp1,EDUC4,524,0,0.0
+Melin1066,Melin1066:masculine:hyp1,ideo_3,477,47,8.969465648854962
+Melin1066,Melin1066:masculine:hyp2,GENDER,545,0,0.0
+Melin1066,Melin1066:masculine:hyp2,race_4,399,146,26.788990825688074
+Melin1066,Melin1066:masculine:hyp2,pid_3,543,2,0.3669724770642202
+Melin1066,Melin1066:masculine:hyp2,age_5,545,0,0.0
+Melin1066,Melin1066:masculine:hyp2,EDUC4,545,0,0.0
+Melin1066,Melin1066:masculine:hyp2,ideo_3,506,39,7.155963302752293
+Melin1066,Melin1066:masculine:hyp3,GENDER,536,0,0.0
+Melin1066,Melin1066:masculine:hyp3,race_4,406,130,24.253731343283583
+Melin1066,Melin1066:masculine:hyp3,pid_3,535,1,0.1865671641791045
+Melin1066,Melin1066:masculine:hyp3,age_5,536,0,0.0
+Melin1066,Melin1066:masculine:hyp3,EDUC4,536,0,0.0
+Melin1066,Melin1066:masculine:hyp3,ideo_3,500,36,6.7164179104477615
+Merolla843,Merolla843:foreign_policy:hyp1,GENDER,324,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp1,race_4,265,59,18.209876543209877
+Merolla843,Merolla843:foreign_policy:hyp1,pid_3,324,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp1,age_5,324,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp1,EDUC4,324,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp1,ideo_3,324,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp2,GENDER,338,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp2,race_4,283,55,16.272189349112427
+Merolla843,Merolla843:foreign_policy:hyp2,pid_3,338,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp2,age_5,338,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp2,EDUC4,338,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp2,ideo_3,338,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp3,GENDER,332,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp3,race_4,276,56,16.867469879518072
+Merolla843,Merolla843:foreign_policy:hyp3,pid_3,332,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp3,age_5,332,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp3,EDUC4,332,0,0.0
+Merolla843,Merolla843:foreign_policy:hyp3,ideo_3,332,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp1,GENDER,406,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp1,race_4,342,64,15.763546798029557
+Merolla843,Merolla843:hillary_clinton_leadership:hyp1,pid_3,406,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp1,age_5,406,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp1,EDUC4,406,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp1,ideo_3,402,4,0.9852216748768473
+Merolla843,Merolla843:hillary_clinton_leadership:hyp2,GENDER,408,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp2,race_4,340,68,16.666666666666668
+Merolla843,Merolla843:hillary_clinton_leadership:hyp2,pid_3,408,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp2,age_5,408,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp2,EDUC4,408,0,0.0
+Merolla843,Merolla843:hillary_clinton_leadership:hyp2,ideo_3,404,4,0.9803921568627451
+Merolla843,Merolla843:trump_leadership:hyp1,GENDER,392,0,0.0
+Merolla843,Merolla843:trump_leadership:hyp1,race_4,320,72,18.367346938775512
+Merolla843,Merolla843:trump_leadership:hyp1,pid_3,392,0,0.0
+Merolla843,Merolla843:trump_leadership:hyp1,age_5,392,0,0.0
+Merolla843,Merolla843:trump_leadership:hyp1,EDUC4,392,0,0.0
+Merolla843,Merolla843:trump_leadership:hyp1,ideo_3,387,5,1.2755102040816326
+Merolla843,Merolla843:trump_leadership:hyp2,GENDER,408,0,0.0
+Merolla843,Merolla843:trump_leadership:hyp2,race_4,340,68,16.666666666666668
+Merolla843,Merolla843:trump_leadership:hyp2,pid_3,408,0,0.0
+Merolla843,Merolla843:trump_leadership:hyp2,age_5,408,0,0.0
+Merolla843,Merolla843:trump_leadership:hyp2,EDUC4,408,0,0.0
+Merolla843,Merolla843:trump_leadership:hyp2,ideo_3,404,4,0.9803921568627451
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp1,GENDER,2101,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp1,race_4,1615,486,23.13184198000952
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp1,pid_3,2094,7,0.3331746787244169
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp1,age_5,2101,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp1,EDUC4,2101,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp1,ideo_3,2056,45,2.1418372203712517
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp2,GENDER,2101,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp2,race_4,1615,486,23.13184198000952
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp2,pid_3,2094,7,0.3331746787244169
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp2,age_5,2101,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp2,EDUC4,2101,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp2,ideo_3,2056,45,2.1418372203712517
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp3,GENDER,1041,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp3,race_4,808,233,22.382324687800192
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp3,pid_3,1036,5,0.4803073967339097
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp3,age_5,1041,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp3,EDUC4,1041,0,0.0
+Mezzapelle1439,Mezzapelle1439:BELIEVABLE:hyp3,ideo_3,1023,18,1.7291066282420748
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp1,GENDER,2107,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp1,race_4,1621,486,23.06597057427622
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp1,pid_3,2100,7,0.33222591362126247
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp1,age_5,2107,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp1,EDUC4,2107,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp1,ideo_3,2060,47,2.230659705742762
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp2,GENDER,2107,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp2,race_4,1621,486,23.06597057427622
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp2,pid_3,2100,7,0.33222591362126247
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp2,age_5,2107,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp2,EDUC4,2107,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp2,ideo_3,2060,47,2.230659705742762
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp3,GENDER,1048,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp3,race_4,813,235,22.423664122137403
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp3,pid_3,1043,5,0.4770992366412214
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp3,age_5,1048,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp3,EDUC4,1048,0,0.0
+Mezzapelle1439,Mezzapelle1439:COMPENSATION:hyp3,ideo_3,1028,20,1.9083969465648856
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp1,GENDER,2105,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp1,race_4,1618,487,23.1353919239905
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp1,pid_3,2098,7,0.332541567695962
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp1,age_5,2105,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp1,EDUC4,2105,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp1,ideo_3,2058,47,2.2327790973871733
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp2,GENDER,2105,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp2,race_4,1618,487,23.1353919239905
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp2,pid_3,2098,7,0.332541567695962
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp2,age_5,2105,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp2,EDUC4,2105,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp2,ideo_3,2058,47,2.2327790973871733
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp3,GENDER,1043,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp3,race_4,809,234,22.435282837967403
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp3,pid_3,1038,5,0.4793863854266539
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp3,age_5,1043,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp3,EDUC4,1043,0,0.0
+Mezzapelle1439,Mezzapelle1439:PERCEIVED HARM:hyp3,ideo_3,1023,20,1.9175455417066156
+MunschS68,MunschS68:Morgan_Committed:hyp1,GENDER,707,0,0.0
+MunschS68,MunschS68:Morgan_Committed:hyp1,race_4,555,152,21.4992927864215
+MunschS68,MunschS68:Morgan_Committed:hyp1,pid_3,705,2,0.2828854314002829
+MunschS68,MunschS68:Morgan_Committed:hyp1,age_5,707,0,0.0
+MunschS68,MunschS68:Morgan_Committed:hyp1,EDUC4,707,0,0.0
+MunschS68,MunschS68:Morgan_Committed:hyp1,ideo_3,702,5,0.7072135785007072
+SchaadS62,SchaadS62:still_identify:hyp1,GENDER,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp1,race_4,1642,468,22.180094786729857
+SchaadS62,SchaadS62:still_identify:hyp1,pid_3,2108,2,0.0947867298578199
+SchaadS62,SchaadS62:still_identify:hyp1,age_5,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp1,EDUC4,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp1,ideo_3,2100,10,0.47393364928909953
+SchaadS62,SchaadS62:still_identify:hyp2,GENDER,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp2,race_4,1642,468,22.180094786729857
+SchaadS62,SchaadS62:still_identify:hyp2,pid_3,2108,2,0.0947867298578199
+SchaadS62,SchaadS62:still_identify:hyp2,age_5,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp2,EDUC4,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp2,ideo_3,2100,10,0.47393364928909953
+SchaadS62,SchaadS62:still_identify:hyp3,GENDER,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp3,race_4,1642,468,22.180094786729857
+SchaadS62,SchaadS62:still_identify:hyp3,pid_3,2108,2,0.0947867298578199
+SchaadS62,SchaadS62:still_identify:hyp3,age_5,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp3,EDUC4,2110,0,0.0
+SchaadS62,SchaadS62:still_identify:hyp3,ideo_3,2100,10,0.47393364928909953
+Schnabel903,Schnabel903:Feminine:hyp1,GENDER,2746,0,0.0
+Schnabel903,Schnabel903:Feminine:hyp1,race_4,2141,605,22.032046613255645
+Schnabel903,Schnabel903:Feminine:hyp1,pid_3,2746,0,0.0
+Schnabel903,Schnabel903:Feminine:hyp1,age_5,2746,0,0.0
+Schnabel903,Schnabel903:Feminine:hyp1,EDUC4,2746,0,0.0
+Schnabel903,Schnabel903:Feminine:hyp1,ideo_3,2398,348,12.672978878368536
+Schnabel903,Schnabel903:Masculine:hyp1,GENDER,2753,0,0.0
+Schnabel903,Schnabel903:Masculine:hyp1,race_4,2150,603,21.90337813294588
+Schnabel903,Schnabel903:Masculine:hyp1,pid_3,2753,0,0.0
+Schnabel903,Schnabel903:Masculine:hyp1,age_5,2753,0,0.0
+Schnabel903,Schnabel903:Masculine:hyp1,EDUC4,2753,0,0.0
+Schnabel903,Schnabel903:Masculine:hyp1,ideo_3,2405,348,12.64075553941155
+ShannonS2,ShannonS2:tax credit effective:hyp1,GENDER,831,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp1,race_4,661,170,20.45728038507822
+ShannonS2,ShannonS2:tax credit effective:hyp1,pid_3,659,172,20.697954271961493
+ShannonS2,ShannonS2:tax credit effective:hyp1,age_5,831,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp1,EDUC4,831,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp1,ideo_3,636,195,23.465703971119133
+ShannonS2,ShannonS2:tax credit effective:hyp2,GENDER,841,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp2,race_4,661,180,21.40309155766944
+ShannonS2,ShannonS2:tax credit effective:hyp2,pid_3,657,184,21.87871581450654
+ShannonS2,ShannonS2:tax credit effective:hyp2,age_5,841,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp2,EDUC4,841,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp2,ideo_3,625,216,25.68370986920333
+ShannonS2,ShannonS2:tax credit effective:hyp3,GENDER,1658,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp3,race_4,1306,352,21.23039806996381
+ShannonS2,ShannonS2:tax credit effective:hyp3,pid_3,1315,343,20.6875753920386
+ShannonS2,ShannonS2:tax credit effective:hyp3,age_5,1658,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp3,EDUC4,1658,0,0.0
+ShannonS2,ShannonS2:tax credit effective:hyp3,ideo_3,1250,408,24.607961399276235
+Silverman1035,Silverman1035:Americans_Killed:hyp1,GENDER,1333,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp1,race_4,1044,289,21.680420105026258
+Silverman1035,Silverman1035:Americans_Killed:hyp1,pid_3,1333,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp1,age_5,1333,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp1,EDUC4,1333,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp1,ideo_3,1251,82,6.151537884471118
+Silverman1035,Silverman1035:Americans_Killed:hyp2,GENDER,1073,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp2,race_4,835,238,22.18080149114632
+Silverman1035,Silverman1035:Americans_Killed:hyp2,pid_3,1073,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp2,age_5,1073,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp2,EDUC4,1073,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp2,ideo_3,1008,65,6.0577819198508855
+Silverman1035,Silverman1035:Americans_Killed:hyp3,GENDER,539,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp3,race_4,422,117,21.70686456400742
+Silverman1035,Silverman1035:Americans_Killed:hyp3,pid_3,539,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp3,age_5,539,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp3,EDUC4,539,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp3,ideo_3,511,28,5.194805194805195
+Silverman1035,Silverman1035:Americans_Killed:hyp4,GENDER,520,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp4,race_4,406,114,21.923076923076923
+Silverman1035,Silverman1035:Americans_Killed:hyp4,pid_3,520,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp4,age_5,520,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp4,EDUC4,520,0,0.0
+Silverman1035,Silverman1035:Americans_Killed:hyp4,ideo_3,487,33,6.346153846153846
+Silverman1035,Silverman1035:Terrorism_likely:hyp1,GENDER,1295,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp1,race_4,1012,283,21.853281853281853
+Silverman1035,Silverman1035:Terrorism_likely:hyp1,pid_3,1295,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp1,age_5,1295,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp1,EDUC4,1295,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp1,ideo_3,1218,77,5.945945945945946
+Silverman1035,Silverman1035:Terrorism_likely:hyp2,GENDER,1045,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp2,race_4,813,232,22.20095693779904
+Silverman1035,Silverman1035:Terrorism_likely:hyp2,pid_3,1045,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp2,age_5,1045,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp2,EDUC4,1045,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp2,ideo_3,985,60,5.741626794258373
+Silverman1035,Silverman1035:Terrorism_likely:hyp3,GENDER,523,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp3,race_4,410,113,21.606118546845124
+Silverman1035,Silverman1035:Terrorism_likely:hyp3,pid_3,523,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp3,age_5,523,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp3,EDUC4,523,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp3,ideo_3,496,27,5.162523900573614
+Silverman1035,Silverman1035:Terrorism_likely:hyp4,GENDER,502,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp4,race_4,391,111,22.111553784860558
+Silverman1035,Silverman1035:Terrorism_likely:hyp4,pid_3,502,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp4,age_5,502,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp4,EDUC4,502,0,0.0
+Silverman1035,Silverman1035:Terrorism_likely:hyp4,ideo_3,473,29,5.776892430278885
+Silverman1035,Silverman1035:Terrorism_worry:hyp1,GENDER,1321,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp1,race_4,1035,286,21.650264950794853
+Silverman1035,Silverman1035:Terrorism_worry:hyp1,pid_3,1321,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp1,age_5,1321,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp1,EDUC4,1321,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp1,ideo_3,1241,80,6.056018168054504
+Silverman1035,Silverman1035:Terrorism_worry:hyp2,GENDER,1065,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp2,race_4,830,235,22.065727699530516
+Silverman1035,Silverman1035:Terrorism_worry:hyp2,pid_3,1065,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp2,age_5,1065,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp2,EDUC4,1065,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp2,ideo_3,1003,62,5.821596244131455
+Silverman1035,Silverman1035:Terrorism_worry:hyp3,GENDER,533,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp3,race_4,418,115,21.575984990619137
+Silverman1035,Silverman1035:Terrorism_worry:hyp3,pid_3,533,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp3,age_5,533,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp3,EDUC4,533,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp3,ideo_3,506,27,5.065666041275797
+Silverman1035,Silverman1035:Terrorism_worry:hyp4,GENDER,517,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp4,race_4,403,114,22.05029013539652
+Silverman1035,Silverman1035:Terrorism_worry:hyp4,pid_3,517,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp4,age_5,517,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp4,EDUC4,517,0,0.0
+Silverman1035,Silverman1035:Terrorism_worry:hyp4,ideo_3,486,31,5.996131528046422
+Stoker1063,Stoker1063:Anger:hyp1,GENDER,1786,0,0.0
+Stoker1063,Stoker1063:Anger:hyp1,race_4,1425,361,20.21276595744681
+Stoker1063,Stoker1063:Anger:hyp1,pid_3,1786,0,0.0
+Stoker1063,Stoker1063:Anger:hyp1,age_5,1786,0,0.0
+Stoker1063,Stoker1063:Anger:hyp1,EDUC4,1786,0,0.0
+Stoker1063,Stoker1063:Anger:hyp1,ideo_3,1629,157,8.790593505039194
+Stoker1063,Stoker1063:Serious:hyp1,GENDER,1787,0,0.0
+Stoker1063,Stoker1063:Serious:hyp1,race_4,1427,360,20.145495243424733
+Stoker1063,Stoker1063:Serious:hyp1,pid_3,1787,0,0.0
+Stoker1063,Stoker1063:Serious:hyp1,age_5,1787,0,0.0
+Stoker1063,Stoker1063:Serious:hyp1,EDUC4,1787,0,0.0
+Stoker1063,Stoker1063:Serious:hyp1,ideo_3,1628,159,8.897593732512592
+Stoker1063,Stoker1063:Worry:hyp1,GENDER,1788,0,0.0
+Stoker1063,Stoker1063:Worry:hyp1,race_4,1426,362,20.24608501118568
+Stoker1063,Stoker1063:Worry:hyp1,pid_3,1788,0,0.0
+Stoker1063,Stoker1063:Worry:hyp1,age_5,1788,0,0.0
+Stoker1063,Stoker1063:Worry:hyp1,EDUC4,1788,0,0.0
+Stoker1063,Stoker1063:Worry:hyp1,ideo_3,1628,160,8.94854586129754
+Terman1029,Terman1029:donating to HRAC:hyp1,GENDER,1869,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp1,race_4,1438,431,23.060460139111825
+Terman1029,Terman1029:donating to HRAC:hyp1,pid_3,1869,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp1,age_5,1869,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp1,EDUC4,1869,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp2,GENDER,763,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp2,race_4,594,169,22.14941022280472
+Terman1029,Terman1029:donating to HRAC:hyp2,pid_3,763,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp2,age_5,763,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp2,EDUC4,763,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp3,GENDER,732,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp3,race_4,552,180,24.59016393442623
+Terman1029,Terman1029:donating to HRAC:hyp3,pid_3,732,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp3,age_5,732,0,0.0
+Terman1029,Terman1029:donating to HRAC:hyp3,EDUC4,732,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp1,GENDER,1878,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp1,race_4,1444,434,23.109691160809373
+Terman1029,Terman1029:naitonalist superiority:hyp1,pid_3,1878,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp1,age_5,1878,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp1,EDUC4,1878,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp2,GENDER,772,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp2,race_4,599,173,22.409326424870468
+Terman1029,Terman1029:naitonalist superiority:hyp2,pid_3,772,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp2,age_5,772,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp2,EDUC4,772,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp3,GENDER,734,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp3,race_4,554,180,24.52316076294278
+Terman1029,Terman1029:naitonalist superiority:hyp3,pid_3,734,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp3,age_5,734,0,0.0
+Terman1029,Terman1029:naitonalist superiority:hyp3,EDUC4,734,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp1,GENDER,1879,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp1,race_4,1443,436,23.203831825439064
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp1,pid_3,1879,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp1,age_5,1879,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp1,EDUC4,1879,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp2,GENDER,769,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp2,race_4,597,172,22.3667100130039
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp2,pid_3,769,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp2,age_5,769,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp2,EDUC4,769,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp3,GENDER,736,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp3,race_4,554,182,24.72826086956522
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp3,pid_3,736,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp3,age_5,736,0,0.0
+Terman1029,Terman1029:perception of domestic human rights conditions:hyp3,EDUC4,736,0,0.0
+WallaceS9,WallaceS9:credibility:hyp1,GENDER,997,0,0.0
+WallaceS9,WallaceS9:credibility:hyp1,race_4,753,244,24.473420260782348
+WallaceS9,WallaceS9:credibility:hyp1,pid_3,991,6,0.6018054162487463
+WallaceS9,WallaceS9:credibility:hyp1,age_5,997,0,0.0
+WallaceS9,WallaceS9:credibility:hyp1,EDUC4,997,0,0.0
+WallaceS9,WallaceS9:credibility:hyp1,ideo_3,978,19,1.9057171514543632
+WallaceS9,WallaceS9:president_approval:hyp1,GENDER,1002,0,0.0
+WallaceS9,WallaceS9:president_approval:hyp1,race_4,757,245,24.451097804391217
+WallaceS9,WallaceS9:president_approval:hyp1,pid_3,996,6,0.5988023952095808
+WallaceS9,WallaceS9:president_approval:hyp1,age_5,1002,0,0.0
+WallaceS9,WallaceS9:president_approval:hyp1,EDUC4,1002,0,0.0
+WallaceS9,WallaceS9:president_approval:hyp1,ideo_3,982,20,1.996007984031936
+Williamson859,Williamson859:Food stamps:hyp1,GENDER,1008,0,0.0
+Williamson859,Williamson859:Food stamps:hyp1,race_4,774,234,23.214285714285715
+Williamson859,Williamson859:Food stamps:hyp1,pid_3,1006,2,0.1984126984126984
+Williamson859,Williamson859:Food stamps:hyp1,age_5,1008,0,0.0
+Williamson859,Williamson859:Food stamps:hyp1,EDUC4,1008,0,0.0
+Williamson859,Williamson859:Food stamps:hyp1,ideo_3,981,27,2.6785714285714284
+Williamson859,Williamson859:Military:hyp1,GENDER,1007,0,0.0
+Williamson859,Williamson859:Military:hyp1,race_4,774,233,23.13803376365442
+Williamson859,Williamson859:Military:hyp1,pid_3,1005,2,0.19860973187686196
+Williamson859,Williamson859:Military:hyp1,age_5,1007,0,0.0
+Williamson859,Williamson859:Military:hyp1,EDUC4,1007,0,0.0
+Williamson859,Williamson859:Military:hyp1,ideo_3,980,27,2.6812313803376364
+Williamson859,Williamson859:Social Security:hyp1,GENDER,1008,0,0.0
+Williamson859,Williamson859:Social Security:hyp1,race_4,775,233,23.115079365079364
+Williamson859,Williamson859:Social Security:hyp1,pid_3,1006,2,0.1984126984126984
+Williamson859,Williamson859:Social Security:hyp1,age_5,1008,0,0.0
+Williamson859,Williamson859:Social Security:hyp1,EDUC4,1008,0,0.0
+Williamson859,Williamson859:Social Security:hyp1,ideo_3,980,28,2.7777777777777777
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp1,GENDER,790,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp1,race_4,598,192,24.303797468354432
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp1,pid_3,788,2,0.25316455696202533
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp1,age_5,790,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp1,EDUC4,790,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp1,ideo_3,780,10,1.2658227848101267
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp2,GENDER,792,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp2,race_4,609,183,23.106060606060606
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp2,pid_3,789,3,0.3787878787878788
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp2,age_5,792,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp2,EDUC4,792,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp2,ideo_3,781,11,1.3888888888888888
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp3,GENDER,785,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp3,race_4,609,176,22.420382165605094
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp3,pid_3,783,2,0.25477707006369427
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp3,age_5,785,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp3,EDUC4,785,0,0.0
+bolsenM6,bolsenM6:Providing Personal Pronouns:hyp3,ideo_3,778,7,0.89171974522293
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp1,GENDER,790,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp1,race_4,598,192,24.303797468354432
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp1,pid_3,788,2,0.25316455696202533
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp1,age_5,790,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp1,EDUC4,790,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp1,ideo_3,778,12,1.518987341772152
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp2,GENDER,790,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp2,race_4,608,182,23.037974683544302
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp2,pid_3,787,3,0.379746835443038
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp2,age_5,790,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp2,EDUC4,790,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp2,ideo_3,779,11,1.3924050632911393
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp3,GENDER,783,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp3,race_4,607,176,22.47765006385696
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp3,pid_3,781,2,0.2554278416347382
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp3,age_5,783,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp3,EDUC4,783,0,0.0
+bolsenM6,bolsenM6:They/Them Pronouns in Forms:hyp3,ideo_3,776,7,0.8939974457215837
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp1,GENDER,791,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp1,race_4,599,192,24.27307206068268
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp1,pid_3,789,2,0.2528445006321112
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp1,age_5,791,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp1,EDUC4,791,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp1,ideo_3,779,12,1.5170670037926675
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp2,GENDER,789,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp2,race_4,606,183,23.193916349809886
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp2,pid_3,786,3,0.38022813688212925
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp2,age_5,789,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp2,EDUC4,789,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp2,ideo_3,778,11,1.394169835234474
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp3,GENDER,782,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp3,race_4,606,176,22.506393861892583
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp3,pid_3,780,2,0.2557544757033248
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp3,age_5,782,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp3,EDUC4,782,0,0.0
+bolsenM6,bolsenM6:Using They/Them Pronouns:hyp3,ideo_3,775,7,0.8951406649616368
+bucci1408,bucci1408:Rewarding:hyp1,GENDER,2170,0,0.0
+bucci1408,bucci1408:Rewarding:hyp1,race_4,1563,607,27.972350230414747
+bucci1408,bucci1408:Rewarding:hyp1,age_5,2170,0,0.0
+bucci1408,bucci1408:Rewarding:hyp1,EDUC4,2170,0,0.0

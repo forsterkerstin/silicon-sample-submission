@@ -1,0 +1,48 @@
+{
+  "method_name": "SHARED_COMMON_SHIFT_SUPPORT_PROJECTION",
+  "status": "PROSPECTIVELY_FROZEN_BEFORE_TARGET_G_OUTPUT_INSPECTION",
+  "target_g_outputs_inspected_before_freeze": false,
+  "target_human_outcomes_used": false,
+  "shared_across_methods": [
+    "PRIMARY_M2",
+    "SECONDARY_1_MCONST",
+    "SECONDARY_2_MCONST_GSHAPE"
+  ],
+  "method_independence": "project_cell/project_composite_cell/project_target_ate_table take only tau_hat_aj and native G control/treatment responses -- no parameter or branch identifies which calibration method produced tau_hat_aj",
+  "algorithm": {
+    "common_shift": "tau_G_aj = mean_i(Y_treat_i - Y_control_i); c_aj = tau_hat_aj - tau_G_aj; v_i = Y_treat_i + c_aj",
+    "bounded_integer_projection": "base-round each v_i to the nearest support level (ties go to the lower level); adjust the total one +/-1 step at a time toward the nearest attainable integer total to sum(v_i) (clipped to [N*low, N*high]), always picking the respondent(s) with smallest marginal increase in squared distance (largest residual fractional part for +1, smallest for -1), ties broken by ascending profile_id -- proven optimal by convex separable resource-allocation argument, brute-force-verified on small-N synthetic fixtures",
+    "binary_projection": "identical engine with low=0, high=1 -- equivalent to assigning K=achieved total ones to the K highest ideal values",
+    "finite_discrete_non_consecutive_support": "NOT implemented (explicit NotImplementedError/STOP) -- no outcome in this benchmark has such a support; implementing a speculative general solver was judged itself an undisclosed scientific choice",
+    "composite_constituent_adjustment": "equal-contribution rule: each constituent item's coefficient*(ideal item shift) = c_aj/K; for this benchmark's actual composite forms (uniform 1/K coefficients for means, or a single +1/-1 coefficient item) this simplifies to +c_aj per item for mean/item composites and -c_aj for the one reverse_100 composite (funding_perceptions); each item is then independently projected via the shared bounded-integer engine and the composite is mechanically recomputed from survey_content.OUTCOME_COMPOSITES",
+    "shared_raw_item_joint_consistency": "audited via survey_content.OUTCOME_COMPOSITES; zero raw items are currently shared across outcomes (independently re-verified: 44 raw items, 44 distinct item->outcome mappings) so the joint-constraint check is implemented and tested against synthetic fixtures but not exercised on the real benchmark today",
+    "controls": "never read into any projection function argument that could modify them; returned pass-through unchanged in every cell result"
+  },
+  "supported_outcome_types": {
+    "bounded_integer": "sliders [0,100], donation_ams [0,10] -- 11 of 13 outcomes' constituent raw items",
+    "binary": "newsletter_signup {0,1}",
+    "finite_discrete_non_consecutive": "not implemented; not required by current benchmark metadata"
+  },
+  "tie_break": "ascending profile_id (lexical) for competitive adjustment steps; exact-half base-rounding ties go to the lower integer -- both deterministic, no randomness",
+  "real_benchmark_shared_raw_items": {},
+  "implementation_module": "ate/target_projection.py",
+  "implementation_module_sha256": "9b2b9af8d312caaf1a0ef5e2b5cb41f03a261ddeeb84372afac8b8b49d11a0a3",
+  "test_fixture_module": "tests/ate/test_target_projection.py",
+  "test_fixture_module_sha256": "52a4fee66051f2b1a84389564b5f971a172a8609ed1d009b87b7d3ad63740b08",
+  "upstream_provenance_pointers": {
+    "primary_artifact_sha256": "a9b839fb9ae8c2c43ff36fe78e7cc8c011acb6f557460f2fe52e3acc866510de",
+    "secondary_1_artifact_sha256": "c0391906784f54c17f1503fccc91963f22af85dd81dc090bdc69ec38e75684e0",
+    "secondary_2_artifact_sha256": "07518f45735ec4f702d6a67521cb06cf4a1c306f4e3e206ce823aac262abeaad"
+  },
+  "failure_policy": [
+    "missing control/treatment pair (donor id set mismatch)",
+    "duplicate donor id (build_donor_map on flat record input)",
+    "non-finite target ATE",
+    "unknown support kind",
+    "finite_discrete non-consecutive support (always -- not implemented)",
+    "missing/inconsistent constituent-item metadata for composites",
+    "unresolved shared-raw-item joint constraint",
+    "duplicate intervention/outcome cell in a batch"
+  ],
+  "not_executed_on_real_target_output_in_this_freeze": true
+}

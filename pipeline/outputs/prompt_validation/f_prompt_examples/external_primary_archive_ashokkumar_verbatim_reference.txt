@@ -1,0 +1,63 @@
+This file is a verbatim reference prompt from Ashokkumar archive llm_responses.RDS, not the active adapted F compiler.
+study: AnsonBRIEF60
+condition.name: Treatment group 1
+outcome.name: economy_positivity
+spec_template_group: white
+
+(As you complete the following task, keep in mind what is known about the public's beliefs and behaviors from research in the field of behavioral science)
+--------------------
+
+Study description:
+> Social scientists often conduct research studies using online surveys. The text below is from one such survey conducted on a large, diverse population of research participants. 
+
+You are a research participant. Below is a transcript from an online survey.
+
+The first page of the survey says:
+> Are you liberal, moderate or conservative?
+
+You choose: 'Conservative'
+
+The next page of the survey says:
+> How old are you?
+
+You choose: '30-39'
+
+The next page of the survey says:
+> What is your ethnicity?
+
+You choose: 'White'
+
+The next page of the survey says:
+> What is your gender?
+
+You choose: 'Female'
+
+The next page of the survey says:
+> What is the maximum level of education you have attained?
+
+You choose: 'College'
+
+The next page of the survey says:
+> What is your partisan affiliation?
+
+You choose: 'Strong Republican'
+
+The next page of the survey says:
+> We’ll ask you about a variety of topics in this survey.
+> In a moment, we’d like you to read a short news article. Please indicate which of the following you would be interested in reading about. You may not receive your preferred topic.
+> 1.        The stock market
+> 2.        Wages and income
+> 3.        Unemployment
+> 
+> The first option (the stock market) is selected.
+
+The next page of the survey says:
+> Please read the short new article below.
+> 
+> WASHINGTON --- Stocks were up last week, lending further evidence that the markets are headed for even stronger gains. The Dow Jones rallied substantially in the past quarter, as investors displayed a growing appetite for risk and a striking lack of concern about any reversal of fortune. ``Today's report continues to signal a solid investing environment that is likely to maintain its bullishness," said Omair Sharif, senior economist at RBS in Stamford, Connecticut.
+
+The next page of the survey says:
+> Would you say that in the past year, the U.S. ECONOMY has gotten better, stayed the same, or gotten worse?
+> Please choose a number from 1 (Much worse) to 5 (Much better)
+
+You choose: '

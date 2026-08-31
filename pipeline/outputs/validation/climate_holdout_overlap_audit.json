@@ -1,0 +1,18 @@
+{
+  "query_title": "A Registered Report Megastudy on the Persuasiveness of the Most-Cited Climate Messages",
+  "query_authors": "Voelkel et al.",
+  "query_doi": "10.1038/s41558-025-02536-2",
+  "secondary_archive_match": true,
+  "matched_study_id": "Voelkel2025",
+  "matched_effect_rows": 40,
+  "local_climate_dataset_present": {
+    "data": true,
+    "materials": true,
+    "validation_ate": true,
+    "baseline_references": true
+  },
+  "human_outcomes_already_used_in_repo": true,
+  "status": "contained in structural holdout",
+  "independent_domain_holdout_eligible": false,
+  "notes": "Do not count as a second independent validation dataset when contained in the 15-study structural holdout. Local climate_advocacy_megastudy outputs also indicate development use."
+}

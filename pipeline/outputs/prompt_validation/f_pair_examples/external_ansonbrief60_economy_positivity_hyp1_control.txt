@@ -1,0 +1,73 @@
+protocol_id: ashokkumar_experiment_forecast_adapted_v1
+request_key: F|AnsonBRIEF60|AnsonBRIEF60__9db762e4cca15f5f__F004|control|AnsonBRIEF60:economy_positivity:hyp1|replicate_1
+prompt_variant_id: intro_c+profile_label_c+profile_format_bullets+survey_format_sections
+questionnaire_order: {}
+response_key_map: {"response": "response"}
+provenance: {}
+system_prompt_hash: 0b23030d043412468ad325e1a4f0d2ffee3ff623d889911d40feff0612706b86
+user_prompt_hash: 771d804499c13787fe48aa4001df4503012a77d4f5c904e817c6a7bfc50b4699
+schema_hash: 2ad57256e73fda256d69c653aa659b8286f1598c7ae14f6715000d01cb37b6e1
+
+SYSTEM
+------
+You are completing a simulated survey response task for an experimental forecasting study.
+
+Use only the respondent profile, study setting, survey material, and response
+scale shown in the request. Return only the requested structured response.
+
+USER
+----
+The following is a simulated response to one online survey condition.
+
+SURVEY PARTICIPANT
+- Age: Older than 50
+- Gender: Male
+- Race/ethnicity: White
+- Education: College
+- Party identification: Democrat
+- Political ideology: Conservative
+
+STUDY SETTING
+This is an online survey shown to adult respondents.
+
+SURVEY MATERIAL
+Survey material:
+We’ll ask you about a variety of topics in this survey.
+In a moment, we’d like you to read a short news article. Please indicate which of the following you would be interested in reading about. You may not receive your preferred topic.
+1.        The stock market
+2.        Wages and income
+3.        Unemployment
+
+The first option (the stock market) is selected.
+
+---
+
+Please read the short new article below.
+
+NEW YORK--- Verizon once again has bragging rights in the wireless industry.
+The carrier took top honors in a new ranking of nationwide network performance by market research firm RootMetrics. Verizon ranked number one for reliability, speed, call and data performance, with AT&T a close second in all those categories. Those two firms held a significant advantage over third-ranked T-Mobile and fourth-ranked Sprint. RootMetrics conducted the study through the use of national surveys.
+
+OUTCOME QUESTIONS
+Outcome questions:
+response: Would you say that in the past year, the U.S. ECONOMY has gotten better, stayed the same, or gotten worse?
+Please choose a number from 1 (Much worse) to 5 (Much better)
+Answer with an integer from 1 to 5.
+
+Return a single JSON object with one integer value per item label on the native response scale.
+
+JSON_SCHEMA
+-----------
+{
+  "additionalProperties": false,
+  "properties": {
+    "response": {
+      "maximum": 5,
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "response"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,47 @@
+{
+  "selected_G_model": "google/gemma-4-31B-it",
+  "selected_F_model": "google/gemma-4-31B-it",
+  "G_prompt_version": "krsteski_demo_survey_adapted_v1",
+  "F_prompt_version": "ashokkumar_experiment_forecast_adapted_v1",
+  "G_inference_params": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "presence_penalty": 0,
+    "frequency_penalty": 0,
+    "n": 1,
+    "reasoning_effort": "low",
+    "use_reasoning_effort_when_supported": true,
+    "structured_output": "json_schema"
+  },
+  "F_inference_params": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "presence_penalty": 0,
+    "frequency_penalty": 0,
+    "n": 1,
+    "reasoning_effort": "low",
+    "use_reasoning_effort_when_supported": true,
+    "structured_output": "json_schema"
+  },
+  "N_G": 1000,
+  "N_F": 500,
+  "F_stochastic_draw_count": 1,
+  "persona_generation_version": "3729dcf1c3b745b22083ad1f3c0472d0b3c9c8b1545ffdc762ae2b48b1662c79",
+  "F_population_construction_version": "d80d078f01e32315d56f0c09c4d1c5e09e933c4eb155e97a0363e0f165513c13",
+  "calibration_eligibility_rules": "primary archive only; included_primary_calibration metadata; population-compatible effects only",
+  "calibration_weighting_rule": "training effects weighted 1/n_s so every study has equal total fitting weight; held-out study MSEs averaged equally",
+  "selected_calibration_model": "M2",
+  "final_alpha": 1.4508167066782651,
+  "final_lambda": -0.2425283492527821,
+  "date_time_frozen": "2026-08-26T17:27:45.346327+00:00",
+  "git_commit": "a8ae43c810df67a6b0ba85bbaa86f70695e06b5f",
+  "config_hashes": {
+    "model_config.yaml": "aaaba2224354238b582c6a16effc46760b7e2eb19b670e935ba101fff1238d62",
+    "population.yaml": "bfd84601e224095f51d6899c76e2f0bf5c6886b109c207f0f4f625ef6fce9cdf",
+    "benchmark_schema.yaml": "dbefaee3cdb502f215a1d66f44f7bb732493359edadad37026bf88c7763e20c4",
+    "ate_archive.csv": "ce6352dda0875ff964df10e01c633b96f58def225fdcc113af0891fa19c8313b",
+    "calibration_selected_model.json": "a9b839fb9ae8c2c43ff36fe78e7cc8c011acb6f557460f2fe52e3acc866510de"
+  },
+  "holdout_lock_rule": "do not modify model, prompts, N_F/R_F, calibration model, alpha/lambda, personas, or projection logic after opening holdout",
+  "method_hash": "5c178ee4ca5cc6bb4236bbba02421dfb2ab5a28c312fa9b3aee93cc837829161"
+}

@@ -1,0 +1,13 @@
+file,token,present
+submission/final_tier1.py,source_weight,False
+submission/final_tier1.py,pums_person_weight,False
+submission/final_tier1.py,PWGTP,False
+ate/target_effects.py,source_weight,False
+ate/target_effects.py,pums_person_weight,False
+ate/target_effects.py,PWGTP,False
+ate/estimate_ates.py,source_weight,False
+ate/estimate_ates.py,pums_person_weight,False
+ate/estimate_ates.py,PWGTP,False
+submission/validate_tier1.py,source_weight,False
+submission/validate_tier1.py,pums_person_weight,False
+submission/validate_tier1.py,PWGTP,False

@@ -1,0 +1,56 @@
+{
+  "standard": {
+    "stage": "standard",
+    "requests": 15995,
+    "excluded_already_submitted": 5,
+    "partition_count": 5,
+    "partitions": [
+      {
+        "partition": "part1",
+        "requests": 3199,
+        "jsonl_size_mb": 52.66,
+        "sha256": "6f998925eca23b115b84b92945357b18d7ab68498bbc39705cc6cc523b1fb9c5"
+      },
+      {
+        "partition": "part2",
+        "requests": 3199,
+        "jsonl_size_mb": 52.67,
+        "sha256": "0c4e6590d1d36d10b177347f86536f8b27e45b4ce039a7021c5b4ad2a49b5a22"
+      },
+      {
+        "partition": "part3",
+        "requests": 3199,
+        "jsonl_size_mb": 52.67,
+        "sha256": "dbb01d927f54596d6739acd53f8626c17f9f7c60280aee10ce40518312cd9429"
+      },
+      {
+        "partition": "part4",
+        "requests": 3199,
+        "jsonl_size_mb": 52.68,
+        "sha256": "eca0b5aab82709be0369f722bfb762dae5a6f5d8e851dbb4ba6de1f2daed338e"
+      },
+      {
+        "partition": "part5",
+        "requests": 3199,
+        "jsonl_size_mb": 52.68,
+        "sha256": "792298848f4a0dbec0be3412dc180e2ee453d1567d77c5f71c3e56f24cfec786"
+      }
+    ],
+    "manifest_sha256": "54ac4c9ecc54f765774601445d6220e9be3fe1e158a10e424f8f4e292eac6557"
+  },
+  "consensus_stage_a": {
+    "stage": "consensus_stage_a",
+    "requests": 995,
+    "excluded_already_submitted": 5,
+    "partition_count": 1,
+    "partitions": [
+      {
+        "partition": "part1",
+        "requests": 995,
+        "jsonl_size_mb": 3.4,
+        "sha256": "85ce3dddb9fafd8c57ca19eaedca278bb01a7d6eefd269dd131d86238fcdfb10"
+      }
+    ],
+    "manifest_sha256": "a27363a69675264b5ed7b600272eae054cda1369ef50c5acf337e7252451ec67"
+  }
+}

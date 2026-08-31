@@ -1,0 +1,2 @@
+condition,outcome,n_f,raw_ate_native,raw_ate_pp,profile_delta_sd,profile_ate_se_native,profile_ate_se_pp,synthetic_ate_native,synthetic_effect_pp,outcome_min,outcome_max,outcome_range,num_profiles,weights_used,population_matching_method
+treat,trust_post,500,2.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,100.0,100.0,500,False,fixed_representative_us_f_panel

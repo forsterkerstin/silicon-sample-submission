@@ -1,0 +1,2 @@
+validation_layer,status,required_metrics,implementation,notes
+G respondent-level validation,infrastructure_present_pending_frozen_g_run,means; variance ratio; KS; W1; subgroup mean RMSE; demographic coefficient error; demographic R2 discrepancy,submission.g_validation.validate_g_against_human,G validation remains separate from F/C structural holdout performance

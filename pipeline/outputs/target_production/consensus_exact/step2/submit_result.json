@@ -1,0 +1,21 @@
+{
+  "input_file_id": "file-bbe08546-2e94-48cf-a9a8-0f786ad2d034",
+  "batch": {
+    "id": "8cf45fe4-1ec7-4d2c-971d-cf89b4f3f135",
+    "completed_at": null,
+    "created_at": "2026-08-28T04:45:04.924934Z",
+    "endpoint": "/v1/chat/completions",
+    "error": null,
+    "error_file_id": null,
+    "file_size_bytes": 0,
+    "input_file_id": "file-bbe08546-2e94-48cf-a9a8-0f786ad2d034",
+    "job_deadline": "2026-08-29T04:45:04.924931Z",
+    "x_model_id": null,
+    "output_file_id": null,
+    "progress": 0.0,
+    "status": "VALIDATING",
+    "user_id": "user_REDACTED",
+    "project_id": "proj_REDACTED",
+    "organization_id": "org_REDACTED"
+  }
+}

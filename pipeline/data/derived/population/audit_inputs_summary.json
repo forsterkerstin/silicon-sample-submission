@@ -1,0 +1,43 @@
+{
+  "pums_header_validation": {
+    "status": "all_required_columns_present",
+    "members": [
+      "psam_pusa.csv",
+      "psam_pusb.csv"
+    ]
+  },
+  "housing_header_validation": {
+    "status": "all_required_columns_present",
+    "members": [
+      "psam_husa.csv",
+      "psam_husb.csv"
+    ]
+  },
+  "nc_est_workbook": {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/nc-est2024-asr6h.xlsx",
+    "sheet_names": [
+      "Total",
+      "White",
+      "Black",
+      "AIAN",
+      "Asian",
+      "NHPI",
+      "Two or More Races"
+    ],
+    "sha256": "54034788e42677dd1d05917cbaeed3ed15d9ad6c9877991e5dd0e98dfc752c57"
+  },
+  "existing_census_cells": {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/data/census_cells.csv",
+    "columns": [
+      "sex",
+      "age_band",
+      "race",
+      "share"
+    ],
+    "n_rows": 0,
+    "sha256": "2a3fe14b37d486747e25d81f306dd6620b1025f6c83f85d988a8aef266e20b49"
+  },
+  "ces_csv_path": "/home/forsterk/silicon-sample-submission/pipeline/data/CCES24_Common_OUTPUT_vv_topost_final.csv",
+  "ces_n_rows_total": 60000,
+  "ces_n_rows_valid_for_training": 54857
+}

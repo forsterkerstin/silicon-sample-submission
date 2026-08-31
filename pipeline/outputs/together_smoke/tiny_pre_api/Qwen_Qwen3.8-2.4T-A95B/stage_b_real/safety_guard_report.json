@@ -1,0 +1,26 @@
+{
+  "requests": {
+    "completion_tokens_budget": 2048,
+    "estimated_prompt_characters": 19522,
+    "estimated_prompt_tokens_rough": 4880,
+    "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/Qwen_Qwen3.8-2.4T-A95B/stage_b_real/batch_input.jsonl",
+    "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/Qwen_Qwen3.8-2.4T-A95B/stage_b_real/request_manifest.csv",
+    "requests": 2
+  },
+  "safety_guard": {
+    "batch_estimated_worst_case_cost_usd": 0.025,
+    "cumulative_new_requests": 26,
+    "estimated_input_tokens": 4880,
+    "estimated_worst_case_cost_usd": 0.212474,
+    "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/Qwen_Qwen3.8-2.4T-A95B/stage_b_real/batch_input.jsonl",
+    "maximum_output_tokens": 2048,
+    "model": "Qwen/Qwen3.8-2.4T-A95B",
+    "request_count": 2,
+    "smoke_cost_cap_usd": 0.3,
+    "state_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/together_smoke/tiny_pre_api/smoke_submission_state.json",
+    "submission_allowed": true,
+    "wave": "consensus_stage_b"
+  },
+  "status": "PASS",
+  "submitted": false
+}

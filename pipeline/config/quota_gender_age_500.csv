@@ -1,0 +1,9 @@
+gender,age_band,target_n
+Male,18-29,51
+Female,18-29,50
+Male,30-44,66
+Female,30-44,64
+Male,45-59,57
+Female,45-59,58
+Male,60+,71
+Female,60+,83

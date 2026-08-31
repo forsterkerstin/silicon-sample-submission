@@ -1,0 +1,17 @@
+{
+  "primary_rmse": 2.3318921604220466,
+  "comparator_A_raw_gemma_rmse": 1.5541528549743202,
+  "comparator_B_flat_mu_rmse": 2.3693642144691527,
+  "mae": 2.0821268482489987,
+  "pearson_r": 0.70846823966405,
+  "spearman_r": 0.7808403361344537,
+  "sign_agreement": 0.76,
+  "rmse_skill_arm": 2.5170572648863705,
+  "rmse_trust_arm": 2.1306958536962384,
+  "n_cells": 50,
+  "bootstrap": {
+    "seed": 20260826,
+    "n_boot": 10000,
+    "note": "descriptive CI only, computed via ate.domain_validation_metrics.cluster_bootstrap_indices/percentile_interval over respondent/donor clusters -- not implemented as a stub here pending real retrieved per-respondent data"
+  }
+}

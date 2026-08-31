@@ -1,0 +1,1310 @@
+condition,variable,level,actual_count,control_count,actual_proportion,control_proportion,count_difference_vs_control,proportion_difference_vs_control
+control,gender,Female,506,506,0.506,0.506,0,0.0
+control,gender,Male,486,486,0.486,0.486,0,0.0
+control,gender,Other,8,8,0.008,0.008,0,0.0
+Corporate reliance,gender,Female,506,506,0.506,0.506,0,0.0
+Corporate reliance,gender,Male,486,486,0.486,0.486,0,0.0
+Corporate reliance,gender,Other,8,8,0.008,0.008,0,0.0
+Social justice,gender,Female,506,506,0.506,0.506,0,0.0
+Social justice,gender,Male,486,486,0.486,0.486,0,0.0
+Social justice,gender,Other,8,8,0.008,0.008,0,0.0
+Interview Prof. Maraun,gender,Female,506,506,0.506,0.506,0,0.0
+Interview Prof. Maraun,gender,Male,486,486,0.486,0.486,0,0.0
+Interview Prof. Maraun,gender,Other,8,8,0.008,0.008,0,0.0
+Funding,gender,Female,506,506,0.506,0.506,0,0.0
+Funding,gender,Male,486,486,0.486,0.486,0,0.0
+Funding,gender,Other,8,8,0.008,0.008,0,0.0
+Oil industry misinformation,gender,Female,506,506,0.506,0.506,0,0.0
+Oil industry misinformation,gender,Male,486,486,0.486,0.486,0,0.0
+Oil industry misinformation,gender,Other,8,8,0.008,0.008,0,0.0
+Measurement & modeling (1),gender,Female,506,506,0.506,0.506,0,0.0
+Measurement & modeling (1),gender,Male,486,486,0.486,0.486,0,0.0
+Measurement & modeling (1),gender,Other,8,8,0.008,0.008,0,0.0
+Former skeptics,gender,Female,506,506,0.506,0.506,0,0.0
+Former skeptics,gender,Male,486,486,0.486,0.486,0,0.0
+Former skeptics,gender,Other,8,8,0.008,0.008,0,0.0
+High public trust,gender,Female,506,506,0.506,0.506,0,0.0
+High public trust,gender,Male,486,486,0.486,0.486,0,0.0
+High public trust,gender,Other,8,8,0.008,0.008,0,0.0
+Measurement & modeling (2),gender,Female,506,506,0.506,0.506,0,0.0
+Measurement & modeling (2),gender,Male,486,486,0.486,0.486,0,0.0
+Measurement & modeling (2),gender,Other,8,8,0.008,0.008,0,0.0
+Peer-review,gender,Female,506,506,0.506,0.506,0,0.0
+Peer-review,gender,Male,486,486,0.486,0.486,0,0.0
+Peer-review,gender,Other,8,8,0.008,0.008,0,0.0
+Scientist community helpers,gender,Female,506,506,0.506,0.506,0,0.0
+Scientist community helpers,gender,Male,486,486,0.486,0.486,0,0.0
+Scientist community helpers,gender,Other,8,8,0.008,0.008,0,0.0
+Consensus,gender,Female,506,506,0.506,0.506,0,0.0
+Consensus,gender,Male,486,486,0.486,0.486,0,0.0
+Consensus,gender,Other,8,8,0.008,0.008,0,0.0
+Portrait Prof. Cherry,gender,Female,506,506,0.506,0.506,0,0.0
+Portrait Prof. Cherry,gender,Male,486,486,0.486,0.486,0,0.0
+Portrait Prof. Cherry,gender,Other,8,8,0.008,0.008,0,0.0
+Model accuracy,gender,Female,506,506,0.506,0.506,0,0.0
+Model accuracy,gender,Male,486,486,0.486,0.486,0,0.0
+Model accuracy,gender,Other,8,8,0.008,0.008,0,0.0
+Interview Prof. Sebille,gender,Female,506,506,0.506,0.506,0,0.0
+Interview Prof. Sebille,gender,Male,486,486,0.486,0.486,0,0.0
+Interview Prof. Sebille,gender,Other,8,8,0.008,0.008,0,0.0
+Extreme weather predictions,gender,Female,506,506,0.506,0.506,0,0.0
+Extreme weather predictions,gender,Male,486,486,0.486,0.486,0,0.0
+Extreme weather predictions,gender,Other,8,8,0.008,0.008,0,0.0
+control,age_band,18-29,204,204,0.204,0.204,0,0.0
+control,age_band,30-44,261,261,0.261,0.261,0,0.0
+control,age_band,45-59,228,228,0.228,0.228,0,0.0
+control,age_band,60+,307,307,0.307,0.307,0,0.0
+Corporate reliance,age_band,18-29,204,204,0.204,0.204,0,0.0
+Corporate reliance,age_band,30-44,261,261,0.261,0.261,0,0.0
+Corporate reliance,age_band,45-59,228,228,0.228,0.228,0,0.0
+Corporate reliance,age_band,60+,307,307,0.307,0.307,0,0.0
+Social justice,age_band,18-29,204,204,0.204,0.204,0,0.0
+Social justice,age_band,30-44,261,261,0.261,0.261,0,0.0
+Social justice,age_band,45-59,228,228,0.228,0.228,0,0.0
+Social justice,age_band,60+,307,307,0.307,0.307,0,0.0
+Interview Prof. Maraun,age_band,18-29,204,204,0.204,0.204,0,0.0
+Interview Prof. Maraun,age_band,30-44,261,261,0.261,0.261,0,0.0
+Interview Prof. Maraun,age_band,45-59,228,228,0.228,0.228,0,0.0
+Interview Prof. Maraun,age_band,60+,307,307,0.307,0.307,0,0.0
+Funding,age_band,18-29,204,204,0.204,0.204,0,0.0
+Funding,age_band,30-44,261,261,0.261,0.261,0,0.0
+Funding,age_band,45-59,228,228,0.228,0.228,0,0.0
+Funding,age_band,60+,307,307,0.307,0.307,0,0.0
+Oil industry misinformation,age_band,18-29,204,204,0.204,0.204,0,0.0
+Oil industry misinformation,age_band,30-44,261,261,0.261,0.261,0,0.0
+Oil industry misinformation,age_band,45-59,228,228,0.228,0.228,0,0.0
+Oil industry misinformation,age_band,60+,307,307,0.307,0.307,0,0.0
+Measurement & modeling (1),age_band,18-29,204,204,0.204,0.204,0,0.0
+Measurement & modeling (1),age_band,30-44,261,261,0.261,0.261,0,0.0
+Measurement & modeling (1),age_band,45-59,228,228,0.228,0.228,0,0.0
+Measurement & modeling (1),age_band,60+,307,307,0.307,0.307,0,0.0
+Former skeptics,age_band,18-29,204,204,0.204,0.204,0,0.0
+Former skeptics,age_band,30-44,261,261,0.261,0.261,0,0.0
+Former skeptics,age_band,45-59,228,228,0.228,0.228,0,0.0
+Former skeptics,age_band,60+,307,307,0.307,0.307,0,0.0
+High public trust,age_band,18-29,204,204,0.204,0.204,0,0.0
+High public trust,age_band,30-44,261,261,0.261,0.261,0,0.0
+High public trust,age_band,45-59,228,228,0.228,0.228,0,0.0
+High public trust,age_band,60+,307,307,0.307,0.307,0,0.0
+Measurement & modeling (2),age_band,18-29,204,204,0.204,0.204,0,0.0
+Measurement & modeling (2),age_band,30-44,261,261,0.261,0.261,0,0.0
+Measurement & modeling (2),age_band,45-59,228,228,0.228,0.228,0,0.0
+Measurement & modeling (2),age_band,60+,307,307,0.307,0.307,0,0.0
+Peer-review,age_band,18-29,204,204,0.204,0.204,0,0.0
+Peer-review,age_band,30-44,261,261,0.261,0.261,0,0.0
+Peer-review,age_band,45-59,228,228,0.228,0.228,0,0.0
+Peer-review,age_band,60+,307,307,0.307,0.307,0,0.0
+Scientist community helpers,age_band,18-29,204,204,0.204,0.204,0,0.0
+Scientist community helpers,age_band,30-44,261,261,0.261,0.261,0,0.0
+Scientist community helpers,age_band,45-59,228,228,0.228,0.228,0,0.0
+Scientist community helpers,age_band,60+,307,307,0.307,0.307,0,0.0
+Consensus,age_band,18-29,204,204,0.204,0.204,0,0.0
+Consensus,age_band,30-44,261,261,0.261,0.261,0,0.0
+Consensus,age_band,45-59,228,228,0.228,0.228,0,0.0
+Consensus,age_band,60+,307,307,0.307,0.307,0,0.0
+Portrait Prof. Cherry,age_band,18-29,204,204,0.204,0.204,0,0.0
+Portrait Prof. Cherry,age_band,30-44,261,261,0.261,0.261,0,0.0
+Portrait Prof. Cherry,age_band,45-59,228,228,0.228,0.228,0,0.0
+Portrait Prof. Cherry,age_band,60+,307,307,0.307,0.307,0,0.0
+Model accuracy,age_band,18-29,204,204,0.204,0.204,0,0.0
+Model accuracy,age_band,30-44,261,261,0.261,0.261,0,0.0
+Model accuracy,age_band,45-59,228,228,0.228,0.228,0,0.0
+Model accuracy,age_band,60+,307,307,0.307,0.307,0,0.0
+Interview Prof. Sebille,age_band,18-29,204,204,0.204,0.204,0,0.0
+Interview Prof. Sebille,age_band,30-44,261,261,0.261,0.261,0,0.0
+Interview Prof. Sebille,age_band,45-59,228,228,0.228,0.228,0,0.0
+Interview Prof. Sebille,age_band,60+,307,307,0.307,0.307,0,0.0
+Extreme weather predictions,age_band,18-29,204,204,0.204,0.204,0,0.0
+Extreme weather predictions,age_band,30-44,261,261,0.261,0.261,0,0.0
+Extreme weather predictions,age_band,45-59,228,228,0.228,0.228,0,0.0
+Extreme weather predictions,age_band,60+,307,307,0.307,0.307,0,0.0
+control,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+control,race,Black / African American,124,124,0.124,0.124,0,0.0
+control,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+control,race,Other,27,27,0.027,0.027,0,0.0
+control,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Corporate reliance,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Corporate reliance,race,Black / African American,124,124,0.124,0.124,0,0.0
+Corporate reliance,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Corporate reliance,race,Other,27,27,0.027,0.027,0,0.0
+Corporate reliance,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Social justice,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Social justice,race,Black / African American,124,124,0.124,0.124,0,0.0
+Social justice,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Social justice,race,Other,27,27,0.027,0.027,0,0.0
+Social justice,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Interview Prof. Maraun,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Interview Prof. Maraun,race,Black / African American,124,124,0.124,0.124,0,0.0
+Interview Prof. Maraun,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Interview Prof. Maraun,race,Other,27,27,0.027,0.027,0,0.0
+Interview Prof. Maraun,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Funding,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Funding,race,Black / African American,124,124,0.124,0.124,0,0.0
+Funding,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Funding,race,Other,27,27,0.027,0.027,0,0.0
+Funding,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Oil industry misinformation,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Oil industry misinformation,race,Black / African American,124,124,0.124,0.124,0,0.0
+Oil industry misinformation,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Oil industry misinformation,race,Other,27,27,0.027,0.027,0,0.0
+Oil industry misinformation,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Measurement & modeling (1),race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Measurement & modeling (1),race,Black / African American,124,124,0.124,0.124,0,0.0
+Measurement & modeling (1),race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Measurement & modeling (1),race,Other,27,27,0.027,0.027,0,0.0
+Measurement & modeling (1),race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Former skeptics,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Former skeptics,race,Black / African American,124,124,0.124,0.124,0,0.0
+Former skeptics,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Former skeptics,race,Other,27,27,0.027,0.027,0,0.0
+Former skeptics,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+High public trust,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+High public trust,race,Black / African American,124,124,0.124,0.124,0,0.0
+High public trust,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+High public trust,race,Other,27,27,0.027,0.027,0,0.0
+High public trust,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Measurement & modeling (2),race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Measurement & modeling (2),race,Black / African American,124,124,0.124,0.124,0,0.0
+Measurement & modeling (2),race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Measurement & modeling (2),race,Other,27,27,0.027,0.027,0,0.0
+Measurement & modeling (2),race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Peer-review,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Peer-review,race,Black / African American,124,124,0.124,0.124,0,0.0
+Peer-review,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Peer-review,race,Other,27,27,0.027,0.027,0,0.0
+Peer-review,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Scientist community helpers,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Scientist community helpers,race,Black / African American,124,124,0.124,0.124,0,0.0
+Scientist community helpers,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Scientist community helpers,race,Other,27,27,0.027,0.027,0,0.0
+Scientist community helpers,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Consensus,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Consensus,race,Black / African American,124,124,0.124,0.124,0,0.0
+Consensus,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Consensus,race,Other,27,27,0.027,0.027,0,0.0
+Consensus,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Portrait Prof. Cherry,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Portrait Prof. Cherry,race,Black / African American,124,124,0.124,0.124,0,0.0
+Portrait Prof. Cherry,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Portrait Prof. Cherry,race,Other,27,27,0.027,0.027,0,0.0
+Portrait Prof. Cherry,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Model accuracy,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Model accuracy,race,Black / African American,124,124,0.124,0.124,0,0.0
+Model accuracy,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Model accuracy,race,Other,27,27,0.027,0.027,0,0.0
+Model accuracy,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Interview Prof. Sebille,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Interview Prof. Sebille,race,Black / African American,124,124,0.124,0.124,0,0.0
+Interview Prof. Sebille,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Interview Prof. Sebille,race,Other,27,27,0.027,0.027,0,0.0
+Interview Prof. Sebille,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+Extreme weather predictions,race,Asian / Asian American,67,67,0.067,0.067,0,0.0
+Extreme weather predictions,race,Black / African American,124,124,0.124,0.124,0,0.0
+Extreme weather predictions,race,Hispanic / Latino,181,181,0.181,0.181,0,0.0
+Extreme weather predictions,race,Other,27,27,0.027,0.027,0,0.0
+Extreme weather predictions,race,White / Caucasian,601,601,0.601,0.601,0,0.0
+control,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+control,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+control,education,Less than high school,68,68,0.068,0.068,0,0.0
+control,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+control,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Corporate reliance,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Corporate reliance,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Corporate reliance,education,Less than high school,68,68,0.068,0.068,0,0.0
+Corporate reliance,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Corporate reliance,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Social justice,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Social justice,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Social justice,education,Less than high school,68,68,0.068,0.068,0,0.0
+Social justice,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Social justice,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Interview Prof. Maraun,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Interview Prof. Maraun,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Interview Prof. Maraun,education,Less than high school,68,68,0.068,0.068,0,0.0
+Interview Prof. Maraun,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Interview Prof. Maraun,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Funding,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Funding,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Funding,education,Less than high school,68,68,0.068,0.068,0,0.0
+Funding,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Funding,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Oil industry misinformation,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Oil industry misinformation,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Oil industry misinformation,education,Less than high school,68,68,0.068,0.068,0,0.0
+Oil industry misinformation,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Oil industry misinformation,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Measurement & modeling (1),education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Measurement & modeling (1),education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Measurement & modeling (1),education,Less than high school,68,68,0.068,0.068,0,0.0
+Measurement & modeling (1),education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Measurement & modeling (1),education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Former skeptics,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Former skeptics,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Former skeptics,education,Less than high school,68,68,0.068,0.068,0,0.0
+Former skeptics,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Former skeptics,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+High public trust,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+High public trust,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+High public trust,education,Less than high school,68,68,0.068,0.068,0,0.0
+High public trust,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+High public trust,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Measurement & modeling (2),education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Measurement & modeling (2),education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Measurement & modeling (2),education,Less than high school,68,68,0.068,0.068,0,0.0
+Measurement & modeling (2),education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Measurement & modeling (2),education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Peer-review,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Peer-review,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Peer-review,education,Less than high school,68,68,0.068,0.068,0,0.0
+Peer-review,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Peer-review,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Scientist community helpers,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Scientist community helpers,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Scientist community helpers,education,Less than high school,68,68,0.068,0.068,0,0.0
+Scientist community helpers,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Scientist community helpers,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Consensus,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Consensus,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Consensus,education,Less than high school,68,68,0.068,0.068,0,0.0
+Consensus,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Consensus,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Portrait Prof. Cherry,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Portrait Prof. Cherry,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Portrait Prof. Cherry,education,Less than high school,68,68,0.068,0.068,0,0.0
+Portrait Prof. Cherry,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Portrait Prof. Cherry,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Model accuracy,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Model accuracy,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Model accuracy,education,Less than high school,68,68,0.068,0.068,0,0.0
+Model accuracy,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Model accuracy,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Interview Prof. Sebille,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Interview Prof. Sebille,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Interview Prof. Sebille,education,Less than high school,68,68,0.068,0.068,0,0.0
+Interview Prof. Sebille,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Interview Prof. Sebille,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+Extreme weather predictions,education,Bachelor's degree,212,212,0.212,0.212,0,0.0
+Extreme weather predictions,education,High school diploma / GED,288,288,0.288,0.288,0,0.0
+Extreme weather predictions,education,Less than high school,68,68,0.068,0.068,0,0.0
+Extreme weather predictions,education,Master's degree / Professional degree,126,126,0.126,0.126,0,0.0
+Extreme weather predictions,education,Some college or Associate's degree,306,306,0.306,0.306,0,0.0
+control,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+control,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+control,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+control,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+control,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Corporate reliance,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Corporate reliance,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Corporate reliance,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Corporate reliance,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Corporate reliance,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Social justice,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Social justice,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Social justice,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Social justice,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Social justice,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Interview Prof. Maraun,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Interview Prof. Maraun,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Interview Prof. Maraun,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Interview Prof. Maraun,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Interview Prof. Maraun,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Funding,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Funding,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Funding,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Funding,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Funding,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Oil industry misinformation,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Oil industry misinformation,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Oil industry misinformation,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Oil industry misinformation,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Oil industry misinformation,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Measurement & modeling (1),income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Measurement & modeling (1),income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Measurement & modeling (1),income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Measurement & modeling (1),income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Measurement & modeling (1),income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Former skeptics,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Former skeptics,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Former skeptics,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Former skeptics,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Former skeptics,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+High public trust,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+High public trust,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+High public trust,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+High public trust,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+High public trust,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Measurement & modeling (2),income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Measurement & modeling (2),income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Measurement & modeling (2),income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Measurement & modeling (2),income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Measurement & modeling (2),income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Peer-review,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Peer-review,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Peer-review,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Peer-review,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Peer-review,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Scientist community helpers,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Scientist community helpers,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Scientist community helpers,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Scientist community helpers,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Scientist community helpers,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Consensus,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Consensus,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Consensus,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Consensus,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Consensus,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Portrait Prof. Cherry,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Portrait Prof. Cherry,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Portrait Prof. Cherry,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Portrait Prof. Cherry,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Portrait Prof. Cherry,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Model accuracy,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Model accuracy,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Model accuracy,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Model accuracy,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Model accuracy,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Interview Prof. Sebille,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Interview Prof. Sebille,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Interview Prof. Sebille,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Interview Prof. Sebille,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Interview Prof. Sebille,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+Extreme weather predictions,income,"$100,000 to $167,999",153,153,0.153,0.153,0,0.0
+Extreme weather predictions,income,"$168,000 or more",106,106,0.106,0.106,0,0.0
+Extreme weather predictions,income,"$30,000 to $55,999",248,248,0.248,0.248,0,0.0
+Extreme weather predictions,income,"$56,000 to $99,999",233,233,0.233,0.233,0,0.0
+Extreme weather predictions,income,"Less than $30,000",260,260,0.26,0.26,0,0.0
+control,party,Democrat,339,339,0.339,0.339,0,0.0
+control,party,Independent,270,270,0.27,0.27,0,0.0
+control,party,Other,107,107,0.107,0.107,0,0.0
+control,party,Republican,284,284,0.284,0.284,0,0.0
+Corporate reliance,party,Democrat,339,339,0.339,0.339,0,0.0
+Corporate reliance,party,Independent,270,270,0.27,0.27,0,0.0
+Corporate reliance,party,Other,107,107,0.107,0.107,0,0.0
+Corporate reliance,party,Republican,284,284,0.284,0.284,0,0.0
+Social justice,party,Democrat,339,339,0.339,0.339,0,0.0
+Social justice,party,Independent,270,270,0.27,0.27,0,0.0
+Social justice,party,Other,107,107,0.107,0.107,0,0.0
+Social justice,party,Republican,284,284,0.284,0.284,0,0.0
+Interview Prof. Maraun,party,Democrat,339,339,0.339,0.339,0,0.0
+Interview Prof. Maraun,party,Independent,270,270,0.27,0.27,0,0.0
+Interview Prof. Maraun,party,Other,107,107,0.107,0.107,0,0.0
+Interview Prof. Maraun,party,Republican,284,284,0.284,0.284,0,0.0
+Funding,party,Democrat,339,339,0.339,0.339,0,0.0
+Funding,party,Independent,270,270,0.27,0.27,0,0.0
+Funding,party,Other,107,107,0.107,0.107,0,0.0
+Funding,party,Republican,284,284,0.284,0.284,0,0.0
+Oil industry misinformation,party,Democrat,339,339,0.339,0.339,0,0.0
+Oil industry misinformation,party,Independent,270,270,0.27,0.27,0,0.0
+Oil industry misinformation,party,Other,107,107,0.107,0.107,0,0.0
+Oil industry misinformation,party,Republican,284,284,0.284,0.284,0,0.0
+Measurement & modeling (1),party,Democrat,339,339,0.339,0.339,0,0.0
+Measurement & modeling (1),party,Independent,270,270,0.27,0.27,0,0.0
+Measurement & modeling (1),party,Other,107,107,0.107,0.107,0,0.0
+Measurement & modeling (1),party,Republican,284,284,0.284,0.284,0,0.0
+Former skeptics,party,Democrat,339,339,0.339,0.339,0,0.0
+Former skeptics,party,Independent,270,270,0.27,0.27,0,0.0
+Former skeptics,party,Other,107,107,0.107,0.107,0,0.0
+Former skeptics,party,Republican,284,284,0.284,0.284,0,0.0
+High public trust,party,Democrat,339,339,0.339,0.339,0,0.0
+High public trust,party,Independent,270,270,0.27,0.27,0,0.0
+High public trust,party,Other,107,107,0.107,0.107,0,0.0
+High public trust,party,Republican,284,284,0.284,0.284,0,0.0
+Measurement & modeling (2),party,Democrat,339,339,0.339,0.339,0,0.0
+Measurement & modeling (2),party,Independent,270,270,0.27,0.27,0,0.0
+Measurement & modeling (2),party,Other,107,107,0.107,0.107,0,0.0
+Measurement & modeling (2),party,Republican,284,284,0.284,0.284,0,0.0
+Peer-review,party,Democrat,339,339,0.339,0.339,0,0.0
+Peer-review,party,Independent,270,270,0.27,0.27,0,0.0
+Peer-review,party,Other,107,107,0.107,0.107,0,0.0
+Peer-review,party,Republican,284,284,0.284,0.284,0,0.0
+Scientist community helpers,party,Democrat,339,339,0.339,0.339,0,0.0
+Scientist community helpers,party,Independent,270,270,0.27,0.27,0,0.0
+Scientist community helpers,party,Other,107,107,0.107,0.107,0,0.0
+Scientist community helpers,party,Republican,284,284,0.284,0.284,0,0.0
+Consensus,party,Democrat,339,339,0.339,0.339,0,0.0
+Consensus,party,Independent,270,270,0.27,0.27,0,0.0
+Consensus,party,Other,107,107,0.107,0.107,0,0.0
+Consensus,party,Republican,284,284,0.284,0.284,0,0.0
+Portrait Prof. Cherry,party,Democrat,339,339,0.339,0.339,0,0.0
+Portrait Prof. Cherry,party,Independent,270,270,0.27,0.27,0,0.0
+Portrait Prof. Cherry,party,Other,107,107,0.107,0.107,0,0.0
+Portrait Prof. Cherry,party,Republican,284,284,0.284,0.284,0,0.0
+Model accuracy,party,Democrat,339,339,0.339,0.339,0,0.0
+Model accuracy,party,Independent,270,270,0.27,0.27,0,0.0
+Model accuracy,party,Other,107,107,0.107,0.107,0,0.0
+Model accuracy,party,Republican,284,284,0.284,0.284,0,0.0
+Interview Prof. Sebille,party,Democrat,339,339,0.339,0.339,0,0.0
+Interview Prof. Sebille,party,Independent,270,270,0.27,0.27,0,0.0
+Interview Prof. Sebille,party,Other,107,107,0.107,0.107,0,0.0
+Interview Prof. Sebille,party,Republican,284,284,0.284,0.284,0,0.0
+Extreme weather predictions,party,Democrat,339,339,0.339,0.339,0,0.0
+Extreme weather predictions,party,Independent,270,270,0.27,0.27,0,0.0
+Extreme weather predictions,party,Other,107,107,0.107,0.107,0,0.0
+Extreme weather predictions,party,Republican,284,284,0.284,0.284,0,0.0
+control,state_abbr,AK,4,4,0.004,0.004,0,0.0
+control,state_abbr,AL,21,21,0.021,0.021,0,0.0
+control,state_abbr,AR,13,13,0.013,0.013,0,0.0
+control,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+control,state_abbr,CA,95,95,0.095,0.095,0,0.0
+control,state_abbr,CO,20,20,0.02,0.02,0,0.0
+control,state_abbr,CT,7,7,0.007,0.007,0,0.0
+control,state_abbr,DC,2,2,0.002,0.002,0,0.0
+control,state_abbr,DE,8,8,0.008,0.008,0,0.0
+control,state_abbr,FL,81,81,0.081,0.081,0,0.0
+control,state_abbr,GA,32,32,0.032,0.032,0,0.0
+control,state_abbr,HI,7,7,0.007,0.007,0,0.0
+control,state_abbr,IA,9,9,0.009,0.009,0,0.0
+control,state_abbr,ID,8,8,0.008,0.008,0,0.0
+control,state_abbr,IL,26,26,0.026,0.026,0,0.0
+control,state_abbr,IN,18,18,0.018,0.018,0,0.0
+control,state_abbr,KS,7,7,0.007,0.007,0,0.0
+control,state_abbr,KY,13,13,0.013,0.013,0,0.0
+control,state_abbr,LA,18,18,0.018,0.018,0,0.0
+control,state_abbr,MA,22,22,0.022,0.022,0,0.0
+control,state_abbr,MD,17,17,0.017,0.017,0,0.0
+control,state_abbr,ME,5,5,0.005,0.005,0,0.0
+control,state_abbr,MI,22,22,0.022,0.022,0,0.0
+control,state_abbr,MN,15,15,0.015,0.015,0,0.0
+control,state_abbr,MO,16,16,0.016,0.016,0,0.0
+control,state_abbr,MS,9,9,0.009,0.009,0,0.0
+control,state_abbr,MT,5,5,0.005,0.005,0,0.0
+control,state_abbr,NC,32,32,0.032,0.032,0,0.0
+control,state_abbr,ND,1,1,0.001,0.001,0,0.0
+control,state_abbr,NE,7,7,0.007,0.007,0,0.0
+control,state_abbr,NH,1,1,0.001,0.001,0,0.0
+control,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+control,state_abbr,NM,8,8,0.008,0.008,0,0.0
+control,state_abbr,NV,14,14,0.014,0.014,0,0.0
+control,state_abbr,NY,56,56,0.056,0.056,0,0.0
+control,state_abbr,OH,34,34,0.034,0.034,0,0.0
+control,state_abbr,OK,19,19,0.019,0.019,0,0.0
+control,state_abbr,OR,14,14,0.014,0.014,0,0.0
+control,state_abbr,PA,45,45,0.045,0.045,0,0.0
+control,state_abbr,RI,6,6,0.006,0.006,0,0.0
+control,state_abbr,SC,13,13,0.013,0.013,0,0.0
+control,state_abbr,SD,3,3,0.003,0.003,0,0.0
+control,state_abbr,TN,23,23,0.023,0.023,0,0.0
+control,state_abbr,TX,85,85,0.085,0.085,0,0.0
+control,state_abbr,UT,8,8,0.008,0.008,0,0.0
+control,state_abbr,VA,33,33,0.033,0.033,0,0.0
+control,state_abbr,VT,1,1,0.001,0.001,0,0.0
+control,state_abbr,WA,29,29,0.029,0.029,0,0.0
+control,state_abbr,WI,24,24,0.024,0.024,0,0.0
+control,state_abbr,WV,4,4,0.004,0.004,0,0.0
+control,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Corporate reliance,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Corporate reliance,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Corporate reliance,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Corporate reliance,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Corporate reliance,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Corporate reliance,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Corporate reliance,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Corporate reliance,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Corporate reliance,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Corporate reliance,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Corporate reliance,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Corporate reliance,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Corporate reliance,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Corporate reliance,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Corporate reliance,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Corporate reliance,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Corporate reliance,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Corporate reliance,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Corporate reliance,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Corporate reliance,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Corporate reliance,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Corporate reliance,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Corporate reliance,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Corporate reliance,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Corporate reliance,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Corporate reliance,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Corporate reliance,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Corporate reliance,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Corporate reliance,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Corporate reliance,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Corporate reliance,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Corporate reliance,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Corporate reliance,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Corporate reliance,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Corporate reliance,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Corporate reliance,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Corporate reliance,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Corporate reliance,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Corporate reliance,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Corporate reliance,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Corporate reliance,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Corporate reliance,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Corporate reliance,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Corporate reliance,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Corporate reliance,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Corporate reliance,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Corporate reliance,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Corporate reliance,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Corporate reliance,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Corporate reliance,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Corporate reliance,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Social justice,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Social justice,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Social justice,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Social justice,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Social justice,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Social justice,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Social justice,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Social justice,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Social justice,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Social justice,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Social justice,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Social justice,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Social justice,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Social justice,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Social justice,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Social justice,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Social justice,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Social justice,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Social justice,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Social justice,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Social justice,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Social justice,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Social justice,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Social justice,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Social justice,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Social justice,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Social justice,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Social justice,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Social justice,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Social justice,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Social justice,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Social justice,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Social justice,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Social justice,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Social justice,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Social justice,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Social justice,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Social justice,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Social justice,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Social justice,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Social justice,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Social justice,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Social justice,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Social justice,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Social justice,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Social justice,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Social justice,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Social justice,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Social justice,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Social justice,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Social justice,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Interview Prof. Maraun,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Interview Prof. Maraun,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Interview Prof. Maraun,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Interview Prof. Maraun,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Interview Prof. Maraun,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Interview Prof. Maraun,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Interview Prof. Maraun,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Interview Prof. Maraun,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Interview Prof. Maraun,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Interview Prof. Maraun,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Interview Prof. Maraun,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Interview Prof. Maraun,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Interview Prof. Maraun,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Interview Prof. Maraun,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Interview Prof. Maraun,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Interview Prof. Maraun,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Interview Prof. Maraun,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Interview Prof. Maraun,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Interview Prof. Maraun,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Interview Prof. Maraun,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Interview Prof. Maraun,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Interview Prof. Maraun,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Interview Prof. Maraun,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Interview Prof. Maraun,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Interview Prof. Maraun,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Interview Prof. Maraun,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Interview Prof. Maraun,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Interview Prof. Maraun,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Interview Prof. Maraun,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Interview Prof. Maraun,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Interview Prof. Maraun,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Interview Prof. Maraun,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Interview Prof. Maraun,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Interview Prof. Maraun,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Interview Prof. Maraun,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Interview Prof. Maraun,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Interview Prof. Maraun,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Interview Prof. Maraun,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Interview Prof. Maraun,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Interview Prof. Maraun,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Interview Prof. Maraun,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Interview Prof. Maraun,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Interview Prof. Maraun,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Interview Prof. Maraun,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Interview Prof. Maraun,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Interview Prof. Maraun,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Interview Prof. Maraun,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Interview Prof. Maraun,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Interview Prof. Maraun,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Interview Prof. Maraun,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Interview Prof. Maraun,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Funding,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Funding,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Funding,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Funding,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Funding,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Funding,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Funding,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Funding,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Funding,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Funding,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Funding,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Funding,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Funding,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Funding,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Funding,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Funding,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Funding,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Funding,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Funding,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Funding,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Funding,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Funding,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Funding,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Funding,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Funding,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Funding,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Funding,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Funding,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Funding,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Funding,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Funding,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Funding,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Funding,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Funding,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Funding,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Funding,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Funding,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Funding,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Funding,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Funding,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Funding,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Funding,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Funding,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Funding,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Funding,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Funding,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Funding,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Funding,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Funding,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Funding,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Funding,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Oil industry misinformation,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Oil industry misinformation,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Oil industry misinformation,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Oil industry misinformation,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Oil industry misinformation,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Oil industry misinformation,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Oil industry misinformation,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Oil industry misinformation,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Oil industry misinformation,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Oil industry misinformation,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Oil industry misinformation,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Oil industry misinformation,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Oil industry misinformation,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Oil industry misinformation,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Oil industry misinformation,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Oil industry misinformation,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Oil industry misinformation,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Oil industry misinformation,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Oil industry misinformation,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Oil industry misinformation,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Oil industry misinformation,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Oil industry misinformation,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Oil industry misinformation,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Oil industry misinformation,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Oil industry misinformation,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Oil industry misinformation,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Oil industry misinformation,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Oil industry misinformation,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Oil industry misinformation,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Oil industry misinformation,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Oil industry misinformation,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Oil industry misinformation,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Oil industry misinformation,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Oil industry misinformation,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Oil industry misinformation,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Oil industry misinformation,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Oil industry misinformation,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Oil industry misinformation,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Oil industry misinformation,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Oil industry misinformation,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Oil industry misinformation,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Oil industry misinformation,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Oil industry misinformation,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Oil industry misinformation,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Oil industry misinformation,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Oil industry misinformation,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Oil industry misinformation,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Oil industry misinformation,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Oil industry misinformation,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Oil industry misinformation,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Oil industry misinformation,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Measurement & modeling (1),state_abbr,AK,4,4,0.004,0.004,0,0.0
+Measurement & modeling (1),state_abbr,AL,21,21,0.021,0.021,0,0.0
+Measurement & modeling (1),state_abbr,AR,13,13,0.013,0.013,0,0.0
+Measurement & modeling (1),state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Measurement & modeling (1),state_abbr,CA,95,95,0.095,0.095,0,0.0
+Measurement & modeling (1),state_abbr,CO,20,20,0.02,0.02,0,0.0
+Measurement & modeling (1),state_abbr,CT,7,7,0.007,0.007,0,0.0
+Measurement & modeling (1),state_abbr,DC,2,2,0.002,0.002,0,0.0
+Measurement & modeling (1),state_abbr,DE,8,8,0.008,0.008,0,0.0
+Measurement & modeling (1),state_abbr,FL,81,81,0.081,0.081,0,0.0
+Measurement & modeling (1),state_abbr,GA,32,32,0.032,0.032,0,0.0
+Measurement & modeling (1),state_abbr,HI,7,7,0.007,0.007,0,0.0
+Measurement & modeling (1),state_abbr,IA,9,9,0.009,0.009,0,0.0
+Measurement & modeling (1),state_abbr,ID,8,8,0.008,0.008,0,0.0
+Measurement & modeling (1),state_abbr,IL,26,26,0.026,0.026,0,0.0
+Measurement & modeling (1),state_abbr,IN,18,18,0.018,0.018,0,0.0
+Measurement & modeling (1),state_abbr,KS,7,7,0.007,0.007,0,0.0
+Measurement & modeling (1),state_abbr,KY,13,13,0.013,0.013,0,0.0
+Measurement & modeling (1),state_abbr,LA,18,18,0.018,0.018,0,0.0
+Measurement & modeling (1),state_abbr,MA,22,22,0.022,0.022,0,0.0
+Measurement & modeling (1),state_abbr,MD,17,17,0.017,0.017,0,0.0
+Measurement & modeling (1),state_abbr,ME,5,5,0.005,0.005,0,0.0
+Measurement & modeling (1),state_abbr,MI,22,22,0.022,0.022,0,0.0
+Measurement & modeling (1),state_abbr,MN,15,15,0.015,0.015,0,0.0
+Measurement & modeling (1),state_abbr,MO,16,16,0.016,0.016,0,0.0
+Measurement & modeling (1),state_abbr,MS,9,9,0.009,0.009,0,0.0
+Measurement & modeling (1),state_abbr,MT,5,5,0.005,0.005,0,0.0
+Measurement & modeling (1),state_abbr,NC,32,32,0.032,0.032,0,0.0
+Measurement & modeling (1),state_abbr,ND,1,1,0.001,0.001,0,0.0
+Measurement & modeling (1),state_abbr,NE,7,7,0.007,0.007,0,0.0
+Measurement & modeling (1),state_abbr,NH,1,1,0.001,0.001,0,0.0
+Measurement & modeling (1),state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Measurement & modeling (1),state_abbr,NM,8,8,0.008,0.008,0,0.0
+Measurement & modeling (1),state_abbr,NV,14,14,0.014,0.014,0,0.0
+Measurement & modeling (1),state_abbr,NY,56,56,0.056,0.056,0,0.0
+Measurement & modeling (1),state_abbr,OH,34,34,0.034,0.034,0,0.0
+Measurement & modeling (1),state_abbr,OK,19,19,0.019,0.019,0,0.0
+Measurement & modeling (1),state_abbr,OR,14,14,0.014,0.014,0,0.0
+Measurement & modeling (1),state_abbr,PA,45,45,0.045,0.045,0,0.0
+Measurement & modeling (1),state_abbr,RI,6,6,0.006,0.006,0,0.0
+Measurement & modeling (1),state_abbr,SC,13,13,0.013,0.013,0,0.0
+Measurement & modeling (1),state_abbr,SD,3,3,0.003,0.003,0,0.0
+Measurement & modeling (1),state_abbr,TN,23,23,0.023,0.023,0,0.0
+Measurement & modeling (1),state_abbr,TX,85,85,0.085,0.085,0,0.0
+Measurement & modeling (1),state_abbr,UT,8,8,0.008,0.008,0,0.0
+Measurement & modeling (1),state_abbr,VA,33,33,0.033,0.033,0,0.0
+Measurement & modeling (1),state_abbr,VT,1,1,0.001,0.001,0,0.0
+Measurement & modeling (1),state_abbr,WA,29,29,0.029,0.029,0,0.0
+Measurement & modeling (1),state_abbr,WI,24,24,0.024,0.024,0,0.0
+Measurement & modeling (1),state_abbr,WV,4,4,0.004,0.004,0,0.0
+Measurement & modeling (1),state_abbr,WY,2,2,0.002,0.002,0,0.0
+Former skeptics,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Former skeptics,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Former skeptics,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Former skeptics,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Former skeptics,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Former skeptics,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Former skeptics,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Former skeptics,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Former skeptics,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Former skeptics,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Former skeptics,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Former skeptics,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Former skeptics,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Former skeptics,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Former skeptics,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Former skeptics,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Former skeptics,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Former skeptics,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Former skeptics,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Former skeptics,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Former skeptics,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Former skeptics,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Former skeptics,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Former skeptics,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Former skeptics,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Former skeptics,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Former skeptics,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Former skeptics,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Former skeptics,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Former skeptics,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Former skeptics,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Former skeptics,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Former skeptics,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Former skeptics,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Former skeptics,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Former skeptics,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Former skeptics,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Former skeptics,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Former skeptics,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Former skeptics,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Former skeptics,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Former skeptics,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Former skeptics,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Former skeptics,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Former skeptics,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Former skeptics,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Former skeptics,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Former skeptics,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Former skeptics,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Former skeptics,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Former skeptics,state_abbr,WY,2,2,0.002,0.002,0,0.0
+High public trust,state_abbr,AK,4,4,0.004,0.004,0,0.0
+High public trust,state_abbr,AL,21,21,0.021,0.021,0,0.0
+High public trust,state_abbr,AR,13,13,0.013,0.013,0,0.0
+High public trust,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+High public trust,state_abbr,CA,95,95,0.095,0.095,0,0.0
+High public trust,state_abbr,CO,20,20,0.02,0.02,0,0.0
+High public trust,state_abbr,CT,7,7,0.007,0.007,0,0.0
+High public trust,state_abbr,DC,2,2,0.002,0.002,0,0.0
+High public trust,state_abbr,DE,8,8,0.008,0.008,0,0.0
+High public trust,state_abbr,FL,81,81,0.081,0.081,0,0.0
+High public trust,state_abbr,GA,32,32,0.032,0.032,0,0.0
+High public trust,state_abbr,HI,7,7,0.007,0.007,0,0.0
+High public trust,state_abbr,IA,9,9,0.009,0.009,0,0.0
+High public trust,state_abbr,ID,8,8,0.008,0.008,0,0.0
+High public trust,state_abbr,IL,26,26,0.026,0.026,0,0.0
+High public trust,state_abbr,IN,18,18,0.018,0.018,0,0.0
+High public trust,state_abbr,KS,7,7,0.007,0.007,0,0.0
+High public trust,state_abbr,KY,13,13,0.013,0.013,0,0.0
+High public trust,state_abbr,LA,18,18,0.018,0.018,0,0.0
+High public trust,state_abbr,MA,22,22,0.022,0.022,0,0.0
+High public trust,state_abbr,MD,17,17,0.017,0.017,0,0.0
+High public trust,state_abbr,ME,5,5,0.005,0.005,0,0.0
+High public trust,state_abbr,MI,22,22,0.022,0.022,0,0.0
+High public trust,state_abbr,MN,15,15,0.015,0.015,0,0.0
+High public trust,state_abbr,MO,16,16,0.016,0.016,0,0.0
+High public trust,state_abbr,MS,9,9,0.009,0.009,0,0.0
+High public trust,state_abbr,MT,5,5,0.005,0.005,0,0.0
+High public trust,state_abbr,NC,32,32,0.032,0.032,0,0.0
+High public trust,state_abbr,ND,1,1,0.001,0.001,0,0.0
+High public trust,state_abbr,NE,7,7,0.007,0.007,0,0.0
+High public trust,state_abbr,NH,1,1,0.001,0.001,0,0.0
+High public trust,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+High public trust,state_abbr,NM,8,8,0.008,0.008,0,0.0
+High public trust,state_abbr,NV,14,14,0.014,0.014,0,0.0
+High public trust,state_abbr,NY,56,56,0.056,0.056,0,0.0
+High public trust,state_abbr,OH,34,34,0.034,0.034,0,0.0
+High public trust,state_abbr,OK,19,19,0.019,0.019,0,0.0
+High public trust,state_abbr,OR,14,14,0.014,0.014,0,0.0
+High public trust,state_abbr,PA,45,45,0.045,0.045,0,0.0
+High public trust,state_abbr,RI,6,6,0.006,0.006,0,0.0
+High public trust,state_abbr,SC,13,13,0.013,0.013,0,0.0
+High public trust,state_abbr,SD,3,3,0.003,0.003,0,0.0
+High public trust,state_abbr,TN,23,23,0.023,0.023,0,0.0
+High public trust,state_abbr,TX,85,85,0.085,0.085,0,0.0
+High public trust,state_abbr,UT,8,8,0.008,0.008,0,0.0
+High public trust,state_abbr,VA,33,33,0.033,0.033,0,0.0
+High public trust,state_abbr,VT,1,1,0.001,0.001,0,0.0
+High public trust,state_abbr,WA,29,29,0.029,0.029,0,0.0
+High public trust,state_abbr,WI,24,24,0.024,0.024,0,0.0
+High public trust,state_abbr,WV,4,4,0.004,0.004,0,0.0
+High public trust,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Measurement & modeling (2),state_abbr,AK,4,4,0.004,0.004,0,0.0
+Measurement & modeling (2),state_abbr,AL,21,21,0.021,0.021,0,0.0
+Measurement & modeling (2),state_abbr,AR,13,13,0.013,0.013,0,0.0
+Measurement & modeling (2),state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Measurement & modeling (2),state_abbr,CA,95,95,0.095,0.095,0,0.0
+Measurement & modeling (2),state_abbr,CO,20,20,0.02,0.02,0,0.0
+Measurement & modeling (2),state_abbr,CT,7,7,0.007,0.007,0,0.0
+Measurement & modeling (2),state_abbr,DC,2,2,0.002,0.002,0,0.0
+Measurement & modeling (2),state_abbr,DE,8,8,0.008,0.008,0,0.0
+Measurement & modeling (2),state_abbr,FL,81,81,0.081,0.081,0,0.0
+Measurement & modeling (2),state_abbr,GA,32,32,0.032,0.032,0,0.0
+Measurement & modeling (2),state_abbr,HI,7,7,0.007,0.007,0,0.0
+Measurement & modeling (2),state_abbr,IA,9,9,0.009,0.009,0,0.0
+Measurement & modeling (2),state_abbr,ID,8,8,0.008,0.008,0,0.0
+Measurement & modeling (2),state_abbr,IL,26,26,0.026,0.026,0,0.0
+Measurement & modeling (2),state_abbr,IN,18,18,0.018,0.018,0,0.0
+Measurement & modeling (2),state_abbr,KS,7,7,0.007,0.007,0,0.0
+Measurement & modeling (2),state_abbr,KY,13,13,0.013,0.013,0,0.0
+Measurement & modeling (2),state_abbr,LA,18,18,0.018,0.018,0,0.0
+Measurement & modeling (2),state_abbr,MA,22,22,0.022,0.022,0,0.0
+Measurement & modeling (2),state_abbr,MD,17,17,0.017,0.017,0,0.0
+Measurement & modeling (2),state_abbr,ME,5,5,0.005,0.005,0,0.0
+Measurement & modeling (2),state_abbr,MI,22,22,0.022,0.022,0,0.0
+Measurement & modeling (2),state_abbr,MN,15,15,0.015,0.015,0,0.0
+Measurement & modeling (2),state_abbr,MO,16,16,0.016,0.016,0,0.0
+Measurement & modeling (2),state_abbr,MS,9,9,0.009,0.009,0,0.0
+Measurement & modeling (2),state_abbr,MT,5,5,0.005,0.005,0,0.0
+Measurement & modeling (2),state_abbr,NC,32,32,0.032,0.032,0,0.0
+Measurement & modeling (2),state_abbr,ND,1,1,0.001,0.001,0,0.0
+Measurement & modeling (2),state_abbr,NE,7,7,0.007,0.007,0,0.0
+Measurement & modeling (2),state_abbr,NH,1,1,0.001,0.001,0,0.0
+Measurement & modeling (2),state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Measurement & modeling (2),state_abbr,NM,8,8,0.008,0.008,0,0.0
+Measurement & modeling (2),state_abbr,NV,14,14,0.014,0.014,0,0.0
+Measurement & modeling (2),state_abbr,NY,56,56,0.056,0.056,0,0.0
+Measurement & modeling (2),state_abbr,OH,34,34,0.034,0.034,0,0.0
+Measurement & modeling (2),state_abbr,OK,19,19,0.019,0.019,0,0.0
+Measurement & modeling (2),state_abbr,OR,14,14,0.014,0.014,0,0.0
+Measurement & modeling (2),state_abbr,PA,45,45,0.045,0.045,0,0.0
+Measurement & modeling (2),state_abbr,RI,6,6,0.006,0.006,0,0.0
+Measurement & modeling (2),state_abbr,SC,13,13,0.013,0.013,0,0.0
+Measurement & modeling (2),state_abbr,SD,3,3,0.003,0.003,0,0.0
+Measurement & modeling (2),state_abbr,TN,23,23,0.023,0.023,0,0.0
+Measurement & modeling (2),state_abbr,TX,85,85,0.085,0.085,0,0.0
+Measurement & modeling (2),state_abbr,UT,8,8,0.008,0.008,0,0.0
+Measurement & modeling (2),state_abbr,VA,33,33,0.033,0.033,0,0.0
+Measurement & modeling (2),state_abbr,VT,1,1,0.001,0.001,0,0.0
+Measurement & modeling (2),state_abbr,WA,29,29,0.029,0.029,0,0.0
+Measurement & modeling (2),state_abbr,WI,24,24,0.024,0.024,0,0.0
+Measurement & modeling (2),state_abbr,WV,4,4,0.004,0.004,0,0.0
+Measurement & modeling (2),state_abbr,WY,2,2,0.002,0.002,0,0.0
+Peer-review,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Peer-review,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Peer-review,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Peer-review,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Peer-review,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Peer-review,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Peer-review,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Peer-review,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Peer-review,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Peer-review,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Peer-review,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Peer-review,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Peer-review,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Peer-review,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Peer-review,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Peer-review,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Peer-review,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Peer-review,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Peer-review,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Peer-review,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Peer-review,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Peer-review,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Peer-review,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Peer-review,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Peer-review,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Peer-review,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Peer-review,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Peer-review,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Peer-review,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Peer-review,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Peer-review,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Peer-review,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Peer-review,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Peer-review,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Peer-review,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Peer-review,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Peer-review,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Peer-review,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Peer-review,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Peer-review,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Peer-review,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Peer-review,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Peer-review,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Peer-review,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Peer-review,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Peer-review,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Peer-review,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Peer-review,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Peer-review,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Peer-review,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Peer-review,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Scientist community helpers,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Scientist community helpers,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Scientist community helpers,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Scientist community helpers,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Scientist community helpers,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Scientist community helpers,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Scientist community helpers,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Scientist community helpers,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Scientist community helpers,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Scientist community helpers,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Scientist community helpers,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Scientist community helpers,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Scientist community helpers,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Scientist community helpers,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Scientist community helpers,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Scientist community helpers,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Scientist community helpers,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Scientist community helpers,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Scientist community helpers,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Scientist community helpers,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Scientist community helpers,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Scientist community helpers,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Scientist community helpers,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Scientist community helpers,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Scientist community helpers,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Scientist community helpers,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Scientist community helpers,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Scientist community helpers,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Scientist community helpers,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Scientist community helpers,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Scientist community helpers,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Scientist community helpers,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Scientist community helpers,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Scientist community helpers,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Scientist community helpers,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Scientist community helpers,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Scientist community helpers,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Scientist community helpers,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Scientist community helpers,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Scientist community helpers,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Scientist community helpers,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Scientist community helpers,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Scientist community helpers,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Scientist community helpers,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Scientist community helpers,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Scientist community helpers,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Scientist community helpers,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Scientist community helpers,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Scientist community helpers,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Scientist community helpers,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Scientist community helpers,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Consensus,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Consensus,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Consensus,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Consensus,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Consensus,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Consensus,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Consensus,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Consensus,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Consensus,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Consensus,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Consensus,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Consensus,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Consensus,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Consensus,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Consensus,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Consensus,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Consensus,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Consensus,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Consensus,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Consensus,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Consensus,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Consensus,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Consensus,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Consensus,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Consensus,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Consensus,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Consensus,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Consensus,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Consensus,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Consensus,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Consensus,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Consensus,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Consensus,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Consensus,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Consensus,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Consensus,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Consensus,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Consensus,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Consensus,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Consensus,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Consensus,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Consensus,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Consensus,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Consensus,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Consensus,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Consensus,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Consensus,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Consensus,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Consensus,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Consensus,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Consensus,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Portrait Prof. Cherry,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Portrait Prof. Cherry,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Portrait Prof. Cherry,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Portrait Prof. Cherry,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Portrait Prof. Cherry,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Portrait Prof. Cherry,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Portrait Prof. Cherry,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Portrait Prof. Cherry,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Portrait Prof. Cherry,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Portrait Prof. Cherry,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Portrait Prof. Cherry,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Portrait Prof. Cherry,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Portrait Prof. Cherry,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Portrait Prof. Cherry,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Portrait Prof. Cherry,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Portrait Prof. Cherry,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Portrait Prof. Cherry,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Portrait Prof. Cherry,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Portrait Prof. Cherry,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Portrait Prof. Cherry,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Portrait Prof. Cherry,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Portrait Prof. Cherry,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Portrait Prof. Cherry,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Portrait Prof. Cherry,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Portrait Prof. Cherry,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Portrait Prof. Cherry,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Portrait Prof. Cherry,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Portrait Prof. Cherry,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Portrait Prof. Cherry,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Portrait Prof. Cherry,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Portrait Prof. Cherry,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Portrait Prof. Cherry,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Portrait Prof. Cherry,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Portrait Prof. Cherry,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Portrait Prof. Cherry,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Portrait Prof. Cherry,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Portrait Prof. Cherry,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Portrait Prof. Cherry,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Portrait Prof. Cherry,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Portrait Prof. Cherry,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Portrait Prof. Cherry,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Portrait Prof. Cherry,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Portrait Prof. Cherry,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Portrait Prof. Cherry,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Portrait Prof. Cherry,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Portrait Prof. Cherry,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Portrait Prof. Cherry,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Portrait Prof. Cherry,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Portrait Prof. Cherry,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Portrait Prof. Cherry,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Portrait Prof. Cherry,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Model accuracy,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Model accuracy,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Model accuracy,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Model accuracy,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Model accuracy,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Model accuracy,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Model accuracy,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Model accuracy,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Model accuracy,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Model accuracy,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Model accuracy,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Model accuracy,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Model accuracy,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Model accuracy,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Model accuracy,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Model accuracy,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Model accuracy,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Model accuracy,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Model accuracy,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Model accuracy,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Model accuracy,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Model accuracy,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Model accuracy,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Model accuracy,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Model accuracy,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Model accuracy,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Model accuracy,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Model accuracy,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Model accuracy,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Model accuracy,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Model accuracy,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Model accuracy,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Model accuracy,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Model accuracy,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Model accuracy,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Model accuracy,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Model accuracy,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Model accuracy,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Model accuracy,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Model accuracy,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Model accuracy,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Model accuracy,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Model accuracy,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Model accuracy,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Model accuracy,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Model accuracy,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Model accuracy,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Model accuracy,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Model accuracy,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Model accuracy,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Model accuracy,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Interview Prof. Sebille,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Interview Prof. Sebille,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Interview Prof. Sebille,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Interview Prof. Sebille,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Interview Prof. Sebille,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Interview Prof. Sebille,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Interview Prof. Sebille,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Interview Prof. Sebille,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Interview Prof. Sebille,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Interview Prof. Sebille,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Interview Prof. Sebille,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Interview Prof. Sebille,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Interview Prof. Sebille,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Interview Prof. Sebille,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Interview Prof. Sebille,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Interview Prof. Sebille,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Interview Prof. Sebille,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Interview Prof. Sebille,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Interview Prof. Sebille,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Interview Prof. Sebille,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Interview Prof. Sebille,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Interview Prof. Sebille,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Interview Prof. Sebille,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Interview Prof. Sebille,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Interview Prof. Sebille,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Interview Prof. Sebille,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Interview Prof. Sebille,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Interview Prof. Sebille,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Interview Prof. Sebille,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Interview Prof. Sebille,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Interview Prof. Sebille,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Interview Prof. Sebille,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Interview Prof. Sebille,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Interview Prof. Sebille,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Interview Prof. Sebille,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Interview Prof. Sebille,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Interview Prof. Sebille,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Interview Prof. Sebille,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Interview Prof. Sebille,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Interview Prof. Sebille,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Interview Prof. Sebille,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Interview Prof. Sebille,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Interview Prof. Sebille,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Interview Prof. Sebille,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Interview Prof. Sebille,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Interview Prof. Sebille,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Interview Prof. Sebille,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Interview Prof. Sebille,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Interview Prof. Sebille,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Interview Prof. Sebille,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Interview Prof. Sebille,state_abbr,WY,2,2,0.002,0.002,0,0.0
+Extreme weather predictions,state_abbr,AK,4,4,0.004,0.004,0,0.0
+Extreme weather predictions,state_abbr,AL,21,21,0.021,0.021,0,0.0
+Extreme weather predictions,state_abbr,AR,13,13,0.013,0.013,0,0.0
+Extreme weather predictions,state_abbr,AZ,21,21,0.021,0.021,0,0.0
+Extreme weather predictions,state_abbr,CA,95,95,0.095,0.095,0,0.0
+Extreme weather predictions,state_abbr,CO,20,20,0.02,0.02,0,0.0
+Extreme weather predictions,state_abbr,CT,7,7,0.007,0.007,0,0.0
+Extreme weather predictions,state_abbr,DC,2,2,0.002,0.002,0,0.0
+Extreme weather predictions,state_abbr,DE,8,8,0.008,0.008,0,0.0
+Extreme weather predictions,state_abbr,FL,81,81,0.081,0.081,0,0.0
+Extreme weather predictions,state_abbr,GA,32,32,0.032,0.032,0,0.0
+Extreme weather predictions,state_abbr,HI,7,7,0.007,0.007,0,0.0
+Extreme weather predictions,state_abbr,IA,9,9,0.009,0.009,0,0.0
+Extreme weather predictions,state_abbr,ID,8,8,0.008,0.008,0,0.0
+Extreme weather predictions,state_abbr,IL,26,26,0.026,0.026,0,0.0
+Extreme weather predictions,state_abbr,IN,18,18,0.018,0.018,0,0.0
+Extreme weather predictions,state_abbr,KS,7,7,0.007,0.007,0,0.0
+Extreme weather predictions,state_abbr,KY,13,13,0.013,0.013,0,0.0
+Extreme weather predictions,state_abbr,LA,18,18,0.018,0.018,0,0.0
+Extreme weather predictions,state_abbr,MA,22,22,0.022,0.022,0,0.0
+Extreme weather predictions,state_abbr,MD,17,17,0.017,0.017,0,0.0
+Extreme weather predictions,state_abbr,ME,5,5,0.005,0.005,0,0.0
+Extreme weather predictions,state_abbr,MI,22,22,0.022,0.022,0,0.0
+Extreme weather predictions,state_abbr,MN,15,15,0.015,0.015,0,0.0
+Extreme weather predictions,state_abbr,MO,16,16,0.016,0.016,0,0.0
+Extreme weather predictions,state_abbr,MS,9,9,0.009,0.009,0,0.0
+Extreme weather predictions,state_abbr,MT,5,5,0.005,0.005,0,0.0
+Extreme weather predictions,state_abbr,NC,32,32,0.032,0.032,0,0.0
+Extreme weather predictions,state_abbr,ND,1,1,0.001,0.001,0,0.0
+Extreme weather predictions,state_abbr,NE,7,7,0.007,0.007,0,0.0
+Extreme weather predictions,state_abbr,NH,1,1,0.001,0.001,0,0.0
+Extreme weather predictions,state_abbr,NJ,17,17,0.017,0.017,0,0.0
+Extreme weather predictions,state_abbr,NM,8,8,0.008,0.008,0,0.0
+Extreme weather predictions,state_abbr,NV,14,14,0.014,0.014,0,0.0
+Extreme weather predictions,state_abbr,NY,56,56,0.056,0.056,0,0.0
+Extreme weather predictions,state_abbr,OH,34,34,0.034,0.034,0,0.0
+Extreme weather predictions,state_abbr,OK,19,19,0.019,0.019,0,0.0
+Extreme weather predictions,state_abbr,OR,14,14,0.014,0.014,0,0.0
+Extreme weather predictions,state_abbr,PA,45,45,0.045,0.045,0,0.0
+Extreme weather predictions,state_abbr,RI,6,6,0.006,0.006,0,0.0
+Extreme weather predictions,state_abbr,SC,13,13,0.013,0.013,0,0.0
+Extreme weather predictions,state_abbr,SD,3,3,0.003,0.003,0,0.0
+Extreme weather predictions,state_abbr,TN,23,23,0.023,0.023,0,0.0
+Extreme weather predictions,state_abbr,TX,85,85,0.085,0.085,0,0.0
+Extreme weather predictions,state_abbr,UT,8,8,0.008,0.008,0,0.0
+Extreme weather predictions,state_abbr,VA,33,33,0.033,0.033,0,0.0
+Extreme weather predictions,state_abbr,VT,1,1,0.001,0.001,0,0.0
+Extreme weather predictions,state_abbr,WA,29,29,0.029,0.029,0,0.0
+Extreme weather predictions,state_abbr,WI,24,24,0.024,0.024,0,0.0
+Extreme weather predictions,state_abbr,WV,4,4,0.004,0.004,0,0.0
+Extreme weather predictions,state_abbr,WY,2,2,0.002,0.002,0,0.0

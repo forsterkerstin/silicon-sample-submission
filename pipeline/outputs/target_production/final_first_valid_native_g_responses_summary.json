@@ -1,0 +1,32 @@
+{
+  "n_rows": 17000,
+  "n_respondents": 1000,
+  "n_conditions": 17,
+  "rows_per_condition": {
+    "control": 1000,
+    "Corporate reliance": 1000,
+    "Social justice": 1000,
+    "Interview Prof. Maraun": 1000,
+    "Funding": 1000,
+    "Oil industry misinformation": 1000,
+    "Measurement & modeling (1)": 1000,
+    "Former skeptics": 1000,
+    "High public trust": 1000,
+    "Measurement & modeling (2)": 1000,
+    "Peer-review": 1000,
+    "Scientist community helpers": 1000,
+    "Portrait Prof. Cherry": 1000,
+    "Model accuracy": 1000,
+    "Interview Prof. Sebille": 1000,
+    "Extreme weather predictions": 1000,
+    "Consensus": 1000
+  },
+  "n_item_columns": 44,
+  "standard_rows": 16000,
+  "consensus_rows": 1000,
+  "csv_path": "outputs/target_production/final_first_valid_native_g_responses.csv",
+  "csv_sha256": "d494dd187f277967250f92aecd519c08c13c59fdded1c9c81a6babf63f5a44e8",
+  "control_repair_applied": true,
+  "control_repair_rows_overridden": 666,
+  "control_repair_source": "outputs/target_production/control_replacement_requests_v2"
+}

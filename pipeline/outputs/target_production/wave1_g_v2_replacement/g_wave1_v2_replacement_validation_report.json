@@ -1,0 +1,195 @@
+{
+  "note": "Schema-validity and provider-delivery accounting ONLY on the target G Wave-1 v2 full-replacement retrieved output -- no scientific target-G value is computed or exposed anywhere here. No fence-stripping, no repair, no retry.",
+  "per_part": [
+    {
+      "stage": "standard",
+      "part": "part1",
+      "expected": 3199,
+      "schema_valid": 2945,
+      "schema_invalid": 111,
+      "malformed_json": 110,
+      "invalid_reason_counts": {
+        "malformed_json": 110,
+        "schema_invalid": 1
+      },
+      "provider_error": 143,
+      "provider_error_code_counts": {
+        "batch_client_error": 143
+      },
+      "missing_entirely": 0,
+      "unexpected_in_output": [],
+      "unexpected_in_error": [],
+      "duplicate_in_output": [],
+      "duplicate_in_error": [],
+      "malformed_no_custom_id_in_output": 0,
+      "malformed_no_custom_id_in_error": 0,
+      "present_in_both_output_and_error": [],
+      "fingerprint_counts": {
+        "vllm-0.21.0-8326ea74": 1430,
+        "None": 1626
+      },
+      "accounting_closes": true
+    },
+    {
+      "stage": "standard",
+      "part": "part2",
+      "expected": 3199,
+      "schema_valid": 2895,
+      "schema_invalid": 130,
+      "malformed_json": 130,
+      "invalid_reason_counts": {
+        "malformed_json": 130
+      },
+      "provider_error": 174,
+      "provider_error_code_counts": {
+        "batch_client_error": 174
+      },
+      "missing_entirely": 0,
+      "unexpected_in_output": [],
+      "unexpected_in_error": [],
+      "duplicate_in_output": [],
+      "duplicate_in_error": [],
+      "malformed_no_custom_id_in_output": 0,
+      "malformed_no_custom_id_in_error": 0,
+      "present_in_both_output_and_error": [],
+      "fingerprint_counts": {
+        "vllm-0.21.0-8326ea74": 1805,
+        "None": 1220
+      },
+      "accounting_closes": true
+    },
+    {
+      "stage": "standard",
+      "part": "part3",
+      "expected": 3199,
+      "schema_valid": 2902,
+      "schema_invalid": 125,
+      "malformed_json": 125,
+      "invalid_reason_counts": {
+        "malformed_json": 125
+      },
+      "provider_error": 172,
+      "provider_error_code_counts": {
+        "batch_client_error": 172
+      },
+      "missing_entirely": 0,
+      "unexpected_in_output": [],
+      "unexpected_in_error": [],
+      "duplicate_in_output": [],
+      "duplicate_in_error": [],
+      "malformed_no_custom_id_in_output": 0,
+      "malformed_no_custom_id_in_error": 0,
+      "present_in_both_output_and_error": [],
+      "fingerprint_counts": {
+        "vllm-0.21.0-8326ea74": 1795,
+        "None": 1232
+      },
+      "accounting_closes": true
+    },
+    {
+      "stage": "standard",
+      "part": "part4",
+      "expected": 3199,
+      "schema_valid": 2939,
+      "schema_invalid": 111,
+      "malformed_json": 111,
+      "invalid_reason_counts": {
+        "malformed_json": 111
+      },
+      "provider_error": 149,
+      "provider_error_code_counts": {
+        "batch_client_error": 149
+      },
+      "missing_entirely": 0,
+      "unexpected_in_output": [],
+      "unexpected_in_error": [],
+      "duplicate_in_output": [],
+      "duplicate_in_error": [],
+      "malformed_no_custom_id_in_output": 0,
+      "malformed_no_custom_id_in_error": 0,
+      "present_in_both_output_and_error": [],
+      "fingerprint_counts": {
+        "None": 1381,
+        "vllm-0.21.0-8326ea74": 1669
+      },
+      "accounting_closes": true
+    },
+    {
+      "stage": "standard",
+      "part": "part5",
+      "expected": 3199,
+      "schema_valid": 2918,
+      "schema_invalid": 116,
+      "malformed_json": 116,
+      "invalid_reason_counts": {
+        "malformed_json": 116
+      },
+      "provider_error": 165,
+      "provider_error_code_counts": {
+        "batch_client_error": 165
+      },
+      "missing_entirely": 0,
+      "unexpected_in_output": [],
+      "unexpected_in_error": [],
+      "duplicate_in_output": [],
+      "duplicate_in_error": [],
+      "malformed_no_custom_id_in_output": 0,
+      "malformed_no_custom_id_in_error": 0,
+      "present_in_both_output_and_error": [],
+      "fingerprint_counts": {
+        "None": 1263,
+        "vllm-0.21.0-8326ea74": 1771
+      },
+      "accounting_closes": true
+    },
+    {
+      "stage": "consensus_stage_a",
+      "part": "part1",
+      "expected": 995,
+      "schema_valid": 918,
+      "schema_invalid": 34,
+      "malformed_json": 34,
+      "invalid_reason_counts": {
+        "malformed_json": 34
+      },
+      "provider_error": 43,
+      "provider_error_code_counts": {
+        "batch_client_error": 43
+      },
+      "missing_entirely": 0,
+      "unexpected_in_output": [],
+      "unexpected_in_error": [],
+      "duplicate_in_output": [],
+      "duplicate_in_error": [],
+      "malformed_no_custom_id_in_output": 0,
+      "malformed_no_custom_id_in_error": 0,
+      "present_in_both_output_and_error": [],
+      "fingerprint_counts": {
+        "vllm-0.21.0-8326ea74": 499,
+        "None": 453
+      },
+      "accounting_closes": true
+    }
+  ],
+  "totals": {
+    "expected": 16990,
+    "schema_valid": 15517,
+    "schema_invalid": 627,
+    "malformed_json": 626,
+    "provider_error": 846,
+    "missing_entirely": 0,
+    "accounting_closes": true,
+    "schema_valid_rate_of_expected": 0.9133019423190112,
+    "provider_error_rate_of_expected": 0.04979399646851089
+  },
+  "fingerprint_counts": {
+    "vllm-0.21.0-8326ea74": 8969,
+    "None": 7175
+  },
+  "provider_error_code_counts": {
+    "batch_client_error": 846
+  },
+  "failed_fingerprint": "vllm-0.21.0-8326ea74",
+  "failed_fingerprint_count": 8969,
+  "failed_fingerprint_recurred": true
+}

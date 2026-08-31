@@ -1,0 +1,332 @@
+joint_variables,level_1,level_2,selected_count,selected_proportion,source_proportion,difference_pp,comparison_status
+gender x education,Female,Bachelor's degree,96,0.096,,,full source universe not materialized in lightweight validation
+gender x education,Female,High school diploma / GED,142,0.142,,,full source universe not materialized in lightweight validation
+gender x education,Female,Less than high school,35,0.035,,,full source universe not materialized in lightweight validation
+gender x education,Female,Master's degree / Professional degree,62,0.062,,,full source universe not materialized in lightweight validation
+gender x education,Female,Some college or Associate's degree,171,0.171,,,full source universe not materialized in lightweight validation
+gender x education,Male,Bachelor's degree,115,0.115,,,full source universe not materialized in lightweight validation
+gender x education,Male,High school diploma / GED,142,0.142,,,full source universe not materialized in lightweight validation
+gender x education,Male,Less than high school,33,0.033,,,full source universe not materialized in lightweight validation
+gender x education,Male,Master's degree / Professional degree,64,0.064,,,full source universe not materialized in lightweight validation
+gender x education,Male,Some college or Associate's degree,132,0.132,,,full source universe not materialized in lightweight validation
+gender x education,Other,Bachelor's degree,1,0.001,,,full source universe not materialized in lightweight validation
+gender x education,Other,High school diploma / GED,4,0.004,,,full source universe not materialized in lightweight validation
+gender x education,Other,Some college or Associate's degree,3,0.003,,,full source universe not materialized in lightweight validation
+age_band x education,18-29,Bachelor's degree,30,0.03,,,full source universe not materialized in lightweight validation
+age_band x education,18-29,High school diploma / GED,75,0.075,,,full source universe not materialized in lightweight validation
+age_band x education,18-29,Less than high school,16,0.016,,,full source universe not materialized in lightweight validation
+age_band x education,18-29,Master's degree / Professional degree,14,0.014,,,full source universe not materialized in lightweight validation
+age_band x education,18-29,Some college or Associate's degree,69,0.069,,,full source universe not materialized in lightweight validation
+age_band x education,30-44,Bachelor's degree,78,0.078,,,full source universe not materialized in lightweight validation
+age_band x education,30-44,High school diploma / GED,61,0.061,,,full source universe not materialized in lightweight validation
+age_band x education,30-44,Less than high school,12,0.012,,,full source universe not materialized in lightweight validation
+age_band x education,30-44,Master's degree / Professional degree,41,0.041,,,full source universe not materialized in lightweight validation
+age_band x education,30-44,Some college or Associate's degree,69,0.069,,,full source universe not materialized in lightweight validation
+age_band x education,45-59,Bachelor's degree,50,0.05,,,full source universe not materialized in lightweight validation
+age_band x education,45-59,High school diploma / GED,51,0.051,,,full source universe not materialized in lightweight validation
+age_band x education,45-59,Less than high school,19,0.019,,,full source universe not materialized in lightweight validation
+age_band x education,45-59,Master's degree / Professional degree,33,0.033,,,full source universe not materialized in lightweight validation
+age_band x education,45-59,Some college or Associate's degree,75,0.075,,,full source universe not materialized in lightweight validation
+age_band x education,60+,Bachelor's degree,54,0.054,,,full source universe not materialized in lightweight validation
+age_band x education,60+,High school diploma / GED,101,0.101,,,full source universe not materialized in lightweight validation
+age_band x education,60+,Less than high school,21,0.021,,,full source universe not materialized in lightweight validation
+age_band x education,60+,Master's degree / Professional degree,38,0.038,,,full source universe not materialized in lightweight validation
+age_band x education,60+,Some college or Associate's degree,93,0.093,,,full source universe not materialized in lightweight validation
+race x education,Asian / Asian American,Bachelor's degree,21,0.021,,,full source universe not materialized in lightweight validation
+race x education,Asian / Asian American,High school diploma / GED,11,0.011,,,full source universe not materialized in lightweight validation
+race x education,Asian / Asian American,Less than high school,1,0.001,,,full source universe not materialized in lightweight validation
+race x education,Asian / Asian American,Master's degree / Professional degree,20,0.02,,,full source universe not materialized in lightweight validation
+race x education,Asian / Asian American,Some college or Associate's degree,14,0.014,,,full source universe not materialized in lightweight validation
+race x education,Black / African American,Bachelor's degree,12,0.012,,,full source universe not materialized in lightweight validation
+race x education,Black / African American,High school diploma / GED,47,0.047,,,full source universe not materialized in lightweight validation
+race x education,Black / African American,Less than high school,8,0.008,,,full source universe not materialized in lightweight validation
+race x education,Black / African American,Master's degree / Professional degree,14,0.014,,,full source universe not materialized in lightweight validation
+race x education,Black / African American,Some college or Associate's degree,43,0.043,,,full source universe not materialized in lightweight validation
+race x education,Hispanic / Latino,Bachelor's degree,28,0.028,,,full source universe not materialized in lightweight validation
+race x education,Hispanic / Latino,High school diploma / GED,63,0.063,,,full source universe not materialized in lightweight validation
+race x education,Hispanic / Latino,Less than high school,24,0.024,,,full source universe not materialized in lightweight validation
+race x education,Hispanic / Latino,Master's degree / Professional degree,13,0.013,,,full source universe not materialized in lightweight validation
+race x education,Hispanic / Latino,Some college or Associate's degree,53,0.053,,,full source universe not materialized in lightweight validation
+race x education,Other,Bachelor's degree,7,0.007,,,full source universe not materialized in lightweight validation
+race x education,Other,High school diploma / GED,4,0.004,,,full source universe not materialized in lightweight validation
+race x education,Other,Less than high school,7,0.007,,,full source universe not materialized in lightweight validation
+race x education,Other,Master's degree / Professional degree,3,0.003,,,full source universe not materialized in lightweight validation
+race x education,Other,Some college or Associate's degree,6,0.006,,,full source universe not materialized in lightweight validation
+race x education,White / Caucasian,Bachelor's degree,144,0.144,,,full source universe not materialized in lightweight validation
+race x education,White / Caucasian,High school diploma / GED,163,0.163,,,full source universe not materialized in lightweight validation
+race x education,White / Caucasian,Less than high school,28,0.028,,,full source universe not materialized in lightweight validation
+race x education,White / Caucasian,Master's degree / Professional degree,76,0.076,,,full source universe not materialized in lightweight validation
+race x education,White / Caucasian,Some college or Associate's degree,190,0.19,,,full source universe not materialized in lightweight validation
+party x education,Democrat,Bachelor's degree,79,0.079,,,full source universe not materialized in lightweight validation
+party x education,Democrat,High school diploma / GED,74,0.074,,,full source universe not materialized in lightweight validation
+party x education,Democrat,Less than high school,14,0.014,,,full source universe not materialized in lightweight validation
+party x education,Democrat,Master's degree / Professional degree,57,0.057,,,full source universe not materialized in lightweight validation
+party x education,Democrat,Some college or Associate's degree,115,0.115,,,full source universe not materialized in lightweight validation
+party x education,Independent,Bachelor's degree,61,0.061,,,full source universe not materialized in lightweight validation
+party x education,Independent,High school diploma / GED,79,0.079,,,full source universe not materialized in lightweight validation
+party x education,Independent,Less than high school,21,0.021,,,full source universe not materialized in lightweight validation
+party x education,Independent,Master's degree / Professional degree,30,0.03,,,full source universe not materialized in lightweight validation
+party x education,Independent,Some college or Associate's degree,79,0.079,,,full source universe not materialized in lightweight validation
+party x education,Other,Bachelor's degree,14,0.014,,,full source universe not materialized in lightweight validation
+party x education,Other,High school diploma / GED,40,0.04,,,full source universe not materialized in lightweight validation
+party x education,Other,Less than high school,16,0.016,,,full source universe not materialized in lightweight validation
+party x education,Other,Master's degree / Professional degree,9,0.009,,,full source universe not materialized in lightweight validation
+party x education,Other,Some college or Associate's degree,28,0.028,,,full source universe not materialized in lightweight validation
+party x education,Republican,Bachelor's degree,58,0.058,,,full source universe not materialized in lightweight validation
+party x education,Republican,High school diploma / GED,95,0.095,,,full source universe not materialized in lightweight validation
+party x education,Republican,Less than high school,17,0.017,,,full source universe not materialized in lightweight validation
+party x education,Republican,Master's degree / Professional degree,30,0.03,,,full source universe not materialized in lightweight validation
+party x education,Republican,Some college or Associate's degree,84,0.084,,,full source universe not materialized in lightweight validation
+gender x income,Female,"$100,000 to $167,999",68,0.068,,,full source universe not materialized in lightweight validation
+gender x income,Female,"$168,000 or more",47,0.047,,,full source universe not materialized in lightweight validation
+gender x income,Female,"$30,000 to $55,999",130,0.13,,,full source universe not materialized in lightweight validation
+gender x income,Female,"$56,000 to $99,999",120,0.12,,,full source universe not materialized in lightweight validation
+gender x income,Female,"Less than $30,000",141,0.141,,,full source universe not materialized in lightweight validation
+gender x income,Male,"$100,000 to $167,999",84,0.084,,,full source universe not materialized in lightweight validation
+gender x income,Male,"$168,000 or more",59,0.059,,,full source universe not materialized in lightweight validation
+gender x income,Male,"$30,000 to $55,999",116,0.116,,,full source universe not materialized in lightweight validation
+gender x income,Male,"$56,000 to $99,999",112,0.112,,,full source universe not materialized in lightweight validation
+gender x income,Male,"Less than $30,000",115,0.115,,,full source universe not materialized in lightweight validation
+gender x income,Other,"$100,000 to $167,999",1,0.001,,,full source universe not materialized in lightweight validation
+gender x income,Other,"$30,000 to $55,999",2,0.002,,,full source universe not materialized in lightweight validation
+gender x income,Other,"$56,000 to $99,999",1,0.001,,,full source universe not materialized in lightweight validation
+gender x income,Other,"Less than $30,000",4,0.004,,,full source universe not materialized in lightweight validation
+age_band x income,18-29,"$100,000 to $167,999",27,0.027,,,full source universe not materialized in lightweight validation
+age_band x income,18-29,"$168,000 or more",19,0.019,,,full source universe not materialized in lightweight validation
+age_band x income,18-29,"$30,000 to $55,999",48,0.048,,,full source universe not materialized in lightweight validation
+age_band x income,18-29,"$56,000 to $99,999",42,0.042,,,full source universe not materialized in lightweight validation
+age_band x income,18-29,"Less than $30,000",68,0.068,,,full source universe not materialized in lightweight validation
+age_band x income,30-44,"$100,000 to $167,999",52,0.052,,,full source universe not materialized in lightweight validation
+age_band x income,30-44,"$168,000 or more",34,0.034,,,full source universe not materialized in lightweight validation
+age_band x income,30-44,"$30,000 to $55,999",60,0.06,,,full source universe not materialized in lightweight validation
+age_band x income,30-44,"$56,000 to $99,999",57,0.057,,,full source universe not materialized in lightweight validation
+age_band x income,30-44,"Less than $30,000",58,0.058,,,full source universe not materialized in lightweight validation
+age_band x income,45-59,"$100,000 to $167,999",37,0.037,,,full source universe not materialized in lightweight validation
+age_band x income,45-59,"$168,000 or more",29,0.029,,,full source universe not materialized in lightweight validation
+age_band x income,45-59,"$30,000 to $55,999",48,0.048,,,full source universe not materialized in lightweight validation
+age_band x income,45-59,"$56,000 to $99,999",53,0.053,,,full source universe not materialized in lightweight validation
+age_band x income,45-59,"Less than $30,000",61,0.061,,,full source universe not materialized in lightweight validation
+age_band x income,60+,"$100,000 to $167,999",37,0.037,,,full source universe not materialized in lightweight validation
+age_band x income,60+,"$168,000 or more",24,0.024,,,full source universe not materialized in lightweight validation
+age_band x income,60+,"$30,000 to $55,999",92,0.092,,,full source universe not materialized in lightweight validation
+age_band x income,60+,"$56,000 to $99,999",81,0.081,,,full source universe not materialized in lightweight validation
+age_band x income,60+,"Less than $30,000",73,0.073,,,full source universe not materialized in lightweight validation
+race x income,Asian / Asian American,"$100,000 to $167,999",16,0.016,,,full source universe not materialized in lightweight validation
+race x income,Asian / Asian American,"$168,000 or more",11,0.011,,,full source universe not materialized in lightweight validation
+race x income,Asian / Asian American,"$30,000 to $55,999",10,0.01,,,full source universe not materialized in lightweight validation
+race x income,Asian / Asian American,"$56,000 to $99,999",18,0.018,,,full source universe not materialized in lightweight validation
+race x income,Asian / Asian American,"Less than $30,000",12,0.012,,,full source universe not materialized in lightweight validation
+race x income,Black / African American,"$100,000 to $167,999",11,0.011,,,full source universe not materialized in lightweight validation
+race x income,Black / African American,"$168,000 or more",6,0.006,,,full source universe not materialized in lightweight validation
+race x income,Black / African American,"$30,000 to $55,999",32,0.032,,,full source universe not materialized in lightweight validation
+race x income,Black / African American,"$56,000 to $99,999",20,0.02,,,full source universe not materialized in lightweight validation
+race x income,Black / African American,"Less than $30,000",55,0.055,,,full source universe not materialized in lightweight validation
+race x income,Hispanic / Latino,"$100,000 to $167,999",19,0.019,,,full source universe not materialized in lightweight validation
+race x income,Hispanic / Latino,"$168,000 or more",15,0.015,,,full source universe not materialized in lightweight validation
+race x income,Hispanic / Latino,"$30,000 to $55,999",49,0.049,,,full source universe not materialized in lightweight validation
+race x income,Hispanic / Latino,"$56,000 to $99,999",43,0.043,,,full source universe not materialized in lightweight validation
+race x income,Hispanic / Latino,"Less than $30,000",55,0.055,,,full source universe not materialized in lightweight validation
+race x income,Other,"$100,000 to $167,999",4,0.004,,,full source universe not materialized in lightweight validation
+race x income,Other,"$168,000 or more",3,0.003,,,full source universe not materialized in lightweight validation
+race x income,Other,"$30,000 to $55,999",4,0.004,,,full source universe not materialized in lightweight validation
+race x income,Other,"$56,000 to $99,999",8,0.008,,,full source universe not materialized in lightweight validation
+race x income,Other,"Less than $30,000",8,0.008,,,full source universe not materialized in lightweight validation
+race x income,White / Caucasian,"$100,000 to $167,999",103,0.103,,,full source universe not materialized in lightweight validation
+race x income,White / Caucasian,"$168,000 or more",71,0.071,,,full source universe not materialized in lightweight validation
+race x income,White / Caucasian,"$30,000 to $55,999",153,0.153,,,full source universe not materialized in lightweight validation
+race x income,White / Caucasian,"$56,000 to $99,999",144,0.144,,,full source universe not materialized in lightweight validation
+race x income,White / Caucasian,"Less than $30,000",130,0.13,,,full source universe not materialized in lightweight validation
+party x income,Democrat,"$100,000 to $167,999",57,0.057,,,full source universe not materialized in lightweight validation
+party x income,Democrat,"$168,000 or more",40,0.04,,,full source universe not materialized in lightweight validation
+party x income,Democrat,"$30,000 to $55,999",69,0.069,,,full source universe not materialized in lightweight validation
+party x income,Democrat,"$56,000 to $99,999",84,0.084,,,full source universe not materialized in lightweight validation
+party x income,Democrat,"Less than $30,000",89,0.089,,,full source universe not materialized in lightweight validation
+party x income,Independent,"$100,000 to $167,999",40,0.04,,,full source universe not materialized in lightweight validation
+party x income,Independent,"$168,000 or more",37,0.037,,,full source universe not materialized in lightweight validation
+party x income,Independent,"$30,000 to $55,999",74,0.074,,,full source universe not materialized in lightweight validation
+party x income,Independent,"$56,000 to $99,999",58,0.058,,,full source universe not materialized in lightweight validation
+party x income,Independent,"Less than $30,000",61,0.061,,,full source universe not materialized in lightweight validation
+party x income,Other,"$100,000 to $167,999",10,0.01,,,full source universe not materialized in lightweight validation
+party x income,Other,"$168,000 or more",4,0.004,,,full source universe not materialized in lightweight validation
+party x income,Other,"$30,000 to $55,999",20,0.02,,,full source universe not materialized in lightweight validation
+party x income,Other,"$56,000 to $99,999",24,0.024,,,full source universe not materialized in lightweight validation
+party x income,Other,"Less than $30,000",49,0.049,,,full source universe not materialized in lightweight validation
+party x income,Republican,"$100,000 to $167,999",46,0.046,,,full source universe not materialized in lightweight validation
+party x income,Republican,"$168,000 or more",25,0.025,,,full source universe not materialized in lightweight validation
+party x income,Republican,"$30,000 to $55,999",85,0.085,,,full source universe not materialized in lightweight validation
+party x income,Republican,"$56,000 to $99,999",67,0.067,,,full source universe not materialized in lightweight validation
+party x income,Republican,"Less than $30,000",61,0.061,,,full source universe not materialized in lightweight validation
+state_abbr x party,AK,Democrat,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,AK,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,AK,Republican,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,AL,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,AL,Independent,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,AL,Other,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,AL,Republican,9,0.009,,,full source universe not materialized in lightweight validation
+state_abbr x party,AR,Democrat,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,AR,Independent,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,AR,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,AR,Republican,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,AZ,Democrat,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,AZ,Independent,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,AZ,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,AZ,Republican,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,CA,Democrat,49,0.049,,,full source universe not materialized in lightweight validation
+state_abbr x party,CA,Independent,27,0.027,,,full source universe not materialized in lightweight validation
+state_abbr x party,CA,Other,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,CA,Republican,11,0.011,,,full source universe not materialized in lightweight validation
+state_abbr x party,CO,Democrat,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,CO,Independent,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,CO,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,CO,Republican,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,CT,Democrat,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,CT,Independent,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,CT,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,CT,Republican,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,DC,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,DE,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,DE,Independent,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,DE,Republican,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,FL,Democrat,27,0.027,,,full source universe not materialized in lightweight validation
+state_abbr x party,FL,Independent,23,0.023,,,full source universe not materialized in lightweight validation
+state_abbr x party,FL,Other,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,FL,Republican,25,0.025,,,full source universe not materialized in lightweight validation
+state_abbr x party,GA,Democrat,10,0.01,,,full source universe not materialized in lightweight validation
+state_abbr x party,GA,Independent,9,0.009,,,full source universe not materialized in lightweight validation
+state_abbr x party,GA,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,GA,Republican,11,0.011,,,full source universe not materialized in lightweight validation
+state_abbr x party,HI,Democrat,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,HI,Independent,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,HI,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,IA,Democrat,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,IA,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,IA,Republican,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,ID,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,ID,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,ID,Republican,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,IL,Democrat,13,0.013,,,full source universe not materialized in lightweight validation
+state_abbr x party,IL,Independent,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,IL,Other,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,IL,Republican,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,IN,Democrat,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,IN,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,IN,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,IN,Republican,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,KS,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,KS,Independent,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,KS,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,KS,Republican,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,KY,Democrat,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,KY,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,KY,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,KY,Republican,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,LA,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,LA,Independent,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,LA,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,LA,Republican,9,0.009,,,full source universe not materialized in lightweight validation
+state_abbr x party,MA,Democrat,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,MA,Independent,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,MA,Other,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,MA,Republican,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,MD,Democrat,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,MD,Independent,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,MD,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,MD,Republican,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,ME,Democrat,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,ME,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,ME,Republican,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,MI,Democrat,9,0.009,,,full source universe not materialized in lightweight validation
+state_abbr x party,MI,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,MI,Other,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,MI,Republican,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,MN,Democrat,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,MN,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,MN,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,MN,Republican,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,MO,Democrat,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,MO,Independent,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,MO,Other,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,MO,Republican,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,MS,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,MS,Republican,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,MT,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,MT,Independent,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,MT,Republican,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,NC,Democrat,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,NC,Independent,11,0.011,,,full source universe not materialized in lightweight validation
+state_abbr x party,NC,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,NC,Republican,11,0.011,,,full source universe not materialized in lightweight validation
+state_abbr x party,ND,Republican,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,NE,Democrat,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,NE,Independent,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,NE,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,NE,Republican,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,NH,Independent,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,NJ,Democrat,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,NJ,Independent,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,NJ,Other,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,NJ,Republican,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,NM,Democrat,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,NM,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,NM,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,NM,Republican,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,NV,Democrat,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,NV,Independent,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,NV,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,NV,Republican,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,NY,Democrat,28,0.028,,,full source universe not materialized in lightweight validation
+state_abbr x party,NY,Independent,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,NY,Other,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,NY,Republican,16,0.016,,,full source universe not materialized in lightweight validation
+state_abbr x party,OH,Democrat,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,OH,Independent,9,0.009,,,full source universe not materialized in lightweight validation
+state_abbr x party,OH,Other,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,OH,Republican,10,0.01,,,full source universe not materialized in lightweight validation
+state_abbr x party,OK,Democrat,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,OK,Independent,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,OK,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,OK,Republican,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,OR,Democrat,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,OR,Independent,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,OR,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,OR,Republican,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,PA,Democrat,16,0.016,,,full source universe not materialized in lightweight validation
+state_abbr x party,PA,Independent,11,0.011,,,full source universe not materialized in lightweight validation
+state_abbr x party,PA,Other,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,PA,Republican,12,0.012,,,full source universe not materialized in lightweight validation
+state_abbr x party,RI,Democrat,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,RI,Independent,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,RI,Republican,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,SC,Democrat,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,SC,Independent,4,0.004,,,full source universe not materialized in lightweight validation
+state_abbr x party,SC,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,SC,Republican,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,SD,Independent,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,SD,Republican,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,TN,Democrat,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,TN,Independent,6,0.006,,,full source universe not materialized in lightweight validation
+state_abbr x party,TN,Other,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,TN,Republican,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,TX,Democrat,26,0.026,,,full source universe not materialized in lightweight validation
+state_abbr x party,TX,Independent,26,0.026,,,full source universe not materialized in lightweight validation
+state_abbr x party,TX,Other,10,0.01,,,full source universe not materialized in lightweight validation
+state_abbr x party,TX,Republican,23,0.023,,,full source universe not materialized in lightweight validation
+state_abbr x party,UT,Independent,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,UT,Other,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,UT,Republican,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,VA,Democrat,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,VA,Independent,17,0.017,,,full source universe not materialized in lightweight validation
+state_abbr x party,VA,Other,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,VA,Republican,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,VT,Independent,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,WA,Democrat,14,0.014,,,full source universe not materialized in lightweight validation
+state_abbr x party,WA,Independent,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,WA,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,WA,Republican,8,0.008,,,full source universe not materialized in lightweight validation
+state_abbr x party,WI,Democrat,7,0.007,,,full source universe not materialized in lightweight validation
+state_abbr x party,WI,Independent,5,0.005,,,full source universe not materialized in lightweight validation
+state_abbr x party,WI,Other,2,0.002,,,full source universe not materialized in lightweight validation
+state_abbr x party,WI,Republican,10,0.01,,,full source universe not materialized in lightweight validation
+state_abbr x party,WV,Democrat,1,0.001,,,full source universe not materialized in lightweight validation
+state_abbr x party,WV,Republican,3,0.003,,,full source universe not materialized in lightweight validation
+state_abbr x party,WY,Republican,2,0.002,,,full source universe not materialized in lightweight validation

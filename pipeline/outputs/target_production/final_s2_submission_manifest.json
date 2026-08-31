@@ -1,0 +1,38 @@
+{
+  "final_method": "S2_MCONST_GSHAPE",
+  "source_manifest": "outputs/validation/frozen_final_submission_manifest_s2.json",
+  "native_input_csv": "outputs/target_production/final_first_valid_native_g_responses.csv",
+  "native_input_sha256": "d494dd187f277967250f92aecd519c08c13c59fdded1c9c81a6babf63f5a44e8",
+  "predictions_csv": "predictions/team_10_T1_primary_v1.csv",
+  "predictions_sha256": "8c8ef8661565769f7183283b6d09343691432794d2de1bbf3f0ed3145584cfb3",
+  "diagnostics_csv": "outputs/target_production/final_s2_calibration_diagnostics.csv",
+  "diagnostics_sha256": "c002299e641288302a55a4c903759c1d653147995dd61fa1154865365119a4c1",
+  "integrity_report": {
+    "ok": true,
+    "problems": [],
+    "n_rows": 17000,
+    "n_conditions": 17,
+    "rows_per_condition": {
+      "Consensus": 1000,
+      "Corporate reliance": 1000,
+      "Extreme weather predictions": 1000,
+      "Former skeptics": 1000,
+      "Funding": 1000,
+      "High public trust": 1000,
+      "Interview Prof. Maraun": 1000,
+      "Interview Prof. Sebille": 1000,
+      "Measurement & modeling (1)": 1000,
+      "Measurement & modeling (2)": 1000,
+      "Model accuracy": 1000,
+      "Oil industry misinformation": 1000,
+      "Peer-review": 1000,
+      "Portrait Prof. Cherry": 1000,
+      "Scientist community helpers": 1000,
+      "Social justice": 1000,
+      "control": 1000
+    },
+    "max_composite_error": 0.0,
+    "n_ate_cells": 208,
+    "max_calibration_absolute_error": 0.0003185448198141927
+  }
+}

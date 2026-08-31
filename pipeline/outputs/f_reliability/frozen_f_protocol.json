@@ -1,0 +1,42 @@
+{
+  "f_inference_config_hash": "59dc3237459c60fc4e3a1aaf67e3a7bb7e271a4bb01510e18506a34e60cd98e7",
+  "f_num_draws": 1,
+  "f_r_f": 1,
+  "frequency_penalty": 0,
+  "frozen_at": "2026-08-26T15:07:24.047165+00:00",
+  "model_engine_config": {
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "thinking_control_label": "DOCUMENTED_NON_THINKING_CONFIGURATION",
+    "thinking_control_source": "google/gemma-4-31B-it chat_template.jinja (Hugging Face, main branch): 'enable_thinking' is set(enable_thinking | default(false)) and, when explicitly false, suppresses the '<|think|>' insertion at the system turn. Together's Chat Completions API documents chat_template_kwargs as an object passed through to the model engine (confirmed against the installed together-python 2.31.0 SDK type definitions). Together's google/gemma-4-31B-it serverless model page documents the model as supporting configurable thinking mode. Provider-side pass-through of chat_template_kwargs specifically for the Together Batch API endpoint has not been empirically confirmed; the one-request engineering capability preflight in outputs/together_smoke/tiny_pre_api verifies this before the 12-request first-wave smoke is ever submitted."
+  },
+  "n": 1,
+  "n_f": 500,
+  "presence_penalty": 0,
+  "prompt_version": "ashokkumar_experiment_forecast_adapted_v1",
+  "provenance": {
+    "f_star_selection": {
+      "commit": "6a25d3b73bd278c4134cb88a067cfe2805b80f5b",
+      "description": "F mini-screen: both candidates retrieved, reconciled, and scored under frozen v4 rules; Gemma selected."
+    },
+    "r_f_freeze": {
+      "amendment_type": "REPLACEMENT_R1_PASSED_R_F_1_FROZEN",
+      "commit": "3fff154",
+      "description": "Replacement F* R1 (24,000 requests, fresh draws 5/6, format-only v2 remediation): all three frozen gates passed, R_F=1 frozen."
+    },
+    "response_format_v2_extended_to_target_f": {
+      "commit": "3a47541",
+      "description": "build_f_prompt_render/build_f_consensus_stage_b_prompt_render (target F's actual request builders) explicitly opted into response_format_instruction_version=v2, matching the R1 root-cause remediation, before any target F request is built."
+    }
+  },
+  "reasoning_configuration": {
+    "reasoning_effort": "low",
+    "use_reasoning_effort_when_supported": true
+  },
+  "response_format_instruction_version": "v2",
+  "selected_f_model": "google/gemma-4-31B-it",
+  "structured_output": "json_schema",
+  "temperature": 1.0,
+  "top_p": 0.95
+}

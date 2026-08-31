@@ -1,0 +1,307 @@
+{
+  "holdout": {
+    "eligible_effects": 0,
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/validation/holdout_effect_eligibility.csv",
+    "rows": 606,
+    "status": "PASS",
+    "why_606_but_0_eligible": "The extractor finds 606 secondary-megastudy effect rows, but the metadata-only classifier excludes them because required original materials, outcome wording/ranges, and population alignment metadata are absent in the local archive; contaminated development overlap remains excluded."
+  },
+  "model_selection_manifest": {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/model_selection_r_f_rule_manifest.json",
+    "status": "PASS"
+  },
+  "orientation": {
+    "duplicate_effect_ids": 0,
+    "failures": 0,
+    "obsolete_lambda_manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/obsolete_development_lambda.json",
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/structural_orientation_audit.csv",
+    "rows": 136,
+    "status": "PASS"
+  },
+  "population": {
+    "party": {
+      "crosstab_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/party_crosstab_gender_age.csv",
+      "deterministic_donor_level_draw": "PASS",
+      "marginals_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/party_marginals.csv",
+      "no_outcome_target_leakage": "PASS",
+      "predictors": "UNKNOWN",
+      "source": "CES/CCES 2024 party model diagnostics and ACS/PUMS donor predictors",
+      "status": "PASS"
+    },
+    "state": {
+      "extreme_weather_routing_failures": [],
+      "note": "Distribution comparison uses selected donors and their retained source_weight; full PUMS universe is not regenerated here.",
+      "selected_vs_weighted_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/state_distribution_audit.csv",
+      "status": "PASS"
+    },
+    "weight_leakage": {
+      "note": "PASS requires no source_weight/PUMS-weight tokens in active ATE/final-submission code paths scanned here.",
+      "path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/weight_leakage_audit.csv",
+      "status": "PASS"
+    }
+  },
+  "prompt_provenance": {
+    "consensus_interaction_protocol": "consensus_two_stage_interactive_adaptation_v1",
+    "control_filler_assignment": "stable_sha256_v1_condition_excluded",
+    "exemplar_message_hashes": {
+      "f_consensus_stage_a": "14f9aa361a4ac90ea101abe2c547fc5c2d6f86e4ac089f1d9e5d7dc9dcd1dd6a",
+      "f_consensus_stage_b_newsletter_signup": "f583503338052c8a6e0081c6b579fb64ef1faff4e2e8b35bbd5473f77c0d272c",
+      "f_funding_donation_ams": "076096821c4319336074d0ee49d7a1a262f99fca4a884462de18df17e80610e7",
+      "g_consensus_stage_a": "6b906411d086ea618e1b41436f9e0f105b9b776f97cd3336cb16e682199a6201",
+      "g_consensus_stage_b": "dbab1d23f157303a03a174cb35927c56ad3555f557d8cb59ab53ecf26a7abd21",
+      "g_control_full_questionnaire": "22a1aff475ecb35ace028a3ae775e0e2e39234cb4d32dc1aa751c4a9d0955ae2"
+    },
+    "f_outcome_compiler": "ashokkumar_experiment_forecast_adapted_v1",
+    "f_protocol": "ashokkumar_experiment_forecast_adapted_v1",
+    "g_protocol": "krsteski_demo_survey_adapted_v1",
+    "g_questionnaire_compiler": "post_treatment_blocks_questionnaire_txt_v1",
+    "no_paid_inference": true,
+    "production_manifest_requirements": [
+      "prompt_hash",
+      "schema_version",
+      "prompt_protocol_id",
+      "prompt_compiler_version",
+      "consensus_interaction_protocol_id"
+    ],
+    "prompt_compiler_version": "prompt_compiler_v2_split_g_f",
+    "schema_hashes": {
+      "f_consensus_stage_a": "675efa1486e53a4914248132dda701b834c9e26599d8c4c4d7b41db57bfcf2b0",
+      "f_consensus_stage_b_newsletter_signup": "4b6b8993ef74bd8e53209a244498caba32ac0e2f12c547b8695595399f80ea07",
+      "f_outcome": "6949741c0c18a58c24af7df419e9d57d158c77675c533f78d0d49b8d62b43caf",
+      "g_consensus_stage_a": "675efa1486e53a4914248132dda701b834c9e26599d8c4c4d7b41db57bfcf2b0",
+      "g_consensus_stage_b": "dfb71e28c6622a7f57f8e1929f3fb975a9b78ecf42bded892bbd90aea7cce06d",
+      "g_full_questionnaire": "dfb71e28c6622a7f57f8e1929f3fb975a9b78ecf42bded892bbd90aea7cce06d"
+    },
+    "source_file_sha256": {
+      "config/benchmark_schema.yaml": "dbefaee3cdb502f215a1d66f44f7bb732493359edadad37026bf88c7763e20c4",
+      "config/model_config.yaml": "d022491313b14b2987d82ecba84b8279a5e10f588497bb25e5e7233a3f23bd6e",
+      "inference/prompts.py": "9eee890c72042c5ecf04d7545d119804ac31b96ce308ad7c3336e87c852b7eda",
+      "inference/together_batch.py": "6bd1899e91cfc347b55c1672d0b8a0b2f705aa018225c873cbe383703e26266c",
+      "survey_content.py": "cd63b5ebe430addd25f5032a0fa91956bc6ed7ef57a691982ca11c716f634188"
+    },
+    "status": "PASS"
+  },
+  "provenance_guard": {
+    "current_cached_predictions_rejected": true,
+    "rejection": "external F predictions are not production-ready:\n- predictions are marked stale/development/not production-ready: ['DEVELOPMENT_STALE_REQUIRES_REGENERATION_WITH_STUDY_SPECIFIC_F_PANEL']\n- predictions require synthetic regeneration\n- selected_f_model is not frozen; run/record candidate bakeoff before production\n- target F production requires frozen F protocol at /home/forsterk/silicon-sample-submission/pipeline/outputs/f_reliability/frozen_f_protocol.json\n- external_f_population_panel_version does not match frozen configuration; expected 'external_primary_f_effect_analytic_panels_v1', observed ['LEGACY_CACHED_NO_EFFECT_SPECIFIC_PANEL_PROVENANCE']\n- external_f_population_panel_sha256 does not match frozen configuration; expected '2f812459f251f530a261d3b819cc2d790b3a6034786b4ba2489f62e7494d5ef7', observed ['']",
+    "status": "PASS"
+  },
+  "summary": {
+    "READY_FOR_SMALL_API_SMOKE_TEST": "YES",
+    "table": [
+      {
+        "action": "Use prompt_provenance_freeze.json in production manifests.",
+        "blocker": "",
+        "gate": "prompt provenance freeze",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/structural_orientation_audit.csv",
+        "blocker": "",
+        "gate": "structural sign/orientation",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/validation/holdout_effect_eligibility.csv",
+        "blocker": "0 eligible effects from metadata-only audit.",
+        "gate": "holdout eligibility",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/party_marginals.csv",
+        "blocker": "",
+        "gate": "party population audit",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/state_distribution_audit.csv",
+        "blocker": "",
+        "gate": "state population audit",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/weight_leakage_audit.csv",
+        "blocker": "",
+        "gate": "weight leakage",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/tier1_fixture/tier1_fixture_submission.csv",
+        "blocker": "",
+        "gate": "tier1 fixture",
+        "status": "PASS"
+      },
+      {
+        "action": "external F predictions are not production-ready:\n- predictions are marked stale/development/not production-ready: ['DEVELOPMENT_STALE_REQUIRES_REGENERATION_WITH_STUDY_SPECIFIC_F_PANEL']\n- predictions require synthetic regeneration\n- selected_f_model is not frozen; run/record candidate bakeoff before production\n- target F production requires frozen F protocol at /home/forsterk/silicon-sample-submission/pipeline/outputs/f_reliability/frozen_f_protocol.json\n- external_f_population_panel_version does not match frozen configuration; expected 'external_primary_f_effect_analytic_panels_v1', observed ['LEGACY_CACHED_NO_EFFECT_SPECIFIC_PANEL_PROVENANCE']\n- external_f_population_panel_sha256 does not match frozen configuration; expected '2f812459f251f530a261d3b819cc2d790b3a6034786b4ba2489f62e7494d5ef7', observed ['']",
+        "blocker": "",
+        "gate": "production provenance guard",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/dry_run_accounting.json",
+        "blocker": "",
+        "gate": "together dry run",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/model_selection_r_f_rule_manifest.json",
+        "blocker": "",
+        "gate": "model/R_F rule manifest",
+        "status": "PASS"
+      },
+      {
+        "action": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/pytest_offline.txt",
+        "blocker": "",
+        "gate": "offline tests",
+        "status": "PASS"
+      }
+    ]
+  },
+  "tests": {
+    "path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/pytest_offline.txt",
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "tier1_fixture": {
+    "all_support_constraints": true,
+    "build_tier1_cli_lambda_report_bug": "PASS",
+    "composites_recomputed_mechanically": true,
+    "condition_counts": {
+      "Consensus": 1000,
+      "Corporate reliance": 1000,
+      "Extreme weather predictions": 1000,
+      "Former skeptics": 1000,
+      "Funding": 1000,
+      "High public trust": 1000,
+      "Interview Prof. Maraun": 1000,
+      "Interview Prof. Sebille": 1000,
+      "Measurement & modeling (1)": 1000,
+      "Measurement & modeling (2)": 1000,
+      "Model accuracy": 1000,
+      "Oil industry misinformation": 1000,
+      "Peer-review": 1000,
+      "Portrait Prof. Cherry": 1000,
+      "Scientist community helpers": 1000,
+      "Social justice": 1000,
+      "control": 1000
+    },
+    "control_not_corrected_or_projected": true,
+    "exact_column_set": true,
+    "funding_reverse_code_within_bounds": true,
+    "n_conditions": 17,
+    "n_rows": 17000,
+    "official_r_check": "BLOCKED_ENVIRONMENT",
+    "official_r_check_attempted": true,
+    "official_r_check_report": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/tier1_fixture/official_r_check.txt",
+    "status": "PASS",
+    "submission_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/tier1_fixture/tier1_fixture_submission.csv",
+    "unique_profile_ids": 17000,
+    "validation_report": {
+      "integer_item_checks": 44,
+      "max_composite_error": 0.0,
+      "max_target_ate_error": null,
+      "n_conditions": 17,
+      "n_outcome_ates": 208,
+      "n_rows": 17000
+    }
+  },
+  "together_dry_run": {
+    "checks": {
+      "batch_split_shards": 3,
+      "batch_splitting": true,
+      "consensus_stage_a_stage_b_dependencies": true,
+      "deterministic_request_manifest": true,
+      "exact_prompt_hashes": true,
+      "malformed_response_retry_path": true,
+      "model_config_placeholders_and_freeze_guards": true,
+      "no_duplicate_requests": true,
+      "provenance_per_response": true,
+      "raw_response_retention": true,
+      "request_count_accounting": true,
+      "resume_behavior": true
+    },
+    "counts": {
+      "external_primary_f_r_f_1": {
+        "consensus_incremental_calls": 0,
+        "effect_specific_panel_rows": 68000,
+        "requests": 136000
+      },
+      "target_f_r_f_1": {
+        "consensus_stage_a": 500,
+        "consensus_stage_b_incremental": 6500,
+        "first_wave_requests": 104500,
+        "total_with_consensus_increment": 111000
+      },
+      "target_g": {
+        "consensus_stage_a": 1000,
+        "consensus_stage_b_incremental": 1000,
+        "first_wave_requests": 17000,
+        "total_with_consensus_increment": 18000
+      }
+    },
+    "sample_manifests": {
+      "target_f_first_wave": {
+        "accounting": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_first_wave/batch_accounting.json",
+        "already_successful_requests": 0,
+        "completion_tokens_budget": 256000,
+        "consensus_stage_a_success_path": "",
+        "estimated_prompt_characters": 1043922,
+        "estimated_prompt_tokens_rough": 260980,
+        "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_first_wave/batch_input.jsonl",
+        "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_first_wave/request_manifest.csv",
+        "manifest_requests": 250,
+        "requested_model": "DRY_RUN_MODEL_PLACEHOLDER",
+        "role": "F",
+        "submitted_requests": 250
+      },
+      "target_f_second_wave_sample": {
+        "accounting": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_second_wave_sample/batch_accounting.json",
+        "already_successful_requests": 0,
+        "completion_tokens_budget": 66560,
+        "consensus_stage_a_success_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/f_stage_a_success_sample.jsonl",
+        "estimated_prompt_characters": 270486,
+        "estimated_prompt_tokens_rough": 67621,
+        "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_second_wave_sample/batch_input.jsonl",
+        "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_second_wave_sample/request_manifest.csv",
+        "manifest_requests": 65,
+        "requested_model": "DRY_RUN_MODEL_PLACEHOLDER",
+        "role": "F",
+        "submitted_requests": 65
+      },
+      "target_g_first_wave": {
+        "accounting": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_g_first_wave/batch_accounting.json",
+        "already_successful_requests": 0,
+        "completion_tokens_budget": 204800,
+        "consensus_stage_a_success_path": "",
+        "estimated_prompt_characters": 2446651,
+        "estimated_prompt_tokens_rough": 611662,
+        "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_g_first_wave/batch_input.jsonl",
+        "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_g_first_wave/request_manifest.csv",
+        "manifest_requests": 200,
+        "requested_model": "DRY_RUN_MODEL_PLACEHOLDER",
+        "role": "G",
+        "submitted_requests": 200
+      },
+      "target_g_second_wave_sample": {
+        "accounting": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_g_second_wave_sample/batch_accounting.json",
+        "already_successful_requests": 0,
+        "completion_tokens_budget": 5120,
+        "consensus_stage_a_success_path": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/g_stage_a_success_sample.jsonl",
+        "estimated_prompt_characters": 63827,
+        "estimated_prompt_tokens_rough": 15956,
+        "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_g_second_wave_sample/batch_input.jsonl",
+        "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_g_second_wave_sample/request_manifest.csv",
+        "manifest_requests": 5,
+        "requested_model": "DRY_RUN_MODEL_PLACEHOLDER",
+        "role": "G",
+        "submitted_requests": 5
+      }
+    },
+    "shards": [
+      "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_first_wave_shards/batch_input_part0001.jsonl",
+      "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_first_wave_shards/batch_input_part0002.jsonl",
+      "/home/forsterk/silicon-sample-submission/pipeline/outputs/final_offline_gate/together_dryrun/target_f_first_wave_shards/batch_input_part0003.jsonl"
+    ],
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,124 @@
+# CES 2024 Common Content variable mapping, verified against:
+#   - data/CES_2024_GUIDE_vv.pdf (weight table p.17; codebook frequency tables p.28-29)
+#   - data/CCES24_Common_pre.docx (questionnaire item text and response codes)
+#   - data/CCES24_Common_OUTPUT_vv_topost_final.csv (observed raw values/frequencies)
+# See reports/population/ces_variable_audit.md for the full evidence trail.
+
+source_csv: data/CCES24_Common_OUTPUT_vv_topost_final.csv
+source_guide: data/CES_2024_GUIDE_vv.pdf
+source_questionnaire: data/CCES24_Common_pre.docx
+n_rows_total: 60000
+
+respondent_id:
+  column: caseid
+
+weight:
+  column: commonweight
+  role: adult-population Common Content analysis weight
+  target_population: "All respondents / Adults (guide p.17)"
+  rejected:
+    commonpostweight: "restricted to respondents who answered both waves (49,432/60,000 nonmissing) -- not needed, we use no post-wave items"
+    vvweight: "restricted to validated-registered-voter matches (39,800/60,000 nonmissing) -- voter-only, excluded per spec"
+    vvweight_post: "restricted to validated voters who also completed post wave (35,997/60,000 nonmissing) -- voter-only, excluded per spec"
+  verification: "commonweight is nonmissing for all 60,000 rows in the actual CSV; the file's '_topost' filename does NOT mean it is restricted to post-wave completers (tookpost==2 for 49,432 rows, ==1 for 10,568; commonweight covers both)."
+
+state:
+  column: inputstate
+  role: state of residence
+  coding: "numeric FIPS-style code, the same national numbering scheme as ACS PUMS STATE (verified: code list starts 1=Alabama,2=Alaska,4=Arizona,... skips 3/7/14/43/52 exactly like ACS STATE); zero-pad to 2 characters to join the STATE_FIPS_TO_ABBR table in pums.py"
+
+age:
+  column: birthyr
+  role: "birth year (question: 'In what year were you born?')"
+  note: "age computed as the documented CES 2024 survey year (2024) minus birthyr, per the questionnaire's own screenout logic (birthyr between 1924 and 2006 for the 2024 fielding)"
+
+gender:
+  column: gender4
+  role: "gender (question: 'What is your gender?')"
+  mapping: {"1": Male, "2": Female, "3": Other, "4": Other}
+  missing_codes: ["8", "9"]
+  verified_frequencies: {"1": 27454, "2": 31992, "3": 448, "4": 106}
+  note: "codes 1/2 labeled Man/Woman in the instrument; mapped directly to the benchmark's Male/Female. 3=Non-binary, 4=Other(open) both map to Other per spec. A separate binary 'gender' item exists in the instrument but is gated 'Show if 0' (never administered); not used."
+
+race_ethnicity:
+  columns: [race, hispanic]
+  role: race/ethnicity
+  race_mapping: {"1": White, "2": Black, "3": "Hispanic (via race item)", "4": Asian, "5": "Native American -> Other", "6": "Two or more races -> Other", "7": "Other(open) -> Other", "8": "Middle Eastern -> Other"}
+  hispanic_mapping: {"1": Yes, "2": No}
+  missing_codes_hispanic: ["8", "9", null]
+  rule: >
+    Hispanic / Latino if race == 3 OR hispanic == 1 (Hispanic-origin takes
+    priority, mirroring the ACS PUMS HISP-over-RAC1P rule); else non-Hispanic
+    race 1 -> White / Caucasian, 2 -> Black / African American,
+    4 -> Asian / Asian American, {5, 6, 7, 8} -> Other.
+  verified_frequencies_race: {"1": 41443, "2": 7728, "3": 5150, "4": 1949, "5": 582, "6": 1947, "7": 1035, "8": 166}
+  verified_frequencies_hispanic: {"1": 7647, "2": 52352, "missing": 1}
+
+education:
+  column: educ
+  role: "education (question: 'What is the highest level of education you have completed?')"
+  ces_native_levels: ["No HS", "High school graduate", "Some college", "2-year", "4-year", "Post-grad"]
+  verified_frequencies: {"1": 2133, "2": 15983, "3": 13961, "4": 6666, "5": 13297, "6": 7960}
+  harmonized_education_mapping:
+    "1": No HS
+    "2": HS grad
+    "3": Some college
+    "4": 2-year
+    "5": 4-year
+    "6": Post-grad
+  note: >
+    CES's 6 native levels do not resolve the benchmark's split between
+    "Master's degree / Professional degree" and "Doctorate degree / Ph.D."
+    (both fall under CES's single "Post-grad" bucket). Per instructions
+    §17, the party model uses a *harmonized_education* predictor built
+    identically on both sides (CES: educ codes 1-6 directly; ACS: SCHL
+    1-15->No HS, 16-17->HS grad, 18-19->Some college, 20->2-year, 21->4-year,
+    22-24->Post-grad) rather than forcing the benchmark's 6-level scheme
+    through CES's coarser one. The benchmark `education` field on the final
+    profiles/roster is taken directly from the ACS SCHL recode
+    (pums.recode_education), never from CES.
+
+household_income:
+  column: faminc_new
+  role: "family annual income (question: 'Thinking back over the last year, what was your family's annual income?')"
+  ces_native_intervals_usd:
+    "1": [null, 10000]
+    "2": [10000, 20000]
+    "3": [20000, 30000]
+    "4": [30000, 40000]
+    "5": [40000, 50000]
+    "6": [50000, 60000]
+    "7": [60000, 70000]
+    "8": [70000, 80000]
+    "9": [80000, 100000]
+    "10": [100000, 120000]
+    "11": [120000, 150000]
+    "12": [150000, 200000]
+    "13": [200000, 250000]
+    "14": [250000, 350000]
+    "15": [350000, 500000]
+    "16": [500000, null]
+  missing_codes: ["97", "998", "999"]
+  note: >
+    97 = "Prefer not to say" (treated as missing, per instructions §15 point
+    5: "categories without a numeric interval" -- 97 has no interval and is
+    excluded from the harmonized feature and from party-model training).
+    Used only to build harmonized_income_ces (both CES and ACS binned onto
+    these exact 16 intervals) for the party model; the benchmark `income`
+    field on the final profiles/roster is taken directly from the ACS
+    HINCP*ADJINC recode (pums.recode_income), never from CES.
+
+party:
+  column: pid3
+  role: "3-point party identification (question: 'Generally speaking, do you think of yourself as a...?')"
+  mapping: {"1": Democrat, "2": Republican, "3": Independent, "4": Other, "5": Other}
+  missing_codes: ["8", "9", null]
+  verified_frequencies: {"1": 22982, "2": 15913, "3": 16292, "4": 2371, "5": 2442}
+  note: >
+    4 = "Other(open)" and 5 = "Not sure" both map to Other per instructions
+    §16's example list (documentation supports both as substantive,
+    non-missing responses). No 8 (Skipped)/9 (Not Asked) rows are present in
+    this file for pid3 (full 60,000 coverage); the missing-code handling is
+    defensive, not currently exercised by this CSV. pid7 (7-point, derived
+    from pid3 plus a follow-up strength question) and presvote/validated-vote
+    variables are explicitly not used, per instructions §16.

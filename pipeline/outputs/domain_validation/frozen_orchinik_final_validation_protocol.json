@@ -1,0 +1,87 @@
+{
+  "bootstrap": {
+    "cluster_unit": "respondent/donor id",
+    "interval": "2.5/97.5 percentile, descriptive uncertainty only",
+    "module_sha256": "03184f0e6a64953ce86eaf2275d6ef97a01886cf2c130b0ca4ef4767259e4b6c",
+    "n_boot": 10000,
+    "reused_from": "ate/domain_validation_metrics.py (already frozen, unmodified)",
+    "seed": 20260826
+  },
+  "diagnostics": [
+    "MAE(theta_hat_aj, theta_ext_aj)",
+    "Pearson correlation(theta_hat_aj, theta_ext_aj)",
+    "Spearman correlation(theta_hat_aj, theta_ext_aj)",
+    "sign_agreement(theta_hat_aj, theta_ext_aj) over cells with both terms nonzero",
+    "RMSE restricted to the skill-arm cells (25 cells)",
+    "RMSE restricted to the trust-arm cells (25 cells)"
+  ],
+  "final_tier1_csv": "predictions/team_10_T1_primary_v1.csv",
+  "final_tier1_sha256_at_freeze": "a7c8e82e9a8f76a97e7e9e9845103dedb6c5e9c3b71f1f49ddff1db1a5579b54",
+  "formula": {
+    "g_aj": "100 * tau_G_aj / R_j",
+    "g_bar": "mean over all 50 g_aj, computed strictly on Orchinik's own grid -- never mixed with the Silicon Sample target 208-cell grid's own g_bar",
+    "no_new_gamma_or_mu_estimated": true,
+    "no_refitting": true,
+    "tau_G_aj": "mean(Y_treatment_aj) - mean(Y_control_j)",
+    "theta_hat_aj": "mu_external + (g_aj - g_bar)"
+  },
+  "frozen_at_git_commit": "78bc3218b0c27d0139190bf61f1a8c6796301fe8",
+  "frozen_method_constants": {
+    "gamma_g_shape": 1.0,
+    "mu_external": 1.9558595458395387,
+    "re_estimated_here": false,
+    "source_module": "ate/secondary_2_mconst_gshape.py"
+  },
+  "governance": [
+    "human Orchinik effect values may only be opened after all simulation and scoring rules in this document are committed/frozen",
+    "no metric in this document may be changed after seeing performance",
+    "no target prediction may change regardless of result",
+    "mu_external and gamma_g_shape must remain unchanged regardless of result",
+    "no result-dependent rerun of this validation",
+    "no DeepSeek run under this protocol",
+    "no automatic retry beyond the already-governed engineering (schema/delivery) retry policy",
+    "no paid submission is authorized by this freeze -- a separate, explicit submission action is required"
+  ],
+  "grid": {
+    "R_j": 100.0,
+    "R_j_source": "every Orchinik focal item is a 0-100 integer slider (ate/orchinik_g_domain_confirmation.py); R_j is uniform across all 50 cells",
+    "interventions": [
+      "skill",
+      "trust"
+    ],
+    "n_cells": 50,
+    "n_interventions": 2,
+    "n_outcomes": 25
+  },
+  "human_data_source": {
+    "opened_by_this_freeze_script": false,
+    "path": "outputs/domain_validation/orchinik_human_ate_surface.json",
+    "sha256_at_freeze": "321b0070f2fbfcec94edd58182c95dc1e26c077b85e3ced9afbc8f4b7f1d8eb3"
+  },
+  "may_select_tune_recalibrate_or_alter_final_method": false,
+  "no_post_hoc_pass_fail_threshold": true,
+  "pre_specified_comparators": {
+    "A_raw_gemma": "RMSE(g_aj, theta_ext_aj) across all 50 cells",
+    "B_flat_mu_external": "RMSE(mu_external for every cell, theta_ext_aj) across all 50 cells"
+  },
+  "primary_metric": {
+    "definition": "sqrt(mean((theta_hat_aj - theta_ext_aj)^2)) across all 50 normalized ATE cells, where theta_ext_aj is Orchinik's real human ATE normalized the same way (100 * h_e / R_j)",
+    "name": "RMSE"
+  },
+  "scientific_role": "POST_FREEZE_EXTERNAL_DIAGNOSTIC_VALIDATION",
+  "scoring_script": "scripts/score_orchinik_final_validation.py",
+  "simulation": {
+    "additional_retries_beyond_governed_engineering_policy_authorized": false,
+    "cost_cap_usd": 3.699383,
+    "deepseek_run_authorized": false,
+    "expected_request_count": 2545,
+    "jsonl_path": "outputs/domain_validation/orchinik_g_domain_confirmation_v2/google_gemma-4-31B-it/batch_input.jsonl",
+    "jsonl_sha256": "612b2ec9ea4854cf9f455a3e81cc6360293b7d36df419e17aec20f1b7e546f95",
+    "manifest_path": "outputs/domain_validation/orchinik_g_domain_confirmation_v2/google_gemma-4-31B-it/request_manifest.csv",
+    "manifest_phase": "orchinik_g_domain_confirmation_v2_gemma",
+    "manifest_sha256": "97f8f351f1229883e57871845cefb7ebc5a9a44a1071e026c4e8a55637a5c60a",
+    "model": "google/gemma-4-31B-it"
+  },
+  "status": "PROSPECTIVELY_FROZEN_BEFORE_INFERENCE",
+  "target_predictions_will_change_regardless_of_result": false
+}

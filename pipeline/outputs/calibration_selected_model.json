@@ -1,0 +1,102 @@
+{
+  "alpha": 1.4508167066782651,
+  "calibration_alpha": 1.4508167066782651,
+  "calibration_lambda": -0.2425283492527821,
+  "effect_universe": {
+    "effect_ids_sha256": "4add83f5e02619c22058b4a5a482d69397b04ccad137079ecb119b82effc7363",
+    "n_effects": 136,
+    "n_studies": 31,
+    "study_ids": [
+      "AnsonBRIEF60",
+      "Blair1131",
+      "Braman751",
+      "CalarcoS38",
+      "Campbell1308",
+      "Cohen1099",
+      "CorstangeBRIEF69",
+      "Enos700",
+      "FaheyS78",
+      "FarrowS6",
+      "Haaland874",
+      "HankinsonS22",
+      "Howard823",
+      "Iles1294",
+      "Kennedy1017",
+      "KlarS44",
+      "McGinty730",
+      "Melin1066",
+      "Merolla843",
+      "Mezzapelle1439",
+      "MunschS68",
+      "SchaadS62",
+      "Schnabel903",
+      "ShannonS2",
+      "Silverman1035",
+      "Stoker1063",
+      "Terman1029",
+      "WallaceS9",
+      "Williamson859",
+      "bolsenM6",
+      "bucci1408"
+    ]
+  },
+  "invalid_rate": 7.3529411764705884e-06,
+  "lambda": -0.2425283492527821,
+  "loso_folds": {
+    "n_folds": 31,
+    "predictions_path": "outputs/calibration_production/calibration_loso_predictions.csv",
+    "predictions_sha256": "acfefd1876a04f9b0363288942e9725d7641574ab125e75242423ebbb3426dd3",
+    "rule": "whole-study leave-one-study-out; all effects from a held-out study held out together"
+  },
+  "loso_rmse_M0": 24.142451261171658,
+  "loso_rmse_M1": 10.541072468512214,
+  "loso_rmse_M2": 10.532334004327103,
+  "model_name": "M2",
+  "number_effects": 136,
+  "number_studies": 31,
+  "provenance": {
+    "batch_ids": {
+      "part1": "667d617e-bb8e-4399-9f76-892152d79ba0",
+      "part2": "6ff0ca1f-ed92-4752-b4fc-96786cbd5061",
+      "part3": "63307e37-ebf0-46e5-b73d-a16c08d57a68",
+      "part4": "0eb43312-dce2-47ba-b7d0-823f8a26a109",
+      "part5": "0772a827-7c0a-461e-994b-f065d24058d2"
+    },
+    "calibration_manifest_freeze_commit": "43f9778",
+    "git_commit": "a8ae43c810df67a6b0ba85bbaa86f70695e06b5f",
+    "loso_fit_module": "ate.calibrate_lambda.fit_calibration_model_comparison (unmodified, pre-existing)",
+    "model": "google/gemma-4-31B-it",
+    "phase": "f_calibration_production",
+    "r_f": 1,
+    "raw_output_sha256_by_partition": {
+      "part1": "e3887c534ecf59bbd639badf49176d88f16887ab7feab2d7c2aa6743ed03cb5d",
+      "part2": "0b51e23f36e49944f864791b62a4c5082f8dc6296ab46e4a6718a3eb32080e2e",
+      "part3": "d563ca16833ad25c581511ca24cbec0cbfd7e655bc9420c143574f7314c3bd79",
+      "part4": "f999d9bfa7cb6d64325b9e34cd7d964c60c908d1b117046c930533e76154bfb9",
+      "part5": "07fdef55f1730e4e946246ac49333a3d288c8a2cbb0a34701db71a13d5f1b67f"
+    },
+    "replicate_id": 7,
+    "response_format_instruction_version": "v2",
+    "scorer_module": "ate.f_calibration_validation.score_f_calibration_production_from_raw (synthetic-tested before submission)",
+    "scoring_script": "scripts/score_f_calibration_production.py"
+  },
+  "raw_effect_table": {
+    "path": "outputs/calibration_production/frozen_136_effect_calibration_table.csv",
+    "sha256": "9badd9c6084498b65985446ccdb15c2b68984a191bce6749da58f6b95c1f24a9"
+  },
+  "reconciliation": {
+    "duplicate": [],
+    "integrity_ok": true,
+    "malformed_records": [],
+    "missing_entirely": [
+      "google-gemma-4-31B-it-8ea61e80f7ed8366fc90c9eb9b76fc6797a0e551"
+    ],
+    "unexpected": []
+  },
+  "superseded_stale_artifact": {
+    "path": "outputs/calibration_production/superseded/stale_development_calibration_selected_model.json",
+    "reason": "pre-existing artifact fit against the development/stale synthetic-prediction archive (synthetic_prediction_status=DEVELOPMENT_STALE_REQUIRES_REGENERATION...), before any real F-model calibration-production inference existed"
+  },
+  "usable_for_production": true,
+  "weighting_rule": "training effects weighted 1/n_s so every study has equal total fitting weight; held-out study MSEs averaged equally"
+}

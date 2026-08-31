@@ -1,0 +1,98 @@
+protocol_id: ashokkumar_experiment_forecast_adapted_v1
+request_key: F|target|F0003|control|donation_ams|replicate_1
+prompt_variant_id: intro_c+profile_label_c+profile_format_sentence+survey_format_sections
+questionnaire_order: {}
+response_key_map: {"donation": "donation_ams"}
+provenance: {}
+system_prompt_hash: 0b23030d043412468ad325e1a4f0d2ffee3ff623d889911d40feff0612706b86
+user_prompt_hash: f30027a0bad947d4f5d033a9572543e87c9ffb9caa2b0202d1d7cf1a8583e2ab
+schema_hash: 6949741c0c18a58c24af7df419e9d57d158c77675c533f78d0d49b8d62b43caf
+
+SYSTEM
+------
+You are completing a simulated survey response task for an experimental forecasting study.
+
+Use only the respondent profile, study setting, survey material, and response
+scale shown in the request. Return only the requested structured response.
+
+USER
+----
+The following is a simulated response to one online survey condition.
+
+SURVEY PARTICIPANT
+Age: 24; Gender: Male; Race/ethnicity: White / Caucasian; Education: High school diploma / GED; Household income: Less than $30,000; Party identification: Democrat; Political ideology: Moderate; State of residence: New York; Religion: Protestant.
+
+STUDY SETTING
+This is an online survey shown to a broad sample of adult respondents.
+
+SURVEY MATERIAL
+Survey material:
+Thank you, you have qualified for the study. 
+
+
+
+In the following sections, we’re interested in your opinion about climate change and climate scientists. 
+
+
+
+Climate scientists study changes in the Earth's climate over time and how they might affect the planet in the future. Please keep this definition in mind when filling out this study.
+
+
+
+Please make sure you do not close this tab until you have finished the study. You must complete the whole study to collect your payment.
+
+Different Types of Dances
+
+
+Dance, a universal form of expression, encompasses a diverse array of styles and traditions, each brimming with unique characteristics and cultural significance. From the refined movements of classical ballet to the vivacious rhythms of Latin dances and the dynamic energy of hip-hop, the world of dance offers a rich tapestry of experiences for enthusiasts of all backgrounds.
+
+
+
+Classical ballet, with its graceful movements and precise technique, epitomizes elegance and storytelling, with iconic productions like Swan Lake and The Nutcracker captivating audiences worldwide. On the other hand, contemporary dance thrives on innovation and fluidity, blending elements from various styles to create cutting-edge choreography that challenges conventional boundaries.
+
+
+
+Latin dances such as salsa, tango, and samba exude the passionate spirit and infectious joy of Latin American cultures, fostering connections and celebrations through movement and music. Meanwhile, hip-hop, rooted in African-American and urban communities, pulsates with its high-energy performances and expressive gestures, encompassing a wide range of styles from breaking to popping and locking.
+
+
+
+Beyond these well-known genres, ballroom, jazz, tap, and folk dances each boast their own rich heritage and artistic nuances, while contemporary cultural dances continue to evolve and reflect the ever-changing global landscape.
+
+
+
+In essence, the diverse world of dance serves as a canvas for human expression, allowing dancers to convey emotions, tell stories, and forge connections with audiences in deeply resonant ways.
+
+
+
+Through its universal language, dance transcends cultural barriers, uniting people of different backgrounds and fostering understanding and appreciation for our shared humanity. It stands as a testament to the enduring power of creativity and connection in our world. Dance serves as a bridge between generations, preserving heritage while also embracing innovation and evolution. Moreover, it offers individuals a form of self-expression and liberation, allowing them to communicate emotions and experiences beyond words. As such, dance has the potential to inspire, uplift, and transform both individuals and communities.
+
+OUTCOME QUESTIONS
+Outcome questions:
+On the following page, you will have the opportunity to allocate real money between yourself and a non-profit organization.
+
+After data collection is complete, we will randomly select 100 participants from this study to receive a $10 bonus payment.
+
+If you are selected, the amount you allocate to yourself will be paid to you as a bonus, and the amount you allocate to the organization will be donated on your behalf.
+
+donation: Of the $10 bonus, how much would you like to donate to the American Meteorological Society (AMS)?
+Response options: $0-$10 in $1 increments.
+Answer with an integer from 0 to 10.
+
+Return a single JSON object with one integer value per item label on the native response scale.
+
+JSON_SCHEMA
+-----------
+{
+  "additionalProperties": false,
+  "properties": {
+    "donation": {
+      "maximum": 10,
+      "minimum": 0,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "donation"
+  ],
+  "type": "object"
+}

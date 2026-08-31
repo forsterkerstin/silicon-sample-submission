@@ -1,0 +1,25 @@
+{
+  "note": "DOCUMENTATION ONLY -- no target inference performed, no target outcomes used, no primary/secondary artifact modified by this file. Describes how the already-frozen secondary calibration (MCONST) would be applied downstream if a secondary submission is ever produced; does not generate a submitted secondary file.",
+  "secondary_calibration_selected": "MCONST",
+  "secondary_artifact_path": "outputs/secondary_calibration_diagnostic/secondary_calibration_selected_model.json",
+  "secondary_artifact_sha256": "c0391906784f54c17f1503fccc91963f22af85dd81dc090bdc69ec38e75684e0",
+  "secondary_mu": 1.9558595458395387,
+  "target_scale_formulas": {
+    "percent_of_range_form": "theta_hat_secondary_aj = SECONDARY_MU = 1.9558595458395387  (constant, no F term)",
+    "native_scale_form": "tau_hat_secondary_aj = (R_j / 100) * SECONDARY_MU  (matches the primary's native-scale form tau_hat_aj = lambda_hat*z_aj + (R_j/100)*alpha_hat with lambda_hat=0, alpha_hat=SECONDARY_MU)"
+  },
+  "unchanged_from_primary_pipeline": [
+    "frozen CES target population",
+    "native target-G persona-simulation responses",
+    "common-shift construction",
+    "support projection",
+    "composite recomputation",
+    "validation rules"
+  ],
+  "verification": {
+    "secondary_requires_target_f_outputs": false,
+    "secondary_requires_target_g_outputs": true,
+    "reasoning": "MCONST's theta_hat has zero dependence on the target F/synthetic ATE (z_aj never enters the formula), so target F outputs are not required to apply it. The rest of the target construction pipeline (common-shift/support-projection/composite recomputation) still consumes target-G persona-simulation outputs for reasons unrelated to calibration, so target G outputs remain required."
+  },
+  "secondary_model_unchanged_by_this_note": true
+}

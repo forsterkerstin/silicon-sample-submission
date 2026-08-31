@@ -1,0 +1,35 @@
+torch
+transformers
+
+# GPU backend (vllm_elicit.py) -- optional, only needed to run the vLLM
+# backend instead of hf_elicit.py's CPU/transformers one. This exact pin
+# triangle is load-bearing, not arbitrary:
+#   - this machine's NVIDIA driver caps CUDA at 12.2, so only "+cu121" torch
+#     wheels work here (install with
+#     `pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121`,
+#     the newest version PyPI publishes a cu121 build for)
+#   - vllm==0.7.3 is the newest vLLM release that itself pins torch==2.5.1
+#     exactly (newer vllm releases require newer torch, which have no cu121
+#     build)
+#   - vllm==0.7.3 only declares transformers>=4.48.2 (no upper bound), but
+#     breaks against transformers>=5 (a used tokenizer-group attribute was
+#     removed) -- pin to the exact minimum it declares, 4.48.2, which is
+#     also new enough for Qwen2.5
+# torchaudio/torchvision are NOT needed for this text-only use case, and pip
+# will otherwise resolve them to a mismatched CUDA build (cu124) that breaks
+# `import vllm` -- do not install them.
+# vllm==0.7.3
+# transformers==4.48.2
+
+# population-construction pipeline (src/population, scripts/build_population.py)
+pandas
+numpy
+scipy
+scikit-learn
+openpyxl
+python-docx
+pypdf
+PyYAML
+joblib
+jsonschema
+pytest

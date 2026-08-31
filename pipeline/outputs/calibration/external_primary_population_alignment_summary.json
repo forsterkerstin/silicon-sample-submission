@@ -1,0 +1,16 @@
+{
+  "n_primary_effects": 136,
+  "effects_built": 136,
+  "total_panel_rows": 68000,
+  "expected_panel_rows": 68000,
+  "effects_with_any_demographic_missingness": 136,
+  "maximum_allocation_discrepancy_pp": 0.18486055776892468,
+  "unconstructed_effects": [],
+  "n_f_per_effect": 500,
+  "population_matching_method": "study_effect_analytic_profile_distribution_unweighted_largest_remainder",
+  "panels_path": "data/generated/external_primary_f_panels.csv",
+  "effect_audit_path": "outputs/calibration/external_f_effect_panels_audit.csv",
+  "missingness_path": "outputs/calibration/external_f_missingness_by_effect.csv",
+  "arm_composition_path": "outputs/calibration/external_f_arm_composition_audit.csv",
+  "human_estimand_weight_audit_path": "outputs/calibration/human_estimand_weight_audit.csv"
+}

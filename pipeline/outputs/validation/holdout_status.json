@@ -1,0 +1,8 @@
+{
+  "frozen_method_hash": null,
+  "holdout_opened_at": null,
+  "method_changed_after_holdout": false,
+  "holdout_still_pristine": true,
+  "holdout_consumed": false,
+  "notes": "split audit created; structural holdout performance not opened"
+}

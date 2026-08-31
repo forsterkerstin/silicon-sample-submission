@@ -1,0 +1,19 @@
+{
+  "prompt_audit_rows": 36,
+  "prompt_audit_failures": 0,
+  "f_pairing_rows": 30,
+  "f_pairing_failures": 0,
+  "f_leakage_rows": 25,
+  "f_leakage_failures": 0,
+  "f_source_fidelity_rows": 6,
+  "f_target_outcome_context_rows": 13,
+  "f_target_control_filler_rows": 500,
+  "f_target_control_filler_counts": {
+    "baseball": 167,
+    "dances": 166,
+    "neckties": 167
+  },
+  "f_pair_examples": 12,
+  "g_examples": 11,
+  "f_examples": 14
+}

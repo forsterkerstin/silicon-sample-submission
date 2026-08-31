@@ -1,0 +1,35 @@
+{
+  "algorithm_version": "sha256_seed_plus_donor_key_even_presentation_v1",
+  "assignment_count_by_variant": {
+    "1": 334,
+    "2": 333,
+    "3": 333
+  },
+  "filler_names": {
+    "1": "neckties",
+    "2": "baseball",
+    "3": "dances"
+  },
+  "filler_order": [
+    1,
+    2,
+    3
+  ],
+  "fixed_before_assignment_review": "true",
+  "generation_timestamp_utc": "2026-08-31T07:53:32Z",
+  "hashing_rule": "SHA256(seed + \"|\" + donor_key)",
+  "new_baseball_plus_dance_count": 666,
+  "notes": "Only one seed was generated and frozen for this repair. No inference has been launched.",
+  "old_modulo_cycle_not_equivalent": "true",
+  "old_modulo_diff_count": 651,
+  "reason_for_amendment": "Replace modulo-3 control filler assignment with a balanced, reproducible Qualtrics-even-presentation assignment matching the benchmark survey semantics.",
+  "retained_necktie_count": 334,
+  "seed": "c4c6c98a281bf01dc4ef69f267bfc893acacc5685cd1c0903bd2621fd84ff28f",
+  "seed_generated_before_assignment_balance_review": "true",
+  "seed_generated_before_demographic_or_outcome_review": "true",
+  "seed_generation_method": "secrets.token_hex(32)",
+  "seed_not_regenerated_or_optimized": "true",
+  "sorting_rule": "sort donor_key values by hash ascending; repeat filler order [1,2,3] over the shuffled roster",
+  "source_profile_ids_used": "all final 1000 G donor_key values in pipeline/data/generated/g_personas_master.csv",
+  "source_table_sha256": "7a5c3e03d3f6b6437decc6b2ed7ea48d8db6fba9d255977417c504714d373774"
+}

@@ -1,0 +1,89 @@
+protocol_id: ashokkumar_experiment_forecast_adapted_v1
+request_key: F|target|F0011|Peer-review|trust_post|replicate_1
+prompt_variant_id: intro_a+profile_label_c+profile_format_bullets+survey_format_pages
+questionnaire_order: {}
+response_key_map: {"trust_post_1": "trust_post"}
+provenance: {}
+system_prompt_hash: 0b23030d043412468ad325e1a4f0d2ffee3ff623d889911d40feff0612706b86
+user_prompt_hash: 79517181335706e03789b9659d19f560f17a671ad4d5726cf00a2ccd81cc6efe
+schema_hash: d29ad2f126ee4a74415d3a7edcaf4da97941d2fe638985dbab28b1503afadf7a
+
+SYSTEM
+------
+You are completing a simulated survey response task for an experimental forecasting study.
+
+Use only the respondent profile, study setting, survey material, and response
+scale shown in the request. Return only the requested structured response.
+
+USER
+----
+Social scientists often conduct research studies using online surveys.
+
+SURVEY PARTICIPANT
+- Age: 29
+- Gender: Male
+- Race/ethnicity: White / Caucasian
+- Education: Bachelor's degree
+- Household income: $56,000 to $99,999
+- Party identification: Democrat
+- Political ideology: Liberal
+- State of residence: Colorado
+- Religion: Atheist
+
+STUDY SETTING
+This is an online survey shown to a broad sample of adult respondents.
+
+SURVEY MATERIAL
+The survey page says:
+Thank you, you have qualified for the study. 
+
+
+
+In the following sections, we’re interested in your opinion about climate change and climate scientists. 
+
+
+
+Climate scientists study changes in the Earth's climate over time and how they might affect the planet in the future. Please keep this definition in mind when filling out this study.
+
+
+
+Please make sure you do not close this tab until you have finished the study. You must complete the whole study to collect your payment.
+
+Before scientists can make their discoveries public, they face one of the toughest tests in any profession: peer review. This means that independent experts, other researchers who are often direct competitors, carefully examine the research to see if it holds up. 
+
+
+
+They check whether the evidence is solid, whether the reasoning makes sense, and whether the data support the conclusions. In most cases, the authors are required to make changes before the scientific article can be published.  Overall, the  feedback obtained through this process leads to improving the research. As part of this process, many studies are rejected and not published. That means that research is only accepted as part of the scientific record if it has passed the test of peer review.
+
+
+
+Peer review means scientists hold each other accountable. Peer-reviewed research findings, from rising global temperatures, to shifting weather patterns, and melting glaciers, are not just one researcher’s opinion. Every credible study on climate change has been reviewed by multiple independent experts in the field. When these experts from across the world consistently reach the same conclusions, that agreement tells us they consider the science solid.
+
+
+
+Peer review is considered the toughest test there is for science. When you consider climate research, trust the process.
+
+OUTCOME QUESTIONS
+The outcome question page says:
+trust_post_1: How much do you trust climate scientists?
+Response options: 0 = not at all … 100 = very strongly.
+Answer with an integer from 0 to 100.
+
+Return a single JSON object with one integer value per item label on the native response scale.
+
+JSON_SCHEMA
+-----------
+{
+  "additionalProperties": false,
+  "properties": {
+    "trust_post_1": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "trust_post_1"
+  ],
+  "type": "object"
+}

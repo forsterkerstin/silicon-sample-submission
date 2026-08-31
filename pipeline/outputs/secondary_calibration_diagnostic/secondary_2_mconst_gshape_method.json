@@ -1,0 +1,60 @@
+{
+  "method_name": "MCONST_GSHAPE",
+  "status": "PROSPECTIVELY_FROZEN_BEFORE_TARGET_G_OUTPUT_INSPECTION",
+  "post_primary_external_development": true,
+  "target_human_outcome_blind": true,
+  "target_g_outputs_inspected_before_freeze": false,
+  "equation": {
+    "g_aj": "100 * tau_G_aj / R_j",
+    "g_bar": "(1/208) * sum over a=1..16, j=1..13 of g_aj  (equal weight per cell)",
+    "theta_hat_s2_aj": "EXTERNAL_MU + GAMMA_G_SHAPE * (g_aj - g_bar)",
+    "tau_hat_s2_aj": "(R_j / 100) * theta_hat_s2_aj",
+    "common_shift_identity": "c_aj = tau_hat_s2_aj - tau_g_native == (R_j / 100) * (EXTERNAL_MU - g_bar)"
+  },
+  "external_mu": 1.9558595458395387,
+  "gamma_g_shape": 1.0,
+  "centering_scope": "all_208_normalized_target_ATE_cells",
+  "cell_weighting": "equal",
+  "expected_cells": 208,
+  "expected_interventions": 16,
+  "expected_outcomes": 13,
+  "target_f_dependence": false,
+  "target_g_dependence": true,
+  "no_fitting_or_tuning": true,
+  "forbidden_operations": [
+    "sign_clipping",
+    "winsorization",
+    "truncation_of_g_ate_shape",
+    "shrinkage_of_centered_g_shape",
+    "gamma_tuning",
+    "per_outcome_scaling",
+    "per_intervention_scaling",
+    "nonlinear_transformation",
+    "target_f_blending",
+    "target_dependent_model_selection",
+    "outcome_specific_external_means"
+  ],
+  "secondary_1_artifact_path": "outputs/secondary_calibration_diagnostic/secondary_calibration_selected_model.json",
+  "secondary_1_artifact_sha256": "c0391906784f54c17f1503fccc91963f22af85dd81dc090bdc69ec38e75684e0",
+  "ces_source_sha256": "73cb40367efd0f92b8593cb9555660f68bdc95d8c1aad38f41aa13ab089ca43d",
+  "g_star_model": "google/gemma-4-31B-it",
+  "implementation_module": "ate/secondary_2_mconst_gshape.py",
+  "relationship_to_secondary_1": {
+    "secondary_1_mconst": "theta_hat_S1_aj = MU_EXTERNAL for all 208 cells (identical target)",
+    "secondary_2_mconst_gshape": "theta_hat_S2_aj = MU_EXTERNAL + (g_aj - g_bar) -- same global normalized mean, cross-cell shape inherited exactly from native G",
+    "secondary_2_claimed_superior_to_secondary_1": false
+  },
+  "future_application_pipeline_documented_only": [
+    "native G outputs",
+    "208 native G ATEs",
+    "normalize by outcome range",
+    "compute global g_bar",
+    "recenter to MU_EXTERNAL",
+    "convert back to native scale",
+    "common shift native G treatment respondents",
+    "existing deterministic support projection",
+    "recompute constructs",
+    "final Tier-1 validation"
+  ],
+  "not_executed_in_this_freeze": true
+}

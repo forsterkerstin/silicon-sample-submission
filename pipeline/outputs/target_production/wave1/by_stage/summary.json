@@ -1,0 +1,126 @@
+{
+  "F_consensus_stage_a": {
+    "jsonl_sha256": "3e7715fded4a354a22598c5deec9f2c99c08cd85f9d86570da5bef912fe70adf",
+    "manifest_sha256": "b0b712269426f22b76523ba082d8933989aa4157e44a1eee449a5b8c611a5a95",
+    "partition_count": 1,
+    "partitions": [
+      {
+        "jsonl_size_mb": 1.64,
+        "partition": "part1",
+        "requests": 500,
+        "sha256": "3e7715fded4a354a22598c5deec9f2c99c08cd85f9d86570da5bef912fe70adf"
+      }
+    ],
+    "requests": 500,
+    "role": "F",
+    "stage": "consensus_stage_a"
+  },
+  "F_standard": {
+    "jsonl_sha256": "59b5d6375ccbadff25e7103d1112ca8e02382ef28f8a8a1a263213a8ab743988",
+    "manifest_sha256": "5a512867df9c56b3da38adcd6b7c24fc6a91a6e9f26b45573781cd4f9f6e603b",
+    "partition_count": 8,
+    "partitions": [
+      {
+        "jsonl_size_mb": 78.04,
+        "partition": "part1",
+        "requests": 13000,
+        "sha256": "97975627a54c07737fc9e5672c4fc670db56a267c405738fff025357c6f82455"
+      },
+      {
+        "jsonl_size_mb": 77.95,
+        "partition": "part2",
+        "requests": 13000,
+        "sha256": "c80b667ee77930847f3a4e2066b8f3fd3dfafb89e599fc728a25207a3ddc2f23"
+      },
+      {
+        "jsonl_size_mb": 78.09,
+        "partition": "part3",
+        "requests": 13000,
+        "sha256": "f621fdea1cdf947240d81e6525623687924d15baa4fc3428aece8c2d52ab1ca2"
+      },
+      {
+        "jsonl_size_mb": 78.02,
+        "partition": "part4",
+        "requests": 13000,
+        "sha256": "f0eb315fad5072b04a41653dc13e333981925b0d66d10c2f7e2724e09296a0ab"
+      },
+      {
+        "jsonl_size_mb": 78.06,
+        "partition": "part5",
+        "requests": 13000,
+        "sha256": "326ae6a5be76225bd401bf2edfda3eacb434dd04dccb419cfe0deeeadf8686fa"
+      },
+      {
+        "jsonl_size_mb": 78.02,
+        "partition": "part6",
+        "requests": 13000,
+        "sha256": "e2103edf0785e6a79f3f0c7f299d8fe35b81245d0453443d4e9ad7243b0c0a10"
+      },
+      {
+        "jsonl_size_mb": 78.14,
+        "partition": "part7",
+        "requests": 13000,
+        "sha256": "e8a994f3cbfbce5f19ff2bcbe09b3cc4119e92d80e66e544850e6cb82036826b"
+      },
+      {
+        "jsonl_size_mb": 78.07,
+        "partition": "part8",
+        "requests": 13000,
+        "sha256": "6ae688e5ce006d4384d9b25bb1e0d62703aa4948429b8e6c8b0b1028d246569d"
+      }
+    ],
+    "requests": 104000,
+    "role": "F",
+    "stage": "standard"
+  },
+  "G_consensus_stage_a": {
+    "jsonl_sha256": "5de882b8d0ad36c83a4fbb71c88bdbe4d0803335617618b428ff0bda856d02cc",
+    "manifest_sha256": "58edd8eda9a1eb4234fd3465f91d5f61f691adbb47e76e6fbe2c6213369b2c91",
+    "partition_count": 1,
+    "partitions": [
+      {
+        "jsonl_size_mb": 3.21,
+        "partition": "part1",
+        "requests": 1000,
+        "sha256": "5de882b8d0ad36c83a4fbb71c88bdbe4d0803335617618b428ff0bda856d02cc"
+      }
+    ],
+    "requests": 1000,
+    "role": "G",
+    "stage": "consensus_stage_a"
+  },
+  "G_standard": {
+    "jsonl_sha256": "21ba1416a071a259037f5bd0833d494102538709c25ea9c8d6dc89e7af97b8fa",
+    "manifest_sha256": "b75b0ffae1e8d6f40dafc024348c17a57fcc4894e560b6ba99b9357f9778661c",
+    "partition_count": 4,
+    "partitions": [
+      {
+        "jsonl_size_mb": 65.01,
+        "partition": "part1",
+        "requests": 4000,
+        "sha256": "8cdb511f2dd671d1f642c2fe0579e867e814bfe24f7b3cdbae4226af6f4c57ca"
+      },
+      {
+        "jsonl_size_mb": 65.03,
+        "partition": "part2",
+        "requests": 4000,
+        "sha256": "3e12927b8a87091beee0e297f2515aff75364e8326884f1beff2e3976b12b5b6"
+      },
+      {
+        "jsonl_size_mb": 65.02,
+        "partition": "part3",
+        "requests": 4000,
+        "sha256": "3a53b8d7f8cb1d6883f7d746161c9cecb958c4cd784f2123bd187230e83d643b"
+      },
+      {
+        "jsonl_size_mb": 65.04,
+        "partition": "part4",
+        "requests": 4000,
+        "sha256": "f254234b95cad5a79f81b741c6f5d9e3ec8a2626b56517e520fdabccb21d8572"
+      }
+    ],
+    "requests": 16000,
+    "role": "G",
+    "stage": "standard"
+  }
+}

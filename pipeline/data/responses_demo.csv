@@ -1,0 +1,7 @@
+profile_id,condition,trust_post,donation_ams
+LP0001__control__R1,control,100,1
+LP0001__control__R2,control,100,10
+LP0001__interview-prof-maraun__R1,Interview Prof. Maraun,100,7
+LP0002__control__R1,control,90,5
+LP0002__control__R2,control,10,8
+LP0002__interview-prof-maraun__R1,Interview Prof. Maraun,100,10

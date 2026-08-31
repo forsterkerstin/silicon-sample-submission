@@ -1,0 +1,41 @@
+{
+  "consensus_interaction_protocol": "consensus_two_stage_interactive_adaptation_v1",
+  "control_filler_assignment": "stable_sha256_v1_condition_excluded",
+  "exemplar_message_hashes": {
+    "f_consensus_stage_a": "14f9aa361a4ac90ea101abe2c547fc5c2d6f86e4ac089f1d9e5d7dc9dcd1dd6a",
+    "f_consensus_stage_b_newsletter_signup": "f583503338052c8a6e0081c6b579fb64ef1faff4e2e8b35bbd5473f77c0d272c",
+    "f_funding_donation_ams": "076096821c4319336074d0ee49d7a1a262f99fca4a884462de18df17e80610e7",
+    "g_consensus_stage_a": "6b906411d086ea618e1b41436f9e0f105b9b776f97cd3336cb16e682199a6201",
+    "g_consensus_stage_b": "dbab1d23f157303a03a174cb35927c56ad3555f557d8cb59ab53ecf26a7abd21",
+    "g_control_full_questionnaire": "22a1aff475ecb35ace028a3ae775e0e2e39234cb4d32dc1aa751c4a9d0955ae2"
+  },
+  "f_outcome_compiler": "ashokkumar_experiment_forecast_adapted_v1",
+  "f_protocol": "ashokkumar_experiment_forecast_adapted_v1",
+  "g_protocol": "krsteski_demo_survey_adapted_v1",
+  "g_questionnaire_compiler": "post_treatment_blocks_questionnaire_txt_v1",
+  "no_paid_inference": true,
+  "production_manifest_requirements": [
+    "prompt_hash",
+    "schema_version",
+    "prompt_protocol_id",
+    "prompt_compiler_version",
+    "consensus_interaction_protocol_id"
+  ],
+  "prompt_compiler_version": "prompt_compiler_v2_split_g_f",
+  "schema_hashes": {
+    "f_consensus_stage_a": "675efa1486e53a4914248132dda701b834c9e26599d8c4c4d7b41db57bfcf2b0",
+    "f_consensus_stage_b_newsletter_signup": "4b6b8993ef74bd8e53209a244498caba32ac0e2f12c547b8695595399f80ea07",
+    "f_outcome": "6949741c0c18a58c24af7df419e9d57d158c77675c533f78d0d49b8d62b43caf",
+    "g_consensus_stage_a": "675efa1486e53a4914248132dda701b834c9e26599d8c4c4d7b41db57bfcf2b0",
+    "g_consensus_stage_b": "dfb71e28c6622a7f57f8e1929f3fb975a9b78ecf42bded892bbd90aea7cce06d",
+    "g_full_questionnaire": "dfb71e28c6622a7f57f8e1929f3fb975a9b78ecf42bded892bbd90aea7cce06d"
+  },
+  "source_file_sha256": {
+    "config/benchmark_schema.yaml": "dbefaee3cdb502f215a1d66f44f7bb732493359edadad37026bf88c7763e20c4",
+    "config/model_config.yaml": "d022491313b14b2987d82ecba84b8279a5e10f588497bb25e5e7233a3f23bd6e",
+    "inference/prompts.py": "9eee890c72042c5ecf04d7545d119804ac31b96ce308ad7c3336e87c852b7eda",
+    "inference/together_batch.py": "6bd1899e91cfc347b55c1672d0b8a0b2f705aa018225c873cbe383703e26266c",
+    "survey_content.py": "cd63b5ebe430addd25f5032a0fa91956bc6ed7ef57a691982ca11c716f634188"
+  },
+  "status": "PASS"
+}

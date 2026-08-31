@@ -1,0 +1,19 @@
+{
+  "id": "0772a827-7c0a-461e-994b-f065d24058d2",
+  "completed_at": "2026-08-26T15:52:19.524236Z",
+  "created_at": "2026-08-26T13:51:33.970749Z",
+  "endpoint": "/v1/chat/completions",
+  "error": null,
+  "error_file_id": null,
+  "file_size_bytes": 90214417,
+  "input_file_id": "file-cee5c540-95a9-4a51-b2eb-bac1ed009e53",
+  "job_deadline": "2026-08-27T13:51:33.970740Z",
+  "x_model_id": "google/gemma-4-31B-it",
+  "output_file_id": "file-5c436962-a024-4dba-ac5b-5a08cd4ac3ce",
+  "progress": 100.0,
+  "status": "COMPLETED",
+  "user_id": "user_REDACTED",
+  "project_id": "proj_REDACTED",
+  "organization_id": "org_REDACTED",
+  "model_id": "google/gemma-4-31B-it"
+}

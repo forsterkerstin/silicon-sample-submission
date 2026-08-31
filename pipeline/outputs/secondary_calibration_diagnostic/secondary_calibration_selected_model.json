@@ -1,0 +1,36 @@
+{
+  "post_primary_external_development": true,
+  "target_human_outcome_blind": true,
+  "secondary_calibration_selected": "MCONST",
+  "secondary_mu": 1.9558595458395387,
+  "secondary_w": null,
+  "secondary_alpha": null,
+  "secondary_lambda": null,
+  "effective_secondary_f_dependence": 0.0,
+  "selection_rule": "MSHRINK selected iff MSHRINK_NESTED_LOSO_MSE < MCONST_OUTER_MSE on identical 31 outer whole-study folds; ties (including exact) go to MCONST",
+  "mshrink_nested_loso_mse": 94.32242534080042,
+  "mshrink_nested_loso_rmse": 9.711973297986379,
+  "mshrink_nested_loso_mae": 5.820419834568474,
+  "mconst_outer_mse": 88.42975638795151,
+  "mconst_outer_rmse": 9.403709714147471,
+  "mconst_outer_mae": 5.613521048268357,
+  "w_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "source_table": "outputs/calibration_production/frozen_136_effect_calibration_table.csv",
+  "source_table_sha256": "9badd9c6084498b65985446ccdb15c2b68984a191bce6749da58f6b95c1f24a9",
+  "primary_frozen_m2_for_reference": {
+    "alpha": 1.4508167066782651,
+    "lambda": -0.2425283492527821
+  }
+}

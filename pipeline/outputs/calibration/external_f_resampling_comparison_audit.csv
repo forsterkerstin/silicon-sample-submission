@@ -1,0 +1,3 @@
+study_id,complete_case_source_n,current_method,current_max_replication,balanced_largest_remainder_min_replication,balanced_largest_remainder_max_replication,balanced_rows_receiving_extra_copy
+AnsonBRIEF60,336,rng.choice_with_replacement,5,1,2,164
+Merolla843,498,rng.choice_with_replacement,5,1,2,2

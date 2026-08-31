@@ -1,0 +1,505 @@
+model_selection:
+  candidate_bakeoff_required: true
+  g_model_candidates:
+    - deepseek-ai/DeepSeek-V4-Pro-0813
+    - google/gemma-4-31B-it
+  f_model_candidates:
+    - deepseek-ai/DeepSeek-V4-Pro-0813
+    - google/gemma-4-31B-it
+  selected_g_model: google/gemma-4-31B-it
+  selected_f_model: google/gemma-4-31B-it
+  candidate_amendment_history:
+    - amended_at: "2026-08-25"
+      removed_candidate: Qwen/Qwen3.8-2.4T-A95B
+      removed_reason_code: ENGINEERING_SCREENED_OUT_PRE_SCIENTIFIC_EVALUATION
+      removed_reason: >-
+        Mandatory-thinking serving behavior was operationally incompatible with
+        efficient structured full-questionnaire generation under the frozen
+        smoke serving design: all 3/3 G full-questionnaire first-wave smoke
+        requests were truncated at max_tokens=1024 because reasoning content
+        consumed the completion budget before the JSON answer. Screened out
+        before any scientific model-quality/model-selection comparison; no
+        prediction-accuracy data was consulted.
+      added_candidate: google/gemma-4-31B-it
+      added_candidate_reason: engineering compatibility trial replacement, not observed prediction accuracy
+      model_selection_metrics_and_tie_break_rules_changed: false
+      g_and_f_still_selected_independently_via_frozen_external_validation_procedure: true
+      historical_qwen_smoke_artifacts_preserved: true
+
+  scientific_plan_amendments:
+    - amended_at: "2026-08-25"
+      amendment_type: MINI_SCREEN_INTRODUCED_PRE_RESULTS
+      reason: >-
+        Reduces resource use (paid inference volume) and researcher degrees of
+        freedom by introducing a small, cheap F/G screening stage ahead of the
+        expensive full 136-effect two-model R_F reliability/calibration run.
+        This amendment is NOT based on any observed DeepSeek/Gemma scientific
+        performance difference -- none had been observed at the time of this
+        amendment.
+      no_candidate_scientific_results_observed_before_amendment: true
+      engineering_smoke_scope_confirmation: >-
+        Engineering smoke (ENGINEERING_SMOKE = CLOSED/PASS) was used only to
+        qualify serving/schema behavior (structured-output parsing, thinking
+        suppression, request completion within max_tokens) -- never as a
+        scientific model-quality signal. No smoke response content is
+        consulted by the F screen, G screen, or any downstream metric.
+      g_and_f_selected_independently: true
+      full_r_f_reliability_testing_deferred_until: "after F* is selected via the mini F screen (Section 2 below); the existing 48,000-request two-model R_F pilot manifest is NOT submitted under this amendment"
+      mini_f_screen:
+        purpose: "select F* (candidate model identity) cheaply before the expensive full-archive R_F/calibration run"
+        replaces_for_candidate_identity_only: "the original plan of running the full 136-effect x 500-profile x 2-candidate archive to compare whole-study LOSO RMSE by predeclared model C for candidate selection"
+        does_not_replace: "full M0/M1/M2 whole-study LOSO calibration, which still runs downstream on the full 136-effect archive for F* only, per the unchanged frozen f_candidate_selection rule"
+        scale: "12 frozen pilot effects (seed=20260824, unchanged) x 250 profiles (first deterministic 250 of the existing frozen 500) x 2 conditions x 1 replicate, both candidates"
+      mini_g_screen:
+        purpose: "select G* cheaply if and only if a usable existing human respondent-level dataset is confirmed (Section 3/4 below); no G requests are built until then"
+      model_selection_metrics_and_tie_break_rules_for_final_selection_changed: false
+
+    - amended_at: "2026-08-25"
+      amendment_type: F_SCREEN_INVALID_RESPONSE_HANDLING_FROZEN
+      reason: >-
+        The prior audit found no already-implemented, deterministic rule for
+        reconciling missing/malformed/schema-invalid F-screen responses into
+        the study-equal RMSE primary metric. This amendment freezes that rule
+        BEFORE any DeepSeek/Gemma F-screen scientific results have been
+        observed or retrieved. No candidate scientific performance was
+        consulted in writing this rule.
+      no_candidate_scientific_results_observed_before_amendment: true
+      f_screen_metric_unchanged: true
+      f_screen_scope_unchanged: "12 effects, seed=20260824, 250 profiles/effect, 2 conditions, 1 replicate, both candidates -- none of this changed by this amendment"
+      manifest_reconciliation:
+        expected_universe_per_candidate: "exactly the 6,000 custom_ids in that candidate's frozen f_model_screen request_manifest.csv"
+        detects: [missing_entirely_expected_ids, unexpected_ids, duplicate_ids, malformed_provider_records]
+        integrity_failure_rule: "any unexpected id or duplicate id STOPs scoring entirely for that candidate rather than being scored around"
+        redownload_of_same_batch_is_not_a_retry: true
+        no_automatic_new_inference_on_reconciliation_failure: true
+      response_validity:
+        method: "jsonschema.validate() (or equivalent complete validator) against the exact request-specific JSON Schema already embedded in that request's batch_input.jsonl body"
+        invalid_if: [missing, malformed_json, missing_required_field, wrong_type, outside_schema_min_max_or_enum, otherwise_schema_invalid, terminal_provider_failure_with_no_response]
+        no_coercion_clip_round_repair_or_imputation: true
+      invalid_response_rate:
+        formula: "invalid_request_count_m / 6000"
+        gate_threshold: 0.005
+        gate_threshold_source: "engineering_thresholds_not_literature_derived.max_invalid_response_rate, already frozen in v1-v3 for the R_F replicate-comparison gate"
+        prospective_new_application_note: >-
+          This is a NEW prospective application of that already-existing
+          threshold NUMBER to F-screen candidate eligibility -- the number
+          itself is not new, but its use as an F-screen eligibility gate was
+          NOT already frozen in v3 and is being frozen here for the first time.
+        decision_rule:
+          both_eligible: "score both candidates with the already-frozen f_screen.py primary metric; existing tie-break order applies unchanged"
+          exactly_one_eligible: "the eligible candidate is F*"
+          neither_eligible: "STOP_REQUIRE_NEW_EXPLICIT_DECISION"
+        no_additional_invalid_rate_threshold_invented: true
+      paired_complete_case_ates:
+        estimand: "mean within-profile contrast (F reuses the same profile under control and treatment by design)"
+        rule: "include profile i in an effect's ATE only if BOTH its control and treatment responses are valid; z_e,m = mean_i(Y_T - Y_C) over paired-complete profiles only"
+        unpaired_arm_means_rule_rejected: "explicitly rejected when missingness differs between arms -- superseded by this paired-complete-case rule"
+        reported_per_effect_per_model: [planned_pairs_250, valid_paired_n, invalid_control_n, invalid_treatment_n, invalid_both_n]
+        no_additional_per_effect_minimum_n_threshold: true
+        minimum_n_rationale: "under the 0.005 candidate-level gate, at most 30 invalid requests exist among 6,000; even maximally concentrated in one 250-profile effect this leaves >=220 paired-complete profiles -- reported transparently, not gated further"
+      retries:
+        automatic_paid_scientific_retries: false
+        paid_retry_manifest_constructed_or_consumed_during_f_selection: false
+        on_gate_failure: "stop per the invalid_response_rate decision rule above; no automatic resubmission"
+      registration_field_populated: "registration.md field G.2 (parsing; malformed/missing/out-of-range handling; exclusions; paired-complete-case behavior; effective N; retry policy) -- see registration.md"
+
+    - amended_at: "2026-08-25"
+      amendment_type: ATP_G_SCREEN_FROZEN
+      reason: >-
+        Voelkel2025 was found AUDITED_NOT_USABLE for primary G selection (see
+        prior amendment/audit). ATP1/ATP2 (Pew American Trends Panel Wave 149,
+        redistributed for simulation benchmarking) are usable external human
+        respondent-level datasets and are frozen here as the G-screen source
+        BEFORE any DeepSeek/Gemma G-screen request is built or submitted, and
+        BEFORE any DeepSeek/Gemma F-screen scientific result was inspected,
+        summarized, scored, or compared -- F v4 proceeds independently.
+      no_g_scientific_outputs_observed_before_amendment: true
+      no_f_comparative_scientific_performance_inspected_before_amendment: true
+      g_and_f_selected_independently: true
+      source:
+        repo: https://github.com/skrsteski/survey-simulations
+        commit: faeb4e1a73567a8c98c69798774b63fdb27c79e1
+        license: MIT
+        local_files: "pipeline/data/atp_survey_simulations/atp{1,2}_human_test.csv (gitignored third-party raw data, regenerable by re-cloning the pinned commit)"
+        atp1_item: "LIVSTAN_W149 -- 5-point ordinal, standard of living vs. parents"
+        atp2_item: "SCOTUS_JOB_W149 -- 4-point ordinal, Supreme Court impartiality"
+      atp1_atp2_overlap:
+        relationship: "ATP2's respondents are a strict subset of ATP1's -- two item-level tasks on essentially one underlying ATP panel, NOT two independent validation studies"
+        scoring_implication: "primary metric uses equal ITEM weighting (not equal-study weighting) for exactly this reason"
+      external_g_prompt_path:
+        function: build_g_external_validation_prompt_render (pipeline/inference/prompts.py)
+        does_not_alter: "build_g_prompt_render (the frozen production target-G path) -- proven byte-for-byte unchanged by golden-hash regression tests (test_target_g_prompt_render_byte_identical_after_addition)"
+        never_injects: [target_climate_scientist_context, target_control_material, target_questions, target_intervention_labels, fabricated_filler]
+        no_preceding_stimulus_material: "ATP items have no participant-visible survey material; the builder renders no SURVEY MATERIAL section rather than inventing one"
+      atp_g_profile_mapping:
+        objective: "test the production G role, not the richer Krsteski persona system -- persona_description and the other 21 ATP columns not in the mapping below are never used"
+        one_representation_per_concept: true
+        mapping:
+          age_cat: age
+          gender: gender
+          race_ethn: race
+          edu_cat2: education
+          family_income: income
+          party: party
+          ideology: political_ideology
+          religion_4cat: religion
+        state: "absent from ATP -- omitted, not fabricated"
+        excluded_categories: [attitudes, behavioral_histories, outcome_adjacent_information, duplicate_concept_columns]
+        implementation: "pipeline/ate/g_atp_screen.py ATP_PROFILE_FIELD_MAP, atp_row_to_g_profile()"
+      atp_sample:
+        convention: "all source-defined usable respondents, not an arbitrary first-N subset"
+        atp1_usable_n: 650
+        atp2_usable_n: 576
+        eligibility_convention: "reproduces datasets/atp{1,2}/evaluate.py's own dropna-after-RESPONSE_MAP convention exactly -- 'Not sure' and 'Refused/Web blank' excluded from human eligibility AND from model response support, not invented"
+        request_keying: "item-specific request keys retained; described as 2 ordinal items on ~1 panel, never combined into a synthetic multi-item questionnaire"
+      primary_metric:
+        name: g_atp_loss
+        formula: "for each item, map ordered substantive response categories to equally spaced positions on [0,1] (fresh construction, NOT the source's own inconsistent 0-4/1-4 RESPONSE_MAP integers); W1_pp = 100 * wasserstein_distance(human_positions, model_positions); g_atp_loss = (W1_pp_ATP1 + W1_pp_ATP2) / 2"
+        weighting: "equal ITEM weight, not equal-study weight, because ATP1/ATP2 are not independent studies"
+        lower_is_better: true
+        implementation: "pipeline/ate/g_atp_screen.py position_on_unit_interval, item_w1_pp, g_atp_loss"
+      diagnostics_only_never_blended_into_primary: [item_mean_error, variance_ratio, ks, valid_effective_n, demographic_subgroup_mean_error_where_mapping_is_clean, response_category_frequencies]
+      invalid_missing_handling:
+        audit_finding: "no G-specific numeric invalid-rate threshold exists anywhere in this repository; the F-screen 0.005 gate (ate.f_screen_validation.INVALID_RATE_GATE / ate.r_f_decision) is scoped to R/F production selection and is NOT auto-borrowed here"
+        rule: "fail-closed, no invented threshold: a model/item is CLEAN only at exactly zero invalid responses; any nonzero invalid rate on any item blocks automatic G* selection for that model and requires an explicit, separate, contemporaneous methodological decision before that candidate's g_atp_loss is treated as final"
+        reused_unmodified_from_f_screen_validation: [reconciliation_report, enforce_reconciliation, IntegrityFailure, validate_response]
+        not_reused_from_f_screen_validation: [INVALID_RATE_GATE, gate_decision, paired_complete_case_effect]
+        reason_not_reused: "gate_decision embeds F's 0.005 numeric threshold (out of scope, not invented for G); paired_complete_case_effect assumes control/treatment pairing, which ATP has no equivalent of"
+        no_automatic_paid_retries: true
+        implementation: "pipeline/ate/g_atp_screen_validation.py"
+      tie_break_rule: "identical in shape to ate.f_screen and submission.g_screen -- lower g_atp_loss wins; ties broken by lower invalid-response rate, then lower realized cost, then deterministic lexical model id"
+      inference_settings:
+        gemma_engine_config: "chat_template_kwargs.enable_thinking=false (unchanged qualified non-thinking configuration)"
+        deepseek_engine_config: "reasoning_effort=low (unchanged qualified low-reasoning configuration)"
+        note: "only model identity and engine configuration may differ between candidates; all scientific request content (respondents, profile content, question text, response options, schemas) is identical"
+      request_construction:
+        expected_requests_per_model: 1226
+        expected_requests_total: 2452
+        build_but_do_not_submit: true
+      model_selection_metrics_and_tie_break_rules_for_final_selection_changed: false
+
+    - amended_at: "2026-08-26"
+      amendment_type: F_R1_RELIABILITY_PROVENANCE_SEPARATION_FROZEN
+      reason: >-
+        F* (google/gemma-4-31B-it) was selected mechanically under the frozen
+        v4 F mini-screen (see f_screen_scoring_result.json, commit
+        6a25d3b73bd278c4134cb88a067cfe2805b80f5b). Auditing the pre-existing
+        two-candidate f_reliability_pilot manifest before R1 submission found
+        that 6,000 of Gemma's 24,000 R1 request custom_ids are byte-identical
+        to already-submitted, already-retrieved-and-scored F-model-screen
+        requests (same request_key -> same deterministic custom_id/seed,
+        because both manifests draw the same 250-profile deterministic
+        subset via the same nested_profile_subsets() function at
+        replicate_id=1). This amendment freezes how R1 treats that overlap
+        BEFORE any R1 scientific output was generated or observed.
+      no_r1_results_observed_before_amendment: true
+      overlap_finding:
+        overlapping_custom_id_count: 6000
+        overlap_exactly_equals: "the full set of Gemma f_model_screen custom_ids (replicate_id=1, first deterministic 250 profiles/effect x 12 effects x 2 conditions)"
+        mechanism: "custom_id = hash(model|request_key); request_key embeds study_id/profile_id/condition_id/outcome_id/replicate_id only -- it has no notion of which pipeline stage requested it, so an identical (profile, effect, condition, replicate_id) tuple submitted twice under different stages hashes to the identical custom_id"
+      decision:
+        rule: "the 6,000 F-model-screen responses that contributed to selecting F* are NOT reused as R1 reliability observations -- post-selection reliability assessment must be independent of the data used to select the candidate"
+        scope: "applies uniformly to the full 500-profile panel, not only the 250 colliding profiles, to avoid a mixed-provenance R1 draw where some profiles' replicate-1 data came from the screen and others did not"
+        motivated_by: "the request-identity/provenance overlap alone -- explicitly NOT by any observed R1 performance, since none had been generated"
+      r1_draw_identity:
+        replicate_ids_used: [3, 4]
+        replaces: "replicate_ids 1 and 2 from the original (never-submitted) two-candidate f_reliability_pilot manifest, which remains on disk unmodified as a historical artifact"
+        derivation: "replicate_id is a free integer input to the already-frozen deterministic machinery (inference.prompts.f_variant_assignment / stable_hash; inference.request_logging.seed_from_request_key) -- 3 and 4 are the next integers in the same formula already used for replicate_id 1 and 2, not a new convention; ate.r_f_decision.stage_r2_decision's four-draw (draw1..draw4) design already anticipated needing up to 4 independent draw identities"
+        verified_zero_overlap: "0 custom_id overlap and 0 seed overlap between the new 24,000-request R1 manifest and: F-model-screen (both candidates), G-model-screen (both candidates), the old f_reliability_pilot manifest (both candidates, never submitted), and the global submitted/successful id ledger"
+      r1_design_unchanged:
+        effects: 12
+        profiles_per_effect: 500
+        conditions: [control, treatment]
+        independent_draws: 2
+        total_requests: 24000
+        scale: "12 x 500 x 2 x 2 = 24,000, identical in shape to the original R1 design -- only the draw-identity labels changed"
+      equivalence_audit: "scripts/prepare_f_reliability_r1_manifest.py + inline audit (not a committed script) confirmed, row-matched on (study_id, profile_id, condition_id, outcome_id): response_schema, engine_config_hash, prompt_protocol_id, prompt_compiler_version, required_fields, and response_key_map are 100% identical between the old and new manifests; only seed, custom_id, and request_stage differ (by construction, on every row); prompt_hash (rendered wording) coincidence rate between the two draws matches the pre-existing baseline rate already observed between the old manifest's replicate_id 1 and 2 (~2-3%), confirming this is normal variant-cycling behavior, not an anomaly introduced by the new draw identities"
+      r1_r2_decision_rule_unchanged: true
+      r1_r2_plumbing_changes: "none required -- ate.r_f_decision.stage_r1_decision/stage_r2_decision already accept two/four arbitrary per-effect z_pp DataFrames and internally relabel them replicate_1..replicate_4 for pairwise comparison, independent of whatever replicate_id value the source manifest used"
+      raw_output_scoring_glue: "ate/f_reliability_validation.py (score_f_reliability_r1_from_raw), built and synthetic-tested (12 tests, tests/ate/test_f_reliability_validation.py) before any R1 inference -- reconciles, fully JSON-schema-validates, computes per-replicate paired-complete-case ATEs, and calls the unmodified ate.r_f_decision.stage_r1_decision; no coercion, clipping, imputation, or automatic retries"
+      thresholds_unchanged: true
+      thresholds: {max_invalid_response_rate: 0.005, replicate_pairwise_ate_rmse_pp: 2.0, max_condition_outcome_replicate_abs_diff_pp: 5.0}
+      historical_two_candidate_f_reliability_pilot_manifest_preserved_unmodified: true
+      f_star_unchanged: true
+      pilot_effects_profiles_materials_ordering_prompts_schemas_engine_config_unchanged: true
+      model_selection_metrics_and_tie_break_rules_for_final_selection_changed: false
+
+    - amended_at: "2026-08-26"
+      amendment_type: R1_PROVIDER_SERVING_FAILURE_ROOT_CAUSE_AND_FORMAT_ONLY_REMEDIATION_FROZEN
+      reason: >-
+        Historical R1 (batch e8674576-ba88-4385-9fe3-7ca5e2200d00, replicate_id
+        3/4, commit 96577ed27904c117f493ecf8204c1da744f18379) formally FAILED
+        the frozen invalid-response-rate gate (0.4527, vs. threshold 0.005).
+        A root-cause audit (offline, no new inference, no target inspection)
+        found this was not stochastic treatment-effect instability but a
+        provider-side structured-output serving-backend inconsistency: every
+        invalid response (10,864/24,000) carried Together/vLLM
+        system_fingerprint "vllm-0.21.0-8326ea74" (100% invalid within that
+        subset) while every valid response (13,136/24,000) carried no
+        fingerprint (0% invalid); F-screen (6,000 requests) and G-screen
+        (1,226 requests) never touched the faulty backend and had 0% invalid.
+        This amendment is a prospective engineering/format remediation, NOT a
+        reaction to observed treatment-effect performance -- no R1 ATE/effect/
+        correlation/sign-agreement statistic informed this decision, and none
+        may be inspected again until the complete replacement R1 dataset is
+        retrieved.
+      no_r1_scientific_performance_used_to_decide_this_amendment: true
+      historical_r1_status:
+        batch_id: "e8674576-ba88-4385-9fe3-7ca5e2200d00"
+        result: FAIL
+        invalid_response_rate: 0.4527
+        preserved_unmodified: true
+        reused_in_replacement_decision: false
+      root_cause:
+        classification: PROVIDER_STRUCTURED_OUTPUT_FAILURE
+        contributing_factor: "pre-existing, frozen archived-outcome wording embeds a letter item label (e.g. 'A. Frustrated') alongside a closing instruction that ambiguously said 'one integer value per item label'; identical text was present, harmless, in F-screen (0% invalid) -- necessary to explain WHY a non-enforced response said 'A', not sufficient to explain the rate difference"
+        decisive_evidence: "system_fingerprint perfectly predicts validity (100% invalid on vllm-0.21.0-8326ea74, 0% invalid on the unlabeled/primary path); request_format_format (response_format/json_schema/strict/model/temperature/top_p/max_tokens/chat_template_kwargs) verified byte-identical (SHA256) between F-screen and R1"
+        ordinary_r2_infeasibility: "mathematically proven, not assumed: reusing R1's draws 3/4 (10,864/24,000 invalid) as half of an R2 comparison yields a pooled invalid rate >= 10,864/48,000 = 22.63% even if the two new draws were 0% invalid -- vastly exceeding the frozen 0.005 gate regardless of new-draw quality"
+      remediation:
+        scope: FORMAT_ONLY
+        scientific_content_changed: false
+        mechanism: >-
+          inference/prompts.py build_f_prompt_render_from_items gains an
+          opt-in response_format_instruction_version parameter ("v1" default,
+          byte-identical to all prior behavior for every existing caller;
+          "v2" for this amendment only). v2 replaces ONLY the closing
+          instruction sentence with an explicit JSON-only / no-markdown / the
+          real key name / "do not use the item's own letter label as a JSON
+          key" instruction, plus a plain-text schema copy mechanically
+          derived from the same item_json_schema() already sent via
+          response_format (zero drift possible). No profile, stimulus,
+          outcome wording, item label, response anchor, model, temperature,
+          top_p, reasoning configuration, max_tokens, or schema field changed.
+        golden_hash_regression: "tests/inference/test_f_response_format_v2.py proves v1-default output is unaffected and that v1/v2 differ only in the closing instruction, all other model-visible content byte-identical"
+      replacement_r1_design:
+        model: google/gemma-4-31B-it
+        effects: 12
+        profiles_per_effect: 500
+        conditions: [control, treatment]
+        replicate_ids: [5, 6]
+        total_requests: 24000
+        response_format_instruction_version: v2
+        zero_overlap_verified_against: [f_model_screen_both_candidates, g_model_screen_both_candidates, historical_failed_r1_draws_3_4, never_submitted_two_candidate_pilot, global_submitted_successful_ledger]
+        note_one_benign_seed_collision: "1 of 24,000 seeds coincidentally matches one historical-R1 seed by 31-bit hash-reduction collision between two UNRELATED request_keys (different study/profile/effect/condition/replicate) -- confirmed not a duplicated request identity; custom_id overlap is exactly 0 everywhere"
+      canonical_manifest:
+        path: outputs/scientific_bakeoff/f_reliability_r1_replacement/google_gemma-4-31B-it/
+        requests: 24000
+        worst_case_cost_usd: 15.7082
+      operational_partitioning:
+        partitions: 4
+        requests_per_partition: 6000
+        rule: "deterministic_profile_order() (the same function already used for nested N=50/100/250/500 selection) assigns each (study, profile) a stable position; partition = position % 4. Every partition therefore covers all 12 effects, both conditions, both replicates, exactly 125 profiles/effect -- verified, not assumed."
+        reconstruction_verified: true
+        no_scientific_sampling_depends_on_partition: true
+      sequential_serving_validity_check:
+        purpose: engineering_safety_only
+        reused_threshold: 0.005
+        new_threshold_invented: false
+        checks_between_partitions: [missing_ids, unexpected_ids, duplicate_ids, invalid_response_rate, system_fingerprint_distribution]
+        forbidden_between_partitions: [ate, effect_estimate, correlation, sign_agreement, replicate_difference, any_scientific_performance_statistic]
+        implementation: inference/f_reliability_r1_replacement_guard.py
+        operational_partition_validity_pass_does_not_constitute_r1_pass: true
+      final_r1_gates_unchanged: true
+      thresholds: {max_invalid_response_rate: 0.005, replicate_pairwise_ate_rmse_pp: 2.0, max_condition_outcome_replicate_abs_diff_pp: 5.0}
+      no_coercion_clipping_imputation_or_retry_of_historical_invalids: true
+      r2_authorized: false
+      calibration_authorized: false
+      target_authorized: false
+      model_selection_metrics_and_tie_break_rules_for_final_selection_changed: false
+
+    - amended_at: "2026-08-26"
+      amendment_type: REPLACEMENT_R1_OPERATIONAL_FANOUT_SCHEDULING_FROZEN
+      reason: >-
+        Purely operational change to replacement-R1 provider submission
+        scheduling, made BEFORE any replacement-R1 output was observed.
+        Elapsed time is currently more costly to the user than the residual
+        Parts 2-4 inference cost; retains exactly one 6,000-request
+        prospective serving-qualification partition (part1) to detect
+        recurrence of the known structured-output failure before exposing
+        the remaining 18,000 requests, but no longer requires parts 2, 3,
+        and 4 to gate on each other sequentially.
+      no_replacement_r1_output_observed_before_amendment: true
+      scientific_content_unchanged: true
+      unchanged: [canonical_24000_request_manifest, model, replicate_ids_5_6, effects, profiles, control_treatment_pairing, seeds, scientific_prompt_content, format_only_v2_remediation, schemas, temperature, top_p, r1_thresholds, final_r1_scorer]
+      old_operational_plan: "part1 -> validity check -> part2 -> validity check -> part3 -> validity check -> part4 (strictly sequential)"
+      new_operational_plan: "part1 -> serving-validity check ONLY -> if invalid_rate<=0.005: parts 2, 3, 4 become eligible for submission in any order or concurrently (fan-out); if invalid_rate>0.005: STOP, parts 2/3/4 permanently blocked for this replacement attempt, no retries"
+      part1_remains_serving_qualification_only: true
+      permitted_between_part1_and_fanout: [expected_ids, missing_ids, unexpected_ids, duplicate_ids, schema_valid_count, schema_invalid_count, invalid_response_rate, system_fingerprint_backend_distribution, provider_status_or_errors]
+      forbidden_before_all_four_partitions_complete: [ate, treatment_control_mean_difference, effect_ranking, sign, replicate_agreement, rmse, correlation, effect_specific_scientific_performance]
+      state_machine:
+        STATE_0: "nothing recorded; only part1 may be submitted"
+        STATE_1: "part1 submitted, not yet retrieved/scored; parts 2/3/4 still forbidden"
+        STATE_2_PASS: "part1 recorded PASS (reused 0.005 threshold); parts 2/3/4 all independently eligible, no inter-dependency among them"
+        STATE_2_FAIL: "part1 recorded FAIL; parts 2/3/4 permanently blocked for this replacement attempt"
+        implementation: inference/f_reliability_r1_replacement_guard.py
+        each_partition_recordable_at_most_once: true
+      reused_threshold: 0.005
+      new_threshold_invented: false
+      final_scientific_gates_still_require_complete_24000_request_dataset: true
+      no_r2_calibration_or_target_becomes_eligible: true
+      model_selection_metrics_and_tie_break_rules_for_final_selection_changed: false
+
+    - amended_at: "2026-08-26"
+      amendment_type: REPLACEMENT_R1_PASSED_R_F_1_FROZEN
+      record_type: POST_RESULTS_DECISION_RECORD
+      no_r1_results_observed_before_amendment: false
+      reason: >-
+        All four operational partitions (part1-part4) of the replacement R1
+        (google/gemma-4-31B-it, replicate_ids 5/6, format-only v2 remediation)
+        completed and were retrieved. Reconciled against the single canonical
+        24,000-request manifest and scored via the unmodified, already-frozen
+        pipeline (ate/f_reliability_validation.score_f_reliability_r1_from_raw
+        -> ate/r_f_decision.stage_r1_decision). All three frozen R1 gates
+        passed. This entry records that outcome and the resulting R_F=1
+        freeze; it is NOT a pre-results rule change like the amendments above
+        it -- the rule itself (thresholds, scorer, decision procedure) is
+        completely unchanged.
+      reconciliation:
+        expected_ids: 24000
+        missing_ids: 0
+        unexpected_ids: 0
+        duplicate_ids: 0
+        malformed_records: 0
+        valid_responses: 24000
+        invalid_responses: 0
+      gates:
+        thresholds: {max_invalid_response_rate: 0.005, replicate_pairwise_ate_rmse_pp: 2.0, max_condition_outcome_replicate_abs_diff_pp: 5.0}
+        observed: {invalid_response_rate: 0.0, replicate_rmse_pp: 0.8114493206602663, max_abs_diff_pp: 1.9199999999999982}
+        invalid_gate: PASS
+        rmse_gate: PASS
+        max_diff_gate: PASS
+        overall: PASS_FREEZE_R_F_1
+      diagnostics_only_not_gating: {mad_mean_abs_diff_pp: 0.6183333333333398, mad_median_abs_diff_pp: 0.508333333333352, pearson: 0.9993306129213533, spearman: 0.9860139860139862, sign_agreement: 0.9166666666666666, nested_n_50_100_250_convergence_vs_500: NOT_COMPUTED}
+      no_new_r2_rule_invented: true
+      historical_ordinary_r2_route_retired_for_this_serving_failure_case: true
+      r_f_decision:
+        r_f: 1
+        decision_artifact: outputs/scientific_bakeoff/f_reliability_r1_replacement/r_f_1_freeze_decision.v1.json
+      provenance_preserved:
+        historical_failed_r1: {batch_id: "e8674576-ba88-4385-9fe3-7ca5e2200d00", commit: 96577ed27904c117f493ecf8204c1da744f18379, result: FAIL, invalid_response_rate: 0.4527, reused_in_this_decision: false}
+        root_cause_and_remediation_amendment: R1_PROVIDER_SERVING_FAILURE_ROOT_CAUSE_AND_FORMAT_ONLY_REMEDIATION_FROZEN
+        operational_fanout_amendment: REPLACEMENT_R1_OPERATIONAL_FANOUT_SCHEDULING_FROZEN
+        replacement_r1_partitions:
+          part1: {batch_id: "48a110fb-db98-4992-8a94-d2b2e960194e", requests: 6000, invalid: 0}
+          part2: {batch_id: "aa804b9e-4bde-44ca-b1db-53c93e60e641", requests: 6000, invalid: 0}
+          part3: {batch_id: "3e9a66ab-f6f0-418f-92f3-d5a07cdce65f", requests: 6000, invalid: 0}
+          part4: {batch_id: "96eef662-3d28-4573-a312-2212be97be26", requests: 6000, invalid: 0}
+        canonical_manifest_sha256:
+          request_manifest_csv: b37242e7d5916cbab3d3a0e7d5b916bbfbd2a633c2e31ed1764d8b33b6291cfe
+          batch_input_jsonl: 80dc7767b60855f59e56ba7bf6484fbf006cfe57c8077ea6dc5e1fa071e04b10
+      production_config_prepared_not_authorized:
+        target_f_num_draws: 1
+        external_calibration_f_num_draws: 1
+        note: >-
+          These two config values are set to match the frozen R_F=1 so that
+          any future production run uses the correct, already-decided draw
+          count. Setting them is plumbing only -- it does not submit, queue,
+          or authorize any calibration or target inference; f_reliability.py's
+          f_protocol_config() only ever reads these values, never triggers a
+          submission as a side effect of being set.
+      136_effect_calibration_authorized: false
+      target_inference_authorized: false
+      selected_f_model_unchanged: true
+      selected_f_model_remains_unset_pending_separate_authorization: true
+      model_selection_metrics_and_tie_break_rules_for_final_selection_changed: false
+
+    - amended_at: "2026-08-26"
+      amendment_type: TARGET_WAVE1_CALIBRATION_PARALLELIZATION
+      status: PROSPECTIVE_NOT_ACTIVE
+      reason: >-
+        Prepared for possible later user authorization under deadline
+        pressure -- NOT activated by this amendment. Raw target G/F
+        generation (native model responses to the frozen CES persona
+        panels) does not scientifically depend on the numerical calibration
+        winner/parameters: calibration (M0/M1/M2 selection via LOSO on the
+        external 136-effect archive) is applied to F's synthetic effects
+        only AFTER raw target F effects and native G responses already
+        exist -- it rescales/recenters an already-computed synthetic ATE,
+        it does not alter what that ATE is. The current target-production
+        guard (inference.target_production_guard.assert_target_production_prerequisites_frozen)
+        nonetheless requires a usable_for_production calibration artifact
+        before ANY target phase can even be declared, which is scientifically
+        conservative but operationally blocking under a deadline while the
+        five external calibration-production batches are still in flight.
+      scientific_separability:
+        parallel_target_wave1_scientifically_separable_from_calibration: true
+        genuine_dependency: >-
+          None for RAW target generation. The one real dependency is
+          downstream: computing a scientifically meaningful CALIBRATED
+          target estimate (and any submission-format post-processing of
+          it) requires the frozen calibration winner/parameters -- this
+          amendment does not touch that; it only ever permits collecting
+          raw target responses early, never computing or inspecting a
+          calibrated result before calibration is frozen.
+      activation_preconditions_all_required:
+        - g_star_f_star_r_f_frozen: true (already true)
+        - ces_target_population_frozen_and_cutover_pass: true (already true, commit 3a47541)
+        - f_response_format_v2_frozen: true (already true)
+        - target_request_manifests_frozen: "Wave-1 canonical manifests built and hashed (this amendment does not itself freeze them as authorized-to-submit)"
+        - target_invalid_policy_frozen: true (Section 5 of this amendment's originating task; reuses ate.f_screen_validation.validate_response unmodified, no coercion/retry/repair)
+        - calibration_candidates_m0_m1_m2_frozen: true (ate/calibrate_lambda.py, unmodified, pre-existing, already tested)
+        - loso_rule_frozen: true (whole-study leave-one-study-out, ate/calibrate_lambda.py, unmodified)
+        - equal_study_weighting_frozen: true (ate/calibrate_lambda.py _study_weights, unmodified)
+        - tie_break_frozen: true (M0 > M1 > M2, ate/calibrate_lambda.py, unmodified, verified in this session's earlier calibration-manifest work)
+        - final_refit_rule_frozen: true (refit winning model on all eligible development effects, ate/calibrate_lambda.py, unmodified)
+        - target_post_processing_equations_frozen: true (calibration/calibrate_arm.py, calibration/project_support.py, unmodified, pre-existing)
+      if_activated_strict_blinding_rules:
+        - target_raw_outputs_may_be_retrieved_only_if_necessary_to_build_consensus_stage_b: true
+        - no_target_scientific_summary_inspection_before_calibration_frozen: "no target outcome means, treatment effects, distributions, subgroup results, correlations, projection diagnostics, or other scientific summaries may be inspected before the external calibration winner and parameters are frozen"
+        - stage_a_outputs_used_mechanically_only: "Stage-A outputs may be used ONLY to mechanically compile their corresponding Stage-B prompts (the fixed, already-frozen consensus_stage_a_record/build_f_consensus_stage_b_prompt_render/build_g_consensus_stage_b_prompt_render pipeline) -- never read, summarized, or otherwise used"
+        - target_outputs_cannot_alter_calibration_or_method: "target outputs may not alter calibration selection or any method rule"
+        - calibration_remains_external_only: true
+        - post_processing_blocked_until_calibration_frozen: true
+      not_yet_frozen_by_this_amendment:
+        - final_method_manifest (outputs/validation/frozen_method_manifest.json)
+        - calibration_selected_model.json usable_for_production=True
+      parallelization_amendment_active: false
+      target_inference_authorized_by_this_amendment: false
+      g_selection_changed: false
+      f_selection_changed: false
+      r1_changed: false
+      calibration_selection_rule_changed: false
+
+model_engine_config:
+  google/gemma-4-31B-it:
+    chat_template_kwargs:
+      enable_thinking: false
+    thinking_control_label: DOCUMENTED_NON_THINKING_CONFIGURATION
+    thinking_control_source: >-
+      google/gemma-4-31B-it chat_template.jinja (Hugging Face, main branch):
+      'enable_thinking' is set(enable_thinking | default(false)) and, when
+      explicitly false, suppresses the '<|think|>' insertion at the system
+      turn. Together's Chat Completions API documents chat_template_kwargs as
+      an object passed through to the model engine (confirmed against the
+      installed together-python 2.31.0 SDK type definitions). Together's
+      google/gemma-4-31B-it serverless model page documents the model as
+      supporting configurable thinking mode. Provider-side pass-through of
+      chat_template_kwargs specifically for the Together Batch API endpoint
+      has not been empirically confirmed; the one-request engineering
+      capability preflight in outputs/together_smoke/tiny_pre_api verifies
+      this before the 12-request first-wave smoke is ever submitted.
+
+inference_parameters:
+  temperature: 1.0
+  top_p: 0.95
+  presence_penalty: 0
+  frequency_penalty: 0
+  n: 1
+  reasoning_effort: low
+  use_reasoning_effort_when_supported: true
+  structured_output: json_schema
+
+f_protocol:
+  n_f: 500
+  f_num_draws: 1
+  target_f_num_draws: 1
+  external_calibration_f_num_draws: 1
+  frozen_protocol_path: outputs/f_reliability/frozen_f_protocol.json
+  pilot_manifest_path: outputs/f_reliability/pilot_manifest.csv
+
+prompting:
+  respondent_prompt_version: legacy_shared_respondent_v1_inactive
+  g_prompt_protocol: krsteski_demo_survey_adapted_v1
+  f_prompt_protocol: ashokkumar_experiment_forecast_adapted_v1
+  g_granularity: full_questionnaire_one_condition
+  f_granularity: outcome_isolated

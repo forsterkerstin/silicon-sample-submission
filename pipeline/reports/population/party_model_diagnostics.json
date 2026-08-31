@@ -1,0 +1,71 @@
+{
+  "classes": [
+    "Democrat",
+    "Independent",
+    "Other",
+    "Republican"
+  ],
+  "n_train": 43886,
+  "n_test": 10971,
+  "weighted_log_loss": 1.2240769002621341,
+  "weighted_accuracy": 0.43154782389766266,
+  "weighted_brier_by_class": {
+    "Democrat": 0.2015338869478719,
+    "Independent": 0.19681807138007565,
+    "Other": 0.08277823584868699,
+    "Republican": 0.19203327248558286
+  },
+  "weighted_confusion_matrix": [
+    [
+      1956.5569864715071,
+      507.4008794823466,
+      23.2172758026359,
+      988.0940350220424
+    ],
+    [
+      1113.1406883376062,
+      629.2235279894443,
+      73.04723488857559,
+      1206.5230406516112
+    ],
+    [
+      432.3178782341879,
+      191.2013848208341,
+      75.64189743388631,
+      335.1520106592448
+    ],
+    [
+      815.1320293049433,
+      445.2602972183786,
+      29.516274273989318,
+      2015.0235830244724
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "Democrat",
+    "Independent",
+    "Other",
+    "Republican"
+  ],
+  "observed_weighted_party_shares_train": {
+    "Democrat": 0.3301698742277996,
+    "Independent": 0.2705799946598703,
+    "Other": 0.10189918426660934,
+    "Republican": 0.29735094684572067
+  },
+  "observed_weighted_party_shares_all_ces": {
+    "Democrat": 0.32828481983843133,
+    "Independent": 0.2722300293945603,
+    "Other": 0.10061469685992551,
+    "Republican": 0.29887045390708306
+  },
+  "predicted_weighted_party_shares_test": {
+    "Democrat": 0.3297888889795242,
+    "Independent": 0.27077820480422327,
+    "Other": 0.10095043145424452,
+    "Republican": 0.2984824747620072
+  },
+  "n_test_effective_sample_size": 3652.200760090462,
+  "converged": true,
+  "n_iter": 73
+}

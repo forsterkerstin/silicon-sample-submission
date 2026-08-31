@@ -1,0 +1,14 @@
+outcome,self_contained_question,required_participant_context,context_source,context_included_in_F
+trust_multidimensional,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+trust_post,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+distrust_post,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+funding_perceptions,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+policy_role_mean,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+inst_trust_mean,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+belief_post,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+concern_mean,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+policy_general,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+policy_specific_mean,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+behavior_mean,True,none beyond scored item/battery wording and native response scale,codebook.csv measured item rows,True
+donation_ams,False,Bonus/allocation instruction page before donation amount,survey/survey.json question QID1721185865-derived G_DONATION_INTRO_TEXT,True
+newsletter_signup,False,Talking Climate newsletter offer page before signup decision,survey/survey.json-derived G_NEWSLETTER_OFFER_TEXT; codebook.csv notes the cross-page dependency,True

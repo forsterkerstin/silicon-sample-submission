@@ -1,0 +1,105 @@
+{
+  "canonical": {
+    "canonical_jsonl_sha256": "3c9a7dc07e77d05dec392037a37b05a12add64ea10b53576aa63e175c51e52a6",
+    "canonical_manifest_sha256": "9f8ed4fc9f359475fd84813e64a1652068d6c0b73c93b4609abd5832a48f893f",
+    "estimated_prompt_characters": 344333992,
+    "estimated_prompt_tokens_rough": 86083498,
+    "jsonl": "/home/forsterk/silicon-sample-submission/pipeline/outputs/scientific_bakeoff/f_calibration_production/google_gemma-4-31B-it/batch_input.jsonl",
+    "manifest": "/home/forsterk/silicon-sample-submission/pipeline/outputs/scientific_bakeoff/f_calibration_production/google_gemma-4-31B-it/request_manifest.csv",
+    "maximum_output_tokens": 139264000,
+    "requests": 136000,
+    "worst_case_cost_usd": 86.8487
+  },
+  "conditions": [
+    "control",
+    "treatment"
+  ],
+  "eligible_primary_effects": 136,
+  "excluded_effects": {},
+  "materialized_effects": 136,
+  "n_profiles_per_effect": 500,
+  "partition_count": 5,
+  "partition_trial_report": {
+    "4": {
+      "fits": false,
+      "max_partition_bytes": 112767653,
+      "max_partition_mb": 107.54,
+      "max_partition_requests": 34000
+    },
+    "5": {
+      "fits": true,
+      "max_partition_bytes": 90214417,
+      "max_partition_mb": 86.04,
+      "max_partition_requests": 27200
+    }
+  },
+  "partitions": [
+    {
+      "control_requests": 13600,
+      "effects": 136,
+      "jsonl_size_mb": 86.03,
+      "partition": "part1",
+      "profiles_per_effect_max": 100,
+      "profiles_per_effect_min": 100,
+      "requests": 27200,
+      "sha256": "479471c36ebcfdf6ba07a89e8ca0e0c65dc185e1e0c820949146fee80c52a2c5",
+      "treatment_requests": 13600,
+      "worst_case_cost_usd": 17.3695
+    },
+    {
+      "control_requests": 13600,
+      "effects": 136,
+      "jsonl_size_mb": 86.03,
+      "partition": "part2",
+      "profiles_per_effect_max": 100,
+      "profiles_per_effect_min": 100,
+      "requests": 27200,
+      "sha256": "1390a9ab383b8c9641c72bcc39e67f5290c304286f9f2957e85278c520f734db",
+      "treatment_requests": 13600,
+      "worst_case_cost_usd": 17.3699
+    },
+    {
+      "control_requests": 13600,
+      "effects": 136,
+      "jsonl_size_mb": 86.03,
+      "partition": "part3",
+      "profiles_per_effect_max": 100,
+      "profiles_per_effect_min": 100,
+      "requests": 27200,
+      "sha256": "b1ef9cd9299c62614fd151900cf8b3b6c3108f77706fd21299451d7f2a1dc279",
+      "treatment_requests": 13600,
+      "worst_case_cost_usd": 17.3695
+    },
+    {
+      "control_requests": 13600,
+      "effects": 136,
+      "jsonl_size_mb": 86.03,
+      "partition": "part4",
+      "profiles_per_effect_max": 100,
+      "profiles_per_effect_min": 100,
+      "requests": 27200,
+      "sha256": "d7e781d1987a7345f78ce55c30408b94a1db5db3d36846437c7816a3dd23030b",
+      "treatment_requests": 13600,
+      "worst_case_cost_usd": 17.3697
+    },
+    {
+      "control_requests": 13600,
+      "effects": 136,
+      "jsonl_size_mb": 86.04,
+      "partition": "part5",
+      "profiles_per_effect_max": 100,
+      "profiles_per_effect_min": 100,
+      "requests": 27200,
+      "sha256": "8e48fc1f71391f36528c19d7e57de05252e820d759fffebb3fe0c4be99fe4217",
+      "treatment_requests": 13600,
+      "worst_case_cost_usd": 17.37
+    }
+  ],
+  "purpose": "F* (Gemma) calibration-PRODUCTION manifest (replicate 7, R_F=1, format-v2); not submitted",
+  "replicates": [
+    7
+  ],
+  "request_set_reconstruction_ok": true,
+  "request_stage": "f_calibration_production",
+  "response_format_instruction_version": "v2"
+}

@@ -1,0 +1,153 @@
+protocol_id: ashokkumar_experiment_forecast_adapted_v1
+request_key: F|target|F0003|Funding|donation_ams|replicate_1
+prompt_variant_id: intro_c+profile_label_c+profile_format_sentence+survey_format_sections
+questionnaire_order: {}
+response_key_map: {"donation": "donation_ams"}
+provenance: {}
+system_prompt_hash: 0b23030d043412468ad325e1a4f0d2ffee3ff623d889911d40feff0612706b86
+user_prompt_hash: 0ad4f63f0e51ea234e84ea361a84ad0c7658521d3821f3968bb0e9b81d70c589
+schema_hash: 6949741c0c18a58c24af7df419e9d57d158c77675c533f78d0d49b8d62b43caf
+
+SYSTEM
+------
+You are completing a simulated survey response task for an experimental forecasting study.
+
+Use only the respondent profile, study setting, survey material, and response
+scale shown in the request. Return only the requested structured response.
+
+USER
+----
+The following is a simulated response to one online survey condition.
+
+SURVEY PARTICIPANT
+Age: 24; Gender: Male; Race/ethnicity: White / Caucasian; Education: High school diploma / GED; Household income: Less than $30,000; Party identification: Democrat; Political ideology: Moderate; State of residence: New York; Religion: Protestant.
+
+STUDY SETTING
+This is an online survey shown to a broad sample of adult respondents.
+
+SURVEY MATERIAL
+Survey material:
+Thank you, you have qualified for the study. 
+
+
+
+In the following sections, we’re interested in your opinion about climate change and climate scientists. 
+
+
+
+Climate scientists study changes in the Earth's climate over time and how they might affect the planet in the future. Please keep this definition in mind when filling out this study.
+
+
+
+Please make sure you do not close this tab until you have finished the study. You must complete the whole study to collect your payment.
+
+Please indicate how much you agree or disagree with the following statements.
+
+Thank you for sharing your thoughts.
+
+
+
+Many Americans care deeply about fairness, honesty, and transparency in public decision-making.
+
+
+
+Over the next few pages, we will ask you to answer questions about your beliefs and attitudes concerning climate scientists.
+
+Climate scientists are paid by their employers, which include universities, government agencies, and private companies.
+
+
+
+The median salary of environmental scientists is $80,060, which is comparable to other academic researchers in public universities, but lower than faculty in the economics, business and law departments.
+
+
+
+Climate scientists who are chosen to work on US National Climate Assessment are not paid at all for their contributions. They volunteer their time. 
+
+
+
+
+
+Sources: 
+
+US Bureau of Labor Statistics: https://www.bls.gov/ooh/life-physical-and-social-science/environmental-scientists-and-specialists.htm
+
+
+
+National Public Radio (NPR): https://www.npr.org/2025/04/20/nx-s1-5369345/trump-administration-cancels-the-national-climate-assessment
+
+It’s true that government agencies fund climate research. But funding levels for climate research are relatively small compared to government spending on other research areas. 
+
+
+
+For example, according to U.S. budget reports, the federal government spent $52.5 billion on biomedical research in 2024. By comparison, the U.S. spent $10.6 billion on climate and clean energy research and development. In addition, many programs labelled as ‘climate change research’ address other issues, such as agriculture, infrastructure, and disaster resilience. Only 3% of programs that received federal funding for ‘climate research’ were primarily focused on climate change.
+
+
+
+So while the government does fund climate change research, the amount it spends on this area is small compared to spending on other research areas.
+
+
+
+Sources: 
+
+Federal Research and Development Budget: https://ncses.nsf.gov/pubs/nsf25329/
+
+Department of Energy Budget: https://www.govinfo.gov/content/pkg/BUDGET-2025-BUD/pdf/BUDGET-2025-BUD-9.pdf
+
+Scientific researchers also receive support from private sources such as philanthropic foundations, corporations, and individual donors. However, private funding for climate research is small relative to private support for other areas, such as medical and health research.
+
+
+
+Private organizations give approximately $7 billion to fund climate-related research in the U.S. every year. By contrast, private funding for biomedical and health science research amounted to over $160 billion in 2020. 
+
+
+
+This suggests that even in the private sector, resources directed toward climate research are much smaller than those directed toward other areas, like biomedical and health science.
+
+
+
+Sources:
+
+U.S. Investments in Medical and Health Research: https://www.researchamerica.org/wp-content/uploads/2022/09/ResearchAmerica-Investment-Report.Final_.January-2022-1.pdf?
+
+Climate philanthropy landscape: https://rethinkpriorities.org/research-area/climate-philanthropy-landscape/
+
+Science isn’t a tool to justify a desired set of policies— it’s a tool that helps communities, businesses, and leaders to make better decisions.
+
+
+
+Scientists’ primary role is to collect and analyze data and to test possible solutions.
+
+
+
+Policymakers, businesses, and communities decide which policy solutions, if any, to use to address scientists’ findings.
+
+OUTCOME QUESTIONS
+Outcome questions:
+On the following page, you will have the opportunity to allocate real money between yourself and a non-profit organization.
+
+After data collection is complete, we will randomly select 100 participants from this study to receive a $10 bonus payment.
+
+If you are selected, the amount you allocate to yourself will be paid to you as a bonus, and the amount you allocate to the organization will be donated on your behalf.
+
+donation: Of the $10 bonus, how much would you like to donate to the American Meteorological Society (AMS)?
+Response options: $0-$10 in $1 increments.
+Answer with an integer from 0 to 10.
+
+Return a single JSON object with one integer value per item label on the native response scale.
+
+JSON_SCHEMA
+-----------
+{
+  "additionalProperties": false,
+  "properties": {
+    "donation": {
+      "maximum": 10,
+      "minimum": 0,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "donation"
+  ],
+  "type": "object"
+}

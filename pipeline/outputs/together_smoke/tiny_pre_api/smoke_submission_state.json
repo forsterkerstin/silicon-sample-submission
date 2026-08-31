@@ -1,0 +1,230 @@
+{
+  "candidate_models": [
+    "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "Qwen/Qwen3.8-2.4T-A95B"
+  ],
+  "cumulative_new_requests": 41,
+  "estimated_worst_case_cost_usd": 0.213495,
+  "global_max_new_requests": 41,
+  "prices_per_1m_tokens": {
+    "Qwen/Qwen3.8-2.4T-A95B": {
+      "input": 2.5,
+      "output": 6.25
+    },
+    "deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "input": 1.32,
+      "output": 3.96
+    }
+  },
+  "schema_version": "tiny_smoke_submission_state_v1",
+  "smoke_cost_cap_usd": 0.3,
+  "submissions": [
+    {
+      "estimated_worst_case_cost_usd": 0.070089,
+      "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "request_count": 12,
+      "submit_result": {
+        "batch": {
+          "completed_at": null,
+          "created_at": "2026-08-25T12:58:11.199560+00:00",
+          "endpoint": "/v1/chat/completions",
+          "error": null,
+          "error_file_id": null,
+          "file_size_bytes": 0,
+          "id": "9a04370d-5910-4fde-890f-674a207a27c2",
+          "input_file_id": "file-8d48640e-b89a-4498-b41d-6fa7bcb48f24",
+          "job_deadline": "2026-08-26T12:58:11.199557+00:00",
+          "organization_id": "org_REDACTED",
+          "output_file_id": "file-9e5fd82a-7af2-4fe5-b88a-ced0c550e39a",
+          "progress": 1.0,
+          "project_id": "proj_REDACTED",
+          "status": "COMPLETED",
+          "user_id": "user_REDACTED",
+          "x_model_id": null
+        },
+        "input_file_id": "file-8d48640e-b89a-4498-b41d-6fa7bcb48f24",
+        "reconciled_from_user_report": true
+      },
+      "wave": "first_wave"
+    },
+    {
+      "estimated_worst_case_cost_usd": 0.117385,
+      "model": "Qwen/Qwen3.8-2.4T-A95B",
+      "request_count": 12,
+      "submit_result": {
+        "batch": {
+          "completed_at": null,
+          "created_at": "2026-08-25T13:28:59.156565Z",
+          "endpoint": "/v1/chat/completions",
+          "error": null,
+          "error_file_id": null,
+          "file_size_bytes": 0,
+          "id": "c9771f7e-7c79-4fb9-a1ac-17afa034d8f5",
+          "input_file_id": "file-b5953c57-e0b0-4ca8-b970-3c31af63260d",
+          "job_deadline": "2026-08-26T13:28:59.156561Z",
+          "organization_id": "org_REDACTED",
+          "output_file_id": null,
+          "progress": 0.0,
+          "project_id": "proj_REDACTED",
+          "status": "VALIDATING",
+          "user_id": "user_REDACTED",
+          "x_model_id": null
+        },
+        "input_file_id": "file-b5953c57-e0b0-4ca8-b970-3c31af63260d"
+      },
+      "wave": "first_wave"
+    },
+    {
+      "estimated_worst_case_cost_usd": 7.8e-05,
+      "model": "google/gemma-4-31B-it",
+      "request_count": 1,
+      "submit_result": {
+        "batch": {
+          "completed_at": null,
+          "created_at": "2026-08-25T14:49:44.008412Z",
+          "endpoint": "/v1/chat/completions",
+          "error": null,
+          "error_file_id": null,
+          "file_size_bytes": 0,
+          "id": "21382097-e3ee-47e3-a388-50c4ced4a1e2",
+          "input_file_id": "file-107a1c7b-b251-49a2-8611-424125791e46",
+          "job_deadline": "2026-08-26T14:49:44.008409Z",
+          "organization_id": "org_REDACTED",
+          "output_file_id": null,
+          "progress": 0.0,
+          "project_id": "proj_REDACTED",
+          "status": "VALIDATING",
+          "user_id": "user_REDACTED",
+          "x_model_id": null
+        },
+        "input_file_id": "file-107a1c7b-b251-49a2-8611-424125791e46"
+      },
+      "wave": "engineering_capability_preflight"
+    },
+    {
+      "estimated_worst_case_cost_usd": 0.009391,
+      "model": "google/gemma-4-31B-it",
+      "request_count": 12,
+      "submit_result": {
+        "batch": {
+          "completed_at": null,
+          "created_at": "2026-08-25T15:54:03.294069Z",
+          "endpoint": "/v1/chat/completions",
+          "error": null,
+          "error_file_id": null,
+          "file_size_bytes": 0,
+          "id": "a65e3c73-b582-444e-8396-9a2589a7d901",
+          "input_file_id": "file-5392f382-5b47-4dbf-9125-fc93398ca610",
+          "job_deadline": "2026-08-26T15:54:03.294068Z",
+          "organization_id": "org_REDACTED",
+          "output_file_id": null,
+          "progress": 0.0,
+          "project_id": "proj_REDACTED",
+          "status": "VALIDATING",
+          "user_id": "user_REDACTED",
+          "x_model_id": null
+        },
+        "input_file_id": "file-5392f382-5b47-4dbf-9125-fc93398ca610"
+      },
+      "wave": "first_wave"
+    },
+    {
+      "estimated_worst_case_cost_usd": 0.014552,
+      "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "request_count": 2,
+      "submit_result": {
+        "batch": {
+          "completed_at": null,
+          "created_at": "2026-08-25T16:37:51.085117Z",
+          "endpoint": "/v1/chat/completions",
+          "error": null,
+          "error_file_id": null,
+          "file_size_bytes": 0,
+          "id": "fec04fd4-24e7-4aa3-ac96-3b3345d5d7e7",
+          "input_file_id": "file-6da56048-0192-4c77-ac7e-680705d37fde",
+          "job_deadline": "2026-08-26T16:37:51.085115Z",
+          "organization_id": "org_REDACTED",
+          "output_file_id": null,
+          "progress": 0.0,
+          "project_id": "proj_REDACTED",
+          "status": "VALIDATING",
+          "user_id": "user_REDACTED",
+          "x_model_id": null
+        },
+        "input_file_id": "file-6da56048-0192-4c77-ac7e-680705d37fde"
+      },
+      "wave": "consensus_stage_b"
+    },
+    {
+      "estimated_worst_case_cost_usd": 0.002,
+      "model": "google/gemma-4-31B-it",
+      "request_count": 2,
+      "submit_result": {
+        "batch": {
+          "completed_at": null,
+          "created_at": "2026-08-25T16:38:05.608206Z",
+          "endpoint": "/v1/chat/completions",
+          "error": null,
+          "error_file_id": null,
+          "file_size_bytes": 0,
+          "id": "393755a3-675d-4ed9-baab-ee8413bc4f15",
+          "input_file_id": "file-49c32c03-660b-4de2-9cdf-cb2f6b5e56cb",
+          "job_deadline": "2026-08-26T16:38:05.608205Z",
+          "organization_id": "org_REDACTED",
+          "output_file_id": null,
+          "progress": 0.0,
+          "project_id": "proj_REDACTED",
+          "status": "VALIDATING",
+          "user_id": "user_REDACTED",
+          "x_model_id": null
+        },
+        "input_file_id": "file-49c32c03-660b-4de2-9cdf-cb2f6b5e56cb"
+      },
+      "wave": "consensus_stage_b"
+    }
+  ],
+  "submitted_custom_ids": [
+    "G-b9325c06ba21421bb85120dc1ff7a39370bcdd99",
+    "G-9d30a7f1fc8c8049a6f8446670a989e308b336d9",
+    "G-3bab280dd7c3eec1ae5bc1fee5924d3d431e86af",
+    "G-ae1f15cae401dfc538664b51cca020efc6b45db8",
+    "F-9d2c80c37c55d8e2c622c4e0b89d853f46211baa",
+    "F-3600452016ec02232a1ea2b3a58db8eff3d5a630",
+    "F-d0fefdabf2efe5889797905bbb1bf81b3d91e750",
+    "F-90db434450df2c6192812bfb2bc54d4669f3602a",
+    "F-fde660afd34e4212cbb80ec7e5eadf5c7eba015b",
+    "F-0962a3ff0688f8acd80e34498c54d66af80b4ee5",
+    "F-bd23da29f3a18f0d4bd5ec5373bb8d572ffee976",
+    "F-82696e411c2680d433080e5fa96a565dc606822b",
+    "Qwen-Qwen3-8-2-4T-A95B-a4471ea75fac8d4aff46c7d7e2e6ec12fc393954",
+    "Qwen-Qwen3-8-2-4T-A95B-3a97b03c26fa812a28be0fa78b53883274bb0237",
+    "Qwen-Qwen3-8-2-4T-A95B-77b8d345abaa3ec05e6d3283378f16d96c258d0e",
+    "Qwen-Qwen3-8-2-4T-A95B-94e4f4e7ee7b9e91155bcf942d1f1d2412045a56",
+    "Qwen-Qwen3-8-2-4T-A95B-d8263b4a1a3372dd13d732fbfca113c6b48f6681",
+    "Qwen-Qwen3-8-2-4T-A95B-02b90c887c3c78afbb42a662d823f2d3d41c81ec",
+    "Qwen-Qwen3-8-2-4T-A95B-15b0caa72e3fe7e0fb1e4776e81b87bdeed45709",
+    "Qwen-Qwen3-8-2-4T-A95B-0a4968ba81cd3883616e78a5074295441a83c09a",
+    "Qwen-Qwen3-8-2-4T-A95B-04b7ef7355ea9977be353d04911157a9aad6b688",
+    "Qwen-Qwen3-8-2-4T-A95B-7289d73aee5928f3e2853687c078a31801d26abd",
+    "Qwen-Qwen3-8-2-4T-A95B-8287dfecfa7bbca5233fa727375a2e67aff2acaf",
+    "Qwen-Qwen3-8-2-4T-A95B-fb8e60f23c7b2291cdf31e382019374ab699bff9",
+    "google-gemma-4-31B-it-ebada25e8b769f7488559bc6b05010af910d312a",
+    "google-gemma-4-31B-it-137605e39b392e97ef7f820c5a9469acbb9d9931",
+    "google-gemma-4-31B-it-33075863bf05eb27ae0d85b330d40257dade0d40",
+    "google-gemma-4-31B-it-48513eb42dec95cfd19f22b0aaf2fd86d4db6ecc",
+    "google-gemma-4-31B-it-9a06d0e4b60689b85d887aafc4da968cdc3bc091",
+    "google-gemma-4-31B-it-cac9bb885f35771207bfafec4c7315876a82af2e",
+    "google-gemma-4-31B-it-2894fb92019e6e8c4cee95923eea1c1c68bb9a9f",
+    "google-gemma-4-31B-it-947cad5707877273e665199ffe2a12ca16e49b3d",
+    "google-gemma-4-31B-it-b2c8fde5aab7bfe10ceaff476351f21f9d2b88d1",
+    "google-gemma-4-31B-it-86d2b3133f56af5a1ec1f76d002f745a9b5deb66",
+    "google-gemma-4-31B-it-5148d06a5d70209f03d28d7a855018392c6a270e",
+    "google-gemma-4-31B-it-9cbcc3df84f2a14eec4639fbd87879105b8835e5",
+    "google-gemma-4-31B-it-bfdeb1debe40d4362b38bbf6f6267619a4830bbe",
+    "deepseek-ai-DeepSeek-V4-Pro-0813-e448eb20f250ac20e6a01af3d46125f",
+    "deepseek-ai-DeepSeek-V4-Pro-0813-96e2c997d8e5ebb2be58c92ed990c46",
+    "google-gemma-4-31B-it-f879475696172980ddfe89a35e1bf168472e298d",
+    "google-gemma-4-31B-it-1c7e49cc2e6607482adedcfa263604787d042659"
+  ],
+  "successful_custom_ids": []
+}

@@ -1,0 +1,51 @@
+{
+  "policy_type": "TARGET_G_WAVE1_BOUNDED_PRODUCTION_RETRY_V1",
+  "MAX_PRODUCTION_ATTEMPTS_PER_IDENTITY": 3,
+  "FIRST_VALID_RESPONSE_WINS": true,
+  "SMOKE_IS_NOT_PRODUCTION": true,
+  "RETRY_MEMBERSHIP_ENGINEERING_ONLY": true,
+  "SCIENTIFIC_RESPONSE_VALUES_USED_FOR_RETRY": false,
+  "UNLIMITED_RETRIES": false,
+  "AUTOMATIC_PAID_RETRY": false,
+  "ATTEMPT_4_ALLOWED": false,
+  "selection_rule": "First strictly schema-valid production response, in increasing attempt order, wins and is permanently locked -- never regenerated, never re-chosen even if a later attempt also happens to be valid.",
+  "retry_eligibility": "explicit provider error (no response) OR schema-invalid response OR genuinely missing provider result -- never conditioned on answer value, outcome, condition effect, demographic subgroup, extremeness, plausibility, target mean, ATE, or any scientific summary.",
+  "validator": "ate.f_screen_validation.validate_response (frozen, generic, fail-closed: no fence-stripping, no JSON repair, no coercion, no malformed-value salvage, no outcome-dependent filtering, no retry-on-failure).",
+  "intended_production_universe": 17000,
+  "attempt_1_provenance": {
+    "source": "16,990-request G-v2 full production replacement (excludes the 10 engineering-smoke-only identities)",
+    "valid": 15517,
+    "malformed_json": 626,
+    "schema_invalid_total": 627,
+    "provider_error": 846,
+    "missing_entirely": 0
+  },
+  "smoke_only_intended_identities": 10,
+  "current_completion": {
+    "expected_count": 1483,
+    "standard_count": 1401,
+    "consensus_stage_a_count": 82,
+    "total_count": 1483,
+    "standard_manifest_sha256": "d78eb983bceaa97171973bba77c41318bd4dd0377bcd23e35ea36545ea711c56",
+    "consensus_stage_a_manifest_sha256": "4e6eaaf9bea584e37d30362164859a1fcd743e96d4d95435884b1c3bd8515f9a",
+    "standard_cost_cap_usd": 1.642233,
+    "consensus_stage_a_cost_cap_usd": 0.053072,
+    "total_cost_cap_usd": 1.695305,
+    "attempt_number_counts": {
+      "standard": {
+        "2": 1396,
+        "1": 5
+      },
+      "consensus_stage_a": {
+        "2": 77,
+        "1": 5
+      }
+    }
+  },
+  "note": "Retry membership is determined solely by provider delivery and strict schema validity before target scientific summaries are computed. The first valid production response is retained and is never regenerated. At most three production attempts are permitted per intended identity.",
+  "consensus_stage_b_authorized": false,
+  "attempt_3_authorized": false,
+  "target_g_scientific_outputs_accessed": false,
+  "target_human_outcomes_used": false,
+  "new_paid_inference_performed": false
+}

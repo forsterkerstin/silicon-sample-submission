@@ -1,0 +1,11 @@
+gender,race,target_n
+Male,Asian / Asian American,32
+Female,Asian / Asian American,35
+Male,Black / African American,58
+Female,Black / African American,65
+Male,Hispanic / Latino,91
+Female,Hispanic / Latino,90
+Male,Other,13
+Female,Other,14
+Male,White / Caucasian,296
+Female,White / Caucasian,306

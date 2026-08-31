@@ -1,0 +1,11 @@
+{
+  "requests": 1000,
+  "manifest_sha256": "3f3e49611a8c51489fb6c227508e020e44fad74710470675e4076a0d06d3eb4f",
+  "jsonl_sha256": "641c510993b152ef10c28569ec063f74ddf4bc67f583ba60f5e47c88c84b384d",
+  "estimated_prompt_characters": 2217273,
+  "estimated_prompt_tokens_rough": 554318,
+  "maximum_output_tokens": 1024000,
+  "worst_case_cost_usd": 0.622864,
+  "model": "google/gemma-4-31B-it",
+  "protocol_id": "consensus_benchmark_exact_v1"
+}

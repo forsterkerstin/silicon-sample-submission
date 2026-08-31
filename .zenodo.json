@@ -1,0 +1,52 @@
+{
+  "upload_type": "software",
+  "title": "Silicon Sample Benchmark — Tier 1 (individual simulation) submission (team team_10)",
+  "version": "1.0-t1",
+  "language": "eng",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Forster, Kerstin",
+      "affiliation": "LMU Munich; Munich Center for Machine Learning",
+      "orcid": "0009-0006-4492-4346"
+    },
+    {
+      "name": "Feuerriegel, Stefan",
+      "affiliation": "LMU Munich; Munich Center for Machine Learning",
+      "orcid": "0000-0001-7856-8729"
+    }
+  ],
+  "description": "<p>Tier&nbsp;1 (individual simulation) submission to the <a href=\"https://janpfander.github.io/llm_predictions_megastudy/\">Silicon Sample Benchmark<\/a> (team <code>team_10<\/code>).<\/p><p>Approach family: respondent-level survey simulation with external mean calibration. Model(s): google/gemma-4-31B-it. Coverage: 16 interventions &times; 13 preregistered outcomes.<\/p><p>This record archives the prediction file(s), generation code, and method registration form.<\/p>",
+  "keywords": [
+    "Silicon Sample Benchmark",
+    "silicon sampling",
+    "large language models",
+    "computational social science",
+    "survey methodology",
+    "public opinion",
+    "climate communication",
+    "treatment effect prediction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/amendment_preregistration.html",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/forsterkerstin/silicon-sample-submission",
+      "relation": "isCompiledBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Team team_10. Disclosure class A."
+}

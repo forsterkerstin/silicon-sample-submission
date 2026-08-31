@@ -1,0 +1,41 @@
+{
+  "team_id": "team_10",
+  "team_name": "team_10",
+  "contact": "kerstin.forster@lmu.de",
+  "creators": [
+    {
+      "name": "Forster, Kerstin",
+      "affiliation": "LMU Munich; Munich Center for Machine Learning",
+      "orcid": "0009-0006-4492-4346"
+    },
+    {
+      "name": "Feuerriegel, Stefan",
+      "affiliation": "LMU Munich; Munich Center for Machine Learning",
+      "orcid": "0000-0001-7856-8729"
+    }
+  ],
+  "abstract": "",
+  "license": "CC-BY-4.0",
+  "tier": 1,
+  "entry": "primary",
+  "approach_family": "respondent-level survey simulation with external mean calibration",
+  "models": [
+    "google/gemma-4-31B-it"
+  ],
+  "code_repository": "https://github.com/forsterkerstin/silicon-sample-submission",
+  "code_doi": null,
+  "disclosure_class": "A",
+  "escrow_doi": null,
+  "zenodo_doi": null,
+  "prediction_files": [
+    {
+      "file": "predictions/team_10_T1_primary_v1.csv",
+      "sha256": "8c8ef8661565769f7183283b6d09343691432794d2de1bbf3f0ed3145584cfb3"
+    }
+  ],
+  "coverage": {
+    "interventions": 16,
+    "outcomes": 13
+  },
+  "blinding_attestation": true
+}
